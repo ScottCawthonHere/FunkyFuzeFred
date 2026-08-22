@@ -1,0 +1,3477 @@
+[
+  {
+    "Type": "ABP_Cupcake_C",
+    "Name": "Default__ABP_Cupcake_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "AnimBlueprintGeneratedClass'/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.ABP_Cupcake_C'",
+    "Package": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake",
+    "Properties": {
+      "UberGraphFrame": {},
+      "__AnimBlueprintMutables": {
+        "__FloatProperty": 0.0,
+        "__FloatProperty_0": 0.0
+      },
+      "AnimBlueprintExtension_PropertyAccess": {},
+      "AnimBlueprintExtension_Base": {},
+      "AnimGraphNode_Root": {
+        "Result": {
+          "LinkID": 15
+        }
+      },
+      "AnimGraphNode_TransitionResult_4": {
+        "bCanEnterTransition": false
+      },
+      "AnimGraphNode_TransitionResult_3": {
+        "bCanEnterTransition": false
+      },
+      "AnimGraphNode_TransitionResult_2": {
+        "bCanEnterTransition": false
+      },
+      "AnimGraphNode_TransitionResult_1": {
+        "bCanEnterTransition": false
+      },
+      "AnimGraphNode_TransitionResult": {
+        "bCanEnterTransition": false
+      },
+      "AnimGraphNode_SequencePlayer_2": {
+        "Sequence": null,
+        "PlayRateScaleBiasClampState": {},
+        "BlendWeight": 0.0,
+        "InternalTimeAccumulator": 0.0
+      },
+      "AnimGraphNode_SequencePlayer_1": {
+        "Sequence": null,
+        "PlayRateScaleBiasClampState": {},
+        "BlendWeight": 0.0,
+        "InternalTimeAccumulator": 0.0
+      },
+      "AnimGraphNode_LayeredBoneBlend": {
+        "BasePose": {
+          "LinkID": 6
+        },
+        "BlendPoses": [
+          {
+            "LinkID": 7
+          }
+        ],
+        "BlendMode": "ELayeredBoneBlendMode::BranchFilter",
+        "BlendMasks": [],
+        "LayerSetup": [
+          {
+            "BranchFilters": [
+              {
+                "BoneName": "Right_UpperArm",
+                "BlendDepth": 4
+              },
+              {
+                "BoneName": "Right_Hand_Attach",
+                "BlendDepth": 0
+              }
+            ]
+          }
+        ],
+        "BlendWeights": [
+          0.0
+        ],
+        "bMeshSpaceRotationBlend": true,
+        "bMeshSpaceScaleBlend": false,
+        "CurveBlendOption": "ECurveBlendOption::Override",
+        "bBlendRootMotionBasedOnRootBone": true,
+        "LODThreshold": -1,
+        "PerBoneBlendWeights": [
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 0.0
+          },
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 0.0
+          },
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 0.0
+          },
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 0.0
+          },
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 0.0
+          },
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 0.0
+          },
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 0.0
+          },
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 0.0
+          },
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 0.0
+          },
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 0.0
+          },
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 0.0
+          },
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 0.0
+          },
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 0.0
+          },
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 0.0
+          },
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 0.0
+          },
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 0.0
+          },
+          {
+            "SourceIndex": 0,
+            "BlendWeight": 0.0
+          }
+        ],
+        "SkeletonGuid": "64B41E69-4CBF13CC-24DCDDA9-96246ED1",
+        "VirtualBoneGuid": "00000000-00000000-00000000-00000000"
+      },
+      "AnimGraphNode_StateResult_2": {
+        "Result": {
+          "LinkID": 8
+        }
+      },
+      "AnimGraphNode_BlendSpacePlayer": {
+        "BlendSpace": null,
+        "PreviousBlendSpace": null,
+        "BlendWeight": 0.0,
+        "InternalTimeAccumulator": 0.0
+      },
+      "AnimGraphNode_StateResult_1": {
+        "Result": {
+          "LinkID": 10
+        }
+      },
+      "AnimGraphNode_SequencePlayer": {
+        "Sequence": null,
+        "PlayRateScaleBiasClampState": {},
+        "BlendWeight": 0.0,
+        "InternalTimeAccumulator": 0.0
+      },
+      "AnimGraphNode_StateResult": {
+        "Result": {
+          "LinkID": 12
+        }
+      },
+      "AnimGraphNode_StateMachine": {
+        "StateMachineIndexInClass": 0,
+        "MaxTransitionsPerFrame": 3,
+        "MaxTransitionsRequests": 32,
+        "bSkipFirstUpdateTransition": true,
+        "bReinitializeOnBecomingRelevant": true,
+        "bCreateNotifyMetaData": true,
+        "bAllowConduitEntryStates": false
+      },
+      "AnimGraphNode_Slot": {
+        "Source": {
+          "LinkID": 14
+        },
+        "SlotName": "DefaultSlot",
+        "bAlwaysUpdateSourcePose": false
+      },
+      "MasterAnimSet": [
+        {
+          "AnimationGroup": "EItemAnimationType::IA_MatchAll",
+          "Item": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "TargetRequiredTags": [],
+          "TargetIncompatibleTags": [],
+          "RequiredTags": [],
+          "IncompatibleTags": [],
+          "Description": "MatchAll - Master",
+          "Anims": {
+            "Idles": [],
+            "CustomAnims": [],
+            "SetStart": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "SetEnd": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "Idle": {
+              "AssetPathName": "/Game/Animation/FiveNightsAtFreddies/Cupcake/A_Idle_Cupcake.A_Idle_Cupcake",
+              "SubPathString": ""
+            },
+            "Locomote": {
+              "AssetPathName": "/Game/Animation/FiveNightsAtFreddies/Cupcake/BS_Move_Cupcake.BS_Move_Cupcake",
+              "SubPathString": ""
+            },
+            "LocomoteStart": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "Equip": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "Walk": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "Run": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "Sprint": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "WalkStop": {
+              "AssetPathName": "/Game/Animation/FiveNightsAtFreddies/Cupcake/A_RunStop_Cupcake.A_RunStop_Cupcake",
+              "SubPathString": ""
+            },
+            "RunStop": {
+              "AssetPathName": "/Game/Animation/FiveNightsAtFreddies/Cupcake/A_RunStop_Cupcake.A_RunStop_Cupcake",
+              "SubPathString": ""
+            },
+            "SprintStop": {
+              "AssetPathName": "/Game/Animation/FiveNightsAtFreddies/Cupcake/A_RunStop_Cupcake.A_RunStop_Cupcake",
+              "SubPathString": ""
+            },
+            "Jump": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "Land": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "Fall": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "HeavyLand_Idle": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "HeavyLand_Jump": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "HeavyLand_Land": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "HeavyLand_Fall": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "HeavyLand_Start": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "HeavyLand_End": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "Strafing": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TurnClockwise": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TurnAntiClockwise": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "AimStart": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "AimIdle": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "AimOffset": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "AimEnd": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "FacingOffset": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "Fire": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "FireADS": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "Melee": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "HeavyMelee": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "HeavyLowStamina": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "HeavyChargeUp": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "Slam": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "SpecialMove": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "Reload": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "WeaponAdditiveRightArm": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "AdditivePose": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "AdditiveLean": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "AdditiveLand": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "AdditiveLandHead": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "BounceJump": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "DodgeFront": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "DodgeBack": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "DodgeLeft": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "DodgeRight": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "DodgeFrontLeft": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "DodgeFrontRight": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "DodgeBackLeft": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "DodgeBackRight": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "DownedStart": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "DownedEnd": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "SpawnIn": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "DeathAnims": [],
+            "FlyStart": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "FlyLocomote": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "FlyHover": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "FlyLand": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TransformSpawn": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "PopBoxSpawn": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "PopBoxSelect": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "PickupItem": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "CarryPickup": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "CarryDrop": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "CarryDeploy": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "CarryPlug": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "CarryUnplug": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "CustomSequence1": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "CustomSequence2": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "CustomBlendSpace1": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "CustomBlendSpace2": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "CustomMontage1": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "CustomMontage2": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "Taunt": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "Emote": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "Rumor": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "Dazed": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        }
+      ]
+    },
+    "SerializedSparseClassDataStruct": "ScriptStruct'/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.ABP_Cupcake_C:AnimBlueprintGeneratedConstantData'",
+    "SerializedSparseClassData": {
+      "__NameProperty_91": "AnimGraph",
+      "__NameProperty_92": "MoveStop",
+      "__IntProperty_93": 2,
+      "__BoolProperty_94": true,
+      "__NameProperty_95": "Move",
+      "__IntProperty_96": 1,
+      "__FloatProperty_97": 0.0,
+      "__StructProperty_98": {
+        "bMapRange": false,
+        "bClampResult": false,
+        "bInterpResult": false,
+        "InRange": {
+          "min": 0.0,
+          "max": 1.0
+        },
+        "OutRange": {
+          "min": 0.0,
+          "max": 1.0
+        },
+        "Scale": 1.0,
+        "Bias": 0.0,
+        "ClampMin": 0.0,
+        "ClampMax": 1.0,
+        "InterpSpeedIncreasing": 10.0,
+        "InterpSpeedDecreasing": 10.0
+      },
+      "__FloatProperty_99": 1.0,
+      "__BoolProperty_100": false,
+      "__EnumProperty_101": "EAnimSyncMethod::DoNotSync",
+      "__ByteProperty_102": "EAnimGroupRole::CanBeLeader",
+      "__NameProperty_103": "None",
+      "__NameProperty_104": "DefaultSharedGroup",
+      "__NameProperty_105": "Idle",
+      "__IntProperty_106": 0,
+      "__StructProperty_107": {
+        "ClassName": "None",
+        "FunctionName": "None"
+      },
+      "AnimBlueprintExtension_PropertyAccess": {
+        "Library": {
+          "PathSegments": [
+            {
+              "Name": "Proxy",
+              "Struct": {
+                "ObjectName": "Class'MerlinAnimInstanceProxy'",
+                "ObjectPath": "/Script/Merlin"
+              },
+              "Property": {
+                "Path": [
+                  "Proxy"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'MerlinCharacterAnimInstance'",
+                  "ObjectPath": "/Script/Merlin"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 1
+            },
+            {
+              "Name": "AnimSet",
+              "Struct": {
+                "ObjectName": "Class'AnimInstanceProxyAnimSet'",
+                "ObjectPath": "/Script/Merlin"
+              },
+              "Property": {
+                "Path": [
+                  "AnimSet"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'MerlinAnimInstanceProxy'",
+                  "ObjectPath": "/Script/Merlin"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 1
+            },
+            {
+              "Name": "Idle",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "Idle"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'AnimInstanceProxyAnimSet'",
+                  "ObjectPath": "/Script/Merlin"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "AnimGraphNode_SequencePlayer",
+              "Struct": {
+                "ObjectName": "Class'AnimNode_SequencePlayer'",
+                "ObjectPath": "/Script/Engine"
+              },
+              "Property": {
+                "Path": [
+                  "AnimGraphNode_SequencePlayer"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_Cupcake_C'",
+                  "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.1"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 1
+            },
+            {
+              "Name": "Sequence",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "Sequence"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'AnimNode_SequencePlayer'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "Proxy",
+              "Struct": {
+                "ObjectName": "Class'MerlinAnimInstanceProxy'",
+                "ObjectPath": "/Script/Merlin"
+              },
+              "Property": {
+                "Path": [
+                  "Proxy"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'MerlinCharacterAnimInstance'",
+                  "ObjectPath": "/Script/Merlin"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 1
+            },
+            {
+              "Name": "StrafingDirection",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "StrafingDirection"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'MerlinAnimInstanceProxy'",
+                  "ObjectPath": "/Script/Merlin"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "__AnimBlueprintMutables",
+              "Struct": {
+                "ObjectName": "ScriptStruct'ABP_Cupcake_C:AnimBlueprintGeneratedMutableData'",
+                "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.5"
+              },
+              "Property": {
+                "Path": [
+                  "__AnimBlueprintMutables"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_Cupcake_C'",
+                  "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.1"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 1
+            },
+            {
+              "Name": "__FloatProperty_0",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "__FloatProperty_0"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "ScriptStruct'ABP_Cupcake_C:AnimBlueprintGeneratedMutableData'",
+                  "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.5"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "Proxy",
+              "Struct": {
+                "ObjectName": "Class'MerlinAnimInstanceProxy'",
+                "ObjectPath": "/Script/Merlin"
+              },
+              "Property": {
+                "Path": [
+                  "Proxy"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'MerlinCharacterAnimInstance'",
+                  "ObjectPath": "/Script/Merlin"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 1
+            },
+            {
+              "Name": "ManagedSpeed",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "ManagedSpeed"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'MerlinAnimInstanceProxy'",
+                  "ObjectPath": "/Script/Merlin"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "__AnimBlueprintMutables",
+              "Struct": {
+                "ObjectName": "ScriptStruct'ABP_Cupcake_C:AnimBlueprintGeneratedMutableData'",
+                "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.5"
+              },
+              "Property": {
+                "Path": [
+                  "__AnimBlueprintMutables"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_Cupcake_C'",
+                  "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.1"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 1
+            },
+            {
+              "Name": "__FloatProperty",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "__FloatProperty"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "ScriptStruct'ABP_Cupcake_C:AnimBlueprintGeneratedMutableData'",
+                  "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.5"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "Proxy",
+              "Struct": {
+                "ObjectName": "Class'MerlinAnimInstanceProxy'",
+                "ObjectPath": "/Script/Merlin"
+              },
+              "Property": {
+                "Path": [
+                  "Proxy"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'MerlinCharacterAnimInstance'",
+                  "ObjectPath": "/Script/Merlin"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 1
+            },
+            {
+              "Name": "AnimSet",
+              "Struct": {
+                "ObjectName": "Class'AnimInstanceProxyAnimSet'",
+                "ObjectPath": "/Script/Merlin"
+              },
+              "Property": {
+                "Path": [
+                  "AnimSet"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'MerlinAnimInstanceProxy'",
+                  "ObjectPath": "/Script/Merlin"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 1
+            },
+            {
+              "Name": "Locomote",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "Locomote"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'AnimInstanceProxyAnimSet'",
+                  "ObjectPath": "/Script/Merlin"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "AnimGraphNode_BlendSpacePlayer",
+              "Struct": {
+                "ObjectName": "Class'AnimNode_BlendSpacePlayer'",
+                "ObjectPath": "/Script/AnimGraphRuntime"
+              },
+              "Property": {
+                "Path": [
+                  "AnimGraphNode_BlendSpacePlayer"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_Cupcake_C'",
+                  "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.1"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 1
+            },
+            {
+              "Name": "BlendSpace",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "BlendSpace"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'AnimNode_BlendSpacePlayer'",
+                  "ObjectPath": "/Script/AnimGraphRuntime"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "Proxy",
+              "Struct": {
+                "ObjectName": "Class'MerlinAnimInstanceProxy'",
+                "ObjectPath": "/Script/Merlin"
+              },
+              "Property": {
+                "Path": [
+                  "Proxy"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'MerlinCharacterAnimInstance'",
+                  "ObjectPath": "/Script/Merlin"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 1
+            },
+            {
+              "Name": "AnimSet",
+              "Struct": {
+                "ObjectName": "Class'AnimInstanceProxyAnimSet'",
+                "ObjectPath": "/Script/Merlin"
+              },
+              "Property": {
+                "Path": [
+                  "AnimSet"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'MerlinAnimInstanceProxy'",
+                  "ObjectPath": "/Script/Merlin"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 1
+            },
+            {
+              "Name": "SelectedStop",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "SelectedStop"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'AnimInstanceProxyAnimSet'",
+                  "ObjectPath": "/Script/Merlin"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "AnimGraphNode_SequencePlayer_2",
+              "Struct": {
+                "ObjectName": "Class'AnimNode_SequencePlayer'",
+                "ObjectPath": "/Script/Engine"
+              },
+              "Property": {
+                "Path": [
+                  "AnimGraphNode_SequencePlayer_2"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_Cupcake_C'",
+                  "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.1"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 1
+            },
+            {
+              "Name": "Sequence",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "Sequence"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'AnimNode_SequencePlayer'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "Proxy",
+              "Struct": {
+                "ObjectName": "Class'MerlinAnimInstanceProxy'",
+                "ObjectPath": "/Script/Merlin"
+              },
+              "Property": {
+                "Path": [
+                  "Proxy"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'MerlinCharacterAnimInstance'",
+                  "ObjectPath": "/Script/Merlin"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 1
+            },
+            {
+              "Name": "AnimSet",
+              "Struct": {
+                "ObjectName": "Class'AnimInstanceProxyAnimSet'",
+                "ObjectPath": "/Script/Merlin"
+              },
+              "Property": {
+                "Path": [
+                  "AnimSet"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'MerlinAnimInstanceProxy'",
+                  "ObjectPath": "/Script/Merlin"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 1
+            },
+            {
+              "Name": "WeaponAdditiveRightArm",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "WeaponAdditiveRightArm"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'AnimInstanceProxyAnimSet'",
+                  "ObjectPath": "/Script/Merlin"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "AnimGraphNode_SequencePlayer_1",
+              "Struct": {
+                "ObjectName": "Class'AnimNode_SequencePlayer'",
+                "ObjectPath": "/Script/Engine"
+              },
+              "Property": {
+                "Path": [
+                  "AnimGraphNode_SequencePlayer_1"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_Cupcake_C'",
+                  "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.1"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 1
+            },
+            {
+              "Name": "Sequence",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "Sequence"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'AnimNode_SequencePlayer'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "Proxy",
+              "Struct": {
+                "ObjectName": "Class'MerlinAnimInstanceProxy'",
+                "ObjectPath": "/Script/Merlin"
+              },
+              "Property": {
+                "Path": [
+                  "Proxy"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'MerlinCharacterAnimInstance'",
+                  "ObjectPath": "/Script/Merlin"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 1
+            },
+            {
+              "Name": "bIsLocomoting",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "bIsLocomoting"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'MerlinAnimInstanceProxy'",
+                  "ObjectPath": "/Script/Merlin"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "AnimGraphNode_TransitionResult",
+              "Struct": {
+                "ObjectName": "Class'AnimNode_TransitionResult'",
+                "ObjectPath": "/Script/Engine"
+              },
+              "Property": {
+                "Path": [
+                  "AnimGraphNode_TransitionResult"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_Cupcake_C'",
+                  "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.1"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 1
+            },
+            {
+              "Name": "bCanEnterTransition",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "bCanEnterTransition"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'AnimNode_TransitionResult'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "Proxy",
+              "Struct": {
+                "ObjectName": "Class'MerlinAnimInstanceProxy'",
+                "ObjectPath": "/Script/Merlin"
+              },
+              "Property": {
+                "Path": [
+                  "Proxy"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'MerlinCharacterAnimInstance'",
+                  "ObjectPath": "/Script/Merlin"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 1
+            },
+            {
+              "Name": "bStoppedWithoutAnim",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "bStoppedWithoutAnim"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'MerlinAnimInstanceProxy'",
+                  "ObjectPath": "/Script/Merlin"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "AnimGraphNode_TransitionResult_1",
+              "Struct": {
+                "ObjectName": "Class'AnimNode_TransitionResult'",
+                "ObjectPath": "/Script/Engine"
+              },
+              "Property": {
+                "Path": [
+                  "AnimGraphNode_TransitionResult_1"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_Cupcake_C'",
+                  "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.1"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 1
+            },
+            {
+              "Name": "bCanEnterTransition",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "bCanEnterTransition"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'AnimNode_TransitionResult'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "Proxy",
+              "Struct": {
+                "ObjectName": "Class'MerlinAnimInstanceProxy'",
+                "ObjectPath": "/Script/Merlin"
+              },
+              "Property": {
+                "Path": [
+                  "Proxy"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'MerlinCharacterAnimInstance'",
+                  "ObjectPath": "/Script/Merlin"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 1
+            },
+            {
+              "Name": "bStoppedWithAnim",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "bStoppedWithAnim"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'MerlinAnimInstanceProxy'",
+                  "ObjectPath": "/Script/Merlin"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "AnimGraphNode_TransitionResult_2",
+              "Struct": {
+                "ObjectName": "Class'AnimNode_TransitionResult'",
+                "ObjectPath": "/Script/Engine"
+              },
+              "Property": {
+                "Path": [
+                  "AnimGraphNode_TransitionResult_2"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_Cupcake_C'",
+                  "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.1"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 1
+            },
+            {
+              "Name": "bCanEnterTransition",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "bCanEnterTransition"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'AnimNode_TransitionResult'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "Proxy",
+              "Struct": {
+                "ObjectName": "Class'MerlinAnimInstanceProxy'",
+                "ObjectPath": "/Script/Merlin"
+              },
+              "Property": {
+                "Path": [
+                  "Proxy"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'MerlinCharacterAnimInstance'",
+                  "ObjectPath": "/Script/Merlin"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 1
+            },
+            {
+              "Name": "bIsLocomoting",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "bIsLocomoting"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'MerlinAnimInstanceProxy'",
+                  "ObjectPath": "/Script/Merlin"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "AnimGraphNode_TransitionResult_3",
+              "Struct": {
+                "ObjectName": "Class'AnimNode_TransitionResult'",
+                "ObjectPath": "/Script/Engine"
+              },
+              "Property": {
+                "Path": [
+                  "AnimGraphNode_TransitionResult_3"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_Cupcake_C'",
+                  "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.1"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 1
+            },
+            {
+              "Name": "bCanEnterTransition",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "bCanEnterTransition"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'AnimNode_TransitionResult'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            }
+          ],
+          "SrcPaths": [
+            {
+              "PathSegmentStartIndex": 0,
+              "PathSegmentCount": 3
+            },
+            {
+              "PathSegmentStartIndex": 5,
+              "PathSegmentCount": 2
+            },
+            {
+              "PathSegmentStartIndex": 9,
+              "PathSegmentCount": 2
+            },
+            {
+              "PathSegmentStartIndex": 13,
+              "PathSegmentCount": 3
+            },
+            {
+              "PathSegmentStartIndex": 18,
+              "PathSegmentCount": 3
+            },
+            {
+              "PathSegmentStartIndex": 23,
+              "PathSegmentCount": 3
+            },
+            {
+              "PathSegmentStartIndex": 28,
+              "PathSegmentCount": 2
+            },
+            {
+              "PathSegmentStartIndex": 32,
+              "PathSegmentCount": 2
+            },
+            {
+              "PathSegmentStartIndex": 36,
+              "PathSegmentCount": 2
+            },
+            {
+              "PathSegmentStartIndex": 40,
+              "PathSegmentCount": 2
+            }
+          ],
+          "DestPaths": [
+            {
+              "PathSegmentStartIndex": 3,
+              "PathSegmentCount": 2
+            },
+            {
+              "PathSegmentStartIndex": 7,
+              "PathSegmentCount": 2
+            },
+            {
+              "PathSegmentStartIndex": 11,
+              "PathSegmentCount": 2
+            },
+            {
+              "PathSegmentStartIndex": 16,
+              "PathSegmentCount": 2
+            },
+            {
+              "PathSegmentStartIndex": 21,
+              "PathSegmentCount": 2
+            },
+            {
+              "PathSegmentStartIndex": 26,
+              "PathSegmentCount": 2
+            },
+            {
+              "PathSegmentStartIndex": 30,
+              "PathSegmentCount": 2
+            },
+            {
+              "PathSegmentStartIndex": 34,
+              "PathSegmentCount": 2
+            },
+            {
+              "PathSegmentStartIndex": 38,
+              "PathSegmentCount": 2
+            },
+            {
+              "PathSegmentStartIndex": 42,
+              "PathSegmentCount": 2
+            }
+          ],
+          "CopyBatchArray": [
+            {
+              "Copies": [
+                {
+                  "AccessIndex": 0,
+                  "DestAccessStartIndex": 0,
+                  "DestAccessEndIndex": 1,
+                  "Type": "EPropertyAccessCopyType::Object"
+                },
+                {
+                  "AccessIndex": 1,
+                  "DestAccessStartIndex": 1,
+                  "DestAccessEndIndex": 2,
+                  "Type": "EPropertyAccessCopyType::Plain"
+                },
+                {
+                  "AccessIndex": 2,
+                  "DestAccessStartIndex": 2,
+                  "DestAccessEndIndex": 3,
+                  "Type": "EPropertyAccessCopyType::Plain"
+                },
+                {
+                  "AccessIndex": 3,
+                  "DestAccessStartIndex": 3,
+                  "DestAccessEndIndex": 4,
+                  "Type": "EPropertyAccessCopyType::Object"
+                },
+                {
+                  "AccessIndex": 4,
+                  "DestAccessStartIndex": 4,
+                  "DestAccessEndIndex": 5,
+                  "Type": "EPropertyAccessCopyType::Object"
+                },
+                {
+                  "AccessIndex": 5,
+                  "DestAccessStartIndex": 5,
+                  "DestAccessEndIndex": 6,
+                  "Type": "EPropertyAccessCopyType::Object"
+                },
+                {
+                  "AccessIndex": 6,
+                  "DestAccessStartIndex": 6,
+                  "DestAccessEndIndex": 7,
+                  "Type": "EPropertyAccessCopyType::Bool"
+                },
+                {
+                  "AccessIndex": 7,
+                  "DestAccessStartIndex": 7,
+                  "DestAccessEndIndex": 8,
+                  "Type": "EPropertyAccessCopyType::Bool"
+                },
+                {
+                  "AccessIndex": 8,
+                  "DestAccessStartIndex": 8,
+                  "DestAccessEndIndex": 9,
+                  "Type": "EPropertyAccessCopyType::Bool"
+                },
+                {
+                  "AccessIndex": 9,
+                  "DestAccessStartIndex": 9,
+                  "DestAccessEndIndex": 10,
+                  "Type": "EPropertyAccessCopyType::Bool"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "AnimBlueprintExtension_Base": {},
+      "AnimGraphNode_Root": {
+        "CopyRecords": [],
+        "Function": null,
+        "BoundFunction": "None"
+      },
+      "AnimGraphNode_TransitionResult_4": {
+        "CopyRecords": [],
+        "Function": null,
+        "BoundFunction": "None"
+      },
+      "AnimGraphNode_TransitionResult_3": {
+        "CopyRecords": [
+          {
+            "CopyIndex": 9,
+            "PostCopyOperation": "EPostCopyOperation::None",
+            "bOnlyUpdateWhenActive": false
+          }
+        ],
+        "Function": null,
+        "BoundFunction": "None"
+      },
+      "AnimGraphNode_TransitionResult_2": {
+        "CopyRecords": [
+          {
+            "CopyIndex": 8,
+            "PostCopyOperation": "EPostCopyOperation::None",
+            "bOnlyUpdateWhenActive": false
+          }
+        ],
+        "Function": null,
+        "BoundFunction": "None"
+      },
+      "AnimGraphNode_TransitionResult_1": {
+        "CopyRecords": [
+          {
+            "CopyIndex": 7,
+            "PostCopyOperation": "EPostCopyOperation::None",
+            "bOnlyUpdateWhenActive": false
+          }
+        ],
+        "Function": null,
+        "BoundFunction": "None"
+      },
+      "AnimGraphNode_TransitionResult": {
+        "CopyRecords": [
+          {
+            "CopyIndex": 6,
+            "PostCopyOperation": "EPostCopyOperation::None",
+            "bOnlyUpdateWhenActive": false
+          }
+        ],
+        "Function": null,
+        "BoundFunction": "None"
+      },
+      "AnimGraphNode_SequencePlayer_2": {
+        "CopyRecords": [
+          {
+            "CopyIndex": 4,
+            "PostCopyOperation": "EPostCopyOperation::None",
+            "bOnlyUpdateWhenActive": false
+          }
+        ],
+        "Function": null,
+        "BoundFunction": "None"
+      },
+      "AnimGraphNode_SequencePlayer_1": {
+        "CopyRecords": [
+          {
+            "CopyIndex": 5,
+            "PostCopyOperation": "EPostCopyOperation::None",
+            "bOnlyUpdateWhenActive": false
+          }
+        ],
+        "Function": null,
+        "BoundFunction": "None"
+      },
+      "AnimGraphNode_LayeredBoneBlend": {
+        "CopyRecords": [],
+        "Function": null,
+        "BoundFunction": "None"
+      },
+      "AnimGraphNode_StateResult_2": {
+        "CopyRecords": [],
+        "Function": null,
+        "BoundFunction": "None"
+      },
+      "AnimGraphNode_BlendSpacePlayer": {
+        "CopyRecords": [
+          {
+            "CopyIndex": 1,
+            "PostCopyOperation": "EPostCopyOperation::None",
+            "bOnlyUpdateWhenActive": false
+          },
+          {
+            "CopyIndex": 2,
+            "PostCopyOperation": "EPostCopyOperation::None",
+            "bOnlyUpdateWhenActive": false
+          },
+          {
+            "CopyIndex": 3,
+            "PostCopyOperation": "EPostCopyOperation::None",
+            "bOnlyUpdateWhenActive": false
+          }
+        ],
+        "Function": null,
+        "BoundFunction": "None"
+      },
+      "AnimGraphNode_StateResult_1": {
+        "CopyRecords": [],
+        "Function": null,
+        "BoundFunction": "None"
+      },
+      "AnimGraphNode_SequencePlayer": {
+        "CopyRecords": [
+          {
+            "CopyIndex": 0,
+            "PostCopyOperation": "EPostCopyOperation::None",
+            "bOnlyUpdateWhenActive": false
+          }
+        ],
+        "Function": null,
+        "BoundFunction": "None"
+      },
+      "AnimGraphNode_StateResult": {
+        "CopyRecords": [],
+        "Function": null,
+        "BoundFunction": "None"
+      },
+      "AnimGraphNode_StateMachine": {
+        "CopyRecords": [],
+        "Function": null,
+        "BoundFunction": "None"
+      },
+      "AnimGraphNode_Slot": {
+        "CopyRecords": [],
+        "Function": null,
+        "BoundFunction": "None"
+      }
+    }
+  },
+  {
+    "Type": "AnimBlueprintGeneratedClass",
+    "Name": "ABP_Cupcake_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimBlueprintGeneratedClass'",
+    "Package": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake",
+    "Properties": {
+      "BakedStateMachines": [
+        {
+          "MachineName": "New State Machine",
+          "InitialState": 0,
+          "States": [
+            {
+              "StateName": "Idle",
+              "Transitions": [
+                {
+                  "CanTakeDelegateIndex": 10,
+                  "CustomResultNodeIndex": -1,
+                  "TransitionIndex": 0,
+                  "bDesiredTransitionReturnValue": true,
+                  "bAutomaticRemainingTimeRule": false,
+                  "AutomaticRuleTriggerTime": -1.0,
+                  "SyncGroupNameToRequireValidMarkersRule": "None",
+                  "PoseEvaluatorLinks": []
+                }
+              ],
+              "StateRootNodeIndex": 2,
+              "StartNotify": -1,
+              "EndNotify": -1,
+              "FullyBlendedNotify": -1,
+              "bIsAConduit": false,
+              "EntryRuleNodeIndex": -1,
+              "PlayerNodeIndices": [
+                3
+              ],
+              "LayerNodeIndices": [],
+              "bAlwaysResetOnEntry": false
+            },
+            {
+              "StateName": "Move",
+              "Transitions": [
+                {
+                  "CanTakeDelegateIndex": 11,
+                  "CustomResultNodeIndex": -1,
+                  "TransitionIndex": 1,
+                  "bDesiredTransitionReturnValue": true,
+                  "bAutomaticRemainingTimeRule": false,
+                  "AutomaticRuleTriggerTime": -1.0,
+                  "SyncGroupNameToRequireValidMarkersRule": "None",
+                  "PoseEvaluatorLinks": []
+                },
+                {
+                  "CanTakeDelegateIndex": 12,
+                  "CustomResultNodeIndex": -1,
+                  "TransitionIndex": 2,
+                  "bDesiredTransitionReturnValue": true,
+                  "bAutomaticRemainingTimeRule": false,
+                  "AutomaticRuleTriggerTime": -1.0,
+                  "SyncGroupNameToRequireValidMarkersRule": "None",
+                  "PoseEvaluatorLinks": []
+                }
+              ],
+              "StateRootNodeIndex": 4,
+              "StartNotify": -1,
+              "EndNotify": -1,
+              "FullyBlendedNotify": -1,
+              "bIsAConduit": false,
+              "EntryRuleNodeIndex": -1,
+              "PlayerNodeIndices": [
+                5
+              ],
+              "LayerNodeIndices": [],
+              "bAlwaysResetOnEntry": false
+            },
+            {
+              "StateName": "MoveStop",
+              "Transitions": [
+                {
+                  "CanTakeDelegateIndex": 13,
+                  "CustomResultNodeIndex": -1,
+                  "TransitionIndex": 3,
+                  "bDesiredTransitionReturnValue": true,
+                  "bAutomaticRemainingTimeRule": false,
+                  "AutomaticRuleTriggerTime": -1.0,
+                  "SyncGroupNameToRequireValidMarkersRule": "None",
+                  "PoseEvaluatorLinks": []
+                },
+                {
+                  "CanTakeDelegateIndex": 14,
+                  "CustomResultNodeIndex": -1,
+                  "TransitionIndex": 4,
+                  "bDesiredTransitionReturnValue": true,
+                  "bAutomaticRemainingTimeRule": true,
+                  "AutomaticRuleTriggerTime": -1.0,
+                  "SyncGroupNameToRequireValidMarkersRule": "None",
+                  "PoseEvaluatorLinks": []
+                }
+              ],
+              "StateRootNodeIndex": 6,
+              "StartNotify": -1,
+              "EndNotify": -1,
+              "FullyBlendedNotify": -1,
+              "bIsAConduit": false,
+              "EntryRuleNodeIndex": -1,
+              "PlayerNodeIndices": [
+                8,
+                9
+              ],
+              "LayerNodeIndices": [],
+              "bAlwaysResetOnEntry": false
+            }
+          ],
+          "Transitions": [
+            {
+              "PreviousState": 0,
+              "NextState": 1,
+              "CrossfadeDuration": 0.2,
+              "StartNotify": -1,
+              "EndNotify": -1,
+              "InterruptNotify": -1,
+              "BlendMode": "EAlphaBlendOption::HermiteCubic",
+              "CustomCurve": null,
+              "BlendProfile": null,
+              "LogicType": "ETransitionLogicType::TLT_StandardBlend",
+              "StateName": "None"
+            },
+            {
+              "PreviousState": 1,
+              "NextState": 0,
+              "CrossfadeDuration": 0.2,
+              "StartNotify": -1,
+              "EndNotify": -1,
+              "InterruptNotify": -1,
+              "BlendMode": "EAlphaBlendOption::HermiteCubic",
+              "CustomCurve": null,
+              "BlendProfile": null,
+              "LogicType": "ETransitionLogicType::TLT_StandardBlend",
+              "StateName": "None"
+            },
+            {
+              "PreviousState": 1,
+              "NextState": 2,
+              "CrossfadeDuration": 0.15,
+              "StartNotify": 0,
+              "EndNotify": -1,
+              "InterruptNotify": -1,
+              "BlendMode": "EAlphaBlendOption::HermiteCubic",
+              "CustomCurve": null,
+              "BlendProfile": null,
+              "LogicType": "ETransitionLogicType::TLT_StandardBlend",
+              "StateName": "None"
+            },
+            {
+              "PreviousState": 2,
+              "NextState": 1,
+              "CrossfadeDuration": 0.2,
+              "StartNotify": -1,
+              "EndNotify": -1,
+              "InterruptNotify": -1,
+              "BlendMode": "EAlphaBlendOption::HermiteCubic",
+              "CustomCurve": null,
+              "BlendProfile": null,
+              "LogicType": "ETransitionLogicType::TLT_StandardBlend",
+              "StateName": "None"
+            },
+            {
+              "PreviousState": 2,
+              "NextState": 0,
+              "CrossfadeDuration": 0.2,
+              "StartNotify": -1,
+              "EndNotify": -1,
+              "InterruptNotify": -1,
+              "BlendMode": "EAlphaBlendOption::HermiteCubic",
+              "CustomCurve": null,
+              "BlendProfile": null,
+              "LogicType": "ETransitionLogicType::TLT_StandardBlend",
+              "StateName": "None"
+            }
+          ]
+        }
+      ],
+      "TargetSkeleton": {
+        "ObjectName": "Skeleton'SKM_Cupcake_Skeleton'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Meshes/SKM_Cupcake_Skeleton.1"
+      },
+      "AnimNotifies": [
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AdditiveJump_End",
+          "Notify": null,
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bCanBeFilteredViaRequest": true,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "TrackIndex": 0,
+          "LinkedMontage": null,
+          "SlotIndex": 0,
+          "SegmentIndex": -1,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.0,
+          "LinkValue": 0.0,
+          "LinkedSequence": null
+        }
+      ],
+      "AnimNodeData": [
+        {
+          "AnimClassInterface": {
+            "ObjectName": "AnimBlueprintGeneratedClass'ABP_Cupcake_C'",
+            "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.1"
+          },
+          "Entries": [
+            16,
+            16,
+            16,
+            4294967295,
+            0,
+            12,
+            4294967295
+          ],
+          "NodeIndex": 0,
+          "Flags": 0
+        },
+        {
+          "AnimClassInterface": {
+            "ObjectName": "AnimBlueprintGeneratedClass'ABP_Cupcake_C'",
+            "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.1"
+          },
+          "Entries": [
+            16,
+            16,
+            16,
+            4294967295
+          ],
+          "NodeIndex": 1,
+          "Flags": 0
+        },
+        {
+          "AnimClassInterface": {
+            "ObjectName": "AnimBlueprintGeneratedClass'ABP_Cupcake_C'",
+            "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.1"
+          },
+          "Entries": [
+            16,
+            16,
+            16,
+            4294967295
+          ],
+          "NodeIndex": 2,
+          "Flags": 0
+        },
+        {
+          "AnimClassInterface": {
+            "ObjectName": "AnimBlueprintGeneratedClass'ABP_Cupcake_C'",
+            "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.1"
+          },
+          "Entries": [
+            16,
+            16,
+            16,
+            4294967295
+          ],
+          "NodeIndex": 3,
+          "Flags": 0
+        },
+        {
+          "AnimClassInterface": {
+            "ObjectName": "AnimBlueprintGeneratedClass'ABP_Cupcake_C'",
+            "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.1"
+          },
+          "Entries": [
+            16,
+            16,
+            16,
+            4294967295
+          ],
+          "NodeIndex": 4,
+          "Flags": 0
+        },
+        {
+          "AnimClassInterface": {
+            "ObjectName": "AnimBlueprintGeneratedClass'ABP_Cupcake_C'",
+            "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.1"
+          },
+          "Entries": [
+            16,
+            16,
+            16,
+            4294967295
+          ],
+          "NodeIndex": 5,
+          "Flags": 0
+        },
+        {
+          "AnimClassInterface": {
+            "ObjectName": "AnimBlueprintGeneratedClass'ABP_Cupcake_C'",
+            "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.1"
+          },
+          "Entries": [
+            16,
+            16,
+            16,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            12,
+            11,
+            10,
+            9,
+            4294967295,
+            8,
+            8,
+            7,
+            4294967295,
+            6,
+            3,
+            9
+          ],
+          "NodeIndex": 6,
+          "Flags": 0
+        },
+        {
+          "AnimClassInterface": {
+            "ObjectName": "AnimBlueprintGeneratedClass'ABP_Cupcake_C'",
+            "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.1"
+          },
+          "Entries": [
+            16,
+            16,
+            16,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            12,
+            11,
+            10,
+            9,
+            4294967295,
+            8,
+            8,
+            7,
+            4294967295,
+            6,
+            3,
+            9
+          ],
+          "NodeIndex": 7,
+          "Flags": 0
+        },
+        {
+          "AnimClassInterface": {
+            "ObjectName": "AnimBlueprintGeneratedClass'ABP_Cupcake_C'",
+            "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.1"
+          },
+          "Entries": [
+            16,
+            16,
+            16,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295
+          ],
+          "NodeIndex": 8,
+          "Flags": 0
+        },
+        {
+          "AnimClassInterface": {
+            "ObjectName": "AnimBlueprintGeneratedClass'ABP_Cupcake_C'",
+            "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.1"
+          },
+          "Entries": [
+            16,
+            16,
+            16,
+            4294967295,
+            1,
+            13,
+            4294967295,
+            2,
+            16,
+            16,
+            16,
+            16
+          ],
+          "NodeIndex": 9,
+          "Flags": 0
+        },
+        {
+          "AnimClassInterface": {
+            "ObjectName": "AnimBlueprintGeneratedClass'ABP_Cupcake_C'",
+            "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.1"
+          },
+          "Entries": [
+            16,
+            16,
+            16,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            12,
+            11,
+            10,
+            9,
+            2147483649,
+            2147483648,
+            8,
+            3,
+            3,
+            6,
+            4294967295
+          ],
+          "NodeIndex": 10,
+          "Flags": 0
+        },
+        {
+          "AnimClassInterface": {
+            "ObjectName": "AnimBlueprintGeneratedClass'ABP_Cupcake_C'",
+            "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.1"
+          },
+          "Entries": [
+            16,
+            16,
+            16,
+            4294967295,
+            4,
+            13,
+            4294967295,
+            5,
+            16,
+            16,
+            16,
+            16
+          ],
+          "NodeIndex": 11,
+          "Flags": 0
+        },
+        {
+          "AnimClassInterface": {
+            "ObjectName": "AnimBlueprintGeneratedClass'ABP_Cupcake_C'",
+            "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.1"
+          },
+          "Entries": [
+            16,
+            16,
+            16,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            12,
+            11,
+            10,
+            9,
+            4294967295,
+            8,
+            8,
+            7,
+            4294967295,
+            6,
+            9,
+            9
+          ],
+          "NodeIndex": 12,
+          "Flags": 0
+        },
+        {
+          "AnimClassInterface": {
+            "ObjectName": "AnimBlueprintGeneratedClass'ABP_Cupcake_C'",
+            "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.1"
+          },
+          "Entries": [
+            16,
+            16,
+            16,
+            4294967295,
+            14,
+            13,
+            4294967295,
+            15,
+            16,
+            16,
+            16,
+            16
+          ],
+          "NodeIndex": 13,
+          "Flags": 0
+        },
+        {
+          "AnimClassInterface": {
+            "ObjectName": "AnimBlueprintGeneratedClass'ABP_Cupcake_C'",
+            "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.1"
+          },
+          "Entries": [
+            16,
+            16,
+            16,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295
+          ],
+          "NodeIndex": 14,
+          "Flags": 0
+        },
+        {
+          "AnimClassInterface": {
+            "ObjectName": "AnimBlueprintGeneratedClass'ABP_Cupcake_C'",
+            "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.1"
+          },
+          "Entries": [
+            16,
+            16,
+            16,
+            4294967295,
+            4294967295,
+            4294967295
+          ],
+          "NodeIndex": 15,
+          "Flags": 0
+        }
+      ],
+      "NodeTypeMap": [
+        {
+          "Key": "Class'/Script/AnimGraphRuntime.AnimNode_Slot'",
+          "Value": {
+            "NameToIndexMap": [
+              {
+                "Key": "InitialUpdateFunction",
+                "Value": 0
+              },
+              {
+                "Key": "BecomeRelevantFunction",
+                "Value": 1
+              },
+              {
+                "Key": "UpdateFunction",
+                "Value": 2
+              },
+              {
+                "Key": "Source",
+                "Value": 3
+              },
+              {
+                "Key": "SlotName",
+                "Value": 4
+              },
+              {
+                "Key": "bAlwaysUpdateSourcePose",
+                "Value": 5
+              }
+            ],
+            "NumProperties": 6
+          }
+        },
+        {
+          "Key": "Class'/Script/Engine.AnimNode_Base'",
+          "Value": {
+            "NameToIndexMap": [
+              {
+                "Key": "InitialUpdateFunction",
+                "Value": 0
+              },
+              {
+                "Key": "BecomeRelevantFunction",
+                "Value": 1
+              },
+              {
+                "Key": "UpdateFunction",
+                "Value": 2
+              }
+            ],
+            "NumProperties": 3
+          }
+        },
+        {
+          "Key": "Class'/Script/Engine.AnimNode_StateMachine'",
+          "Value": {
+            "NameToIndexMap": [
+              {
+                "Key": "InitialUpdateFunction",
+                "Value": 0
+              },
+              {
+                "Key": "BecomeRelevantFunction",
+                "Value": 1
+              },
+              {
+                "Key": "UpdateFunction",
+                "Value": 2
+              },
+              {
+                "Key": "StateMachineIndexInClass",
+                "Value": 3
+              },
+              {
+                "Key": "MaxTransitionsPerFrame",
+                "Value": 4
+              },
+              {
+                "Key": "MaxTransitionsRequests",
+                "Value": 5
+              },
+              {
+                "Key": "bSkipFirstUpdateTransition",
+                "Value": 6
+              },
+              {
+                "Key": "bReinitializeOnBecomingRelevant",
+                "Value": 7
+              },
+              {
+                "Key": "bCreateNotifyMetaData",
+                "Value": 8
+              },
+              {
+                "Key": "bAllowConduitEntryStates",
+                "Value": 9
+              }
+            ],
+            "NumProperties": 10
+          }
+        },
+        {
+          "Key": "Class'/Script/Engine.AnimNode_StateResult'",
+          "Value": {
+            "NameToIndexMap": [
+              {
+                "Key": "InitialUpdateFunction",
+                "Value": 0
+              },
+              {
+                "Key": "BecomeRelevantFunction",
+                "Value": 1
+              },
+              {
+                "Key": "UpdateFunction",
+                "Value": 2
+              },
+              {
+                "Key": "Result",
+                "Value": 3
+              },
+              {
+                "Key": "Name",
+                "Value": 4
+              },
+              {
+                "Key": "LayerGroup",
+                "Value": 5
+              },
+              {
+                "Key": "Group",
+                "Value": 6
+              },
+              {
+                "Key": "StateIndex",
+                "Value": 7
+              },
+              {
+                "Key": "StateEntryFunction",
+                "Value": 8
+              },
+              {
+                "Key": "StateFullyBlendedInFunction",
+                "Value": 9
+              },
+              {
+                "Key": "StateExitFunction",
+                "Value": 10
+              },
+              {
+                "Key": "StateFullyBlendedOutFunction",
+                "Value": 11
+              }
+            ],
+            "NumProperties": 12
+          }
+        },
+        {
+          "Key": "Class'/Script/Engine.AnimNode_Root'",
+          "Value": {
+            "NameToIndexMap": [
+              {
+                "Key": "InitialUpdateFunction",
+                "Value": 0
+              },
+              {
+                "Key": "BecomeRelevantFunction",
+                "Value": 1
+              },
+              {
+                "Key": "UpdateFunction",
+                "Value": 2
+              },
+              {
+                "Key": "Result",
+                "Value": 3
+              },
+              {
+                "Key": "Name",
+                "Value": 4
+              },
+              {
+                "Key": "LayerGroup",
+                "Value": 5
+              },
+              {
+                "Key": "Group",
+                "Value": 6
+              }
+            ],
+            "NumProperties": 7
+          }
+        },
+        {
+          "Key": "Class'/Script/Engine.AnimNode_SequencePlayer'",
+          "Value": {
+            "NameToIndexMap": [
+              {
+                "Key": "InitialUpdateFunction",
+                "Value": 0
+              },
+              {
+                "Key": "BecomeRelevantFunction",
+                "Value": 1
+              },
+              {
+                "Key": "UpdateFunction",
+                "Value": 2
+              },
+              {
+                "Key": "GroupIndex",
+                "Value": 3
+              },
+              {
+                "Key": "GroupScope",
+                "Value": 4
+              },
+              {
+                "Key": "BlendWeight",
+                "Value": 5
+              },
+              {
+                "Key": "InternalTimeAccumulator",
+                "Value": 6
+              },
+              {
+                "Key": "PlayRateScaleBiasClampState",
+                "Value": 7
+              },
+              {
+                "Key": "GroupName",
+                "Value": 8
+              },
+              {
+                "Key": "GroupRole",
+                "Value": 9
+              },
+              {
+                "Key": "Method",
+                "Value": 10
+              },
+              {
+                "Key": "bIgnoreForRelevancyTest",
+                "Value": 11
+              },
+              {
+                "Key": "Sequence",
+                "Value": 12
+              },
+              {
+                "Key": "PlayRateBasis",
+                "Value": 13
+              },
+              {
+                "Key": "PlayRate",
+                "Value": 14
+              },
+              {
+                "Key": "PlayRateScaleBiasClampConstants",
+                "Value": 15
+              },
+              {
+                "Key": "PlayRateScaleBiasClamp",
+                "Value": 16
+              },
+              {
+                "Key": "StartPosition",
+                "Value": 17
+              },
+              {
+                "Key": "bLoopAnimation",
+                "Value": 18
+              },
+              {
+                "Key": "bStartFromMatchingPose",
+                "Value": 19
+              }
+            ],
+            "NumProperties": 20
+          }
+        },
+        {
+          "Key": "Class'/Script/Engine.AnimNode_SequencePlayerBase'",
+          "Value": {
+            "NameToIndexMap": [
+              {
+                "Key": "InitialUpdateFunction",
+                "Value": 0
+              },
+              {
+                "Key": "BecomeRelevantFunction",
+                "Value": 1
+              },
+              {
+                "Key": "UpdateFunction",
+                "Value": 2
+              },
+              {
+                "Key": "GroupIndex",
+                "Value": 3
+              },
+              {
+                "Key": "GroupScope",
+                "Value": 4
+              },
+              {
+                "Key": "BlendWeight",
+                "Value": 5
+              },
+              {
+                "Key": "InternalTimeAccumulator",
+                "Value": 6
+              },
+              {
+                "Key": "PlayRateScaleBiasClampState",
+                "Value": 7
+              }
+            ],
+            "NumProperties": 8
+          }
+        },
+        {
+          "Key": "Class'/Script/Engine.AnimNode_AssetPlayerBase'",
+          "Value": {
+            "NameToIndexMap": [
+              {
+                "Key": "InitialUpdateFunction",
+                "Value": 0
+              },
+              {
+                "Key": "BecomeRelevantFunction",
+                "Value": 1
+              },
+              {
+                "Key": "UpdateFunction",
+                "Value": 2
+              },
+              {
+                "Key": "GroupIndex",
+                "Value": 3
+              },
+              {
+                "Key": "GroupScope",
+                "Value": 4
+              },
+              {
+                "Key": "BlendWeight",
+                "Value": 5
+              },
+              {
+                "Key": "InternalTimeAccumulator",
+                "Value": 6
+              }
+            ],
+            "NumProperties": 7
+          }
+        },
+        {
+          "Key": "Class'/Script/Engine.AnimNode_AssetPlayerRelevancyBase'",
+          "Value": {
+            "NameToIndexMap": [
+              {
+                "Key": "InitialUpdateFunction",
+                "Value": 0
+              },
+              {
+                "Key": "BecomeRelevantFunction",
+                "Value": 1
+              },
+              {
+                "Key": "UpdateFunction",
+                "Value": 2
+              }
+            ],
+            "NumProperties": 3
+          }
+        },
+        {
+          "Key": "Class'/Script/AnimGraphRuntime.AnimNode_BlendSpacePlayer'",
+          "Value": {
+            "NameToIndexMap": [
+              {
+                "Key": "InitialUpdateFunction",
+                "Value": 0
+              },
+              {
+                "Key": "BecomeRelevantFunction",
+                "Value": 1
+              },
+              {
+                "Key": "UpdateFunction",
+                "Value": 2
+              },
+              {
+                "Key": "GroupIndex",
+                "Value": 3
+              },
+              {
+                "Key": "GroupScope",
+                "Value": 4
+              },
+              {
+                "Key": "BlendWeight",
+                "Value": 5
+              },
+              {
+                "Key": "InternalTimeAccumulator",
+                "Value": 6
+              },
+              {
+                "Key": "PreviousBlendSpace",
+                "Value": 7
+              },
+              {
+                "Key": "GroupName",
+                "Value": 8
+              },
+              {
+                "Key": "GroupRole",
+                "Value": 9
+              },
+              {
+                "Key": "Method",
+                "Value": 10
+              },
+              {
+                "Key": "bIgnoreForRelevancyTest",
+                "Value": 11
+              },
+              {
+                "Key": "X",
+                "Value": 12
+              },
+              {
+                "Key": "Y",
+                "Value": 13
+              },
+              {
+                "Key": "PlayRate",
+                "Value": 14
+              },
+              {
+                "Key": "bLoop",
+                "Value": 15
+              },
+              {
+                "Key": "bResetPlayTimeWhenBlendSpaceChanges",
+                "Value": 16
+              },
+              {
+                "Key": "StartPosition",
+                "Value": 17
+              },
+              {
+                "Key": "BlendSpace",
+                "Value": 18
+              }
+            ],
+            "NumProperties": 19
+          }
+        },
+        {
+          "Key": "Class'/Script/AnimGraphRuntime.AnimNode_BlendSpacePlayerBase'",
+          "Value": {
+            "NameToIndexMap": [
+              {
+                "Key": "InitialUpdateFunction",
+                "Value": 0
+              },
+              {
+                "Key": "BecomeRelevantFunction",
+                "Value": 1
+              },
+              {
+                "Key": "UpdateFunction",
+                "Value": 2
+              },
+              {
+                "Key": "GroupIndex",
+                "Value": 3
+              },
+              {
+                "Key": "GroupScope",
+                "Value": 4
+              },
+              {
+                "Key": "BlendWeight",
+                "Value": 5
+              },
+              {
+                "Key": "InternalTimeAccumulator",
+                "Value": 6
+              },
+              {
+                "Key": "PreviousBlendSpace",
+                "Value": 7
+              }
+            ],
+            "NumProperties": 8
+          }
+        },
+        {
+          "Key": "Class'/Script/AnimGraphRuntime.AnimNode_LayeredBoneBlend'",
+          "Value": {
+            "NameToIndexMap": [
+              {
+                "Key": "InitialUpdateFunction",
+                "Value": 0
+              },
+              {
+                "Key": "BecomeRelevantFunction",
+                "Value": 1
+              },
+              {
+                "Key": "UpdateFunction",
+                "Value": 2
+              },
+              {
+                "Key": "BasePose",
+                "Value": 3
+              },
+              {
+                "Key": "BlendPoses",
+                "Value": 4
+              },
+              {
+                "Key": "BlendMode",
+                "Value": 5
+              },
+              {
+                "Key": "BlendMasks",
+                "Value": 6
+              },
+              {
+                "Key": "LayerSetup",
+                "Value": 7
+              },
+              {
+                "Key": "BlendWeights",
+                "Value": 8
+              },
+              {
+                "Key": "bMeshSpaceRotationBlend",
+                "Value": 9
+              },
+              {
+                "Key": "bMeshSpaceScaleBlend",
+                "Value": 10
+              },
+              {
+                "Key": "CurveBlendOption",
+                "Value": 11
+              },
+              {
+                "Key": "bBlendRootMotionBasedOnRootBone",
+                "Value": 12
+              },
+              {
+                "Key": "LODThreshold",
+                "Value": 13
+              },
+              {
+                "Key": "PerBoneBlendWeights",
+                "Value": 14
+              },
+              {
+                "Key": "SkeletonGuid",
+                "Value": 15
+              },
+              {
+                "Key": "VirtualBoneGuid",
+                "Value": 16
+              }
+            ],
+            "NumProperties": 17
+          }
+        },
+        {
+          "Key": "Class'/Script/Engine.AnimNode_TransitionResult'",
+          "Value": {
+            "NameToIndexMap": [
+              {
+                "Key": "InitialUpdateFunction",
+                "Value": 0
+              },
+              {
+                "Key": "BecomeRelevantFunction",
+                "Value": 1
+              },
+              {
+                "Key": "UpdateFunction",
+                "Value": 2
+              },
+              {
+                "Key": "bCanEnterTransition",
+                "Value": 3
+              }
+            ],
+            "NumProperties": 4
+          }
+        }
+      ],
+      "UberGraphFunction": {
+        "ObjectName": "Function'ABP_Cupcake_C:ExecuteUbergraph_ABP_Cupcake'",
+        "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.3"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MerlinCharacterAnimInstance'",
+      "ObjectPath": "/Script/Merlin"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'ABP_Cupcake_C:AnimGraph'",
+        "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.2"
+      },
+      {
+        "ObjectName": "Function'ABP_Cupcake_C:ExecuteUbergraph_ABP_Cupcake'",
+        "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.3"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "__AnimBlueprintMutables",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'ABP_Cupcake_C:AnimBlueprintGeneratedMutableData'",
+          "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.5"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimBlueprintExtension_PropertyAccess",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "Class'AnimSubsystemInstance'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimBlueprintExtension_Base",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "Class'AnimSubsystemInstance'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_Root",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 200,
+        "Struct": {
+          "ObjectName": "Class'AnimNode_Root'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_TransitionResult_4",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 168,
+        "Struct": {
+          "ObjectName": "Class'AnimNode_TransitionResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_TransitionResult_3",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 168,
+        "Struct": {
+          "ObjectName": "Class'AnimNode_TransitionResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_TransitionResult_2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 168,
+        "Struct": {
+          "ObjectName": "Class'AnimNode_TransitionResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_TransitionResult_1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 168,
+        "Struct": {
+          "ObjectName": "Class'AnimNode_TransitionResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_TransitionResult",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 168,
+        "Struct": {
+          "ObjectName": "Class'AnimNode_TransitionResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_SequencePlayer_2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 328,
+        "Struct": {
+          "ObjectName": "Class'AnimNode_SequencePlayer'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_SequencePlayer_1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 328,
+        "Struct": {
+          "ObjectName": "Class'AnimNode_SequencePlayer'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_LayeredBoneBlend",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 368,
+        "Struct": {
+          "ObjectName": "Class'AnimNode_LayeredBoneBlend'",
+          "ObjectPath": "/Script/AnimGraphRuntime"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_StateResult_2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 368,
+        "Struct": {
+          "ObjectName": "Class'AnimNode_StateResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_BlendSpacePlayer",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 280,
+        "Struct": {
+          "ObjectName": "Class'AnimNode_BlendSpacePlayer'",
+          "ObjectPath": "/Script/AnimGraphRuntime"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_StateResult_1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 368,
+        "Struct": {
+          "ObjectName": "Class'AnimNode_StateResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_SequencePlayer",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 328,
+        "Struct": {
+          "ObjectName": "Class'AnimNode_SequencePlayer'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_StateResult",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 368,
+        "Struct": {
+          "ObjectName": "Class'AnimNode_StateResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_StateMachine",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 336,
+        "Struct": {
+          "ObjectName": "Class'AnimNode_StateMachine'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_Slot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 208,
+        "Struct": {
+          "ObjectName": "Class'AnimNode_Slot'",
+          "ObjectPath": "/Script/AnimGraphRuntime"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_ABP_Cupcake": {
+        "ObjectName": "Function'ABP_Cupcake_C:ExecuteUbergraph_ABP_Cupcake'",
+        "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.3"
+      },
+      "AnimGraph": {
+        "ObjectName": "Function'ABP_Cupcake_C:AnimGraph'",
+        "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.2"
+      }
+    },
+    "ClassFlags": "CLASS_Transient | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'SkeletalMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ABP_Cupcake_C'Default__ABP_Cupcake_C'",
+      "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "AnimGraph",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "AnimBlueprintGeneratedClass'ABP_Cupcake_C'",
+      "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraph",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "PropertyFlags": "Parm | OutParm",
+        "Struct": {
+          "ObjectName": "Class'PoseLink'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_ABP_Cupcake",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "AnimBlueprintGeneratedClass'ABP_Cupcake_C'",
+      "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "ScriptStruct",
+    "Name": "AnimBlueprintGeneratedConstantData",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScriptStruct'",
+    "Outer": {
+      "ObjectName": "AnimBlueprintGeneratedClass'ABP_Cupcake_C'",
+      "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'AnimBlueprintConstantData'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "NameProperty",
+        "Name": "__NameProperty_91",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 12,
+        "PropertyFlags": "BlueprintVisible"
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "__NameProperty_92",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 12,
+        "PropertyFlags": "BlueprintVisible"
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "__IntProperty_93",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "__BoolProperty_94",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "__NameProperty_95",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 12,
+        "PropertyFlags": "BlueprintVisible"
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "__IntProperty_96",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "__FloatProperty_97",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "__StructProperty_98",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 44,
+        "PropertyFlags": "BlueprintVisible",
+        "Struct": {
+          "ObjectName": "Class'InputScaleBiasClampConstants'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "__FloatProperty_99",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "__BoolProperty_100",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "__EnumProperty_101",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible",
+        "Enum": {
+          "ObjectName": "Class'EAnimSyncMethod'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "__ByteProperty_102",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible",
+        "Enum": {
+          "ObjectName": "Class'EAnimGroupRole'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "__NameProperty_103",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 12,
+        "PropertyFlags": "BlueprintVisible"
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "__NameProperty_104",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 12,
+        "PropertyFlags": "BlueprintVisible"
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "__NameProperty_105",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 12,
+        "PropertyFlags": "BlueprintVisible"
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "__IntProperty_106",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "__StructProperty_107",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 40,
+        "PropertyFlags": "BlueprintVisible",
+        "Struct": {
+          "ObjectName": "Class'AnimNodeFunctionRef'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimBlueprintExtension_PropertyAccess",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 192,
+        "Struct": {
+          "ObjectName": "Class'AnimSubsystem_PropertyAccess'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimBlueprintExtension_Base",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "Class'AnimSubsystem_Base'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_Root",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'AnimNodeExposedValueHandler_PropertyAccess'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_TransitionResult_4",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'AnimNodeExposedValueHandler_PropertyAccess'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_TransitionResult_3",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'AnimNodeExposedValueHandler_PropertyAccess'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_TransitionResult_2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'AnimNodeExposedValueHandler_PropertyAccess'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_TransitionResult_1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'AnimNodeExposedValueHandler_PropertyAccess'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_TransitionResult",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'AnimNodeExposedValueHandler_PropertyAccess'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_SequencePlayer_2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'AnimNodeExposedValueHandler_PropertyAccess'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_SequencePlayer_1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'AnimNodeExposedValueHandler_PropertyAccess'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_LayeredBoneBlend",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'AnimNodeExposedValueHandler_PropertyAccess'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_StateResult_2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'AnimNodeExposedValueHandler_PropertyAccess'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_BlendSpacePlayer",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'AnimNodeExposedValueHandler_PropertyAccess'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_StateResult_1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'AnimNodeExposedValueHandler_PropertyAccess'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_SequencePlayer",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'AnimNodeExposedValueHandler_PropertyAccess'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_StateResult",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'AnimNodeExposedValueHandler_PropertyAccess'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_StateMachine",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'AnimNodeExposedValueHandler_PropertyAccess'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_Slot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'AnimNodeExposedValueHandler_PropertyAccess'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "ScriptStruct",
+    "Name": "AnimBlueprintGeneratedMutableData",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScriptStruct'",
+    "Outer": {
+      "ObjectName": "AnimBlueprintGeneratedClass'ABP_Cupcake_C'",
+      "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'AnimBlueprintMutableData'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "__FloatProperty",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "__FloatProperty_0",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible"
+      }
+    ]
+  }
+]

@@ -1,0 +1,3332 @@
+[
+  {
+    "Type": "ArrowComponent",
+    "Name": "SpawnLocation_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'ArrowComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SupplyRoomShelf_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.1"
+    },
+    "Template": {
+      "ObjectName": "ArrowComponent'BP_Destructible_C:SpawnLocation_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.0"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 37.678246,
+        "Y": 6.82121E-13,
+        "Z": 175.27887
+      },
+      "RelativeRotation": {
+        "Pitch": 32.160946,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_SupplyRoomShelf_B_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Destructible_C'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.1"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.38"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_SupplyRoomShelf_B_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.5"
+      }
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Box1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'BoxComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Box",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'BoxComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_PizzaBox_Closed1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_Detergent1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_Detergent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_BalloonWeight1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_BalloonWeight",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_ToiletRoll9",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_ToiletRoll8",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_ToiletRoll7",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_ToiletRoll5",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_DiningProps_Plate3",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_DiningProps_Plate1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_DiningProps_Plate",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_PartyHat5",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_DiningProps_DrinksCup4",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_DiningProps_DrinksCup2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_DiningProps_DrinksCup1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_DiningProps_DrinksCup",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_PartyHat3",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_PizzaBox_Closed2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_PizzaBox_Closed",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_PartyHat2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_PartyHat1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_PartyHat",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_ThemedCardboardBoxes_ThemedCardboardBoxes02",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_ToiletRoll1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_StorageShelf",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_SupplyRoomShelf_B_C'Default__BP_SupplyRoomShelf_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.4"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoxComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SupplyRoomShelf_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.1"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "DestructibleInitial",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_INTERACT",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "COLLISION_EXPLOSION",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 5.770279,
+        "Y": 56.726357,
+        "Z": 245.09349
+      },
+      "RelativeRotation": {
+        "Pitch": -0.49443847,
+        "Yaw": 85.16535,
+        "Roll": 0.8155971
+      },
+      "RelativeScale3D": {
+        "X": 1.4201255,
+        "Y": 0.7411944,
+        "Z": 0.98152953
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoxComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SupplyRoomShelf_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.1"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "DestructibleInitial",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_INTERACT",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "COLLISION_EXPLOSION",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -3.2768657,
+        "Y": -45.302715,
+        "Z": 252.5477
+      },
+      "RelativeRotation": {
+        "Pitch": -0.69181544,
+        "Yaw": 100.437935,
+        "Roll": 0.6565552
+      },
+      "RelativeScale3D": {
+        "X": 1.5846931,
+        "Y": 1.2902068,
+        "Z": 1.0608335
+      }
+    }
+  },
+  {
+    "Type": "BP_SupplyRoomShelf_B_C",
+    "Name": "Default__BP_SupplyRoomShelf_B_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.BP_SupplyRoomShelf_B_C'",
+    "Package": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B",
+    "Template": {
+      "ObjectName": "BP_Destructible_C'Default__BP_Destructible_C'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.2"
+    },
+    "Properties": {
+      "VFX Container": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Destructible_Dust_Small_C'",
+        "ObjectPath": "/Game/VFX/Charlie_VFX_Folder/Charlie_VFX/NiagaraSystems/Generic_Destructible/Dust/Blueprints/BP_Destructible_Dust_Small.0"
+      },
+      "HitFailWobble": true,
+      "InitialMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BP_SupplyRoomShelf_B_C:StaticMeshComponent'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.65"
+      },
+      "TriggerActorsComponent": {
+        "ObjectName": "TriggerActorsComponent'Default__BP_SupplyRoomShelf_B_C:TriggerActorsComponent'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.66"
+      },
+      "MaxRadialImpulseStrength": 600.0,
+      "RadialImpulseRadius": 800.0,
+      "AliveTime": 700.0,
+      "OptimizationComponent": {
+        "ObjectName": "PropMovementComponent'Default__BP_SupplyRoomShelf_B_C:PropMovementComponent'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.7"
+      }
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SupplyRoomShelf_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.1"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'ArrowComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "ArrowComponent'BP_SupplyRoomShelf_B_C:SpawnLocation_GEN_VARIABLE'",
+            "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.0"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Destructible_C'",
+              "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.1"
+            },
+            "SCSVariableName": "SpawnLocation",
+            "AssociatedGuid": "8CFA620C-424D4A03-FAC93ABE-B6E1CDC1"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MerlinActorOptimizationComponent",
+    "Name": "ActorOptimizationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MerlinActorOptimizationComponent'",
+    "Outer": {
+      "ObjectName": "BP_SupplyRoomShelf_B_C'Default__BP_SupplyRoomShelf_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.4"
+    },
+    "Template": {
+      "ObjectName": "MerlinActorOptimizationComponent'Default__BP_Destructible_C:ActorOptimizationComponent'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.45"
+    }
+  },
+  {
+    "Type": "PropMovementComponent",
+    "Name": "PropMovementComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PropMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_SupplyRoomShelf_B_C'Default__BP_SupplyRoomShelf_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.4"
+    },
+    "Template": {
+      "ObjectName": "PropMovementComponent'Default__BP_Destructible_C:PropMovementComponent'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.47"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SupplyRoomShelf_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_SupplyRoomShelf_B_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.8"
+      },
+      "VariableGuid": "D473A95A-42F2174F-22BF87BB-2C969E2D",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_SupplyRoomShelf_B_C:SM_StorageShelf_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.58"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "761953ED-4DB1C42C-29468F9E-E1F404DF",
+      "InternalVariableName": "SM_StorageShelf"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_SupplyRoomShelf_B_C:SM_PizzaBox_Closed_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.57"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "91F4F133-4A155F68-982A1AB3-ADD3F81F",
+      "InternalVariableName": "SM_PizzaBox_Closed"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_SupplyRoomShelf_B_C:SM_PizzaBox_Closed2_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.56"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "4C7C397B-4636E545-2E2240B4-48B79B33",
+      "InternalVariableName": "SM_PizzaBox_Closed2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_17",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_SupplyRoomShelf_B_C:SM_PartyHat_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.54"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "303AB0BE-4AC7A619-99A80F81-D89F95D6",
+      "InternalVariableName": "SM_PartyHat"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_18",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_SupplyRoomShelf_B_C:SM_PartyHat1_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.50"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "539D7125-49C999C3-B7FF5990-AD285C8F",
+      "InternalVariableName": "SM_PartyHat1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_19",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_SupplyRoomShelf_B_C:SM_PartyHat2_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.51"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "AA886C38-4E701DE9-BEC599A4-08B0B0F0",
+      "InternalVariableName": "SM_PartyHat2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_25",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_SupplyRoomShelf_B_C:SM_PartyHat3_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.52"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "1B8A00FA-4DE2445E-02F367B5-875F108D",
+      "InternalVariableName": "SM_PartyHat3"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_SupplyRoomShelf_B_C:SM_ToiletRoll1_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.60"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "28F1D0F9-4A46237D-E178509A-15FFB4EE",
+      "InternalVariableName": "SM_ToiletRoll1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_35",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_SupplyRoomShelf_B_C:SM_DiningProps_DrinksCup_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.46"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "CA8BCB1F-4CF81106-E18DD1B1-ABE7ABAD",
+      "InternalVariableName": "SM_DiningProps_DrinksCup"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_39",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_SupplyRoomShelf_B_C:SM_DiningProps_DrinksCup1_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.43"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "F213D282-484C980C-FB6581B5-2648A747",
+      "InternalVariableName": "SM_DiningProps_DrinksCup1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoxComponent'BP_SupplyRoomShelf_B_C:Box_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.3"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "D4FD3D67-4A5A40A0-5E5B0D8F-7BA6D1F4",
+      "InternalVariableName": "Box"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_40",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_SupplyRoomShelf_B_C:SM_DiningProps_DrinksCup2_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.44"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "DD65E4F5-430D52CE-822CECBE-8527D268",
+      "InternalVariableName": "SM_DiningProps_DrinksCup2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_42",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_SupplyRoomShelf_B_C:SM_DiningProps_DrinksCup4_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.45"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "29255122-46974D44-0B44D9A3-7D2E0935",
+      "InternalVariableName": "SM_DiningProps_DrinksCup4"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_43",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_SupplyRoomShelf_B_C:SM_PartyHat5_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.53"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "8A39874F-45C67EA0-7210FBB0-9C48F3D3",
+      "InternalVariableName": "SM_PartyHat5"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_44",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_SupplyRoomShelf_B_C:SM_DiningProps_Plate_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.49"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "B8930E38-43020B4E-8C41A0A1-D8C84472",
+      "InternalVariableName": "SM_DiningProps_Plate"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_45",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_SupplyRoomShelf_B_C:SM_DiningProps_Plate1_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.47"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "504FD4BE-461A1ED6-87276482-A1206915",
+      "InternalVariableName": "SM_DiningProps_Plate1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_47",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_SupplyRoomShelf_B_C:SM_DiningProps_Plate3_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.48"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "E84E45FE-4D35D144-9B1E1E8B-6D197E4E",
+      "InternalVariableName": "SM_DiningProps_Plate3"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_48",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_SupplyRoomShelf_B_C:SM_ToiletRoll5_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.61"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "0B554F48-4B820A12-4169309E-722D71C7",
+      "InternalVariableName": "SM_ToiletRoll5"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoxComponent'BP_SupplyRoomShelf_B_C:Box1_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.2"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "9DCD6DC4-4C0443D7-732192AB-6ED94B18",
+      "InternalVariableName": "Box1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_50",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_SupplyRoomShelf_B_C:SM_ToiletRoll7_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.62"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "879367AE-4E6422C9-400F76A1-E62E6B17",
+      "InternalVariableName": "SM_ToiletRoll7"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_51",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_SupplyRoomShelf_B_C:SM_ToiletRoll8_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.63"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "65C8D91D-48537258-51B8A3B7-5CD9FC74",
+      "InternalVariableName": "SM_ToiletRoll8"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_52",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_SupplyRoomShelf_B_C:SM_ToiletRoll9_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.64"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "4DABFDA0-4D7118A6-358ACCAE-5666CA14",
+      "InternalVariableName": "SM_ToiletRoll9"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_53",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_SupplyRoomShelf_B_C:SM_BalloonWeight_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.40"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "EB23FF6B-499827BF-F9FC00A9-17CF9C44",
+      "InternalVariableName": "SM_BalloonWeight"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_54",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_SupplyRoomShelf_B_C:SM_BalloonWeight1_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.39"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "FFF94958-45E99CAA-5423CD89-73C6C9BF",
+      "InternalVariableName": "SM_BalloonWeight1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_56",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_SupplyRoomShelf_B_C:SM_Detergent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.42"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "A032B196-471C00D6-A1C48BBA-257DB753",
+      "InternalVariableName": "SM_Detergent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_57",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_SupplyRoomShelf_B_C:SM_Detergent1_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.41"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "9AA73DA8-48C1D436-43E3E4A7-4D23C25D",
+      "InternalVariableName": "SM_Detergent1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_58",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_SupplyRoomShelf_B_C:SM_PizzaBox_Closed1_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.55"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "FA8F70F0-4C5CC0A2-AB19E7A2-AAB3A629",
+      "InternalVariableName": "SM_PizzaBox_Closed1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.38"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_SupplyRoomShelf_B_C:SM_ThemedCardboardBoxes_ThemedCardboardBoxes02_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.59"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "6F727E34-4B0A640C-3F9F0C9E-9E4D7A29",
+      "InternalVariableName": "SM_ThemedCardboardBoxes_ThemedCardboardBoxes02"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SupplyRoomShelf_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.1"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.10"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.17"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.13"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.14"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.15"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.11"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_25'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.16"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_35'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.18"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_39'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.19"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_40'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.21"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_42'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.22"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_43'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.23"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_44'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.24"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_45'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.25"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_47'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.26"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_48'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.27"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_50'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.29"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_51'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.30"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_52'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.31"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_53'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.32"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_54'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.33"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_56'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.34"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_57'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.35"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_58'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.36"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.20"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.28"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.10"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.17"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.13"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.14"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.15"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.11"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_25'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.16"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_35'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.18"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_39'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.19"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_40'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.21"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_42'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.22"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_43'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.23"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_44'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.24"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_45'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.25"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_47'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.26"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_48'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.27"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_50'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.29"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_51'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.30"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_52'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.31"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_53'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.32"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_54'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.33"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_56'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.34"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_57'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.35"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_58'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.36"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.20"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.28"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_SupplyRoomShelf_B_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.9"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_BalloonWeight1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SupplyRoomShelf_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_BalloonWeight'",
+        "ObjectPath": "/Game/Gameplay/Props/HotFuzz/Ballons/Meshes/SM_BalloonWeight.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Metal'",
+          "ObjectPath": "/Game/Physics/PM_Metal.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -0.1826267,
+        "Y": -35.43769,
+        "Z": 167.35403
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_BalloonWeight_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SupplyRoomShelf_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_BalloonWeight'",
+        "ObjectPath": "/Game/Gameplay/Props/HotFuzz/Ballons/Meshes/SM_BalloonWeight.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Metal'",
+          "ObjectPath": "/Game/Physics/PM_Metal.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -0.081520684,
+        "Y": -73.71264,
+        "Z": 167.35403
+      },
+      "bVisible": false,
+      "DetailMode_Low": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_Detergent1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SupplyRoomShelf_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Detergent'",
+        "ObjectPath": "/Game/Gameplay/Props/TheThing/LaundryProps/Meshes/SM_Detergent.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Plastic'",
+          "ObjectPath": "/Game/Physics/PM_Plastic.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 9.5499525,
+        "Y": 86.08358,
+        "Z": 212.57643
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -99.86342,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.8,
+        "Y": 0.8,
+        "Z": 0.8
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_Detergent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SupplyRoomShelf_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Detergent'",
+        "ObjectPath": "/Game/Gameplay/Props/TheThing/LaundryProps/Meshes/SM_Detergent.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Plastic'",
+          "ObjectPath": "/Game/Physics/PM_Plastic.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 1.1541123,
+        "Y": 44.46295,
+        "Z": 212.57643
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -137.35005,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.8,
+        "Y": 0.8,
+        "Z": 0.8
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_DiningProps_DrinksCup1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SupplyRoomShelf_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_DiningProps_DrinksCup'",
+        "ObjectPath": "/Game/Gameplay/Props/Funko/DiningTableProps/Meshes/SM_DiningProps_DrinksCup.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FNAFDiningProps'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyProps/Materials/MI_FNAFDiningProps.0"
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -22.496445,
+        "Y": -75.44337,
+        "Z": 117.794945
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 135.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.8,
+        "Y": 0.8,
+        "Z": 0.8
+      },
+      "bVisible": false,
+      "DetailMode_Low": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_DiningProps_DrinksCup2_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SupplyRoomShelf_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_DiningProps_DrinksCup'",
+        "ObjectPath": "/Game/Gameplay/Props/Funko/DiningTableProps/Meshes/SM_DiningProps_DrinksCup.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FNAFDiningProps'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyProps/Materials/MI_FNAFDiningProps.0"
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -20.555016,
+        "Y": -38.004536,
+        "Z": 117.794945
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 105.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.8,
+        "Y": 0.8,
+        "Z": 0.8
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_DiningProps_DrinksCup4_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SupplyRoomShelf_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_DiningProps_DrinksCup'",
+        "ObjectPath": "/Game/Gameplay/Props/Funko/DiningTableProps/Meshes/SM_DiningProps_DrinksCup.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FNAFDiningProps'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyProps/Materials/MI_FNAFDiningProps.0"
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 16.832384,
+        "Y": -41.23852,
+        "Z": 126.13316
+      },
+      "RelativeRotation": {
+        "Pitch": 34.122696,
+        "Yaw": 332.01294,
+        "Roll": 84.87916
+      },
+      "RelativeScale3D": {
+        "X": 0.8,
+        "Y": 0.8,
+        "Z": 0.8
+      },
+      "bVisible": false,
+      "DetailMode_Low": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_DiningProps_DrinksCup_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SupplyRoomShelf_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_DiningProps_DrinksCup'",
+        "ObjectPath": "/Game/Gameplay/Props/Funko/DiningTableProps/Meshes/SM_DiningProps_DrinksCup.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FNAFDiningProps'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyProps/Materials/MI_FNAFDiningProps.0"
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 9.057392,
+        "Y": -66.070274,
+        "Z": 117.794945
+      },
+      "RelativeScale3D": {
+        "X": 0.8,
+        "Y": 0.8,
+        "Z": 0.8
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_DiningProps_Plate1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SupplyRoomShelf_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_DiningProps_Plate'",
+        "ObjectPath": "/Game/Gameplay/Props/Funko/DiningTableProps/Meshes/SM_DiningProps_Plate.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FNAFDiningProps'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyProps/Materials/MI_FNAFDiningProps.0"
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Ceramic'",
+          "ObjectPath": "/Game/Physics/PM_Ceramic.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -68.70752,
+        "Z": 73.312386
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_DiningProps_Plate3_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SupplyRoomShelf_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_DiningProps_Plate'",
+        "ObjectPath": "/Game/Gameplay/Props/Funko/DiningTableProps/Meshes/SM_DiningProps_Plate.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FNAFDiningProps'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyProps/Materials/MI_FNAFDiningProps.0"
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Ceramic'",
+          "ObjectPath": "/Game/Physics/PM_Ceramic.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -0.081520684,
+        "Y": -28.60055,
+        "Z": 71.920265
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 15.496203
+      },
+      "bVisible": false,
+      "DetailMode_Low": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_DiningProps_Plate_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SupplyRoomShelf_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_DiningProps_Plate'",
+        "ObjectPath": "/Game/Gameplay/Props/Funko/DiningTableProps/Meshes/SM_DiningProps_Plate.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FNAFDiningProps'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyProps/Materials/MI_FNAFDiningProps.0"
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Ceramic'",
+          "ObjectPath": "/Game/Physics/PM_Ceramic.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -68.70752,
+        "Z": 68.54502
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_PartyHat1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SupplyRoomShelf_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_PartyHat'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyProps/Meshes/SM_PartyHat.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_PartyHatPink'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyProps/Materials/MI_PartyHatPink.0"
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -17.333313,
+        "Y": 74.18599,
+        "Z": 173.52339
+      },
+      "bVisible": false,
+      "DetailMode_Low": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_PartyHat2_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SupplyRoomShelf_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_PartyHat'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyProps/Meshes/SM_PartyHat.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_PartyHatPink'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyProps/Materials/MI_PartyHatPink.0"
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 12.259076,
+        "Y": 50.938587,
+        "Z": 180.7588
+      },
+      "RelativeRotation": {
+        "Pitch": -9.277222,
+        "Yaw": 187.8259,
+        "Roll": -113.35412
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_PartyHat3_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SupplyRoomShelf_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_PartyHat'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyProps/Meshes/SM_PartyHat.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_PartyHatBlue'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyProps/Materials/MI_PartyHatBlue.0"
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -18.53123,
+        "Y": 31.858154,
+        "Z": 167.36942
+      },
+      "RelativeRotation": {
+        "Pitch": -0.6054388,
+        "Yaw": -0.0021611522,
+        "Roll": 0.0046571856
+      },
+      "bVisible": false,
+      "DetailMode_Low": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_PartyHat5_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SupplyRoomShelf_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_PartyHat'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyProps/Meshes/SM_PartyHat.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_PartyHat'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyProps/Materials/MI_PartyHat.0"
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 16.805616,
+        "Y": -2.6645794,
+        "Z": 167.56383
+      },
+      "bVisible": false,
+      "DetailMode_Low": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_PartyHat_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SupplyRoomShelf_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_PartyHat'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyProps/Meshes/SM_PartyHat.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -17.251791,
+        "Y": 74.18599,
+        "Z": 167.0872
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_PizzaBox_Closed1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SupplyRoomShelf_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_PizzaBox_Closed'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PizzaBox/Meshes/SM_PizzaBox_Closed.2"
+      },
+      "OverrideMaterials": [
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_PizzaBox_FNAFDecal'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PizzaBox/Materials/MI_PizzaBox_FNAFDecal.0"
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 1.6434033E-08,
+        "Y": 43.46281,
+        "Z": 117.83684
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_PizzaBox_Closed2_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SupplyRoomShelf_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_PizzaBox_Closed'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PizzaBox/Meshes/SM_PizzaBox_Closed.2"
+      },
+      "OverrideMaterials": [
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_PizzaBox_FNAFDecal'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PizzaBox/Materials/MI_PizzaBox_FNAFDecal.0"
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 3.0398288E-09,
+        "Y": 43.46281,
+        "Z": 130.91559
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -20.0,
+        "Roll": 0.0
+      },
+      "bVisible": false,
+      "DetailMode_Low": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_PizzaBox_Closed_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SupplyRoomShelf_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_PizzaBox_Closed'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PizzaBox/Meshes/SM_PizzaBox_Closed.2"
+      },
+      "OverrideMaterials": [
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_PizzaBox_FNAFDecal'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PizzaBox/Materials/MI_PizzaBox_FNAFDecal.0"
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 1.6434118E-08,
+        "Y": 22.49072,
+        "Z": 19.477667
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -31.29015,
+        "Roll": 0.0
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_StorageShelf_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SupplyRoomShelf_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_StorageShelf'",
+        "ObjectPath": "/Game/Gameplay/Props/TheThing/StorageShelf/Meshes/SM_StorageShelf.2"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructibleInitial",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_INTERACT",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "COLLISION_EXPLOSION",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Metal'",
+          "ObjectPath": "/Game/Physics/PM_Metal.0"
+        }
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Final"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_ThemedCardboardBoxes_ThemedCardboardBoxes02_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SupplyRoomShelf_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_ThemedCardboardBoxes_ThemedCardboardBoxes01'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Meshes/SM_ThemedCardboardBoxes_ThemedCardboardBoxes01.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -2.7546673,
+        "Y": -45.682922,
+        "Z": 213.74669
+      },
+      "RelativeRotation": {
+        "Pitch": -0.69181544,
+        "Yaw": 100.437935,
+        "Roll": 0.6565552
+      },
+      "RelativeScale3D": {
+        "X": 0.8,
+        "Y": 0.8,
+        "Z": 0.8
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_ToiletRoll1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SupplyRoomShelf_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_ToiletRoll'",
+        "ObjectPath": "/Game/Gameplay/Props/TheThing/ToiletRoll/Meshes/SM_ToiletRoll.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -17.19867,
+        "Y": -55.247528,
+        "Z": 19.667973
+      },
+      "bVisible": false,
+      "DetailMode_Low": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_ToiletRoll5_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SupplyRoomShelf_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_ToiletRoll'",
+        "ObjectPath": "/Game/Gameplay/Props/TheThing/ToiletRoll/Meshes/SM_ToiletRoll.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 17.98025,
+        "Y": -68.36696,
+        "Z": 19.667973
+      },
+      "bVisible": false,
+      "DetailMode_Low": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_ToiletRoll7_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SupplyRoomShelf_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_ToiletRoll'",
+        "ObjectPath": "/Game/Gameplay/Props/TheThing/ToiletRoll/Meshes/SM_ToiletRoll.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -17.19867,
+        "Y": 60.392975,
+        "Z": 67.56378
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_ToiletRoll8_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SupplyRoomShelf_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_ToiletRoll'",
+        "ObjectPath": "/Game/Gameplay/Props/TheThing/ToiletRoll/Meshes/SM_ToiletRoll.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 19.719063,
+        "Y": 55.86302,
+        "Z": 82.8672
+      },
+      "RelativeRotation": {
+        "Pitch": -89.64308,
+        "Yaw": 1800.0,
+        "Roll": 2066.1304
+      },
+      "bVisible": false,
+      "DetailMode_Low": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_ToiletRoll9_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SupplyRoomShelf_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_ToiletRoll'",
+        "ObjectPath": "/Game/Gameplay/Props/TheThing/ToiletRoll/Meshes/SM_ToiletRoll.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -6.552928,
+        "Y": 11.665533,
+        "Z": 83.279
+      },
+      "RelativeRotation": {
+        "Pitch": 0.041562837,
+        "Yaw": -126.068436,
+        "Roll": -90.03027
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_SupplyRoomShelf_B_C'Default__BP_SupplyRoomShelf_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.4"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'Default__BP_Destructible_C:StaticMeshComponent'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.60"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SupplyRoomShelf_B_Merged'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/MergedMeshes/SM_SupplyRoomShelf_B_Merged.2"
+      },
+      "BodyInstance": {
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Metal'",
+          "ObjectPath": "/Game/Physics/PM_Metal.0"
+        }
+      }
+    }
+  },
+  {
+    "Type": "TriggerActorsComponent",
+    "Name": "TriggerActorsComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TriggerActorsComponent'",
+    "Outer": {
+      "ObjectName": "BP_SupplyRoomShelf_B_C'Default__BP_SupplyRoomShelf_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_SupplyRoomShelf_B.4"
+    },
+    "Template": {
+      "ObjectName": "TriggerActorsComponent'Default__BP_Destructible_C:TriggerActorsComponent'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.64"
+    }
+  }
+]

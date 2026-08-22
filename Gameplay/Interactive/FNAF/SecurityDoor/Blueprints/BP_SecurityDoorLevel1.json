@@ -1,0 +1,281 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_SecurityDoorLevel1_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Gameplay/Interactive/FNAF/SecurityDoor/Blueprints/BP_SecurityDoorLevel1",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Timeline_Doors_C'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Timeline_Doors.0"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_SecurityDoorLevel1_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/SecurityDoor/Blueprints/BP_SecurityDoorLevel1.6"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_SecurityDoorLevel1_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/SecurityDoor/Blueprints/BP_SecurityDoorLevel1.2"
+      }
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_KeycardDoor_Hinges",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_SecurityDoorLevel1_C'Default__BP_SecurityDoorLevel1_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/SecurityDoor/Blueprints/BP_SecurityDoorLevel1.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_SecurityDoorLevel1_C",
+    "Name": "Default__BP_SecurityDoorLevel1_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Gameplay/Interactive/FNAF/SecurityDoor/Blueprints/BP_SecurityDoorLevel1.BP_SecurityDoorLevel1_C'",
+    "Package": "/Game/Gameplay/Interactive/FNAF/SecurityDoor/Blueprints/BP_SecurityDoorLevel1",
+    "Template": {
+      "ObjectName": "BP_Timeline_Doors_C'Default__BP_Timeline_Doors_C'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Timeline_Doors.1"
+    },
+    "Properties": {
+      "OpenAmountMultiplier": 100.0,
+      "FlipOpenDirection": true,
+      "RemoteRole": "ENetRole::ROLE_SimulatedProxy"
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SecurityDoorLevel1_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/SecurityDoor/Blueprints/BP_SecurityDoorLevel1.0"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StaticMeshComponent'BP_SecurityDoorLevel1_C:LeftDoor_GEN_VARIABLE'",
+            "ObjectPath": "/Game/Gameplay/Interactive/FNAF/SecurityDoor/Blueprints/BP_SecurityDoorLevel1.8"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Timeline_Doors_C'",
+              "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Timeline_Doors.0"
+            },
+            "SCSVariableName": "LeftDoor",
+            "AssociatedGuid": "9DDC465E-4E17B019-A0440A88-3803CA76"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'SphereComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "SphereComponent'BP_SecurityDoorLevel1_C:PlayerSensor_GEN_VARIABLE'",
+            "ObjectPath": "/Game/Gameplay/Interactive/FNAF/SecurityDoor/Blueprints/BP_SecurityDoorLevel1.7"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Timeline_Doors_C'",
+              "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Timeline_Doors.0"
+            },
+            "SCSVariableName": "PlayerSensor",
+            "AssociatedGuid": "307277E5-45847ECA-718038B2-6B5DB6DF"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SecurityDoorLevel1_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/SecurityDoor/Blueprints/BP_SecurityDoorLevel1.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SecurityDoorLevel1_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/SecurityDoor/Blueprints/BP_SecurityDoorLevel1.6"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_SecurityDoorLevel1_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/SecurityDoor/Blueprints/BP_SecurityDoorLevel1.3"
+      },
+      "VariableGuid": "D55A3A41-4C8034F5-CBBDFEB4-58AA9D9F",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SecurityDoorLevel1_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/SecurityDoor/Blueprints/BP_SecurityDoorLevel1.6"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_SecurityDoorLevel1_C:SM_KeycardDoor_Hinges_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/SecurityDoor/Blueprints/BP_SecurityDoorLevel1.9"
+      },
+      "ParentComponentOrVariableName": "LeftDoor_Hinge",
+      "ParentComponentOwnerClassName": "BP_Timeline_Doors_C",
+      "VariableGuid": "1DED0453-4A4E5F75-9FD01190-BC62BB44",
+      "InternalVariableName": "SM_KeycardDoor_Hinges"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SecurityDoorLevel1_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/SecurityDoor/Blueprints/BP_SecurityDoorLevel1.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_SecurityDoorLevel1_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/SecurityDoor/Blueprints/BP_SecurityDoorLevel1.5"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_SecurityDoorLevel1_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/SecurityDoor/Blueprints/BP_SecurityDoorLevel1.5"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_SecurityDoorLevel1_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/SecurityDoor/Blueprints/BP_SecurityDoorLevel1.4"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "PlayerSensor_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'SphereComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SecurityDoorLevel1_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/SecurityDoor/Blueprints/BP_SecurityDoorLevel1.0"
+    },
+    "Template": {
+      "ObjectName": "SphereComponent'BP_Timeline_Doors_C:PlayerSensor_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Timeline_Doors.42"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -130.0,
+        "Z": 145.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "LeftDoor_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SecurityDoorLevel1_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/SecurityDoor/Blueprints/BP_SecurityDoorLevel1.0"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'BP_Timeline_Doors_C:LeftDoor_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Timeline_Doors.43"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_KeycardDoor_Door'",
+        "ObjectPath": "/Game/Gameplay/Interactive/TheThing/KeycardDoor/Meshes/SM_KeycardDoor_Door.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_KeycardDoorLevel1'",
+          "ObjectPath": "/Game/Gameplay/Interactive/TheThing/KeycardDoor/Materials/MI_KeycardDoorLevel1.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -285.0,
+        "Z": 205.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_KeycardDoor_Hinges_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SecurityDoorLevel1_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/SecurityDoor/Blueprints/BP_SecurityDoorLevel1.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_KeycardDoor_Hinges'",
+        "ObjectPath": "/Game/Gameplay/Interactive/TheThing/KeycardDoor/Meshes/SM_KeycardDoor_Hinges.2"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 379.92984
+      }
+    }
+  }
+]

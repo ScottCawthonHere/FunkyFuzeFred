@@ -1,0 +1,90 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_D_Leak02",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Package": "/Game/LevelArt/FNAF/Materials/Decal/MI_D_Leak02",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'M_GrimeDecal_wBC'",
+        "ObjectPath": "/Game/LevelArt/TheThing/Materials/Decal/M_GrimeDecal_wBC.0"
+      },
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Opacity Strength",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.4,
+          "ExpressionGUID": "3FC69239-49EE6D88-541793A3-3A3418FF"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Base Colour",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          },
+          "ExpressionGUID": "CB182942-4EE04850-8430E595-51CB23E5"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Mask Channel",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 1.0,
+            "A": 0.0,
+            "Hex": "0000FF"
+          },
+          "ExpressionGUID": "11DC461D-418E98CA-597FAD88-CDA70519"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Mask Map",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_Leaks_Mask_A'",
+            "ObjectPath": "/Game/Global/Decals/SharedTextures/Masks/T_Leaks_Mask_A.0"
+          },
+          "ExpressionGUID": "491B3E72-4C809C80-3F4CE0AE-14ACB21E"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "BlendMode": "EBlendMode::BLEND_Translucent",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "bIncludedInBaseGame": true
+    },
+    "LoadedMaterialResources": [],
+    "CachedData": {
+      "ParentLayerIndexRemap": []
+    }
+  }
+]

@@ -1,0 +1,276 @@
+[
+  {
+    "Type": "Function",
+    "Name": "BP_GetDesiredInputConfig",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_VirtualCursor_C'",
+      "ObjectPath": "/Game/UI/CommonUI/FNAF/WBP_VirtualCursor.7"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CommonActivatableWidget:BP_GetDesiredInputConfig'",
+      "ObjectPath": "/Script/CommonUI"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 6,
+        "PropertyFlags": "Parm | OutParm | ReturnParm",
+        "Struct": {
+          "ObjectName": "Class'UIInputConfig'",
+          "ObjectPath": "/Script/CommonUI"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_UIInputConfig",
+        "Flags": "RF_Public",
+        "ElementSize": 6,
+        "Struct": {
+          "ObjectName": "Class'UIInputConfig'",
+          "ObjectPath": "/Script/CommonUI"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_Const"
+  },
+  {
+    "Type": "Image",
+    "Name": "Image",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_VirtualCursor_C:WidgetTree'",
+      "ObjectPath": "/Game/UI/CommonUI/FNAF/WBP_VirtualCursor.8"
+    },
+    "Properties": {
+      "Brush": {
+        "DrawAs": "ESlateBrushDrawType::RoundedBox",
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.6,
+            "Hex": "99000000"
+          }
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WBP_VirtualCursor_C:WidgetTree.Overlay_0.OverlaySlot_3'",
+        "ObjectPath": "/Game/UI/CommonUI/FNAF/WBP_VirtualCursor.5"
+      },
+      "RenderTransform": {
+        "Translation": {
+          "X": -10.0,
+          "Y": -10.0
+        }
+      },
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_28",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_VirtualCursor_C:WidgetTree'",
+      "ObjectPath": "/Game/UI/CommonUI/FNAF/WBP_VirtualCursor.8"
+    },
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.613713,
+            "G": 0.0,
+            "B": 0.637153,
+            "A": 1.0,
+            "Hex": "CE00D1"
+          }
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_flamethrower_full_crosshair02_4k'",
+          "ObjectPath": "/Game/UI/Weapons/Crosshairs/FlameThrower_Crosshair/T_flamethrower_full_crosshair02_4k.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WBP_VirtualCursor_C:WidgetTree.Overlay_0.OverlaySlot_0'",
+        "ObjectPath": "/Game/UI/CommonUI/FNAF/WBP_VirtualCursor.4"
+      },
+      "RenderTransform": {
+        "Translation": {
+          "X": -10.0,
+          "Y": -10.0
+        }
+      },
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_VirtualCursor_C:WidgetTree'",
+      "ObjectPath": "/Game/UI/CommonUI/FNAF/WBP_VirtualCursor.8"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WBP_VirtualCursor_C:WidgetTree.Overlay_0.OverlaySlot_3'",
+          "ObjectPath": "/Game/UI/CommonUI/FNAF/WBP_VirtualCursor.5"
+        },
+        {
+          "ObjectName": "OverlaySlot'WBP_VirtualCursor_C:WidgetTree.Overlay_0.OverlaySlot_0'",
+          "ObjectPath": "/Game/UI/CommonUI/FNAF/WBP_VirtualCursor.4"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WBP_VirtualCursor_C:WidgetTree.Overlay_0'",
+      "ObjectPath": "/Game/UI/CommonUI/FNAF/WBP_VirtualCursor.3"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WBP_VirtualCursor_C:WidgetTree.Overlay_0'",
+        "ObjectPath": "/Game/UI/CommonUI/FNAF/WBP_VirtualCursor.3"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_VirtualCursor_C:WidgetTree.Image_28'",
+        "ObjectPath": "/Game/UI/CommonUI/FNAF/WBP_VirtualCursor.2"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WBP_VirtualCursor_C:WidgetTree.Overlay_0'",
+      "ObjectPath": "/Game/UI/CommonUI/FNAF/WBP_VirtualCursor.3"
+    },
+    "Properties": {
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Center",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WBP_VirtualCursor_C:WidgetTree.Overlay_0'",
+        "ObjectPath": "/Game/UI/CommonUI/FNAF/WBP_VirtualCursor.3"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_VirtualCursor_C:WidgetTree.Image'",
+        "ObjectPath": "/Game/UI/CommonUI/FNAF/WBP_VirtualCursor.1"
+      }
+    }
+  },
+  {
+    "Type": "WBP_VirtualCursor_C",
+    "Name": "Default__WBP_VirtualCursor_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'/Game/UI/CommonUI/FNAF/WBP_VirtualCursor.WBP_VirtualCursor_C'",
+    "Package": "/Game/UI/CommonUI/FNAF/WBP_VirtualCursor",
+    "Properties": {
+      "bSupportsActivationFocus": false,
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false,
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_VirtualCursor_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "/Game/UI/CommonUI/FNAF/WBP_VirtualCursor",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_VirtualCursor_C:WidgetTree'",
+        "ObjectPath": "/Game/UI/CommonUI/FNAF/WBP_VirtualCursor.8"
+      },
+      "bClassRequiresNativeTick": true
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MerlinActivatableWidget'",
+      "ObjectPath": "/Script/Merlin"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'WBP_VirtualCursor_C:BP_GetDesiredInputConfig'",
+        "ObjectPath": "/Game/UI/CommonUI/FNAF/WBP_VirtualCursor.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Image",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'Image'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Image_28",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'Image'",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FuncMap": {
+      "BP_GetDesiredInputConfig": {
+        "ObjectName": "Function'WBP_VirtualCursor_C:BP_GetDesiredInputConfig'",
+        "ObjectPath": "/Game/UI/CommonUI/FNAF/WBP_VirtualCursor.0"
+      }
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_VirtualCursor_C'Default__WBP_VirtualCursor_C'",
+      "ObjectPath": "/Game/UI/CommonUI/FNAF/WBP_VirtualCursor.6"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_VirtualCursor_C'",
+      "ObjectPath": "/Game/UI/CommonUI/FNAF/WBP_VirtualCursor.7"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Overlay'WBP_VirtualCursor_C:WidgetTree.Overlay_0'",
+        "ObjectPath": "/Game/UI/CommonUI/FNAF/WBP_VirtualCursor.3"
+      }
+    }
+  }
+]

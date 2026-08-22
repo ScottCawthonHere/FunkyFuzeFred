@@ -1,0 +1,297 @@
+[
+  {
+    "Type": "ArrowComponent",
+    "Name": "SpawnLocation_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'ArrowComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PartyChair_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyChair.1"
+    },
+    "Template": {
+      "ObjectName": "ArrowComponent'BP_Destructible_C:SpawnLocation_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.0"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 13.506673,
+        "Y": -2.3122567E-07,
+        "Z": 60.36932
+      },
+      "RelativeRotation": {
+        "Pitch": 71.71666,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_PartyChair_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyChair",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Destructible_C'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.1"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_PartyChair_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyChair.8"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_PartyChair_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyChair.3"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_PartyChair_C'Default__BP_PartyChair_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyChair.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_PartyChair_C",
+    "Name": "Default__BP_PartyChair_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyChair.BP_PartyChair_C'",
+    "Package": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyChair",
+    "Template": {
+      "ObjectName": "BP_Destructible_C'Default__BP_Destructible_C'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.2"
+    },
+    "Properties": {
+      "VFX Container": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Destructible_Vinyl_Small_C'",
+        "ObjectPath": "/Game/VFX/Charlie_VFX_Folder/Charlie_VFX/NiagaraSystems/Generic_Destructible/Vinyl/Blueprints/BP_Destructible_Vinyl_Small.0"
+      },
+      "HitFailWobble": true,
+      "ColourVariations": [
+        {
+          "R": 0.637597,
+          "G": 0.057805,
+          "B": 0.262251,
+          "A": 1.0,
+          "Hex": "D1448C"
+        },
+        {
+          "R": 0.33966,
+          "G": 0.083126,
+          "B": 0.677083,
+          "A": 1.0,
+          "Hex": "9E51D7"
+        },
+        {
+          "R": 0.715693,
+          "G": 0.760525,
+          "B": 0.099899,
+          "A": 1.0,
+          "Hex": "DCE259"
+        },
+        {
+          "R": 0.109462,
+          "G": 0.168269,
+          "B": 0.401978,
+          "A": 1.0,
+          "Hex": "5D72AA"
+        }
+      ],
+      "RandomizePartColour": false,
+      "RandomizeOnlyForMaterialIndexes": [
+        1
+      ],
+      "InitialMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BP_PartyChair_C:StaticMeshComponent'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyChair.9"
+      },
+      "TriggerActorsComponent": {
+        "ObjectName": "TriggerActorsComponent'Default__BP_PartyChair_C:TriggerActorsComponent'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyChair.10"
+      },
+      "OptimizationComponent": {
+        "ObjectName": "PropMovementComponent'Default__BP_PartyChair_C:PropMovementComponent'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyChair.5"
+      }
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PartyChair_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyChair.1"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'ArrowComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "ArrowComponent'BP_PartyChair_C:SpawnLocation_GEN_VARIABLE'",
+            "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyChair.0"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Destructible_C'",
+              "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.1"
+            },
+            "SCSVariableName": "SpawnLocation",
+            "AssociatedGuid": "8CFA620C-424D4A03-FAC93ABE-B6E1CDC1"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MerlinActorOptimizationComponent",
+    "Name": "ActorOptimizationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MerlinActorOptimizationComponent'",
+    "Outer": {
+      "ObjectName": "BP_PartyChair_C'Default__BP_PartyChair_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyChair.2"
+    },
+    "Template": {
+      "ObjectName": "MerlinActorOptimizationComponent'Default__BP_Destructible_C:ActorOptimizationComponent'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.45"
+    }
+  },
+  {
+    "Type": "PropMovementComponent",
+    "Name": "PropMovementComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PropMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_PartyChair_C'Default__BP_PartyChair_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyChair.2"
+    },
+    "Template": {
+      "ObjectName": "PropMovementComponent'Default__BP_Destructible_C:PropMovementComponent'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.47"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PartyChair_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyChair.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PartyChair_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyChair.8"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_PartyChair_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyChair.6"
+      },
+      "VariableGuid": "4BF830C3-4243BE0A-517E8E8D-019071CF",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PartyChair_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyChair.1"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_PartyChair_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyChair.7"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_PartyChair_C'Default__BP_PartyChair_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyChair.2"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'Default__BP_Destructible_C:StaticMeshComponent'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.60"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_GriddysTableAndChair_GriddysChair'",
+        "ObjectPath": "/Game/Gameplay/Props/UmbrellaAcademy/GriddysTableAndChair/Meshes/SM_GriddysTableAndChair_GriddysChair.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_PartyChairs'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Materials/MI_PartyChairs.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_PartyChairs'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Materials/MI_PartyChairs.0"
+        }
+      ],
+      "BodyInstance": {
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Plastic'",
+          "ObjectPath": "/Game/Physics/PM_Plastic.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -51.893997,
+        "Y": 0.0,
+        "Z": 1.5143911E-08
+      },
+      "ComponentTags": [
+        "Final"
+      ]
+    }
+  },
+  {
+    "Type": "TriggerActorsComponent",
+    "Name": "TriggerActorsComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TriggerActorsComponent'",
+    "Outer": {
+      "ObjectName": "BP_PartyChair_C'Default__BP_PartyChair_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyChair.2"
+    },
+    "Template": {
+      "ObjectName": "TriggerActorsComponent'Default__BP_Destructible_C:TriggerActorsComponent'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.64"
+    }
+  }
+]

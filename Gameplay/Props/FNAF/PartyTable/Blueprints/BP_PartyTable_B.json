@@ -1,0 +1,2278 @@
+[
+  {
+    "Type": "ArrowComponent",
+    "Name": "SpawnLocation_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'ArrowComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PartyTable_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.1"
+    },
+    "Template": {
+      "ObjectName": "ArrowComponent'BP_Destructible_C:SpawnLocation_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.0"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 1.3874822E-07,
+        "Y": -2.2737368E-13,
+        "Z": 79.295265
+      },
+      "RelativeRotation": {
+        "Pitch": 113.035194,
+        "Yaw": 180.0,
+        "Roll": 180.0
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_PartyTable_B_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Destructible_C'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.1"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_PartyTable_B_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.33"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_PartyTable_B_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.8"
+      }
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_GenericPartyTable",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Box1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'BoxComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Box",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'BoxComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Capsule2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapsuleComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Capsule1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapsuleComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Capsule",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapsuleComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_DiningProps_DrinksCup2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_DiningProps_DrinksCup1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_PartyHat",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Pizza5",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_DiningProps_Plate_Generic1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Pizza4",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Pizza3",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Pizza2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Pizza1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_DiningProps_DrinksCup",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Pizza",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_DiningProps_Plate_Generic",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_Tablecloth",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_PartyTable_B_C'Default__BP_PartyTable_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.4"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoxComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PartyTable_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.1"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "DestructibleInitial",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_INTERACT",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "COLLISION_EXPLOSION",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -36.147507,
+        "Y": 45.519726,
+        "Z": 71.50269
+      },
+      "RelativeScale3D": {
+        "X": 0.77120113,
+        "Y": 0.6898161,
+        "Z": 0.157595
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoxComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PartyTable_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.1"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "DestructibleInitial",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_INTERACT",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "COLLISION_EXPLOSION",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 2.2049731E-07,
+        "Y": -6.3948846E-14,
+        "Z": 76.61122
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 0.15759514
+      }
+    }
+  },
+  {
+    "Type": "BP_PartyTable_B_C",
+    "Name": "Default__BP_PartyTable_B_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.BP_PartyTable_B_C'",
+    "Package": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B",
+    "Template": {
+      "ObjectName": "BP_Destructible_C'Default__BP_Destructible_C'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.2"
+    },
+    "Properties": {
+      "VFX Container": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Destructible_Vinyl_Small_C'",
+        "ObjectPath": "/Game/VFX/Charlie_VFX_Folder/Charlie_VFX/NiagaraSystems/Generic_Destructible/Vinyl/Blueprints/BP_Destructible_Vinyl_Small.0"
+      },
+      "HitFailWobble": true,
+      "Use VFXLocation?": true,
+      "InitialMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BP_PartyTable_B_C:StaticMeshComponent'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.48"
+      },
+      "TriggerActorsComponent": {
+        "ObjectName": "TriggerActorsComponent'Default__BP_PartyTable_B_C:TriggerActorsComponent'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.49"
+      },
+      "MaxRadialImpulseStrength": 600.0,
+      "RadialImpulseRadius": 800.0,
+      "AliveTime": 700.0,
+      "OptimizationComponent": {
+        "ObjectName": "PropMovementComponent'Default__BP_PartyTable_B_C:PropMovementComponent'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.10"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Capsule1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PartyTable_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.1"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "DestructibleInitial",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_INTERACT",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "COLLISION_EXPLOSION",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 43.46898,
+        "Y": -51.483402,
+        "Z": 90.051125
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 40.0,
+        "Roll": -0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.470168,
+        "Y": 0.470168,
+        "Z": 0.470168
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Capsule2_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PartyTable_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.1"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "DestructibleInitial",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_INTERACT",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "COLLISION_EXPLOSION",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -46.915302,
+        "Y": -22.741583,
+        "Z": 90.051125
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 40.0,
+        "Roll": -0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.470168,
+        "Y": 0.470168,
+        "Z": 0.470168
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Capsule_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PartyTable_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.1"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "DestructibleInitial",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_INTERACT",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "COLLISION_EXPLOSION",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 5.4648895,
+        "Y": 52.27557,
+        "Z": 90.051125
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 40.0,
+        "Roll": -0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.47016758,
+        "Y": 0.47016758,
+        "Z": 0.47016758
+      }
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PartyTable_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.1"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'ArrowComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "ArrowComponent'BP_PartyTable_B_C:SpawnLocation_GEN_VARIABLE'",
+            "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.0"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Destructible_C'",
+              "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.1"
+            },
+            "SCSVariableName": "SpawnLocation",
+            "AssociatedGuid": "8CFA620C-424D4A03-FAC93ABE-B6E1CDC1"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "SceneComponent'BP_PartyTable_B_C:VFXLocation_GEN_VARIABLE'",
+            "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.12"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Destructible_C'",
+              "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.1"
+            },
+            "SCSVariableName": "VFXLocation",
+            "AssociatedGuid": "88CD63B4-4D1932B9-CFCBEC8A-14CC6C17"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MerlinActorOptimizationComponent",
+    "Name": "ActorOptimizationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MerlinActorOptimizationComponent'",
+    "Outer": {
+      "ObjectName": "BP_PartyTable_B_C'Default__BP_PartyTable_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.4"
+    },
+    "Template": {
+      "ObjectName": "MerlinActorOptimizationComponent'Default__BP_Destructible_C:ActorOptimizationComponent'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.45"
+    }
+  },
+  {
+    "Type": "PropMovementComponent",
+    "Name": "PropMovementComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PropMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_PartyTable_B_C'Default__BP_PartyTable_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.4"
+    },
+    "Template": {
+      "ObjectName": "PropMovementComponent'Default__BP_Destructible_C:PropMovementComponent'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.47"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PartyTable_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.1"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "VFXLocation_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PartyTable_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.1"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'BP_Destructible_C:VFXLocation_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.50"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 8.1837527E-07,
+        "Y": 0.0,
+        "Z": 70.63656
+      }
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PartyTable_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.33"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_PartyTable_B_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.11"
+      },
+      "VariableGuid": "A55C3670-4DB0CCF0-A61C2F87-392472C6",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PartyTable_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.33"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_PartyTable_B_C:SM_Tablecloth_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.47"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "2E072C0C-4DE8AA5C-0499F5A7-C2A00659",
+      "InternalVariableName": "SM_Tablecloth"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PartyTable_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.33"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_PartyTable_B_C:Pizza5_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.38"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "EFFFAEFA-4D93B38E-E2249BBE-B7164BB7",
+      "InternalVariableName": "Pizza5"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PartyTable_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.33"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_PartyTable_B_C:SM_PartyHat_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.46"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "89E47C00-40EFD00F-784C68B7-A2DC73D0",
+      "InternalVariableName": "SM_PartyHat"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PartyTable_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.33"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_PartyTable_B_C:SM_DiningProps_DrinksCup1_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.40"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "BC283279-40E35CF4-0C398483-DE543F88",
+      "InternalVariableName": "SM_DiningProps_DrinksCup1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PartyTable_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.33"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_PartyTable_B_C:SM_DiningProps_DrinksCup2_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.41"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "17C76AC0-4777C7D6-EC5FD39B-D8B3EC3C",
+      "InternalVariableName": "SM_DiningProps_DrinksCup2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PartyTable_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.33"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapsuleComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapsuleComponent'BP_PartyTable_B_C:Capsule_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.7"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "525DCC61-4D4465B4-05274081-92A720B0",
+      "InternalVariableName": "Capsule"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_15",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PartyTable_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.33"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapsuleComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapsuleComponent'BP_PartyTable_B_C:Capsule1_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.5"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "A8095F90-45BA9CD9-6DFFB5A0-BC038790",
+      "InternalVariableName": "Capsule1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_16",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PartyTable_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.33"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapsuleComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapsuleComponent'BP_PartyTable_B_C:Capsule2_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.6"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "0FCED322-4504FC5D-0AD878A1-13396C32",
+      "InternalVariableName": "Capsule2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_17",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PartyTable_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.33"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoxComponent'BP_PartyTable_B_C:Box_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.3"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "7F4A70A2-43A15DAB-F845D682-ECA45798",
+      "InternalVariableName": "Box"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_18",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PartyTable_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.33"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoxComponent'BP_PartyTable_B_C:Box1_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.2"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "F6F8CD0C-4DDE4B59-6F13359B-41AEC666",
+      "InternalVariableName": "Box1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_19",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PartyTable_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.33"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_PartyTable_B_C:SM_GenericPartyTable_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.45"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "558EC3E3-4C46E828-A7062C94-FADAB6D0",
+      "InternalVariableName": "SM_GenericPartyTable"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PartyTable_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.33"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_PartyTable_B_C:SM_DiningProps_Plate_Generic_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.44"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "249F7405-41590968-09C9EBA6-672E691A",
+      "InternalVariableName": "SM_DiningProps_Plate_Generic"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PartyTable_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.33"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_PartyTable_B_C:Pizza_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.39"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "9032C653-4892F331-67299082-1CE5289C",
+      "InternalVariableName": "Pizza"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PartyTable_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.33"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_PartyTable_B_C:SM_DiningProps_DrinksCup_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.42"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "31176802-422209C4-7697A8A6-22DDEB50",
+      "InternalVariableName": "SM_DiningProps_DrinksCup"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PartyTable_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.33"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_PartyTable_B_C:Pizza1_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.34"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "0FC144A2-431C1D7D-D26E5598-308F0BED",
+      "InternalVariableName": "Pizza1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PartyTable_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.33"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_PartyTable_B_C:Pizza2_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.35"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "79984276-43252B85-43F518A8-1228A71B",
+      "InternalVariableName": "Pizza2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PartyTable_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.33"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_PartyTable_B_C:Pizza3_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.36"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "3A04452C-45B073A7-C641028A-30511C35",
+      "InternalVariableName": "Pizza3"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PartyTable_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.33"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_PartyTable_B_C:Pizza4_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.37"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "AAF8D3F3-4664418F-B666A4A8-13ABEC68",
+      "InternalVariableName": "Pizza4"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PartyTable_B_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.33"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_PartyTable_B_C:SM_DiningProps_Plate_Generic1_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.43"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "89D332F7-4F83FC48-E1AD9A98-6BA88AE5",
+      "InternalVariableName": "SM_DiningProps_Plate_Generic1"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PartyTable_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.1"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_PartyTable_B_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.14"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PartyTable_B_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.25"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PartyTable_B_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.26"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PartyTable_B_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.27"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PartyTable_B_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.28"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PartyTable_B_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.29"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PartyTable_B_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.30"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PartyTable_B_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.31"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PartyTable_B_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.32"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PartyTable_B_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.15"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PartyTable_B_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.16"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PartyTable_B_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.17"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PartyTable_B_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.18"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PartyTable_B_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.19"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PartyTable_B_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.20"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PartyTable_B_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.21"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PartyTable_B_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.22"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PartyTable_B_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.23"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PartyTable_B_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.24"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_PartyTable_B_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.14"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PartyTable_B_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.25"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PartyTable_B_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.26"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PartyTable_B_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.27"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PartyTable_B_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.28"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PartyTable_B_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.29"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PartyTable_B_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.30"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PartyTable_B_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.31"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PartyTable_B_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.32"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PartyTable_B_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.15"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PartyTable_B_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.16"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PartyTable_B_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.17"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PartyTable_B_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.18"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PartyTable_B_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.19"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PartyTable_B_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.20"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PartyTable_B_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.21"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PartyTable_B_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.22"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PartyTable_B_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.23"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PartyTable_B_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.24"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_PartyTable_B_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.13"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Pizza1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PartyTable_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Pizza'",
+        "ObjectPath": "/Game/Gameplay/Props/Funko/ItalianRestaurantProps/Meshes/Pizza.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -2.7739732E-08,
+        "Y": -1.2333469E-07,
+        "Z": 80.52446
+      },
+      "RelativeScale3D": {
+        "X": 0.6,
+        "Y": 0.6,
+        "Z": 0.6
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Pizza2_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PartyTable_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Pizza'",
+        "ObjectPath": "/Game/Gameplay/Props/Funko/ItalianRestaurantProps/Meshes/Pizza.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -2.7739732E-08,
+        "Y": -1.2333469E-07,
+        "Z": 80.52446
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 120.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.6,
+        "Y": 0.6,
+        "Z": 0.6
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Pizza3_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PartyTable_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Pizza'",
+        "ObjectPath": "/Game/Gameplay/Props/Funko/ItalianRestaurantProps/Meshes/Pizza.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -2.7739732E-08,
+        "Y": -1.2333469E-07,
+        "Z": 80.52446
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.6,
+        "Y": 0.6,
+        "Z": 0.6
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Pizza4_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PartyTable_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Pizza'",
+        "ObjectPath": "/Game/Gameplay/Props/Funko/ItalianRestaurantProps/Meshes/Pizza.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -2.7739732E-08,
+        "Y": -1.2333469E-07,
+        "Z": 80.52446
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 240.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.6,
+        "Y": 0.6,
+        "Z": 0.6
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Pizza5_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PartyTable_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Pizza'",
+        "ObjectPath": "/Game/Gameplay/Props/Funko/ItalianRestaurantProps/Meshes/Pizza.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -25.289463,
+        "Y": 36.11632,
+        "Z": 77.07255
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 270.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.6,
+        "Y": 0.6,
+        "Z": 0.6
+      },
+      "bVisible": false,
+      "DetailMode_Low": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Pizza_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PartyTable_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Pizza'",
+        "ObjectPath": "/Game/Gameplay/Props/Funko/ItalianRestaurantProps/Meshes/Pizza.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -2.7739732E-08,
+        "Y": -1.2333469E-07,
+        "Z": 80.52446
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 60.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.6,
+        "Y": 0.6,
+        "Z": 0.6
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_DiningProps_DrinksCup1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PartyTable_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_DiningProps_DrinksCup'",
+        "ObjectPath": "/Game/Gameplay/Props/Funko/DiningTableProps/Meshes/SM_DiningProps_DrinksCup.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FNAFDiningProps'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyProps/Materials/MI_FNAFDiningProps.0"
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -46.285366,
+        "Y": -20.8149,
+        "Z": 72.37422
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 40.0,
+        "Roll": 0.0
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_DiningProps_DrinksCup2_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PartyTable_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_DiningProps_DrinksCup'",
+        "ObjectPath": "/Game/Gameplay/Props/Funko/DiningTableProps/Meshes/SM_DiningProps_DrinksCup.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FNAFDiningProps'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyProps/Materials/MI_FNAFDiningProps.0"
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 5.4648895,
+        "Y": 52.27557,
+        "Z": 72.37422
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 40.0,
+        "Roll": 0.0
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_DiningProps_DrinksCup_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PartyTable_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_DiningProps_DrinksCup'",
+        "ObjectPath": "/Game/Gameplay/Props/Funko/DiningTableProps/Meshes/SM_DiningProps_DrinksCup.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FNAFDiningProps'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyProps/Materials/MI_FNAFDiningProps.0"
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 43.419613,
+        "Y": -50.802567,
+        "Z": 72.37422
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_DiningProps_Plate_Generic1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PartyTable_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_DiningProps_Plate_Generic'",
+        "ObjectPath": "/Game/Gameplay/Props/Funko/DiningTableProps/Meshes/SM_DiningProps_Plate_Generic.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FNAFDiningProps'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyProps/Materials/MI_FNAFDiningProps.0"
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Ceramic'",
+          "ObjectPath": "/Game/Physics/PM_Ceramic.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -35.538723,
+        "Y": 49.206356,
+        "Z": 72.26664
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_DiningProps_Plate_Generic_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PartyTable_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_DiningProps_Plate_Generic'",
+        "ObjectPath": "/Game/Gameplay/Props/Funko/DiningTableProps/Meshes/SM_DiningProps_Plate_Generic.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FNAFDiningProps'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyProps/Materials/MI_FNAFDiningProps.0"
+        }
+      ],
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructibleInitial",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_INTERACT",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "COLLISION_EXPLOSION",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Ceramic'",
+          "ObjectPath": "/Game/Physics/PM_Ceramic.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -2.0521996E-07,
+        "Y": 1.1368684E-13,
+        "Z": 72.26664
+      },
+      "RelativeScale3D": {
+        "X": 1.4,
+        "Y": 1.4,
+        "Z": 1.4
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Final"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_GenericPartyTable_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PartyTable_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_GenericPartyTable'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Meshes/SM_GenericPartyTable.2"
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Final"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_PartyHat_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PartyTable_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_PartyHat'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyProps/Meshes/SM_PartyHat.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_PartyHatPink'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyProps/Materials/MI_PartyHatPink.0"
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 42.315826,
+        "Y": 39.514957,
+        "Z": 72.21171
+      },
+      "bVisible": false,
+      "DetailMode_Low": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_Tablecloth_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PartyTable_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Tablecloth'",
+        "ObjectPath": "/Game/Gameplay/Props/Funko/ItalianRestaurantProps/Meshes/SM_Tablecloth.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FNAFTableCloth'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyProps/Materials/MI_FNAFTableCloth.0"
+        }
+      ],
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructibleInitial",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_INTERACT",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "COLLISION_EXPLOSION",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Plastic'",
+          "ObjectPath": "/Game/Physics/PM_Plastic.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -9.2152413E-07,
+        "Z": 72.21078
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Final"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_PartyTable_B_C'Default__BP_PartyTable_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.4"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'Default__BP_Destructible_C:StaticMeshComponent'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.60"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_PartyTable_B_Merged'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/MergedMeshes/SM_PartyTable_B_Merged.2"
+      },
+      "BodyInstance": {
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Metal'",
+          "ObjectPath": "/Game/Physics/PM_Metal.0"
+        }
+      }
+    }
+  },
+  {
+    "Type": "TriggerActorsComponent",
+    "Name": "TriggerActorsComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TriggerActorsComponent'",
+    "Outer": {
+      "ObjectName": "BP_PartyTable_B_C'Default__BP_PartyTable_B_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Blueprints/BP_PartyTable_B.4"
+    },
+    "Template": {
+      "ObjectName": "TriggerActorsComponent'Default__BP_Destructible_C:TriggerActorsComponent'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.64"
+    }
+  }
+]

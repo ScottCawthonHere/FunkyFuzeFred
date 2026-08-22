@@ -1,0 +1,1527 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_CeilingLight_JustEmissive_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive",
+    "Properties": {
+      "NumReplicatedProperties": 1,
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_CeilingLight_JustEmissive_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.19"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_CeilingLight_JustEmissive_C:ExecuteUbergraph_BP_CeilingLight_JustEmissive'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Actor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_CeilingLight_JustEmissive_C:OnRep_LightsOn'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.8"
+      },
+      {
+        "ObjectName": "Function'BP_CeilingLight_JustEmissive_C:UserConstructionScript'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.13"
+      },
+      {
+        "ObjectName": "Function'BP_CeilingLight_JustEmissive_C:OnMessageReceived_7EC9481B4AC4071133CDFDA5508E230E'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.5"
+      },
+      {
+        "ObjectName": "Function'BP_CeilingLight_JustEmissive_C:OnMessageReceived_BA95D9284BF6D8CC142975A16EB6EB6C'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.7"
+      },
+      {
+        "ObjectName": "Function'BP_CeilingLight_JustEmissive_C:OnMessageReceived_AF499B4C41651B664A52028E82FA708B'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.6"
+      },
+      {
+        "ObjectName": "Function'BP_CeilingLight_JustEmissive_C:LightOff'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.3"
+      },
+      {
+        "ObjectName": "Function'BP_CeilingLight_JustEmissive_C:LightOn'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.4"
+      },
+      {
+        "ObjectName": "Function'BP_CeilingLight_JustEmissive_C:Trigger'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.11"
+      },
+      {
+        "ObjectName": "Function'BP_CeilingLight_JustEmissive_C:ReceiveBeginPlay'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.9"
+      },
+      {
+        "ObjectName": "Function'BP_CeilingLight_JustEmissive_C:ReceiveTick'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.10"
+      },
+      {
+        "ObjectName": "Function'BP_CeilingLight_JustEmissive_C:UpdateLights'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.12"
+      },
+      {
+        "ObjectName": "Function'BP_CeilingLight_JustEmissive_C:ExecuteUbergraph_BP_CeilingLight_JustEmissive'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_Light",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Scene",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Flicker",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "OnMaxDelay",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "OnMinDelay",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "DefaultEmissive",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "MinEmissive",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "OffMinDelay",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "OffMaxDelay",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CurrentTimer",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "Class'TimerHandle'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Triggered",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "OnMessage",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 12,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "OffMessage",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 12,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "ListenForGameplayMessages",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "OnForeverMessage",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 12,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Debug",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "IsOnSwitch",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "LightsOn",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | Net | DisableEditOnInstance | RepNotify",
+        "RepIndex": 10,
+        "RepNotifyFunc": "OnRep_LightsOn",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_CeilingLight_JustEmissive": {
+        "ObjectName": "Function'BP_CeilingLight_JustEmissive_C:ExecuteUbergraph_BP_CeilingLight_JustEmissive'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.2"
+      },
+      "UpdateLights": {
+        "ObjectName": "Function'BP_CeilingLight_JustEmissive_C:UpdateLights'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.12"
+      },
+      "ReceiveTick": {
+        "ObjectName": "Function'BP_CeilingLight_JustEmissive_C:ReceiveTick'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.10"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_CeilingLight_JustEmissive_C:ReceiveBeginPlay'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.9"
+      },
+      "Trigger": {
+        "ObjectName": "Function'BP_CeilingLight_JustEmissive_C:Trigger'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.11"
+      },
+      "LightOn": {
+        "ObjectName": "Function'BP_CeilingLight_JustEmissive_C:LightOn'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.4"
+      },
+      "LightOff": {
+        "ObjectName": "Function'BP_CeilingLight_JustEmissive_C:LightOff'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.3"
+      },
+      "OnMessageReceived_AF499B4C41651B664A52028E82FA708B": {
+        "ObjectName": "Function'BP_CeilingLight_JustEmissive_C:OnMessageReceived_AF499B4C41651B664A52028E82FA708B'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.6"
+      },
+      "OnMessageReceived_BA95D9284BF6D8CC142975A16EB6EB6C": {
+        "ObjectName": "Function'BP_CeilingLight_JustEmissive_C:OnMessageReceived_BA95D9284BF6D8CC142975A16EB6EB6C'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.7"
+      },
+      "OnMessageReceived_7EC9481B4AC4071133CDFDA5508E230E": {
+        "ObjectName": "Function'BP_CeilingLight_JustEmissive_C:OnMessageReceived_7EC9481B4AC4071133CDFDA5508E230E'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.5"
+      },
+      "UserConstructionScript": {
+        "ObjectName": "Function'BP_CeilingLight_JustEmissive_C:UserConstructionScript'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.13"
+      },
+      "OnRep_LightsOn": {
+        "ObjectName": "Function'BP_CeilingLight_JustEmissive_C:OnRep_LightsOn'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.8"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "Interfaces": [
+      {
+        "Class": {
+          "ObjectName": "Class'TriggerInterface'",
+          "ObjectPath": "/Script/Merlin"
+        },
+        "PointerProperty": null,
+        "PointerOffset": 0,
+        "bImplementedByK2": true
+      }
+    ],
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_CeilingLight_JustEmissive_C'Default__BP_CeilingLight_JustEmissive_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal",
+      "ImplementedInterfaces": "((Interface=\"/Script/CoreUObject.Class'/Script/Merlin.TriggerInterface'\"))"
+    }
+  },
+  {
+    "Type": "BP_CeilingLight_JustEmissive_C",
+    "Name": "Default__BP_CeilingLight_JustEmissive_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.BP_CeilingLight_JustEmissive_C'",
+    "Package": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive",
+    "Properties": {
+      "UberGraphFrame": {},
+      "OnMaxDelay": 5.0,
+      "OnMinDelay": 0.1,
+      "DefaultEmissive": 2.0,
+      "OffMinDelay": 0.1,
+      "OffMaxDelay": 0.5,
+      "CurrentTimer": {
+        "Handle": 0
+      },
+      "OnMessage": "LightsOn",
+      "OffMessage": "LightsOff",
+      "OnForeverMessage": "6AMReached",
+      "PrimaryActorTick": {
+        "bCanEverTick": true
+      },
+      "bReplicates": true
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_CeilingLight_JustEmissive",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CeilingLight_JustEmissive_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Temp_struct_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 88,
+        "Struct": {
+          "ObjectName": "Class'EventPayload'",
+          "ObjectPath": "/Script/MovieSceneTracks"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Temp_struct_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "Class'GameplayTag'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Temp_object_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AsyncAction_ListenForGameplayMessage'",
+          "ObjectPath": "/Script/GameplayMessageRuntime"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_ListenForGameplayMessages_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AsyncAction_ListenForGameplayMessage'",
+          "ObjectPath": "/Script/GameplayMessageRuntime"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Temp_struct_Variable_2",
+        "Flags": "RF_Public",
+        "ElementSize": 88,
+        "Struct": {
+          "ObjectName": "Class'EventPayload'",
+          "ObjectPath": "/Script/MovieSceneTracks"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "Class'AsyncGameplayMessageDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/GameplayMessageRuntime"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_CustomEvent_ProxyObject_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AsyncAction_ListenForGameplayMessage'",
+          "ObjectPath": "/Script/GameplayMessageRuntime"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_CustomEvent_ActualChannel_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "Class'GameplayTag'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Temp_struct_Variable_3",
+        "Flags": "RF_Public",
+        "ElementSize": 88,
+        "Struct": {
+          "ObjectName": "Class'EventPayload'",
+          "ObjectPath": "/Script/MovieSceneTracks"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Temp_struct_Variable_4",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "Class'GameplayTag'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Temp_object_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AsyncAction_ListenForGameplayMessage'",
+          "ObjectPath": "/Script/GameplayMessageRuntime"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_ListenForGameplayMessages_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AsyncAction_ListenForGameplayMessage'",
+          "ObjectPath": "/Script/GameplayMessageRuntime"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetPayload_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Temp_struct_Variable_5",
+        "Flags": "RF_Public",
+        "ElementSize": 88,
+        "Struct": {
+          "ObjectName": "Class'EventPayload'",
+          "ObjectPath": "/Script/MovieSceneTracks"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_CustomEvent_ProxyObject",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AsyncAction_ListenForGameplayMessage'",
+          "ObjectPath": "/Script/GameplayMessageRuntime"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_CustomEvent_ActualChannel",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "Class'GameplayTag'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "Class'AsyncGameplayMessageDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/GameplayMessageRuntime"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Temp_struct_Variable_6",
+        "Flags": "RF_Public",
+        "ElementSize": 88,
+        "Struct": {
+          "ObjectName": "Class'EventPayload'",
+          "ObjectPath": "/Script/MovieSceneTracks"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Temp_struct_Variable_7",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "Class'GameplayTag'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Temp_object_Variable_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AsyncAction_ListenForGameplayMessage'",
+          "ObjectPath": "/Script/GameplayMessageRuntime"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_ListenForGameplayMessages_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AsyncAction_ListenForGameplayMessage'",
+          "ObjectPath": "/Script/GameplayMessageRuntime"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetPayload_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Has_Been_Initd_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasAuthority_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Temp_struct_Variable_8",
+        "Flags": "RF_Public",
+        "ElementSize": 88,
+        "Struct": {
+          "ObjectName": "Class'EventPayload'",
+          "ObjectPath": "/Script/MovieSceneTracks"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasAuthority_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetPayload_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Whether_the_gate_is_currently_open_or_close_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_2",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "Class'TimerDynamicDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_3",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "Class'TimerDynamicDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_RandomFloatInRange_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_4",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "Class'TimerDynamicDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetTimerDelegate_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "Class'TimerHandle'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_RandomFloatInRange_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetTimerDelegate_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "Class'TimerHandle'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_InInstigator",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_TriggeringCharacter",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Character'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Event_TriggerAction",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'ETriggerAction'",
+          "ObjectPath": "/Script/Merlin"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_Magnitude",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_RandomFloatInRange_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_ToBoolean__TriggerAction__Return",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetTimerDelegate_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "Class'TimerHandle'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_5",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "Class'TimerDynamicDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_RandomFloatInRange_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetTimerDelegate_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "Class'TimerHandle'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_RandomFloatInRange_ReturnValue_4",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_6",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "Class'TimerDynamicDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetTimerDelegate_ReturnValue_4",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "Class'TimerHandle'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_CustomEvent_ProxyObject_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AsyncAction_ListenForGameplayMessage'",
+          "ObjectPath": "/Script/GameplayMessageRuntime"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_CustomEvent_ActualChannel_2",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "Class'GameplayTag'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_NameName_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_NameName_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_7",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "Class'AsyncGameplayMessageDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/GameplayMessageRuntime"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_NameName_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_Conv_BoolToText_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_GetDisplayName_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_FormatArgumentData",
+        "Flags": "RF_Public",
+        "ElementSize": 72,
+        "Struct": {
+          "ObjectName": "Class'FormatArgumentData'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_Conv_StringToText_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_FormatArgumentData_1",
+        "Flags": "RF_Public",
+        "ElementSize": 72,
+        "Struct": {
+          "ObjectName": "Class'FormatArgumentData'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_MakeArray_Array",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "K2Node_MakeArray_Array",
+          "Flags": "RF_Public",
+          "ElementSize": 72,
+          "Struct": {
+            "ObjectName": "Class'FormatArgumentData'",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_Format_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_IsClosed_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_K2_SetTimerDelegate_Time_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_K2_SetTimerDelegate_Time_ImplicitCast_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_K2_SetTimerDelegate_Time_ImplicitCast_2",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_K2_SetTimerDelegate_Time_ImplicitCast_3",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_K2_SetTimerDelegate_Time_ImplicitCast_4",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "LightOff",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CeilingLight_JustEmissive_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.0"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "LightOn",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CeilingLight_JustEmissive_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.0"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnMessageReceived_7EC9481B4AC4071133CDFDA5508E230E",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CeilingLight_JustEmissive_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "ProxyObject",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'AsyncAction_ListenForGameplayMessage'",
+          "ObjectPath": "/Script/GameplayMessageRuntime"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ActualChannel",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "Class'GameplayTag'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnMessageReceived_AF499B4C41651B664A52028E82FA708B",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CeilingLight_JustEmissive_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "ProxyObject",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'AsyncAction_ListenForGameplayMessage'",
+          "ObjectPath": "/Script/GameplayMessageRuntime"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ActualChannel",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "Class'GameplayTag'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnMessageReceived_BA95D9284BF6D8CC142975A16EB6EB6C",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CeilingLight_JustEmissive_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "ProxyObject",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'AsyncAction_ListenForGameplayMessage'",
+          "ObjectPath": "/Script/GameplayMessageRuntime"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ActualChannel",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "Class'GameplayTag'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnRep_LightsOn",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CeilingLight_JustEmissive_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.0"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CeilingLight_JustEmissive_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveTick",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CeilingLight_JustEmissive_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Actor:ReceiveTick'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Trigger",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CeilingLight_JustEmissive_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "InInstigator",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TriggeringCharacter",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Character'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "TriggerAction",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Enum": {
+          "ObjectName": "Class'ETriggerAction'",
+          "ObjectPath": "/Script/Merlin"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Magnitude",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateLights",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CeilingLight_JustEmissive_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.0"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "UserConstructionScript",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CeilingLight_JustEmissive_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Actor:UserConstructionScript'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CeilingLight_JustEmissive_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Scene_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CeilingLight_JustEmissive_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.0"
+    },
+    "Properties": {
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CeilingLight_JustEmissive_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.19"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_CeilingLight_JustEmissive_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.14"
+      },
+      "VariableGuid": "3BE2937E-4A88D9A0-107F1E92-8BF2598F",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CeilingLight_JustEmissive_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.19"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_CeilingLight_JustEmissive_C:Scene_GEN_VARIABLE'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.15"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_CeilingLight_JustEmissive_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.18"
+        }
+      ],
+      "VariableGuid": "2BCE54A0-41D90340-32F6C1A1-1F92E99F",
+      "InternalVariableName": "Scene"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CeilingLight_JustEmissive_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.19"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_CeilingLight_JustEmissive_C:SM_Light_GEN_VARIABLE'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.20"
+      },
+      "VariableGuid": "E7F694A7-4497A1B4-98F65398-F32D1F15",
+      "InternalVariableName": "SM_Light"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CeilingLight_JustEmissive_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_CeilingLight_JustEmissive_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.17"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_CeilingLight_JustEmissive_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.17"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CeilingLight_JustEmissive_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.18"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_CeilingLight_JustEmissive_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.16"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_Light_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CeilingLight_JustEmissive_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Rectangle_Light'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Meshes/SM_Rectangle_Light.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_DepthLights_Ceiling'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Materials/MI_DepthLights_Ceiling.0"
+        }
+      ],
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "COLLISION_INTERACT",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "COLLISION_EXPLOSION",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "MeleeWeapon",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Interactable",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Audio",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  }
+]

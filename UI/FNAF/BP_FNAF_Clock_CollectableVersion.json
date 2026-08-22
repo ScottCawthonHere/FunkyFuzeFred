@@ -1,0 +1,1657 @@
+[
+  {
+    "Type": "BillboardComponent",
+    "Name": "Billboard_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BillboardComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_Clock_CollectableVersion_C'",
+      "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.1"
+    },
+    "Properties": {
+      "Sprite": {
+        "ObjectName": "Texture2D'Clock_Face'",
+        "ObjectPath": "/Game/LevelArt/Global/UltraDynamicSky/Textures/Widgets/Clock_Face.0"
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_FNAF_Clock_CollectableVersion_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion",
+    "Properties": {
+      "NumReplicatedProperties": 4,
+      "Timelines": [
+        {
+          "ObjectName": "TimelineTemplate'BP_FNAF_Clock_CollectableVersion_C:LerpToNewTime_Template'",
+          "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.23"
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_FNAF_Clock_CollectableVersion_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.22"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_FNAF_Clock_CollectableVersion_C:ExecuteUbergraph_BP_FNAF_Clock_CollectableVersion'",
+        "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MerlinTechActor'",
+      "ObjectPath": "/Script/Merlin"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_FNAF_Clock_CollectableVersion_C:OnRep_WidgetActive'",
+        "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.9"
+      },
+      {
+        "ObjectName": "Function'BP_FNAF_Clock_CollectableVersion_C:LerpToNewTime__FinishedFunc'",
+        "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.6"
+      },
+      {
+        "ObjectName": "Function'BP_FNAF_Clock_CollectableVersion_C:LerpToNewTime__UpdateFunc'",
+        "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.7"
+      },
+      {
+        "ObjectName": "Function'BP_FNAF_Clock_CollectableVersion_C:OnMessageReceived_58D0FBAB4A22B1EE57FE57B934D7C6CB'",
+        "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.8"
+      },
+      {
+        "ObjectName": "Function'BP_FNAF_Clock_CollectableVersion_C:UpdateWidgetActive'",
+        "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.15"
+      },
+      {
+        "ObjectName": "Function'BP_FNAF_Clock_CollectableVersion_C:ClockFound'",
+        "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.4"
+      },
+      {
+        "ObjectName": "Function'BP_FNAF_Clock_CollectableVersion_C:Trigger'",
+        "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.14"
+      },
+      {
+        "ObjectName": "Function'BP_FNAF_Clock_CollectableVersion_C:ReceiveBeginPlay'",
+        "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.10"
+      },
+      {
+        "ObjectName": "Function'BP_FNAF_Clock_CollectableVersion_C:ResetNight'",
+        "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.13"
+      },
+      {
+        "ObjectName": "Function'BP_FNAF_Clock_CollectableVersion_C:Reset Level Trigger'",
+        "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.12"
+      },
+      {
+        "ObjectName": "Function'BP_FNAF_Clock_CollectableVersion_C:ReceiveEndPlay'",
+        "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.11"
+      },
+      {
+        "ObjectName": "Function'BP_FNAF_Clock_CollectableVersion_C:ExecuteUbergraph_BP_FNAF_Clock_CollectableVersion'",
+        "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.5"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TriggerActors",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'TriggerActorsComponent'",
+          "ObjectPath": "/Script/Merlin"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Billboard",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'BillboardComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DefaultSceneRoot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "LerpToNewTime_Alpha_2E23063C4C09ED62B3646D882376CC16",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "LerpToNewTime__Direction_2E23063C4C09ED62B3646D882376CC16",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'ETimelineDirection'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "LerpToNewTime",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'TimelineComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ClockWidget",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'WBP_FNAF_Clock_C'",
+          "ObjectPath": "/Game/UI/FNAF/WBP_FNAF_Clock.110"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Timer Handle",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "Class'TimerHandle'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "6AMReached",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "ClocksPerHour",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "ClocksFound",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible | Net | DisableEditOnInstance",
+        "RepIndex": 10
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "6AMReachedMessage",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "Class'OnFNAFClockMessagePayload'",
+          "ObjectPath": "/Script/Merlin"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "OldMinutes",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible | Net | DisableEditOnInstance",
+        "RepIndex": 11
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "TargetMinutes",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible | Net | DisableEditOnInstance",
+        "RepIndex": 12
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "WidgetActive",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | Net | DisableEditOnInstance | RepNotify",
+        "RepIndex": 13,
+        "RepNotifyFunc": "OnRep_WidgetActive",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Has Night Fade Finished?",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Should Reset Level",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Terminals",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "Terminals",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_TerminalFNAf_C'",
+            "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/Blueprints/BP_TerminalFNAf.0"
+          }
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_FNAF_Clock_CollectableVersion": {
+        "ObjectName": "Function'BP_FNAF_Clock_CollectableVersion_C:ExecuteUbergraph_BP_FNAF_Clock_CollectableVersion'",
+        "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.5"
+      },
+      "ReceiveEndPlay": {
+        "ObjectName": "Function'BP_FNAF_Clock_CollectableVersion_C:ReceiveEndPlay'",
+        "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.11"
+      },
+      "Reset Level Trigger": {
+        "ObjectName": "Function'BP_FNAF_Clock_CollectableVersion_C:Reset Level Trigger'",
+        "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.12"
+      },
+      "ResetNight": {
+        "ObjectName": "Function'BP_FNAF_Clock_CollectableVersion_C:ResetNight'",
+        "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.13"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_FNAF_Clock_CollectableVersion_C:ReceiveBeginPlay'",
+        "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.10"
+      },
+      "Trigger": {
+        "ObjectName": "Function'BP_FNAF_Clock_CollectableVersion_C:Trigger'",
+        "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.14"
+      },
+      "ClockFound": {
+        "ObjectName": "Function'BP_FNAF_Clock_CollectableVersion_C:ClockFound'",
+        "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.4"
+      },
+      "UpdateWidgetActive": {
+        "ObjectName": "Function'BP_FNAF_Clock_CollectableVersion_C:UpdateWidgetActive'",
+        "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.15"
+      },
+      "OnMessageReceived_58D0FBAB4A22B1EE57FE57B934D7C6CB": {
+        "ObjectName": "Function'BP_FNAF_Clock_CollectableVersion_C:OnMessageReceived_58D0FBAB4A22B1EE57FE57B934D7C6CB'",
+        "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.8"
+      },
+      "LerpToNewTime__UpdateFunc": {
+        "ObjectName": "Function'BP_FNAF_Clock_CollectableVersion_C:LerpToNewTime__UpdateFunc'",
+        "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.7"
+      },
+      "LerpToNewTime__FinishedFunc": {
+        "ObjectName": "Function'BP_FNAF_Clock_CollectableVersion_C:LerpToNewTime__FinishedFunc'",
+        "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.6"
+      },
+      "OnRep_WidgetActive": {
+        "ObjectName": "Function'BP_FNAF_Clock_CollectableVersion_C:OnRep_WidgetActive'",
+        "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.9"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "Interfaces": [
+      {
+        "Class": {
+          "ObjectName": "Class'TriggerInterface'",
+          "ObjectPath": "/Script/Merlin"
+        },
+        "PointerProperty": null,
+        "PointerOffset": 0,
+        "bImplementedByK2": true
+      }
+    ],
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_FNAF_Clock_CollectableVersion_C'Default__BP_FNAF_Clock_CollectableVersion_C'",
+      "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal",
+      "ImplementedInterfaces": "((Interface=\"/Script/CoreUObject.Class'/Script/Merlin.TriggerInterface'\"))"
+    }
+  },
+  {
+    "Type": "BP_FNAF_Clock_CollectableVersion_C",
+    "Name": "Default__BP_FNAF_Clock_CollectableVersion_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.BP_FNAF_Clock_CollectableVersion_C'",
+    "Package": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Timer Handle": {
+        "Handle": 0
+      },
+      "ClocksPerHour": 1.332,
+      "6AMReachedMessage": {
+        "Name": "6AMReached"
+      },
+      "PropMovementComponent": {
+        "ObjectName": "PropMovementComponent'Default__BP_FNAF_Clock_CollectableVersion_C:PropMovementComponent'",
+        "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.17"
+      },
+      "OptimizationComponent": {
+        "ObjectName": "MerlinActorOptimizationComponent'Default__BP_FNAF_Clock_CollectableVersion_C:ActorOptimizationComponent'",
+        "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.16"
+      },
+      "bReplicates": true
+    }
+  },
+  {
+    "Type": "CurveFloat",
+    "Name": "CurveFloat_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CurveFloat'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_Clock_CollectableVersion_C'",
+      "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.1"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 0.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 5.0,
+            "Value": 1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ClockFound",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_Clock_CollectableVersion_C'",
+      "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.1"
+    },
+    "FunctionFlags": "FUNC_Net | FUNC_NetMulticast | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_FNAF_Clock_CollectableVersion",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_Clock_CollectableVersion_C'",
+      "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_CustomEvent_ProxyObject",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AsyncAction_ListenForGameplayMessage'",
+          "ObjectPath": "/Script/GameplayMessageRuntime"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_CustomEvent_ActualChannel",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "Class'GameplayTag'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Temp_struct_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "Struct": {
+          "ObjectName": "Class'OnFNAFClockMessagePayload'",
+          "ObjectPath": "/Script/Merlin"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Temp_struct_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "Class'GameplayTag'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_Conv_StringToName_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Temp_object_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AsyncAction_ListenForGameplayMessage'",
+          "ObjectPath": "/Script/GameplayMessageRuntime"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_NameName_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_ListenForGameplayMessages_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AsyncAction_ListenForGameplayMessage'",
+          "ObjectPath": "/Script/GameplayMessageRuntime"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Conv_IntToDouble_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "Temp_text_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "Temp_text_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasAuthority_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasAuthority_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasAuthority_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetPlayerController_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'PlayerController'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_CustomEvent_Condition",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_CustomEvent_Night",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Create_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'WBP_FNAF_Clock_C'",
+          "ObjectPath": "/Game/UI/FNAF/WBP_FNAF_Clock.110"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetHUD_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'HUD'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsMerlin_HUD",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MerlinHUD'",
+          "ObjectPath": "/Script/Merlin"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsMerlin_HUD_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MerlinHUD'",
+          "ObjectPath": "/Script/Merlin"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_InInstigator",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_TriggeringCharacter",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Character'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Event_TriggerAction",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'ETriggerAction'",
+          "ObjectPath": "/Script/Merlin"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_Magnitude",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_ToBoolean__TriggerAction__Return",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "Class'AsyncGameplayMessageDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/GameplayMessageRuntime"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Temp_struct_Variable_2",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "Struct": {
+          "ObjectName": "Class'OnFNAFClockMessagePayload'",
+          "ObjectPath": "/Script/Merlin"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetPayload_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_MakeLiteralText_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Conv_IntToDouble_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Multiply_DoubleDouble_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GreaterEqual_DoubleDouble_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_MakeLiteralDouble_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Conv_IntToDouble_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetGameInstanceSubsystem_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'GameplayMessageSubsystem'",
+          "ObjectPath": "/Script/GameplayMessageRuntime"
+        }
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Divide_DoubleDouble_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Multiply_DoubleDouble_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_FFloor_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Conv_IntToDouble_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Conv_IntToDouble_ReturnValue_4",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Lerp_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_FTrunc_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeTimespan_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "Class'Timespan'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_BreakTimespan_Days",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_BreakTimespan_Hours",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_BreakTimespan_Minutes",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_BreakTimespan_Seconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_BreakTimespan_Milliseconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_Conv_IntToText_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "K2Node_Select_Default_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_FormatArgumentData",
+        "Flags": "RF_Public",
+        "ElementSize": 72,
+        "Struct": {
+          "ObjectName": "Class'FormatArgumentData'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_FormatArgumentData_1",
+        "Flags": "RF_Public",
+        "ElementSize": 72,
+        "Struct": {
+          "ObjectName": "Class'FormatArgumentData'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_IntInt_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_SelectInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "Int64Property",
+        "Name": "CallFunc_Conv_IntToInt64_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_FormatArgumentData_2",
+        "Flags": "RF_Public",
+        "ElementSize": 72,
+        "Struct": {
+          "ObjectName": "Class'FormatArgumentData'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_MakeArray_Array",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "K2Node_MakeArray_Array",
+          "Flags": "RF_Public",
+          "ElementSize": 72,
+          "Struct": {
+            "ObjectName": "Class'FormatArgumentData'",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_Format_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "K2Node_Event_EndPlayReason",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'EEndPlayReason'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetPlayerController_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'PlayerController'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetHUD_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'HUD'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsMerlin_HUD_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MerlinHUD'",
+          "ObjectPath": "/Script/Merlin"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Has_Been_Initd_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_IsClosed_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_TerminalFNAf_C'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/Blueprints/BP_TerminalFNAf.0"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetAllActorsOfClass_OutActors",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetAllActorsOfClass_OutActors",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_TerminalFNAf_C'",
+            "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/Blueprints/BP_TerminalFNAf.0"
+          }
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Lerp_Alpha_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "LerpToNewTime__FinishedFunc",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_Clock_CollectableVersion_C'",
+      "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "LerpToNewTime__UpdateFunc",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_Clock_CollectableVersion_C'",
+      "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnMessageReceived_58D0FBAB4A22B1EE57FE57B934D7C6CB",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_Clock_CollectableVersion_C'",
+      "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "ProxyObject",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'AsyncAction_ListenForGameplayMessage'",
+          "ObjectPath": "/Script/GameplayMessageRuntime"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ActualChannel",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "Class'GameplayTag'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnRep_WidgetActive",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_Clock_CollectableVersion_C'",
+      "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_Clock_CollectableVersion_C'",
+      "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveEndPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_Clock_CollectableVersion_C'",
+      "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Actor:ReceiveEndPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ByteProperty",
+        "Name": "EndPlayReason",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Enum": {
+          "ObjectName": "Class'EEndPlayReason'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Reset Level Trigger",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_Clock_CollectableVersion_C'",
+      "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ResetNight",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_Clock_CollectableVersion_C'",
+      "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Trigger",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_Clock_CollectableVersion_C'",
+      "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "InInstigator",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TriggeringCharacter",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Character'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "TriggerAction",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Enum": {
+          "ObjectName": "Class'ETriggerAction'",
+          "ObjectPath": "/Script/Merlin"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Magnitude",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateWidgetActive",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_Clock_CollectableVersion_C'",
+      "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "Condition",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Night",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "MerlinActorOptimizationComponent",
+    "Name": "ActorOptimizationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MerlinActorOptimizationComponent'",
+    "Outer": {
+      "ObjectName": "BP_FNAF_Clock_CollectableVersion_C'Default__BP_FNAF_Clock_CollectableVersion_C'",
+      "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.2"
+    }
+  },
+  {
+    "Type": "PropMovementComponent",
+    "Name": "PropMovementComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PropMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_FNAF_Clock_CollectableVersion_C'Default__BP_FNAF_Clock_CollectableVersion_C'",
+      "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.2"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_Clock_CollectableVersion_C'",
+      "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FNAF_Clock_CollectableVersion_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.22"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_FNAF_Clock_CollectableVersion_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.18"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_FNAF_Clock_CollectableVersion_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.20"
+        }
+      ],
+      "VariableGuid": "A790657B-4F9986EF-E7DD4C8E-1F94C43B",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FNAF_Clock_CollectableVersion_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.22"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BillboardComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BillboardComponent'BP_FNAF_Clock_CollectableVersion_C:Billboard_GEN_VARIABLE'",
+        "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.0"
+      },
+      "VariableGuid": "9ECFB494-4355862D-051193AF-DA03C6F3",
+      "InternalVariableName": "Billboard"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FNAF_Clock_CollectableVersion_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.22"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TriggerActorsComponent'",
+        "ObjectPath": "/Script/Merlin"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TriggerActorsComponent'BP_FNAF_Clock_CollectableVersion_C:TriggerActors_GEN_VARIABLE'",
+        "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.24"
+      },
+      "VariableGuid": "A957E1A9-46FEACCC-2CE15B80-9D841017",
+      "InternalVariableName": "TriggerActors"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_Clock_CollectableVersion_C'",
+      "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.1"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_FNAF_Clock_CollectableVersion_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.19"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FNAF_Clock_CollectableVersion_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.21"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_FNAF_Clock_CollectableVersion_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.19"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FNAF_Clock_CollectableVersion_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.20"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FNAF_Clock_CollectableVersion_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.21"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_FNAF_Clock_CollectableVersion_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.19"
+      }
+    }
+  },
+  {
+    "Type": "TimelineTemplate",
+    "Name": "LerpToNewTime_Template",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TimelineTemplate'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_Clock_CollectableVersion_C'",
+      "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.1"
+    },
+    "Properties": {
+      "FloatTracks": [
+        {
+          "CurveFloat": {
+            "ObjectName": "CurveFloat'BP_FNAF_Clock_CollectableVersion_C:CurveFloat_0'",
+            "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.3"
+          },
+          "PropertyName": "LerpToNewTime_Alpha_2E23063C4C09ED62B3646D882376CC16",
+          "TrackName": "Alpha",
+          "bIsExternalCurve": false
+        }
+      ],
+      "TimelineGuid": "2E23063C-4C09ED62-B3646D88-2376CC16",
+      "VariableName": "LerpToNewTime",
+      "DirectionPropertyName": "LerpToNewTime__Direction_2E23063C4C09ED62B3646D882376CC16",
+      "UpdateFunctionName": "LerpToNewTime__UpdateFunc",
+      "FinishedFunctionName": "LerpToNewTime__FinishedFunc"
+    }
+  },
+  {
+    "Type": "TriggerActorsComponent",
+    "Name": "TriggerActors_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TriggerActorsComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_Clock_CollectableVersion_C'",
+      "ObjectPath": "/Game/UI/FNAF/BP_FNAF_Clock_CollectableVersion.1"
+    }
+  }
+]

@@ -1,0 +1,2008 @@
+[
+  {
+    "Type": "ArrowComponent",
+    "Name": "SpawnLocation_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'ArrowComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ComputerRack_C_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.1"
+    },
+    "Template": {
+      "ObjectName": "ArrowComponent'BP_Destructible_C:SpawnLocation_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.0"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 56.236526,
+        "Y": -1.0020866E-06,
+        "Z": 121.02269
+      },
+      "RelativeRotation": {
+        "Pitch": 25.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_ComputerRack_C_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Destructible_C'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.1"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_ComputerRack_C_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.26"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_ComputerRack_C_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.4"
+      }
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Box",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'BoxComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_ComputerRackGlass",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_JewelleryCase_ShardA8",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_JewelleryCase_ShardA7",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_JewelleryCase_ShardA6",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_JewelleryCase_ShardB3",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_JewelleryCase_ShardA5",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_JewelleryCase_ShardA4",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_JewelleryCase_ShardA3",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_JewelleryCase_ShardB2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_JewelleryCase_ShardA2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_JewelleryCase_ShardA1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_JewelleryCase_ShardB1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_JewelleryCase_ShardA",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_JewelleryCase_ShardB",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_ComputerRackDoor",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_ComputerRackMain",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_ComputerRack_C_C'Default__BP_ComputerRack_C_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoxComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ComputerRack_C_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.1"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "DestructibleInitial",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_INTERACT",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "COLLISION_EXPLOSION",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 41.308495,
+        "Y": 6.3582905E-07,
+        "Z": 100.58063
+      },
+      "RelativeScale3D": {
+        "X": 0.36463663,
+        "Y": 1.5678658,
+        "Z": 2.9692724
+      }
+    }
+  },
+  {
+    "Type": "BP_ComputerRack_C_C",
+    "Name": "Default__BP_ComputerRack_C_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.BP_ComputerRack_C_C'",
+    "Package": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C",
+    "Template": {
+      "ObjectName": "BP_Destructible_C'Default__BP_Destructible_C'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.2"
+    },
+    "Properties": {
+      "VFX Container": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Destructible_Sparks_Large_C'",
+        "ObjectPath": "/Game/VFX/Charlie_VFX_Folder/Charlie_VFX/NiagaraSystems/Generic_Destructible/Electric/BP_Destructible_Sparks_Large.0"
+      },
+      "HitFailWobble": true,
+      "InitialMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BP_ComputerRack_C_C:StaticMeshComponent'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.43"
+      },
+      "TriggerActorsComponent": {
+        "ObjectName": "TriggerActorsComponent'Default__BP_ComputerRack_C_C:TriggerActorsComponent'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.44"
+      },
+      "MaxRadialImpulseStrength": 600.0,
+      "RadialImpulseRadius": 800.0,
+      "AliveTime": 700.0,
+      "OptimizationComponent": {
+        "ObjectName": "PropMovementComponent'Default__BP_ComputerRack_C_C:PropMovementComponent'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.6"
+      }
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ComputerRack_C_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.1"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'ArrowComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "ArrowComponent'BP_ComputerRack_C_C:SpawnLocation_GEN_VARIABLE'",
+            "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.0"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Destructible_C'",
+              "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.1"
+            },
+            "SCSVariableName": "SpawnLocation",
+            "AssociatedGuid": "8CFA620C-424D4A03-FAC93ABE-B6E1CDC1"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MerlinActorOptimizationComponent",
+    "Name": "ActorOptimizationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MerlinActorOptimizationComponent'",
+    "Outer": {
+      "ObjectName": "BP_ComputerRack_C_C'Default__BP_ComputerRack_C_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.3"
+    },
+    "Template": {
+      "ObjectName": "MerlinActorOptimizationComponent'Default__BP_Destructible_C:ActorOptimizationComponent'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.45"
+    }
+  },
+  {
+    "Type": "PropMovementComponent",
+    "Name": "PropMovementComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PropMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_ComputerRack_C_C'Default__BP_ComputerRack_C_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.3"
+    },
+    "Template": {
+      "ObjectName": "PropMovementComponent'Default__BP_Destructible_C:PropMovementComponent'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.47"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ComputerRack_C_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ComputerRack_C_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.26"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_ComputerRack_C_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.7"
+      },
+      "VariableGuid": "8FB1E2CD-49DA60F9-A6279785-357182E0",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ComputerRack_C_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.26"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ComputerRack_C_C:SM_ComputerRackMain_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.29"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "833DECF2-4AF2E8E7-9ECD6F93-70FD8E87",
+      "InternalVariableName": "SM_ComputerRackMain"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ComputerRack_C_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.26"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ComputerRack_C_C:SM_JewelleryCase_ShardB_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.42"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "0CA0A954-4D063941-F4EC40A9-76C49DD3",
+      "InternalVariableName": "SM_JewelleryCase_ShardB"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_15",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ComputerRack_C_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.26"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ComputerRack_C_C:SM_JewelleryCase_ShardA_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.38"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "7F026F10-43FF5B6E-2443BCB5-18199E9C",
+      "InternalVariableName": "SM_JewelleryCase_ShardA"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_16",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ComputerRack_C_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.26"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ComputerRack_C_C:SM_JewelleryCase_ShardB1_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.39"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "6D65B382-4A7387D9-3772F69F-D54B444F",
+      "InternalVariableName": "SM_JewelleryCase_ShardB1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_17",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ComputerRack_C_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.26"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ComputerRack_C_C:SM_JewelleryCase_ShardA1_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.30"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "22FFCBD8-4B38EFEB-E4D47189-BEADED6B",
+      "InternalVariableName": "SM_JewelleryCase_ShardA1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_18",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ComputerRack_C_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.26"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ComputerRack_C_C:SM_JewelleryCase_ShardA2_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.31"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "5D258321-44573024-890A6B9D-C9CB549A",
+      "InternalVariableName": "SM_JewelleryCase_ShardA2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_19",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ComputerRack_C_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.26"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ComputerRack_C_C:SM_JewelleryCase_ShardB2_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.40"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "94B698BC-4B9768EA-E11D76A0-B7C95C38",
+      "InternalVariableName": "SM_JewelleryCase_ShardB2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ComputerRack_C_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.26"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ComputerRack_C_C:SM_ComputerRackDoor_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.27"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ComputerRack_C_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.25"
+        }
+      ],
+      "VariableGuid": "23735C71-49B55C6E-E23018BB-F1A54999",
+      "InternalVariableName": "SM_ComputerRackDoor"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_20",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ComputerRack_C_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.26"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ComputerRack_C_C:SM_JewelleryCase_ShardA3_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.32"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "31651900-45F63752-59A2B396-394AD6B2",
+      "InternalVariableName": "SM_JewelleryCase_ShardA3"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_21",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ComputerRack_C_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.26"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ComputerRack_C_C:SM_JewelleryCase_ShardA4_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.33"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "7E997245-4B428C1E-0670F387-7FFD9ECE",
+      "InternalVariableName": "SM_JewelleryCase_ShardA4"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_22",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ComputerRack_C_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.26"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ComputerRack_C_C:SM_JewelleryCase_ShardA5_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.34"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "C9A64A86-4E5E22AF-ED6469A0-18F47C8D",
+      "InternalVariableName": "SM_JewelleryCase_ShardA5"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_23",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ComputerRack_C_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.26"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ComputerRack_C_C:SM_JewelleryCase_ShardB3_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.41"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "6C2A84ED-4D87E075-2DFEAFA3-6E3134EA",
+      "InternalVariableName": "SM_JewelleryCase_ShardB3"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_24",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ComputerRack_C_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.26"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ComputerRack_C_C:SM_JewelleryCase_ShardA6_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.35"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "7073579E-4CDE8D62-1B1B06BA-CA956B60",
+      "InternalVariableName": "SM_JewelleryCase_ShardA6"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_25",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ComputerRack_C_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.26"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ComputerRack_C_C:SM_JewelleryCase_ShardA7_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.36"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "576C8BFA-46835F10-16AB0FBD-319692A7",
+      "InternalVariableName": "SM_JewelleryCase_ShardA7"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_26",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ComputerRack_C_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.26"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ComputerRack_C_C:SM_JewelleryCase_ShardA8_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.37"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "5D6FE190-4776BB6A-27FB5C9C-F0D6F6EA",
+      "InternalVariableName": "SM_JewelleryCase_ShardA8"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ComputerRack_C_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.26"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoxComponent'BP_ComputerRack_C_C:Box_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.2"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "6E21136E-47CFEC34-B55107B5-B2E3853E",
+      "InternalVariableName": "Box"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ComputerRack_C_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.26"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ComputerRack_C_C:SM_ComputerRackGlass_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.28"
+      },
+      "VariableGuid": "D8A551AF-40BF8786-619C9F88-F9B26B01",
+      "InternalVariableName": "SM_ComputerRackGlass"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ComputerRack_C_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.1"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ComputerRack_C_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.9"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ComputerRack_C_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.16"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ComputerRack_C_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.10"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ComputerRack_C_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.11"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ComputerRack_C_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ComputerRack_C_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.13"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ComputerRack_C_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.14"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ComputerRack_C_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.15"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ComputerRack_C_C:SimpleConstructionScript_0.SCS_Node_20'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.17"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ComputerRack_C_C:SimpleConstructionScript_0.SCS_Node_21'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.18"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ComputerRack_C_C:SimpleConstructionScript_0.SCS_Node_22'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.19"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ComputerRack_C_C:SimpleConstructionScript_0.SCS_Node_23'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.20"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ComputerRack_C_C:SimpleConstructionScript_0.SCS_Node_24'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.21"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ComputerRack_C_C:SimpleConstructionScript_0.SCS_Node_25'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.22"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ComputerRack_C_C:SimpleConstructionScript_0.SCS_Node_26'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.23"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ComputerRack_C_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.24"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ComputerRack_C_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.9"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ComputerRack_C_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.16"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ComputerRack_C_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.10"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ComputerRack_C_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.11"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ComputerRack_C_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ComputerRack_C_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.13"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ComputerRack_C_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.14"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ComputerRack_C_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.15"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ComputerRack_C_C:SimpleConstructionScript_0.SCS_Node_20'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.17"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ComputerRack_C_C:SimpleConstructionScript_0.SCS_Node_21'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.18"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ComputerRack_C_C:SimpleConstructionScript_0.SCS_Node_22'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.19"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ComputerRack_C_C:SimpleConstructionScript_0.SCS_Node_23'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.20"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ComputerRack_C_C:SimpleConstructionScript_0.SCS_Node_24'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.21"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ComputerRack_C_C:SimpleConstructionScript_0.SCS_Node_25'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.22"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ComputerRack_C_C:SimpleConstructionScript_0.SCS_Node_26'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.23"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ComputerRack_C_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.25"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ComputerRack_C_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.24"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_ComputerRack_C_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.8"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_ComputerRackDoor_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ComputerRack_C_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_ComputerRackDoor'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Meshes/SM_ComputerRackDoor.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "bLockXTranslation": true,
+        "bLockYTranslation": true,
+        "bLockZTranslation": true,
+        "bLockXRotation": true,
+        "bLockYRotation": true,
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "AngularDamping": 2.0,
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 43.026375,
+        "Y": 56.430454,
+        "Z": 1.1368684E-13
+      },
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_ComputerRackGlass_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ComputerRack_C_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_ComputerRackGlass'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Meshes/SM_ComputerRackGlass.2"
+      },
+      "BodyInstance": {
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Glass'",
+          "ObjectPath": "/Game/Physics/PM_Glass.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 4.555471,
+        "Y": -56.430454,
+        "Z": 9.131543
+      },
+      "ComponentTags": [
+        "CollisionShape"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_ComputerRackMain_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ComputerRack_C_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_ComputerRackMain_C'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Meshes/SM_ComputerRackMain_C.2"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructibleInitial",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_INTERACT",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "COLLISION_EXPLOSION",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Metal'",
+          "ObjectPath": "/Game/Physics/PM_Metal.0"
+        }
+      },
+      "ComponentTags": [
+        "Final"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_JewelleryCase_ShardA1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ComputerRack_C_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_JewelleryCase_ShardA'",
+        "ObjectPath": "/Game/Gameplay/Props/Funko/JewelleryShop/Meshes/SM_JewelleryCase_ShardA.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Glass'",
+          "ObjectPath": "/Game/Physics/PM_Glass.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 47.03914,
+        "Y": 31.75187,
+        "Z": 57.497414
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 90.0
+      },
+      "bVisible": false,
+      "DetailMode_Low": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_JewelleryCase_ShardA2_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ComputerRack_C_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_JewelleryCase_ShardA'",
+        "ObjectPath": "/Game/Gameplay/Props/Funko/JewelleryShop/Meshes/SM_JewelleryCase_ShardA.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Glass'",
+          "ObjectPath": "/Game/Physics/PM_Glass.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 47.03914,
+        "Y": -1.2814075,
+        "Z": 171.37288
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 185.0
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_JewelleryCase_ShardA3_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ComputerRack_C_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_JewelleryCase_ShardA'",
+        "ObjectPath": "/Game/Gameplay/Props/Funko/JewelleryShop/Meshes/SM_JewelleryCase_ShardA.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Glass'",
+          "ObjectPath": "/Game/Physics/PM_Glass.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 47.03914,
+        "Y": -34.390907,
+        "Z": 57.497414
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_JewelleryCase_ShardA4_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ComputerRack_C_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_JewelleryCase_ShardA'",
+        "ObjectPath": "/Game/Gameplay/Props/Funko/JewelleryShop/Meshes/SM_JewelleryCase_ShardA.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Glass'",
+          "ObjectPath": "/Game/Physics/PM_Glass.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 47.03914,
+        "Y": -0.77735406,
+        "Z": 53.94611
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 185.0
+      },
+      "bVisible": false,
+      "DetailMode_Low": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_JewelleryCase_ShardA5_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ComputerRack_C_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_JewelleryCase_ShardA'",
+        "ObjectPath": "/Game/Gameplay/Props/Funko/JewelleryShop/Meshes/SM_JewelleryCase_ShardA.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Glass'",
+          "ObjectPath": "/Game/Physics/PM_Glass.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 47.03914,
+        "Y": 31.751871,
+        "Z": 135.94312
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 90.0
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_JewelleryCase_ShardA6_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ComputerRack_C_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_JewelleryCase_ShardA'",
+        "ObjectPath": "/Game/Gameplay/Props/Funko/JewelleryShop/Meshes/SM_JewelleryCase_ShardA.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Glass'",
+          "ObjectPath": "/Game/Physics/PM_Glass.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 47.03914,
+        "Y": -34.89496,
+        "Z": 174.92418
+      },
+      "bVisible": false,
+      "DetailMode_Low": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_JewelleryCase_ShardA7_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ComputerRack_C_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_JewelleryCase_ShardA'",
+        "ObjectPath": "/Game/Gameplay/Props/Funko/JewelleryShop/Meshes/SM_JewelleryCase_ShardA.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Glass'",
+          "ObjectPath": "/Game/Physics/PM_Glass.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 47.03914,
+        "Y": 31.247814,
+        "Z": 174.92418
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 90.0
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_JewelleryCase_ShardA8_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ComputerRack_C_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_JewelleryCase_ShardA'",
+        "ObjectPath": "/Game/Gameplay/Props/Funko/JewelleryShop/Meshes/SM_JewelleryCase_ShardA.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Glass'",
+          "ObjectPath": "/Game/Physics/PM_Glass.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 47.03914,
+        "Y": -0.77735156,
+        "Z": 132.39182
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 185.0
+      },
+      "bVisible": false,
+      "DetailMode_Low": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_JewelleryCase_ShardA_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ComputerRack_C_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_JewelleryCase_ShardA'",
+        "ObjectPath": "/Game/Gameplay/Props/Funko/JewelleryShop/Meshes/SM_JewelleryCase_ShardA.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Glass'",
+          "ObjectPath": "/Game/Physics/PM_Glass.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 47.03914,
+        "Y": -34.390903,
+        "Z": 135.94312
+      },
+      "bVisible": false,
+      "DetailMode_Low": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_JewelleryCase_ShardB1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ComputerRack_C_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_JewelleryCase_ShardB'",
+        "ObjectPath": "/Game/Gameplay/Props/Funko/JewelleryShop/Meshes/SM_JewelleryCase_ShardB.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Glass'",
+          "ObjectPath": "/Game/Physics/PM_Glass.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 46.996006,
+        "Y": 29.42217,
+        "Z": 25.665318
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_JewelleryCase_ShardB2_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ComputerRack_C_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_JewelleryCase_ShardB'",
+        "ObjectPath": "/Game/Gameplay/Props/Funko/JewelleryShop/Meshes/SM_JewelleryCase_ShardB.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Glass'",
+          "ObjectPath": "/Game/Physics/PM_Glass.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 46.996002,
+        "Y": -29.10286,
+        "Z": 25.665318
+      },
+      "bVisible": false,
+      "DetailMode_Low": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_JewelleryCase_ShardB3_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ComputerRack_C_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_JewelleryCase_ShardB'",
+        "ObjectPath": "/Game/Gameplay/Props/Funko/JewelleryShop/Meshes/SM_JewelleryCase_ShardB.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Glass'",
+          "ObjectPath": "/Game/Physics/PM_Glass.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 46.996006,
+        "Y": 29.422174,
+        "Z": 100.86531
+      },
+      "RelativeRotation": {
+        "Pitch": 1.1184974E-20,
+        "Yaw": 180.0,
+        "Roll": 90.0
+      },
+      "bVisible": false,
+      "DetailMode_Low": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_JewelleryCase_ShardB_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ComputerRack_C_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_JewelleryCase_ShardB'",
+        "ObjectPath": "/Game/Gameplay/Props/Funko/JewelleryShop/Meshes/SM_JewelleryCase_ShardB.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Glass'",
+          "ObjectPath": "/Game/Physics/PM_Glass.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 46.996002,
+        "Y": -29.102858,
+        "Z": 98.680046
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 90.0
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_ComputerRack_C_C'Default__BP_ComputerRack_C_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.3"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'Default__BP_Destructible_C:StaticMeshComponent'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.60"
+    }
+  },
+  {
+    "Type": "TriggerActorsComponent",
+    "Name": "TriggerActorsComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TriggerActorsComponent'",
+    "Outer": {
+      "ObjectName": "BP_ComputerRack_C_C'Default__BP_ComputerRack_C_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ComputerRack/Blueprints/BP_ComputerRack_C.3"
+    },
+    "Template": {
+      "ObjectName": "TriggerActorsComponent'Default__BP_Destructible_C:TriggerActorsComponent'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.64"
+    }
+  }
+]

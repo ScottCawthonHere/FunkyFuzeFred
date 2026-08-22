@@ -1,0 +1,223 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_AIController_Bonnie_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Characters/FiveNightsAtFreddys/Bonnie/Blueprints/BP_AIController_Bonnie",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MerlinAIController_C'",
+      "ObjectPath": "/Game/Intelligence/Controllers/BP_MerlinAIController.4"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_AIController_Bonnie_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Bonnie/Blueprints/BP_AIController_Bonnie.9"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_AIController_Bonnie_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Bonnie/Blueprints/BP_AIController_Bonnie.4"
+      }
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "BonnieMiniBoss",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'BonnieMiniBoss'",
+          "ObjectPath": "/Script/Merlin"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_NotPlaceable | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_AIController_Bonnie_C'Default__BP_AIController_Bonnie_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Bonnie/Blueprints/BP_AIController_Bonnie.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BonnieMiniBoss",
+    "Name": "BonnieMiniBoss_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BonnieMiniBoss'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AIController_Bonnie_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Bonnie/Blueprints/BP_AIController_Bonnie.0"
+    },
+    "Properties": {
+      "Tag_LightsOn": {
+        "TagName": "Character.Context.CameraLight"
+      },
+      "TimeTillStartMoving": 30.0,
+      "NumClocksNeeded": [
+        -1,
+        3,
+        2,
+        1,
+        0
+      ],
+      "Channel": {
+        "TagName": "Merlin.Objective.GameFlow"
+      }
+    }
+  },
+  {
+    "Type": "BP_AIController_Bonnie_C",
+    "Name": "Default__BP_AIController_Bonnie_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Characters/FiveNightsAtFreddys/Bonnie/Blueprints/BP_AIController_Bonnie.BP_AIController_Bonnie_C'",
+    "Package": "/Game/Characters/FiveNightsAtFreddys/Bonnie/Blueprints/BP_AIController_Bonnie",
+    "Template": {
+      "ObjectName": "BP_MerlinAIController_C'Default__BP_MerlinAIController_C'",
+      "ObjectPath": "/Game/Intelligence/Controllers/BP_MerlinAIController.5"
+    },
+    "Properties": {
+      "BehaviourTreeToRun": {
+        "ObjectName": "BehaviorTree'BT_Bonnie'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Bonnie/Blueprints/BT_Bonnie.0"
+      },
+      "BrainComponent": {
+        "ObjectName": "CrowdFollowingComponent'Default__BP_AIController_Bonnie_C:PathFollowingComponent'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Bonnie/Blueprints/BP_AIController_Bonnie.3"
+      },
+      "ControlRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "InitialLifeSpan": 0.0
+    }
+  },
+  {
+    "Type": "CrowdFollowingComponent",
+    "Name": "PathFollowingComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrowdFollowingComponent'",
+    "Outer": {
+      "ObjectName": "BP_AIController_Bonnie_C'Default__BP_AIController_Bonnie_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Bonnie/Blueprints/BP_AIController_Bonnie.2"
+    },
+    "Template": {
+      "ObjectName": "CrowdFollowingComponent'Default__BP_MerlinAIController_C:PathFollowingComponent'",
+      "ObjectPath": "/Game/Intelligence/Controllers/BP_MerlinAIController.6"
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AIController_Bonnie_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Bonnie/Blueprints/BP_AIController_Bonnie.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AIController_Bonnie_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Bonnie/Blueprints/BP_AIController_Bonnie.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "TransformComponent0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_AIController_Bonnie_C'Default__BP_AIController_Bonnie_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Bonnie/Blueprints/BP_AIController_Bonnie.2"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'Default__BP_MerlinAIController_C:TransformComponent0'",
+      "ObjectPath": "/Game/Intelligence/Controllers/BP_MerlinAIController.12"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AIController_Bonnie_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Bonnie/Blueprints/BP_AIController_Bonnie.9"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_AIController_Bonnie_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Bonnie/Blueprints/BP_AIController_Bonnie.5"
+      },
+      "VariableGuid": "D5134B89-41983131-4FC22684-8223AA46",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AIController_Bonnie_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Bonnie/Blueprints/BP_AIController_Bonnie.9"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BonnieMiniBoss'",
+        "ObjectPath": "/Script/Merlin"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BonnieMiniBoss'BP_AIController_Bonnie_C:BonnieMiniBoss_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Bonnie/Blueprints/BP_AIController_Bonnie.1"
+      },
+      "VariableGuid": "4ED1D6B7-4D25F055-38D7A090-8DB1A391",
+      "InternalVariableName": "BonnieMiniBoss"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AIController_Bonnie_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Bonnie/Blueprints/BP_AIController_Bonnie.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_AIController_Bonnie_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Bonnie/Blueprints/BP_AIController_Bonnie.8"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_AIController_Bonnie_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Bonnie/Blueprints/BP_AIController_Bonnie.8"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_AIController_Bonnie_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Bonnie/Blueprints/BP_AIController_Bonnie.7"
+      }
+    }
+  }
+]

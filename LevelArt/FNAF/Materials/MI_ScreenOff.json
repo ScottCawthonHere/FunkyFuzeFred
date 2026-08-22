@@ -1,0 +1,264 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_ScreenOff",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Package": "/Game/LevelArt/FNAF/Materials/MI_ScreenOff",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'M_TVScreen'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Materials/M_TVScreen.0"
+      },
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Pixel.Intensity",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "51BF8E6F-4A4ADCE0-50A8DBA0-61C6D990"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Pixel.power",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 2.0,
+          "ExpressionGUID": "418A506B-450924BF-485F17AC-15818ED0"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Pixel.scale",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 125.0,
+          "ExpressionGUID": "3322269C-4AA86207-7DA7E6BF-FE1302DE"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Gradient.power",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 5.0,
+          "ExpressionGUID": "03BFCC14-488439EB-05CF1CAB-86C20686"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Gradient.raduis",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.82,
+          "ExpressionGUID": "3C50283D-40B418A0-EA0C04B8-0641DFFE"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Cubemap.Intensity",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.01,
+          "ExpressionGUID": "B517F4A2-4F735797-8CBD1E83-E75FB442"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "WhiteNoise.power",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 6.178749,
+          "ExpressionGUID": "935E0FB4-4D5F9AC6-D5422984-33304038"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Image.Desaturate",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "D6418534-49870938-BDB0D5A8-0552CBFD"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Image.Intensity",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 14428.376,
+          "ExpressionGUID": "79CA9B34-4B2AABAB-EAED0FAD-51963791"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Distortion.blend",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.9232,
+          "ExpressionGUID": "03D4A7F7-49600965-635D3790-BCE8929F"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Distortion.power",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.375724,
+          "ExpressionGUID": "2B721CE7-40068953-8F9DCD8D-8ADCB65A"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Distortion.UVs",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.1,
+          "ExpressionGUID": "0652F126-4DE823FC-EE318E83-4AD5A7EC"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Rate_Loop",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 50.0,
+          "ExpressionGUID": "3ADF3036-457BC7F5-E780A2BE-D90B35EB"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Distortion.speed",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 1.0,
+            "G": 0.196,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "FF7A00"
+          },
+          "ExpressionGUID": "3B867910-4D327068-52E49382-123C0EDD"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "BaseColour",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_TV_Screen_2Mat_BC'",
+            "ObjectPath": "/Game/LevelArt/FNAF/Textures/T_TV_Screen_2Mat_BC.0"
+          },
+          "ExpressionGUID": "B98A928A-4C86C423-DE83F6B6-C8118426"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "NormalMap",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_TV_Screen_2Mat_NR'",
+            "ObjectPath": "/Game/LevelArt/FNAF/Textures/T_TV_Screen_2Mat_NR.0"
+          },
+          "ExpressionGUID": "0D42C3F0-4C98D372-FDBA7A80-02F71371"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "TV Mask",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_TV_Screen_2Mat_DAT'",
+            "ObjectPath": "/Game/LevelArt/FNAF/Textures/T_TV_Screen_2Mat_DAT.0"
+          },
+          "ExpressionGUID": "51689DE7-424228B4-EAE87593-33936941"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Image",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_Cam04A_BC'",
+            "ObjectPath": "/Game/LevelArt/FNAF/Textures/T_Cam04A_BC.0"
+          },
+          "ExpressionGUID": "C5DD38D4-4C1FB5E9-9833C7A3-7DB42465"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Image 02",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_Cam04B_BC'",
+            "ObjectPath": "/Game/LevelArt/FNAF/Textures/T_Cam04B_BC.0"
+          },
+          "ExpressionGUID": "2A227080-4C7867C1-BD5D49A1-E56670C4"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Image 03",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_Cloth_Fabric_White_BC'",
+            "ObjectPath": "/Game/LevelArt/Global/Manmade/Textures/T_Cloth_Fabric_White_BC.0"
+          },
+          "ExpressionGUID": "B8A1EEB8-44743B3A-6FD4E390-383634EB"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "OpacityMaskClipValue": 0.3333
+      },
+      "bIncludedInBaseGame": true,
+      "TextureStreamingData": [
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_Cam04A_BC"
+        },
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_Cam04B_BC"
+        },
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_Cloth_Fabric_White_BC"
+        },
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_TV_Screen_2Mat_DAT"
+        }
+      ]
+    },
+    "LoadedMaterialResources": [],
+    "CachedData": {
+      "ParentLayerIndexRemap": []
+    }
+  }
+]

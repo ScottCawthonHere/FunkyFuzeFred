@@ -1,0 +1,542 @@
+[
+  {
+    "Type": "AttackableComponent",
+    "Name": "AttackableComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AttackableComponent'",
+    "Outer": {
+      "ObjectName": "BP_FreddyFazbear_Playable_Moonlight_C'Default__BP_FreddyFazbear_Playable_Moonlight_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight.2"
+    },
+    "Template": {
+      "ObjectName": "AttackableComponent'Default__BP_FreddyFazbear_Playable_C:AttackableComponent'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable.0"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_FreddyFazbear_Playable_Moonlight_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Playable_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable.1"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_FreddyFazbear_Playable_Moonlight_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight.24"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_FreddyFazbear_Playable_Moonlight_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight.4"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_FreddyFazbear_Playable_Moonlight_C'Default__BP_FreddyFazbear_Playable_Moonlight_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_FreddyFazbear_Playable_Moonlight_C",
+    "Name": "Default__BP_FreddyFazbear_Playable_Moonlight_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight.BP_FreddyFazbear_Playable_Moonlight_C'",
+    "Package": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight",
+    "Template": {
+      "ObjectName": "BP_FreddyFazbear_Playable_C'Default__BP_FreddyFazbear_Playable_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable.2"
+    },
+    "Properties": {
+      "NumHitsToPopOffComponents": 1,
+      "PoisonOverlayIndex": 234881024,
+      "InvokerComponent": null
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_FreddyFazbear_Playable_Moonlight_C'Default__BP_FreddyFazbear_Playable_Moonlight_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight.2"
+    },
+    "Template": {
+      "ObjectName": "CapsuleComponent'Default__BP_FreddyFazbear_Playable_C:CollisionCylinder'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable.3"
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Playable_Moonlight_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight.1"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StaticMeshComponent'BP_FreddyFazbear_Playable_Moonlight_C:Hat_GEN_VARIABLE'",
+            "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight.27"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_ExtendedCharacter_C'",
+              "ObjectPath": "/Game/Characters/Blueprints/Extended/BP_ExtendedCharacter.1"
+            },
+            "SCSVariableName": "Hat",
+            "AssociatedGuid": "3E15DA18-4E8F4C13-C0E9DFB9-B9C8774A"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'SkeletalMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "SkeletalMeshComponent'BP_FreddyFazbear_Playable_Moonlight_C:Head_GEN_VARIABLE'",
+            "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight.25"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_ExtendedCharacter_C'",
+              "ObjectPath": "/Game/Characters/Blueprints/Extended/BP_ExtendedCharacter.1"
+            },
+            "SCSVariableName": "Head",
+            "AssociatedGuid": "229C3DB0-43D152B7-F9604498-C2BD9E0C"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "InventoryComponent",
+    "Name": "InventoryComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InventoryComponent'",
+    "Outer": {
+      "ObjectName": "BP_FreddyFazbear_Playable_Moonlight_C'Default__BP_FreddyFazbear_Playable_Moonlight_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight.2"
+    },
+    "Template": {
+      "ObjectName": "InventoryComponent'Default__BP_FreddyFazbear_Playable_C:InventoryComponent'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable.5"
+    }
+  },
+  {
+    "Type": "MaterialOverrideControllerComponent",
+    "Name": "MaterialOverrideController",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialOverrideControllerComponent'",
+    "Outer": {
+      "ObjectName": "BP_FreddyFazbear_Playable_Moonlight_C'Default__BP_FreddyFazbear_Playable_Moonlight_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight.2"
+    },
+    "Template": {
+      "ObjectName": "MaterialOverrideControllerComponent'Default__BP_FreddyFazbear_Playable_C:MaterialOverrideController'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable.6"
+    }
+  },
+  {
+    "Type": "MerlinAbilitySystemComponent",
+    "Name": "AbilitySystem",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MerlinAbilitySystemComponent'",
+    "Outer": {
+      "ObjectName": "BP_FreddyFazbear_Playable_Moonlight_C'Default__BP_FreddyFazbear_Playable_Moonlight_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight.2"
+    },
+    "Template": {
+      "ObjectName": "MerlinAbilitySystemComponent'Default__BP_FreddyFazbear_Playable_C:AbilitySystem'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable.7"
+    }
+  },
+  {
+    "Type": "MerlinCharacterMovementComponent",
+    "Name": "CharMoveComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MerlinCharacterMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_FreddyFazbear_Playable_Moonlight_C'Default__BP_FreddyFazbear_Playable_Moonlight_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight.2"
+    },
+    "Template": {
+      "ObjectName": "MerlinCharacterMovementComponent'Default__BP_FreddyFazbear_Playable_C:CharMoveComp'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable.8"
+    }
+  },
+  {
+    "Type": "MerlinCharacterOptimizationComponent",
+    "Name": "MerlinOptimizationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MerlinCharacterOptimizationComponent'",
+    "Outer": {
+      "ObjectName": "BP_FreddyFazbear_Playable_Moonlight_C'Default__BP_FreddyFazbear_Playable_Moonlight_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight.2"
+    },
+    "Template": {
+      "ObjectName": "MerlinCharacterOptimizationComponent'Default__BP_FreddyFazbear_Playable_C:MerlinOptimizationComponent'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable.9"
+    }
+  },
+  {
+    "Type": "MotionWarpingComponent",
+    "Name": "MotionWarpingComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MotionWarpingComponent'",
+    "Outer": {
+      "ObjectName": "BP_FreddyFazbear_Playable_Moonlight_C'Default__BP_FreddyFazbear_Playable_Moonlight_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight.2"
+    },
+    "Template": {
+      "ObjectName": "MotionWarpingComponent'Default__BP_FreddyFazbear_Playable_C:MotionWarpingComponent'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable.10"
+    }
+  },
+  {
+    "Type": "NavigationInvokerComponent",
+    "Name": "InvokerComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NavigationInvokerComponent'",
+    "Outer": {
+      "ObjectName": "BP_FreddyFazbear_Playable_Moonlight_C'Default__BP_FreddyFazbear_Playable_Moonlight_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight.2"
+    },
+    "Template": {
+      "ObjectName": "NavigationInvokerComponent'Default__BP_FreddyFazbear_Playable_C:InvokerComponent'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable.11"
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "FloatingDamageTextVfx",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BP_FreddyFazbear_Playable_Moonlight_C'Default__BP_FreddyFazbear_Playable_Moonlight_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight.2"
+    },
+    "Template": {
+      "ObjectName": "NiagaraComponent'Default__BP_FreddyFazbear_Playable_C:FloatingDamageTextVfx'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable.12"
+    },
+    "Properties": {
+      "OverrideParameters": {
+        "DataInterfaces": [
+          {
+            "ObjectName": "NiagaraDataInterfaceArrayColor'Default__BP_FreddyFazbear_Playable_Moonlight_C:FloatingDamageTextVfx.NiagaraDataInterfaceArrayColor_1'",
+            "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight.15"
+          },
+          {
+            "ObjectName": "NiagaraDataInterfaceArrayFloat'Default__BP_FreddyFazbear_Playable_Moonlight_C:FloatingDamageTextVfx.NiagaraDataInterfaceArrayFloat_1'",
+            "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight.17"
+          },
+          {
+            "ObjectName": "NiagaraDataInterfaceArrayInt32'Default__BP_FreddyFazbear_Playable_Moonlight_C:FloatingDamageTextVfx.NiagaraDataInterfaceArrayInt32_1'",
+            "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight.19"
+          },
+          {
+            "ObjectName": "NiagaraDataInterfaceArrayPosition'Default__BP_FreddyFazbear_Playable_Moonlight_C:FloatingDamageTextVfx.NiagaraDataInterfaceArrayPosition_1'",
+            "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight.21"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_FreddyFazbear_Playable_Moonlight_C:CollisionCylinder'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight.3"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "MegaVinylEffectComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BP_FreddyFazbear_Playable_Moonlight_C'Default__BP_FreddyFazbear_Playable_Moonlight_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight.2"
+    },
+    "Template": {
+      "ObjectName": "NiagaraComponent'Default__BP_FreddyFazbear_Playable_C:MegaVinylEffectComponent'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable.13"
+    },
+    "Properties": {
+      "OverrideParameters": {}
+    }
+  },
+  {
+    "Type": "NiagaraDataInterfaceArrayColor",
+    "Name": "NiagaraDataInterfaceArrayColor_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraDataInterfaceArrayColor'",
+    "Outer": {
+      "ObjectName": "NiagaraComponent'Default__BP_FreddyFazbear_Playable_Moonlight_C:FloatingDamageTextVfx'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight.12"
+    },
+    "Template": {
+      "ObjectName": "NiagaraDataInterfaceArrayColor'Default__BP_FreddyFazbear_Playable_C:FloatingDamageTextVfx.NiagaraDataInterfaceArrayColor_0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable.14"
+    }
+  },
+  {
+    "Type": "NiagaraDataInterfaceArrayColor",
+    "Name": "NiagaraDataInterfaceArrayColor_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraDataInterfaceArrayColor'",
+    "Outer": {
+      "ObjectName": "NiagaraComponent'Default__BP_FreddyFazbear_Playable_Moonlight_C:FloatingDamageTextVfx'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight.12"
+    },
+    "Template": {
+      "ObjectName": "NiagaraDataInterfaceArrayColor'Default__BP_FreddyFazbear_Playable_C:FloatingDamageTextVfx.NiagaraDataInterfaceArrayColor_1'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable.15"
+    }
+  },
+  {
+    "Type": "NiagaraDataInterfaceArrayFloat",
+    "Name": "NiagaraDataInterfaceArrayFloat_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraDataInterfaceArrayFloat'",
+    "Outer": {
+      "ObjectName": "NiagaraComponent'Default__BP_FreddyFazbear_Playable_Moonlight_C:FloatingDamageTextVfx'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight.12"
+    },
+    "Template": {
+      "ObjectName": "NiagaraDataInterfaceArrayFloat'Default__BP_FreddyFazbear_Playable_C:FloatingDamageTextVfx.NiagaraDataInterfaceArrayFloat_0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable.16"
+    }
+  },
+  {
+    "Type": "NiagaraDataInterfaceArrayFloat",
+    "Name": "NiagaraDataInterfaceArrayFloat_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraDataInterfaceArrayFloat'",
+    "Outer": {
+      "ObjectName": "NiagaraComponent'Default__BP_FreddyFazbear_Playable_Moonlight_C:FloatingDamageTextVfx'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight.12"
+    },
+    "Template": {
+      "ObjectName": "NiagaraDataInterfaceArrayFloat'Default__BP_FreddyFazbear_Playable_C:FloatingDamageTextVfx.NiagaraDataInterfaceArrayFloat_1'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable.17"
+    }
+  },
+  {
+    "Type": "NiagaraDataInterfaceArrayInt32",
+    "Name": "NiagaraDataInterfaceArrayInt32_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraDataInterfaceArrayInt32'",
+    "Outer": {
+      "ObjectName": "NiagaraComponent'Default__BP_FreddyFazbear_Playable_Moonlight_C:FloatingDamageTextVfx'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight.12"
+    },
+    "Template": {
+      "ObjectName": "NiagaraDataInterfaceArrayInt32'Default__BP_FreddyFazbear_Playable_C:FloatingDamageTextVfx.NiagaraDataInterfaceArrayInt32_0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable.18"
+    }
+  },
+  {
+    "Type": "NiagaraDataInterfaceArrayInt32",
+    "Name": "NiagaraDataInterfaceArrayInt32_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraDataInterfaceArrayInt32'",
+    "Outer": {
+      "ObjectName": "NiagaraComponent'Default__BP_FreddyFazbear_Playable_Moonlight_C:FloatingDamageTextVfx'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight.12"
+    },
+    "Template": {
+      "ObjectName": "NiagaraDataInterfaceArrayInt32'Default__BP_FreddyFazbear_Playable_C:FloatingDamageTextVfx.NiagaraDataInterfaceArrayInt32_1'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable.19"
+    }
+  },
+  {
+    "Type": "NiagaraDataInterfaceArrayPosition",
+    "Name": "NiagaraDataInterfaceArrayPosition_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraDataInterfaceArrayPosition'",
+    "Outer": {
+      "ObjectName": "NiagaraComponent'Default__BP_FreddyFazbear_Playable_Moonlight_C:FloatingDamageTextVfx'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight.12"
+    },
+    "Template": {
+      "ObjectName": "NiagaraDataInterfaceArrayPosition'Default__BP_FreddyFazbear_Playable_C:FloatingDamageTextVfx.NiagaraDataInterfaceArrayPosition_0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable.20"
+    }
+  },
+  {
+    "Type": "NiagaraDataInterfaceArrayPosition",
+    "Name": "NiagaraDataInterfaceArrayPosition_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraDataInterfaceArrayPosition'",
+    "Outer": {
+      "ObjectName": "NiagaraComponent'Default__BP_FreddyFazbear_Playable_Moonlight_C:FloatingDamageTextVfx'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight.12"
+    },
+    "Template": {
+      "ObjectName": "NiagaraDataInterfaceArrayPosition'Default__BP_FreddyFazbear_Playable_C:FloatingDamageTextVfx.NiagaraDataInterfaceArrayPosition_1'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable.21"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Playable_Moonlight_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FreddyFazbear_Playable_Moonlight_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight.24"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_FreddyFazbear_Playable_Moonlight_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight.22"
+      },
+      "VariableGuid": "1354839B-4CD56FE3-C2F58DBE-443760F2",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Playable_Moonlight_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight.1"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_FreddyFazbear_Playable_Moonlight_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight.23"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "Head_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Playable_Moonlight_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight.1"
+    },
+    "Template": {
+      "ObjectName": "SkeletalMeshComponent'BP_FreddyFazbear_Playable_C:Head_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable.25"
+    },
+    "Properties": {
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_HEAD_FreddyFazbear'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Materials/Moonlight/MI_HEAD_FreddyFazbear.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_HEAD_FreddyFazbear'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Materials/Moonlight/MI_HEAD_FreddyFazbear.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponentBudgeted",
+    "Name": "CharacterMesh0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponentBudgeted'",
+    "Outer": {
+      "ObjectName": "BP_FreddyFazbear_Playable_Moonlight_C'Default__BP_FreddyFazbear_Playable_Moonlight_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight.2"
+    },
+    "Template": {
+      "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_FreddyFazbear_Playable_C:CharacterMesh0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable.27"
+    },
+    "Properties": {
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_BODY_FreddyFazbear'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Materials/Moonlight/MI_BODY_FreddyFazbear.0"
+        }
+      ],
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_FreddyFazbear_Playable_Moonlight_C:CollisionCylinder'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight.3"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Hat_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Playable_Moonlight_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight.1"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'BP_FreddyFazbear_Playable_C:Hat_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable.28"
+    },
+    "Properties": {
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_HEAD_FreddyFazbear'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Materials/Moonlight/MI_HEAD_FreddyFazbear.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "TargetableComponent",
+    "Name": "TargetingComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TargetableComponent'",
+    "Outer": {
+      "ObjectName": "BP_FreddyFazbear_Playable_Moonlight_C'Default__BP_FreddyFazbear_Playable_Moonlight_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable_Moonlight.2"
+    },
+    "Template": {
+      "ObjectName": "TargetableComponent'Default__BP_FreddyFazbear_Playable_C:TargetingComponent'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Playable.29"
+    }
+  }
+]

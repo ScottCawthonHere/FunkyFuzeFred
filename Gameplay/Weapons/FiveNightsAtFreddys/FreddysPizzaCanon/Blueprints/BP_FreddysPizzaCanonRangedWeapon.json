@@ -1,0 +1,218 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_FreddysPizzaCanonRangedWeapon_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysPizzaCanon/Blueprints/BP_FreddysPizzaCanonRangedWeapon",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_RangedWeapon_Minigun_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Ranged_ParentClasses/BP_RangedWeapon_Minigun.0"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_FreddysPizzaCanonRangedWeapon_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysPizzaCanon/Blueprints/BP_FreddysPizzaCanonRangedWeapon.8"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_FreddysPizzaCanonRangedWeapon_C'Default__BP_FreddysPizzaCanonRangedWeapon_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysPizzaCanon/Blueprints/BP_FreddysPizzaCanonRangedWeapon.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_FreddysPizzaCanonRangedWeapon_C",
+    "Name": "Default__BP_FreddysPizzaCanonRangedWeapon_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysPizzaCanon/Blueprints/BP_FreddysPizzaCanonRangedWeapon.BP_FreddysPizzaCanonRangedWeapon_C'",
+    "Package": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysPizzaCanon/Blueprints/BP_FreddysPizzaCanonRangedWeapon",
+    "Template": {
+      "ObjectName": "BP_RangedWeapon_Minigun_C'Default__BP_RangedWeapon_Minigun_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Ranged_ParentClasses/BP_RangedWeapon_Minigun.1"
+    },
+    "Properties": {
+      "AbilitySetsToGrant": [
+        {
+          "ObjectName": "MerlinAbilitySet'DA_FreddyPizzaCanonAbilitySet'",
+          "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysPizzaCanon/Blueprints/DA_FreddyPizzaCanonAbilitySet.0"
+        }
+      ],
+      "MeshComponent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_FreddysPizzaCanonRangedWeapon_C:WeaponMesh3P'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysPizzaCanon/Blueprints/BP_FreddysPizzaCanonRangedWeapon.9"
+      },
+      "HitboxManagerComponent": {
+        "ObjectName": "HitboxManagerComponent'Default__BP_FreddysPizzaCanonRangedWeapon_C:Hitbox Manager'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysPizzaCanon/Blueprints/BP_FreddysPizzaCanonRangedWeapon.3"
+      },
+      "ChargeUpEffectComponent": {
+        "ObjectName": "NiagaraComponent'Default__BP_FreddysPizzaCanonRangedWeapon_C:ChargeUpEffect'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysPizzaCanon/Blueprints/BP_FreddysPizzaCanonRangedWeapon.5"
+      },
+      "ItemAnimationComponent": {
+        "ObjectName": "ItemAnimationComponent'Default__BP_FreddysPizzaCanonRangedWeapon_C:ItemAnimationComponent'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysPizzaCanon/Blueprints/BP_FreddysPizzaCanonRangedWeapon.4"
+      },
+      "AudioComponent": {
+        "ObjectName": "FMODAudioComponent'Default__BP_FreddysPizzaCanonRangedWeapon_C:AudioComponent'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysPizzaCanon/Blueprints/BP_FreddysPizzaCanonRangedWeapon.2"
+      },
+      "AnimSetType": "EItemAnimationType::IA_TwoHandedWeapon",
+      "RootComponent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_FreddysPizzaCanonRangedWeapon_C:WeaponMesh3P'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysPizzaCanon/Blueprints/BP_FreddysPizzaCanonRangedWeapon.9"
+      }
+    }
+  },
+  {
+    "Type": "FMODAudioComponent",
+    "Name": "AudioComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FMODAudioComponent'",
+    "Outer": {
+      "ObjectName": "BP_FreddysPizzaCanonRangedWeapon_C'Default__BP_FreddysPizzaCanonRangedWeapon_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysPizzaCanon/Blueprints/BP_FreddysPizzaCanonRangedWeapon.1"
+    },
+    "Template": {
+      "ObjectName": "FMODAudioComponent'Default__BP_RangedWeapon_Minigun_C:AudioComponent'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Ranged_ParentClasses/BP_RangedWeapon_Minigun.2"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_FreddysPizzaCanonRangedWeapon_C:WeaponMesh3P'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysPizzaCanon/Blueprints/BP_FreddysPizzaCanonRangedWeapon.9"
+      }
+    }
+  },
+  {
+    "Type": "HitboxManagerComponent",
+    "Name": "Hitbox Manager",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HitboxManagerComponent'",
+    "Outer": {
+      "ObjectName": "BP_FreddysPizzaCanonRangedWeapon_C'Default__BP_FreddysPizzaCanonRangedWeapon_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysPizzaCanon/Blueprints/BP_FreddysPizzaCanonRangedWeapon.1"
+    },
+    "Template": {
+      "ObjectName": "HitboxManagerComponent'Default__BP_RangedWeapon_Minigun_C:Hitbox Manager'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Ranged_ParentClasses/BP_RangedWeapon_Minigun.3"
+    }
+  },
+  {
+    "Type": "ItemAnimationComponent",
+    "Name": "ItemAnimationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ItemAnimationComponent'",
+    "Outer": {
+      "ObjectName": "BP_FreddysPizzaCanonRangedWeapon_C'Default__BP_FreddysPizzaCanonRangedWeapon_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysPizzaCanon/Blueprints/BP_FreddysPizzaCanonRangedWeapon.1"
+    },
+    "Template": {
+      "ObjectName": "ItemAnimationComponent'Default__BP_RangedWeapon_Minigun_C:ItemAnimationComponent'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Ranged_ParentClasses/BP_RangedWeapon_Minigun.4"
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "ChargeUpEffect",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BP_FreddysPizzaCanonRangedWeapon_C'Default__BP_FreddysPizzaCanonRangedWeapon_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysPizzaCanon/Blueprints/BP_FreddysPizzaCanonRangedWeapon.1"
+    },
+    "Template": {
+      "ObjectName": "NiagaraComponent'Default__BP_RangedWeapon_Minigun_C:ChargeUpEffect'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Ranged_ParentClasses/BP_RangedWeapon_Minigun.5"
+    },
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_FreddysPizzaCanonRangedWeapon_C:WeaponMesh3P'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysPizzaCanon/Blueprints/BP_FreddysPizzaCanonRangedWeapon.9"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddysPizzaCanonRangedWeapon_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysPizzaCanon/Blueprints/BP_FreddysPizzaCanonRangedWeapon.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FreddysPizzaCanonRangedWeapon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysPizzaCanon/Blueprints/BP_FreddysPizzaCanonRangedWeapon.8"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_FreddysPizzaCanonRangedWeapon_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysPizzaCanon/Blueprints/BP_FreddysPizzaCanonRangedWeapon.6"
+      },
+      "VariableGuid": "27CA1AFF-4193D8CD-C3EAE78E-0EA7E401",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddysPizzaCanonRangedWeapon_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysPizzaCanon/Blueprints/BP_FreddysPizzaCanonRangedWeapon.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_FreddysPizzaCanonRangedWeapon_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysPizzaCanon/Blueprints/BP_FreddysPizzaCanonRangedWeapon.7"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponentBudgeted",
+    "Name": "WeaponMesh3P",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponentBudgeted'",
+    "Outer": {
+      "ObjectName": "BP_FreddysPizzaCanonRangedWeapon_C'Default__BP_FreddysPizzaCanonRangedWeapon_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysPizzaCanon/Blueprints/BP_FreddysPizzaCanonRangedWeapon.1"
+    },
+    "Template": {
+      "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_RangedWeapon_Minigun_C:WeaponMesh3P'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Ranged_ParentClasses/BP_RangedWeapon_Minigun.9"
+    },
+    "Properties": {
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SKM_PizzaCanon'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysPizzaCanon/Meshes/SKM_PizzaCanon.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SKM_PizzaCanon'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysPizzaCanon/Meshes/SKM_PizzaCanon.1"
+      }
+    }
+  }
+]

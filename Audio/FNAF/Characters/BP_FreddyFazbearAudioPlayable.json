@@ -1,0 +1,391 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_FreddyFazbearAudioPlayable_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Audio/FNaF/Characters/BP_FreddyFazbearAudioPlayable",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CharacterAudioBase_C'",
+      "ObjectPath": "/Game/Audio/_Shared/Character/BP_CharacterAudioBase.0"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_FreddyFazbearAudioPlayable_C'Default__BP_FreddyFazbearAudioPlayable_C'",
+      "ObjectPath": "/Game/Audio/FNaF/Characters/BP_FreddyFazbearAudioPlayable.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_FreddyFazbearAudioPlayable_C",
+    "Name": "Default__BP_FreddyFazbearAudioPlayable_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Audio/FNaF/Characters/BP_FreddyFazbearAudioPlayable.BP_FreddyFazbearAudioPlayable_C'",
+    "Package": "/Game/Audio/FNaF/Characters/BP_FreddyFazbearAudioPlayable",
+    "Template": {
+      "ObjectName": "BP_CharacterAudioBase_C'Default__BP_CharacterAudioBase_C'",
+      "ObjectPath": "/Game/Audio/_Shared/Character/BP_CharacterAudioBase.1"
+    },
+    "Properties": {
+      "ChildAudioSets": [
+        {
+          "AudioSetType": "EAudioSetType::MatchAll",
+          "AudioSetName": "FreddyFazbear",
+          "Item": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "RequiredTags": [],
+          "IncompatibleTags": [],
+          "DefaultSocket": "None",
+          "AudioSetPairs": [
+            {
+              "AudioEventName": {
+                "Name": "Footstep",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FreddyFootSteps'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/Freddy/FreddyFootSteps.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "FootstepRun",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FreddyFootStepsRun'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/Freddy/FreddyFootStepsRun.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "FootstepSlide",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FreddyFootStepsSlide'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/Freddy/FreddyFootStepsSlide.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "FootstepSprint",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FreddyFootStepsSprint'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/Freddy/FreddyFootStepsSprint.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "FootstepWalk",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FreddyFootStepsWalk'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/Freddy/FreddyFootStepsWalk.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "Land",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FreddyLand'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/Freddy/FreddyLand.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "Jump",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FreddyJump'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/Freddy/FreddyJump.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "Dodge",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FreddyDodge'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/Freddy/FreddyDodge.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "MeleeSwipe",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FreddyMeleeSwing'",
+                "ObjectPath": "/Game/FMOD/Events/Weapon/FNAF/FreddyMeleeSwing.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "TakeHit",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FreddyDamageTakeHit'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/Freddy/FreddyDamageTakeHit.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "TakeHitElectric",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FreddyDamageTakeHitElectrical'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/Freddy/FreddyDamageTakeHitElectrical.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "TakeHitFire",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FreddyDamageTakeHitFire'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/Freddy/FreddyDamageTakeHitFire.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "BodyMovement",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FreddyMovement'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/Freddy/FreddyMovement.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "HeavyChargeStart",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FreddyCharge'",
+                "ObjectPath": "/Game/FMOD/Events/Weapon/FNAF/FreddyCharge.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "HeavyFullyCharged",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FreddyChargeAttackComplete'",
+                "ObjectPath": "/Game/FMOD/Events/Weapon/FNAF/FreddyChargeAttackComplete.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "SlamAttack",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FreddySlamAttack'",
+                "ObjectPath": "/Game/FMOD/Events/Weapon/FNAF/FreddySlamAttack.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "ChargedPikeAttack",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FreddySpikeAttack'",
+                "ObjectPath": "/Game/FMOD/Events/Weapon/FNAF/FreddySpikeAttack.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "Death",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FreddyDamageDeathPlayable'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/Freddy/FreddyDamageDeathPlayable.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "GhostMoan",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FreddyFazbear_GhostMoan'",
+                "ObjectPath": "/Game/FMOD/Events/Vo/FNAF/FreddyFazbear/FreddyFazbear_GhostMoan.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "Relief",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FreddyFazbear_Relief'",
+                "ObjectPath": "/Game/FMOD/Events/Vo/FNAF/FreddyFazbear/FreddyFazbear_Relief.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "Celebration",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FreddyFazbear_Celebration'",
+                "ObjectPath": "/Game/FMOD/Events/Vo/FNAF/FreddyFazbear/FreddyFazbear_Celebration.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "AdditonalPower",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FreddyFazbear_PowerAdditional'",
+                "ObjectPath": "/Game/FMOD/Events/Vo/FNAF/FreddyFazbear/FreddyFazbear_PowerAdditional.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "Drink Refresh",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FreddyFazbear_Drink'",
+                "ObjectPath": "/Game/FMOD/Events/Vo/FNAF/FreddyFazbear/FreddyFazbear_Drink.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "Drowning",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FreddyFazbear_Drowning'",
+                "ObjectPath": "/Game/FMOD/Events/Vo/FNAF/FreddyFazbear/FreddyFazbear_Drowning.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "Lifting",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FreddyFazbear_EffortSmall'",
+                "ObjectPath": "/Game/FMOD/Events/Vo/FNAF/FreddyFazbear/FreddyFazbear_EffortSmall.0"
+              }
+            }
+          ]
+        },
+        {
+          "AudioSetType": "EAudioSetType::MatchAll",
+          "AudioSetName": "DannyLowStamina",
+          "Item": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "RequiredTags": [
+            "Status.LowStamina"
+          ],
+          "IncompatibleTags": [],
+          "DefaultSocket": "None",
+          "AudioSetPairs": [
+            {
+              "AudioEventName": {
+                "Name": "Sprint",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FreddyFazbear_Pant'",
+                "ObjectPath": "/Game/FMOD/Events/Vo/FNAF/FreddyFazbear/FreddyFazbear_Pant.0"
+              }
+            }
+          ]
+        },
+        {
+          "AudioSetType": "EAudioSetType::MatchItem",
+          "AudioSetName": "Pizza Launcher",
+          "Item": {
+            "AssetPathName": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysPizzaCanon/Blueprints/BP_FreddysPizzaCanonRangedWeapon.BP_FreddysPizzaCanonRangedWeapon_C",
+            "SubPathString": ""
+          },
+          "RequiredTags": [],
+          "IncompatibleTags": [],
+          "DefaultSocket": "None",
+          "AudioSetPairs": [
+            {
+              "AudioEventName": {
+                "Name": "Fire",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FreddyLauncherFire'",
+                "ObjectPath": "/Game/FMOD/Events/Weapon/FNAF/FreddyLauncherFire.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "LowAmmo",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FreddyGunNoAmmo'",
+                "ObjectPath": "/Game/FMOD/Events/Weapon/FNAF/FreddyGunNoAmmo.0"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

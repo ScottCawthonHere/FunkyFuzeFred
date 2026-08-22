@@ -1,0 +1,1209 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_FNAF_OB1_LevelTrigger_Minimum_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_PopBox_LevelTrigger_Child_C'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/LevelTriggers/IP/BP_FNAF_PopBox_LevelTrigger_Child.0"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_FNAF_OB1_LevelTrigger_Minimum_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.18"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_FNAF_OB1_LevelTrigger_Minimum_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.2"
+      }
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_FazbearHeadPopBox",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_PizzaBox_Closed2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_PizzaBox_Closed3",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_PizzaBox_Closed",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_PizzaBox_Closed1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_PaperChain_people2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_PaperChain_people1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_Balloons1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_Balloons",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_FNAFCCTV_Monitor",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_DioramaBase",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_FNAF_OB1_LevelTrigger_Minimum_C'Default__BP_FNAF_OB1_LevelTrigger_Minimum_C'",
+      "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_FNAF_OB1_LevelTrigger_Minimum_C",
+    "Name": "Default__BP_FNAF_OB1_LevelTrigger_Minimum_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.BP_FNAF_OB1_LevelTrigger_Minimum_C'",
+    "Package": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum",
+    "Template": {
+      "ObjectName": "BP_FNAF_PopBox_LevelTrigger_Child_C'Default__BP_FNAF_PopBox_LevelTrigger_Child_C'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/LevelTriggers/IP/BP_FNAF_PopBox_LevelTrigger_Child.1"
+    },
+    "Properties": {
+      "LevelMetaData": {
+        "ObjectName": "MerlinLevelData'PDA_LD_FNAF'",
+        "ObjectPath": "/Game/Maps/FNAF/MetaData/PDA_LD_FNAF.0"
+      },
+      "Objective": {
+        "ObjectName": "MerlinLevelObjective'PDA_LO_FNAF_Obj1'",
+        "ObjectPath": "/Game/Maps/FNAF/MetaData/PDA_LO_FNAF_Obj1.11"
+      },
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'Default__BP_FNAF_OB1_LevelTrigger_Minimum_C:DefaultSceneRoot'",
+        "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.5"
+      },
+      "InteractiveComponent": {
+        "ObjectName": "InteractiveComponent'Default__BP_FNAF_OB1_LevelTrigger_Minimum_C:InteractiveComponent'",
+        "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.3"
+      }
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_OB1_LevelTrigger_Minimum_C'",
+      "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.0"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'TextRenderComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "TextRenderComponent'BP_FNAF_OB1_LevelTrigger_Minimum_C:IPNAME_TextRender_GEN_VARIABLE'",
+            "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.31"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_PopBox_LevelTrigger_C'",
+              "ObjectPath": "/Game/Blueprints/Gameplay/Parents/LevelTriggers/BP_PopBox_LevelTrigger.1"
+            },
+            "SCSVariableName": "IPNAME_TextRender",
+            "AssociatedGuid": "EA7062F5-4CA2CAB2-4493E8A8-3B84ABCD"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StaticMeshComponent'BP_FNAF_OB1_LevelTrigger_Minimum_C:SM_PopBoxDiorama_GEN_VARIABLE'",
+            "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.30"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_PopBox_LevelTrigger_C'",
+              "ObjectPath": "/Game/Blueprints/Gameplay/Parents/LevelTriggers/BP_PopBox_LevelTrigger.1"
+            },
+            "SCSVariableName": "SM_PopBoxDiorama",
+            "AssociatedGuid": "DB49D274-4C57620D-3311CCA2-A8AE8EBD"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'TextRenderComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "TextRenderComponent'BP_FNAF_OB1_LevelTrigger_Minimum_C:ObjectiveName_TextRender_GEN_VARIABLE'",
+            "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.32"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_PopBox_LevelTrigger_C'",
+              "ObjectPath": "/Game/Blueprints/Gameplay/Parents/LevelTriggers/BP_PopBox_LevelTrigger.1"
+            },
+            "SCSVariableName": "ObjectiveName_TextRender",
+            "AssociatedGuid": "42D207A1-4EA6EA3B-7EC65882-3004FA98"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "InteractiveComponent",
+    "Name": "InteractiveComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractiveComponent'",
+    "Outer": {
+      "ObjectName": "BP_FNAF_OB1_LevelTrigger_Minimum_C'Default__BP_FNAF_OB1_LevelTrigger_Minimum_C'",
+      "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.1"
+    },
+    "Template": {
+      "ObjectName": "InteractiveComponent'Default__BP_FNAF_PopBox_LevelTrigger_Child_C:InteractiveComponent'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/LevelTriggers/IP/BP_FNAF_PopBox_LevelTrigger_Child.3"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_FNAF_OB1_LevelTrigger_Minimum_C:DefaultSceneRoot'",
+        "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.5"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_OB1_LevelTrigger_Minimum_C'",
+      "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_FNAF_OB1_LevelTrigger_Minimum_C'Default__BP_FNAF_OB1_LevelTrigger_Minimum_C'",
+      "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.1"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'Default__BP_FNAF_PopBox_LevelTrigger_Child_C:DefaultSceneRoot'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/LevelTriggers/IP/BP_FNAF_PopBox_LevelTrigger_Child.5"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FNAF_OB1_LevelTrigger_Minimum_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.18"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_FNAF_OB1_LevelTrigger_Minimum_C:DefaultSceneRoot1_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.4"
+      },
+      "VariableGuid": "648BBC49-43D0F2E4-A957A695-E5C6F328",
+      "InternalVariableName": "DefaultSceneRoot1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FNAF_OB1_LevelTrigger_Minimum_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.18"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_FNAF_OB1_LevelTrigger_Minimum_C:SM_DioramaBase_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.21"
+      },
+      "ParentComponentOrVariableName": "DefaultSceneRoot",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "C9F30457-4F3EEAA4-E5ECEF93-BB61802C",
+      "InternalVariableName": "SM_DioramaBase"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FNAF_OB1_LevelTrigger_Minimum_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.18"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_FNAF_OB1_LevelTrigger_Minimum_C:SM_FNAFCCTV_Monitor_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.23"
+      },
+      "ParentComponentOrVariableName": "DefaultSceneRoot",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "DEF95920-4458CE84-51639A91-F0B15206",
+      "InternalVariableName": "SM_FNAFCCTV_Monitor"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_19",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FNAF_OB1_LevelTrigger_Minimum_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.18"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_FNAF_OB1_LevelTrigger_Minimum_C:SM_PizzaBox_Closed_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.29"
+      },
+      "ParentComponentOrVariableName": "DefaultSceneRoot",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "E910F5C9-434DC891-FF666A96-C2A0F0CB",
+      "InternalVariableName": "SM_PizzaBox_Closed"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FNAF_OB1_LevelTrigger_Minimum_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.18"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_FNAF_OB1_LevelTrigger_Minimum_C:SM_FazbearHeadPopBox_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.22"
+      },
+      "ParentComponentOrVariableName": "DefaultSceneRoot",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "9613E2BF-4BF16850-7E34DE8F-E0F475BC",
+      "InternalVariableName": "SM_FazbearHeadPopBox"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_20",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FNAF_OB1_LevelTrigger_Minimum_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.18"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_FNAF_OB1_LevelTrigger_Minimum_C:SM_PizzaBox_Closed1_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.26"
+      },
+      "ParentComponentOrVariableName": "DefaultSceneRoot",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "A0D09E5B-4FBDE71A-B46029B3-EA5C807E",
+      "InternalVariableName": "SM_PizzaBox_Closed1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_21",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FNAF_OB1_LevelTrigger_Minimum_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.18"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_FNAF_OB1_LevelTrigger_Minimum_C:SM_PizzaBox_Closed2_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.27"
+      },
+      "ParentComponentOrVariableName": "DefaultSceneRoot",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "E904F410-4CC0F50D-37A6D3B1-CF9F32EE",
+      "InternalVariableName": "SM_PizzaBox_Closed2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_22",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FNAF_OB1_LevelTrigger_Minimum_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.18"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_FNAF_OB1_LevelTrigger_Minimum_C:SM_PizzaBox_Closed3_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.28"
+      },
+      "ParentComponentOrVariableName": "DefaultSceneRoot",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "9412DCBA-4D77A19F-1182ED9A-660AFD63",
+      "InternalVariableName": "SM_PizzaBox_Closed3"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_44",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FNAF_OB1_LevelTrigger_Minimum_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.18"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_FNAF_OB1_LevelTrigger_Minimum_C:SM_Balloons_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.20"
+      },
+      "ParentComponentOrVariableName": "DefaultSceneRoot",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "371E873D-48547DD4-EC693584-59ABABA9",
+      "InternalVariableName": "SM_Balloons"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_45",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FNAF_OB1_LevelTrigger_Minimum_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.18"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_FNAF_OB1_LevelTrigger_Minimum_C:SM_Balloons1_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.19"
+      },
+      "ParentComponentOrVariableName": "DefaultSceneRoot",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "E19A1A50-460E9CB9-099BE1A2-54320A55",
+      "InternalVariableName": "SM_Balloons1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_48",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FNAF_OB1_LevelTrigger_Minimum_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.18"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_FNAF_OB1_LevelTrigger_Minimum_C:SM_PaperChain_people1_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.24"
+      },
+      "ParentComponentOrVariableName": "DefaultSceneRoot",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_FNAF_OB1_LevelTrigger_Minimum_C:SimpleConstructionScript_0.SCS_Node_49'",
+          "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.17"
+        }
+      ],
+      "VariableGuid": "39DE7AB8-4B191A33-B28E8799-35FD3C2E",
+      "InternalVariableName": "SM_PaperChain_people1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_49",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FNAF_OB1_LevelTrigger_Minimum_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.18"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_FNAF_OB1_LevelTrigger_Minimum_C:SM_PaperChain_people2_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.25"
+      },
+      "VariableGuid": "112B5655-440A1B18-19F93EB0-D44EE988",
+      "InternalVariableName": "SM_PaperChain_people2"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_OB1_LevelTrigger_Minimum_C'",
+      "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_FNAF_OB1_LevelTrigger_Minimum_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.7"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FNAF_OB1_LevelTrigger_Minimum_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.8"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FNAF_OB1_LevelTrigger_Minimum_C:SimpleConstructionScript_0.SCS_Node_44'",
+          "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.14"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FNAF_OB1_LevelTrigger_Minimum_C:SimpleConstructionScript_0.SCS_Node_45'",
+          "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.15"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FNAF_OB1_LevelTrigger_Minimum_C:SimpleConstructionScript_0.SCS_Node_48'",
+          "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.16"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FNAF_OB1_LevelTrigger_Minimum_C:SimpleConstructionScript_0.SCS_Node_20'",
+          "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.11"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FNAF_OB1_LevelTrigger_Minimum_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.9"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FNAF_OB1_LevelTrigger_Minimum_C:SimpleConstructionScript_0.SCS_Node_22'",
+          "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.13"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FNAF_OB1_LevelTrigger_Minimum_C:SimpleConstructionScript_0.SCS_Node_21'",
+          "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FNAF_OB1_LevelTrigger_Minimum_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.10"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_FNAF_OB1_LevelTrigger_Minimum_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.7"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FNAF_OB1_LevelTrigger_Minimum_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.8"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FNAF_OB1_LevelTrigger_Minimum_C:SimpleConstructionScript_0.SCS_Node_44'",
+          "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.14"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FNAF_OB1_LevelTrigger_Minimum_C:SimpleConstructionScript_0.SCS_Node_45'",
+          "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.15"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FNAF_OB1_LevelTrigger_Minimum_C:SimpleConstructionScript_0.SCS_Node_48'",
+          "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.16"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FNAF_OB1_LevelTrigger_Minimum_C:SimpleConstructionScript_0.SCS_Node_49'",
+          "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.17"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FNAF_OB1_LevelTrigger_Minimum_C:SimpleConstructionScript_0.SCS_Node_20'",
+          "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.11"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FNAF_OB1_LevelTrigger_Minimum_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.9"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FNAF_OB1_LevelTrigger_Minimum_C:SimpleConstructionScript_0.SCS_Node_22'",
+          "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.13"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FNAF_OB1_LevelTrigger_Minimum_C:SimpleConstructionScript_0.SCS_Node_21'",
+          "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FNAF_OB1_LevelTrigger_Minimum_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.10"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_FNAF_OB1_LevelTrigger_Minimum_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.6"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_Balloons1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_OB1_LevelTrigger_Minimum_C'",
+      "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Balloons'",
+        "ObjectPath": "/Game/Gameplay/Props/HotFuzz/Ballons/Meshes/SM_Balloons.2"
+      },
+      "OverrideMaterials": [
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_BalloonOrange'",
+          "ObjectPath": "/Game/Gameplay/Props/HotFuzz/Ballons/Materials/MI_BalloonOrange.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_BalloonPink'",
+          "ObjectPath": "/Game/Gameplay/Props/HotFuzz/Ballons/Materials/MI_BalloonPink.0"
+        },
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_BalloonGreen'",
+          "ObjectPath": "/Game/Gameplay/Props/HotFuzz/Ballons/Materials/MI_BalloonGreen.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_BalloonBlue'",
+          "ObjectPath": "/Game/Gameplay/Props/HotFuzz/Ballons/Materials/MI_BalloonBlue.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_BalloonYellow'",
+          "ObjectPath": "/Game/Gameplay/Props/HotFuzz/Ballons/Materials/MI_BalloonYellow.0"
+        }
+      ],
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructibleInitial",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_INTERACT",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "COLLISION_EXPLOSION",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -87.68367,
+        "Y": -320.96664,
+        "Z": 145.19197
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 78.289085,
+        "Roll": 0.0
+      },
+      "ComponentTags": [
+        "Final"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_Balloons_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_OB1_LevelTrigger_Minimum_C'",
+      "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Balloons'",
+        "ObjectPath": "/Game/Gameplay/Props/HotFuzz/Ballons/Meshes/SM_Balloons.2"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructibleInitial",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_INTERACT",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "COLLISION_EXPLOSION",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -87.68367,
+        "Y": 329.3,
+        "Z": 145.19197
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -10.094166,
+        "Roll": 0.0
+      },
+      "ComponentTags": [
+        "Final"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_DioramaBase_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_OB1_LevelTrigger_Minimum_C'",
+      "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_DioramaBase'",
+        "ObjectPath": "/Game/Gameplay/PopBox/Jurassic_World/Diorama/Meshes/SM_DioramaBase.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_DiaromaBaseGray'",
+          "ObjectPath": "/Game/Gameplay/PopBox/Jurassic_World/Diorama/Materials/MI_DiaromaBaseGray.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 2.708166,
+        "Y": -4.329508,
+        "Z": -0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_FazbearHeadPopBox_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_OB1_LevelTrigger_Minimum_C'",
+      "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FazbearHeadPopBox'",
+        "ObjectPath": "/Game/Gameplay/PopBox/FNAF/Diorama/Meshes/SM_FazbearHeadPopBox.2"
+      },
+      "RelativeLocation": {
+        "X": 39.285263,
+        "Y": 136.38252,
+        "Z": 68.80401
+      },
+      "RelativeRotation": {
+        "Pitch": 6.7177134,
+        "Yaw": -18.881721,
+        "Roll": 8.8817215
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_FNAFCCTV_Monitor_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_OB1_LevelTrigger_Minimum_C'",
+      "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FNAFCCTV_Monitor'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/Meshes/SM_FNAFCCTV_Monitor.2"
+      },
+      "OverrideMaterials": [
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_CRT_FNAF'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/Materials/MI_CRT_FNAF.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": -137.85422,
+        "Y": -2.1079813E-06,
+        "Z": 142.45917
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0000001,
+        "Z": 1.0000001
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_PaperChain_people1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_OB1_LevelTrigger_Minimum_C'",
+      "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_PaperChain_people'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Meshes/SM_PaperChain_people.2"
+      },
+      "RelativeLocation": {
+        "X": 9.034584E-07,
+        "Y": -4.4738832E-07,
+        "Z": -49.736633
+      },
+      "RelativeRotation": {
+        "Pitch": 2.541047E-23,
+        "Yaw": -6.3611094E-15,
+        "Roll": 4.5775434E-07
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_PaperChain_people2_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_OB1_LevelTrigger_Minimum_C'",
+      "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_PaperChain_people'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Meshes/SM_PaperChain_people.2"
+      },
+      "RelativeLocation": {
+        "X": 3.1867037E-06,
+        "Y": -9.343893E-07,
+        "Z": -99.20564
+      },
+      "RelativeRotation": {
+        "Pitch": 2.541047E-23,
+        "Yaw": -6.3611094E-15,
+        "Roll": 4.5775434E-07
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_PizzaBox_Closed1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_OB1_LevelTrigger_Minimum_C'",
+      "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_PizzaBox_Closed'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PizzaBox/Meshes/SM_PizzaBox_Closed.2"
+      },
+      "RelativeLocation": {
+        "X": 79.439354,
+        "Y": 255.57068,
+        "Z": 156.772
+      },
+      "RelativeRotation": {
+        "Pitch": -0.0,
+        "Yaw": -80.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.2,
+        "Y": 1.2,
+        "Z": 1.2
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_PizzaBox_Closed2_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_OB1_LevelTrigger_Minimum_C'",
+      "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_PizzaBox_Closed'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PizzaBox/Meshes/SM_PizzaBox_Closed.2"
+      },
+      "RelativeLocation": {
+        "X": 79.439354,
+        "Y": 255.5707,
+        "Z": 171.27933
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 20.0,
+        "Roll": -0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.2,
+        "Y": 1.2,
+        "Z": 1.2
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_PizzaBox_Closed3_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_OB1_LevelTrigger_Minimum_C'",
+      "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_PizzaBox_Closed'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PizzaBox/Meshes/SM_PizzaBox_Closed.2"
+      },
+      "RelativeLocation": {
+        "X": 79.439354,
+        "Y": 255.57071,
+        "Z": 184.92175
+      },
+      "RelativeRotation": {
+        "Pitch": -0.0,
+        "Yaw": -40.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.2,
+        "Y": 1.2,
+        "Z": 1.2
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_PizzaBox_Closed_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_OB1_LevelTrigger_Minimum_C'",
+      "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_PizzaBox_Closed'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/PizzaBox/Meshes/SM_PizzaBox_Closed.2"
+      },
+      "RelativeLocation": {
+        "X": 79.439354,
+        "Y": 255.57074,
+        "Z": 144.67984
+      },
+      "RelativeRotation": {
+        "Pitch": -0.0,
+        "Yaw": -20.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.2,
+        "Y": 1.2,
+        "Z": 1.2
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_PopBoxDiorama_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_OB1_LevelTrigger_Minimum_C'",
+      "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.0"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'BP_PopBox_LevelTrigger_C:SM_PopBoxDiorama_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/LevelTriggers/BP_PopBox_LevelTrigger.37"
+    },
+    "Properties": {
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_PopBoxDioramaFNAF'",
+          "ObjectPath": "/Game/Gameplay/PopBox/FNAF/Diorama/Materials/MI_PopBoxDioramaFNAF.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_PopBoxDioramaFNAFObj1'",
+          "ObjectPath": "/Game/Gameplay/PopBox/FNAF/Diorama/Materials/MI_PopBoxDioramaFNAFObj1.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_PopBoxDioramaCardboardFNAF'",
+          "ObjectPath": "/Game/Gameplay/PopBox/FNAF/Diorama/Materials/MI_PopBoxDioramaCardboardFNAF.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "IPNAME_TextRender_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_OB1_LevelTrigger_Minimum_C'",
+      "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.0"
+    },
+    "Template": {
+      "ObjectName": "TextRenderComponent'BP_FNAF_PopBox_LevelTrigger_Child_C:IPNAME_TextRender_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/LevelTriggers/IP/BP_FNAF_PopBox_LevelTrigger_Child.8"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "5DDBE18546748B98EAD0CB80FC236BC8",
+        "SourceString": "1\r\n",
+        "LocalizedString": "1\r\n"
+      },
+      "TextRenderColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFFFFF"
+      },
+      "RelativeLocation": {
+        "X": 237.0,
+        "Y": -363.22794,
+        "Z": 603.0
+      }
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "ObjectiveName_TextRender_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_OB1_LevelTrigger_Minimum_C'",
+      "ObjectPath": "/Game/Gameplay/LevelTrigger/FNAF/BP_FNAF_OB1_LevelTrigger_Minimum.0"
+    },
+    "Template": {
+      "ObjectName": "TextRenderComponent'BP_FNAF_PopBox_LevelTrigger_Child_C:ObjectiveName_TextRender_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/LevelTriggers/IP/BP_FNAF_PopBox_LevelTrigger_Child.9"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "385D1C1A42F80FE257D10186E905D0AB",
+        "SourceString": "FIVE NIGHTS AT FREDDY'S",
+        "LocalizedString": "FIVE NIGHTS AT FREDDY'S"
+      },
+      "TextRenderColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFFFFF"
+      },
+      "XScale": 0.65,
+      "WorldSize": 18.0,
+      "RelativeLocation": {
+        "X": 237.0,
+        "Y": -179.7383,
+        "Z": 62.57708
+      }
+    }
+  }
+]

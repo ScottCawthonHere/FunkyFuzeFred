@@ -1,0 +1,805 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_FreddyFazbearVFX_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/VFX/Blueprints/FNAF/BP_FreddyFazbearVFX",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CharacterVFXInstance_C'",
+      "ObjectPath": "/Game/VFX/Blueprints/BP_CharacterVFXInstance.0"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_FreddyFazbearVFX_C'Default__BP_FreddyFazbearVFX_C'",
+      "ObjectPath": "/Game/VFX/Blueprints/FNAF/BP_FreddyFazbearVFX.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_FreddyFazbearVFX_C",
+    "Name": "Default__BP_FreddyFazbearVFX_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/VFX/Blueprints/FNAF/BP_FreddyFazbearVFX.BP_FreddyFazbearVFX_C'",
+    "Package": "/Game/VFX/Blueprints/FNAF/BP_FreddyFazbearVFX",
+    "Template": {
+      "ObjectName": "BP_CharacterVFXInstance_C'Default__BP_CharacterVFXInstance_C'",
+      "ObjectPath": "/Game/VFX/Blueprints/BP_CharacterVFXInstance.1"
+    },
+    "Properties": {
+      "ChildVFXSets": [
+        {
+          "VFXSetName": "FullyCharged",
+          "VFXSetType": "EVFXSetType::MatchAll",
+          "Item": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "RequiredTags": [
+            "Character.Combat.HeavyAttack.FullyCharged"
+          ],
+          "ExcludedTags": [],
+          "bUseSurfaceTypeFilter": false,
+          "VFXSetPairs": [
+            {
+              "Name": {
+                "TagName": "VFX.Combat.Melee.HeavyMeleeSwing"
+              },
+              "System": {
+                "ObjectName": "NiagaraSystem'NS_HeavyAttackSpike'",
+                "ObjectPath": "/Game/VFX/CharacterFX/NiagaraSystems/Combat/HeavySpike/NS_HeavyAttackSpike.236"
+              },
+              "Parameters": [
+                {
+                  "Name": "ChargeColour",
+                  "Type": "EVFXSetParameterType::LinearColor",
+                  "BoolValue": false,
+                  "IntValue": 0,
+                  "FloatValue": 0.0,
+                  "LinearColorValue": {
+                    "R": 50.0,
+                    "G": 25.0,
+                    "B": 0.0,
+                    "A": 1.0,
+                    "Hex": "FFFF00"
+                  },
+                  "Vector2Value": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "Vector3Value": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Vector4Value": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 0.0
+                  },
+                  "MaterialValue": null,
+                  "TextureValue": null,
+                  "StaticMeshValue": null
+                },
+                {
+                  "Name": "Colour",
+                  "Type": "EVFXSetParameterType::LinearColor",
+                  "BoolValue": false,
+                  "IntValue": 0,
+                  "FloatValue": 0.0,
+                  "LinearColorValue": {
+                    "R": 0.327778,
+                    "G": 0.130136,
+                    "B": 0.038204,
+                    "A": 1.0,
+                    "Hex": "9B6537"
+                  },
+                  "Vector2Value": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "Vector3Value": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Vector4Value": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 0.0
+                  },
+                  "MaterialValue": null,
+                  "TextureValue": null,
+                  "StaticMeshValue": null
+                },
+                {
+                  "Name": "SecondaryColour",
+                  "Type": "EVFXSetParameterType::LinearColor",
+                  "BoolValue": false,
+                  "IntValue": 0,
+                  "FloatValue": 0.0,
+                  "LinearColorValue": {
+                    "R": 0.14273,
+                    "G": 0.148807,
+                    "B": 0.171875,
+                    "A": 1.0,
+                    "Hex": "696C73"
+                  },
+                  "Vector2Value": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "Vector3Value": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Vector4Value": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 0.0
+                  },
+                  "MaterialValue": null,
+                  "TextureValue": null,
+                  "StaticMeshValue": null
+                },
+                {
+                  "Name": "FullyCharged?",
+                  "Type": "EVFXSetParameterType::Bool",
+                  "BoolValue": true,
+                  "IntValue": 0,
+                  "FloatValue": 0.0,
+                  "LinearColorValue": {
+                    "R": 1.0,
+                    "G": 1.0,
+                    "B": 1.0,
+                    "A": 1.0,
+                    "Hex": "FFFFFF"
+                  },
+                  "Vector2Value": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "Vector3Value": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Vector4Value": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 0.0
+                  },
+                  "MaterialValue": null,
+                  "TextureValue": null,
+                  "StaticMeshValue": null
+                }
+              ]
+            }
+          ],
+          "SurfaceVFXEntries": []
+        },
+        {
+          "VFXSetName": "MatchAll",
+          "VFXSetType": "EVFXSetType::MatchAll",
+          "Item": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "RequiredTags": [],
+          "ExcludedTags": [],
+          "bUseSurfaceTypeFilter": false,
+          "VFXSetPairs": [
+            {
+              "Name": {
+                "TagName": "VFX.Combat.Melee.SlamAttackStart"
+              },
+              "System": {
+                "ObjectName": "NiagaraSystem'NS_JumpSlam_Charge'",
+                "ObjectPath": "/Game/VFX/CharacterFX/NiagaraSystems/Combat/JumpSlam_Charge/NS_JumpSlam_Charge.94"
+              },
+              "Parameters": []
+            },
+            {
+              "Name": {
+                "TagName": "VFX.Slam"
+              },
+              "System": {
+                "ObjectName": "NiagaraSystem'NS_JumpSlamImpact'",
+                "ObjectPath": "/Game/VFX/CharacterFX/NiagaraSystems/Combat/JumpSlam_Impact/NS_JumpSlamImpact.184"
+              },
+              "Parameters": [
+                {
+                  "Name": "Colour",
+                  "Type": "EVFXSetParameterType::LinearColor",
+                  "BoolValue": false,
+                  "IntValue": 0,
+                  "FloatValue": 0.0,
+                  "LinearColorValue": {
+                    "R": 0.327778,
+                    "G": 0.130136,
+                    "B": 0.038204,
+                    "A": 1.0,
+                    "Hex": "9B6537"
+                  },
+                  "Vector2Value": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "Vector3Value": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Vector4Value": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 0.0
+                  },
+                  "MaterialValue": null,
+                  "TextureValue": null,
+                  "StaticMeshValue": null
+                },
+                {
+                  "Name": "SecondaryColour",
+                  "Type": "EVFXSetParameterType::LinearColor",
+                  "BoolValue": false,
+                  "IntValue": 0,
+                  "FloatValue": 0.0,
+                  "LinearColorValue": {
+                    "R": 0.14273,
+                    "G": 0.148807,
+                    "B": 0.171875,
+                    "A": 1.0,
+                    "Hex": "696C73"
+                  },
+                  "Vector2Value": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "Vector3Value": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Vector4Value": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 0.0
+                  },
+                  "MaterialValue": null,
+                  "TextureValue": null,
+                  "StaticMeshValue": null
+                },
+                {
+                  "Name": "Spark Colour",
+                  "Type": "EVFXSetParameterType::LinearColor",
+                  "BoolValue": false,
+                  "IntValue": 0,
+                  "FloatValue": 0.0,
+                  "LinearColorValue": {
+                    "R": 5.0,
+                    "G": 1.985124,
+                    "B": 0.582772,
+                    "A": 1.0,
+                    "Hex": "FFFFC9"
+                  },
+                  "Vector2Value": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "Vector3Value": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Vector4Value": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 0.0
+                  },
+                  "MaterialValue": null,
+                  "TextureValue": null,
+                  "StaticMeshValue": null
+                }
+              ]
+            },
+            {
+              "Name": {
+                "TagName": "VFX.SlamAdditionalVFX"
+              },
+              "System": {
+                "ObjectName": "NiagaraSystem'NS_JumpSlamImpact_AdditionalLayers_Music'",
+                "ObjectPath": "/Game/VFX/CharacterFX/NiagaraSystems/Combat/JumpSlam_Impact/NS_JumpSlamImpact_AdditionalLayers_Music.19"
+              },
+              "Parameters": [
+                {
+                  "Name": "SpawnWood",
+                  "Type": "EVFXSetParameterType::Bool",
+                  "BoolValue": false,
+                  "IntValue": 0,
+                  "FloatValue": 0.0,
+                  "LinearColorValue": {
+                    "R": 1.0,
+                    "G": 1.0,
+                    "B": 1.0,
+                    "A": 1.0,
+                    "Hex": "FFFFFF"
+                  },
+                  "Vector2Value": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "Vector3Value": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Vector4Value": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 0.0
+                  },
+                  "MaterialValue": null,
+                  "TextureValue": null,
+                  "StaticMeshValue": null
+                }
+              ]
+            },
+            {
+              "Name": {
+                "TagName": "VFX.Combat.Melee.MeleeSwingAdditionalVFX"
+              },
+              "System": {
+                "ObjectName": "NiagaraSystem'NS_TrailSwoosh'",
+                "ObjectPath": "/Game/VFX/CharacterFX/NiagaraSystems/Combat/MeleeSwoosh/NS_TrailSwoosh.14"
+              },
+              "Parameters": [
+                {
+                  "Name": "Colour",
+                  "Type": "EVFXSetParameterType::LinearColor",
+                  "BoolValue": false,
+                  "IntValue": 0,
+                  "FloatValue": 0.0,
+                  "LinearColorValue": {
+                    "R": 0.327778,
+                    "G": 0.130136,
+                    "B": 0.038204,
+                    "A": 1.0,
+                    "Hex": "9B6537"
+                  },
+                  "Vector2Value": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "Vector3Value": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Vector4Value": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 0.0
+                  },
+                  "MaterialValue": null,
+                  "TextureValue": null,
+                  "StaticMeshValue": null
+                },
+                {
+                  "Name": "SecondaryColour",
+                  "Type": "EVFXSetParameterType::LinearColor",
+                  "BoolValue": false,
+                  "IntValue": 0,
+                  "FloatValue": 0.0,
+                  "LinearColorValue": {
+                    "R": 0.14273,
+                    "G": 0.148807,
+                    "B": 0.171875,
+                    "A": 1.0,
+                    "Hex": "696C73"
+                  },
+                  "Vector2Value": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "Vector3Value": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Vector4Value": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 0.0
+                  },
+                  "MaterialValue": null,
+                  "TextureValue": null,
+                  "StaticMeshValue": null
+                }
+              ]
+            },
+            {
+              "Name": {
+                "TagName": "VFX.Combat.Melee.MeleeSwing.Hit1"
+              },
+              "System": {
+                "ObjectName": "NiagaraSystem'NS_SwipeSwoosh'",
+                "ObjectPath": "/Game/VFX/CharacterFX/NiagaraSystems/Combat/MeleeSwoosh/NS_SwipeSwoosh.26"
+              },
+              "Parameters": [
+                {
+                  "Name": "Colour",
+                  "Type": "EVFXSetParameterType::LinearColor",
+                  "BoolValue": false,
+                  "IntValue": 0,
+                  "FloatValue": 0.0,
+                  "LinearColorValue": {
+                    "R": 0.327778,
+                    "G": 0.130136,
+                    "B": 0.038204,
+                    "A": 1.0,
+                    "Hex": "9B6537"
+                  },
+                  "Vector2Value": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "Vector3Value": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Vector4Value": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 0.0
+                  },
+                  "MaterialValue": null,
+                  "TextureValue": null,
+                  "StaticMeshValue": null
+                },
+                {
+                  "Name": "SecondaryColour",
+                  "Type": "EVFXSetParameterType::LinearColor",
+                  "BoolValue": false,
+                  "IntValue": 0,
+                  "FloatValue": 0.0,
+                  "LinearColorValue": {
+                    "R": 0.14273,
+                    "G": 0.148807,
+                    "B": 0.171875,
+                    "A": 1.0,
+                    "Hex": "696C73"
+                  },
+                  "Vector2Value": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "Vector3Value": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Vector4Value": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 0.0
+                  },
+                  "MaterialValue": null,
+                  "TextureValue": null,
+                  "StaticMeshValue": null
+                }
+              ]
+            },
+            {
+              "Name": {
+                "TagName": "VFX.Combat.Melee.HeavyAttackCharging"
+              },
+              "System": {
+                "ObjectName": "NiagaraSystem'NS_HeavyAttackCharge_Charging'",
+                "ObjectPath": "/Game/VFX/CharacterFX/NiagaraSystems/Combat/HeavyMelee_Charge/NS_HeavyAttackCharge_Charging.128"
+              },
+              "Parameters": []
+            },
+            {
+              "Name": {
+                "TagName": "VFX.Combat.Melee.HeavyMeleeSwing"
+              },
+              "System": {
+                "ObjectName": "NiagaraSystem'NS_HeavyAttackSpike'",
+                "ObjectPath": "/Game/VFX/CharacterFX/NiagaraSystems/Combat/HeavySpike/NS_HeavyAttackSpike.236"
+              },
+              "Parameters": [
+                {
+                  "Name": "ChargeColour",
+                  "Type": "EVFXSetParameterType::LinearColor",
+                  "BoolValue": false,
+                  "IntValue": 0,
+                  "FloatValue": 0.0,
+                  "LinearColorValue": {
+                    "R": 0.0,
+                    "G": 0.0,
+                    "B": 25.0,
+                    "A": 1.0,
+                    "Hex": "0000FF"
+                  },
+                  "Vector2Value": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "Vector3Value": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Vector4Value": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 0.0
+                  },
+                  "MaterialValue": null,
+                  "TextureValue": null,
+                  "StaticMeshValue": null
+                },
+                {
+                  "Name": "Colour",
+                  "Type": "EVFXSetParameterType::LinearColor",
+                  "BoolValue": false,
+                  "IntValue": 0,
+                  "FloatValue": 0.0,
+                  "LinearColorValue": {
+                    "R": 0.327778,
+                    "G": 0.130136,
+                    "B": 0.038204,
+                    "A": 1.0,
+                    "Hex": "9B6537"
+                  },
+                  "Vector2Value": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "Vector3Value": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Vector4Value": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 0.0
+                  },
+                  "MaterialValue": null,
+                  "TextureValue": null,
+                  "StaticMeshValue": null
+                },
+                {
+                  "Name": "SecondaryColour",
+                  "Type": "EVFXSetParameterType::LinearColor",
+                  "BoolValue": false,
+                  "IntValue": 0,
+                  "FloatValue": 0.0,
+                  "LinearColorValue": {
+                    "R": 0.14273,
+                    "G": 0.148807,
+                    "B": 0.171875,
+                    "A": 1.0,
+                    "Hex": "696C73"
+                  },
+                  "Vector2Value": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "Vector3Value": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Vector4Value": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 0.0
+                  },
+                  "MaterialValue": null,
+                  "TextureValue": null,
+                  "StaticMeshValue": null
+                },
+                {
+                  "Name": "Spark Colour",
+                  "Type": "EVFXSetParameterType::LinearColor",
+                  "BoolValue": false,
+                  "IntValue": 0,
+                  "FloatValue": 0.0,
+                  "LinearColorValue": {
+                    "R": 5.0,
+                    "G": 1.985124,
+                    "B": 0.582772,
+                    "A": 1.0,
+                    "Hex": "FFFFC9"
+                  },
+                  "Vector2Value": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "Vector3Value": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Vector4Value": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 0.0
+                  },
+                  "MaterialValue": null,
+                  "TextureValue": null,
+                  "StaticMeshValue": null
+                }
+              ]
+            },
+            {
+              "Name": {
+                "TagName": "VFX.Combat.Melee.HeavyMeleeSwingAdditionalVFX"
+              },
+              "System": {
+                "ObjectName": "NiagaraSystem'NS_HeavyAttackSpike_AdditionalLayers_Music'",
+                "ObjectPath": "/Game/VFX/CharacterFX/NiagaraSystems/Combat/HeavySpike/NS_HeavyAttackSpike_AdditionalLayers_Music.16"
+              },
+              "Parameters": [
+                {
+                  "Name": "SpawnWood",
+                  "Type": "EVFXSetParameterType::Bool",
+                  "BoolValue": false,
+                  "IntValue": 0,
+                  "FloatValue": 0.0,
+                  "LinearColorValue": {
+                    "R": 1.0,
+                    "G": 1.0,
+                    "B": 1.0,
+                    "A": 1.0,
+                    "Hex": "FFFFFF"
+                  },
+                  "Vector2Value": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "Vector3Value": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Vector4Value": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 0.0
+                  },
+                  "MaterialValue": null,
+                  "TextureValue": null,
+                  "StaticMeshValue": null
+                }
+              ]
+            },
+            {
+              "Name": {
+                "TagName": "VFX.Combat.Melee.HeavyAttackCharged"
+              },
+              "System": {
+                "ObjectName": "NiagaraSystem'NS_HeavyAttackCharge_FullyCharged'",
+                "ObjectPath": "/Game/VFX/CharacterFX/NiagaraSystems/Combat/HeavyMelee_Charge/NS_HeavyAttackCharge_FullyCharged.143"
+              },
+              "Parameters": []
+            },
+            {
+              "Name": {
+                "TagName": "VFX.Combat.Impact"
+              },
+              "System": {
+                "ObjectName": "NiagaraSystem'NS_MeleeImpact'",
+                "ObjectPath": "/Game/VFX/CharacterFX/NiagaraSystems/Combat/MeleeImpact/NS_MeleeImpact.50"
+              },
+              "Parameters": [
+                {
+                  "Name": "Colour",
+                  "Type": "EVFXSetParameterType::LinearColor",
+                  "BoolValue": false,
+                  "IntValue": 0,
+                  "FloatValue": 0.0,
+                  "LinearColorValue": {
+                    "R": 0.278431,
+                    "G": 0.819608,
+                    "B": 1.0,
+                    "A": 1.0,
+                    "Hex": "90EAFF"
+                  },
+                  "Vector2Value": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "Vector3Value": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Vector4Value": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 0.0
+                  },
+                  "MaterialValue": null,
+                  "TextureValue": null,
+                  "StaticMeshValue": null
+                }
+              ]
+            }
+          ],
+          "SurfaceVFXEntries": []
+        },
+        {
+          "VFXSetName": "RangedWeapon",
+          "VFXSetType": "EVFXSetType::MatchSpecificItem",
+          "Item": {
+            "AssetPathName": "/Game/Gameplay/Weapons/BattleStarGalactica/ColonialLaserPistol/Blueprints/BP_ColonialLaserPistol.BP_ColonialLaserPistol_C",
+            "SubPathString": ""
+          },
+          "RequiredTags": [],
+          "ExcludedTags": [],
+          "bUseSurfaceTypeFilter": false,
+          "VFXSetPairs": [
+            {
+              "Name": {
+                "TagName": "VFX.InstantHitTrail"
+              },
+              "System": {
+                "ObjectName": "NiagaraSystem'NS_HitScanProjectileTrail'",
+                "ObjectPath": "/Game/VFX/CharacterFX/NiagaraSystems/Combat/Ranged_Trail/NS_HitScanProjectileTrail.22"
+              },
+              "Parameters": []
+            }
+          ],
+          "SurfaceVFXEntries": [
+            {
+              "VFXTag": {
+                "TagName": "VFX.RangedImpact"
+              },
+              "VFXSurfaceMap": [
+                {
+                  "Key": "SurfaceType_Default",
+                  "Value": {
+                    "ObjectName": "NiagaraSystem'NS_RangedImpact_BlueLasers'",
+                    "ObjectPath": "/Game/VFX/CharacterFX/NiagaraSystems/Combat/Ranged_Impact/NS_RangedImpact_BlueLasers.26"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

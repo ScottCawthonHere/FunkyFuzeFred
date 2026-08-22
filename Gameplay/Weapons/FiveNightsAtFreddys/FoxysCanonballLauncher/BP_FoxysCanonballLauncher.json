@@ -1,0 +1,234 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_FoxysCanonballLauncher_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncher",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_RangedWeapon_Rifle_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Ranged_ParentClasses/BP_RangedWeapon_Rifle.0"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_FoxysCanonballLauncher_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncher.8"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_FoxysCanonballLauncher_C'Default__BP_FoxysCanonballLauncher_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncher.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_FoxysCanonballLauncher_C",
+    "Name": "Default__BP_FoxysCanonballLauncher_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncher.BP_FoxysCanonballLauncher_C'",
+    "Package": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncher",
+    "Template": {
+      "ObjectName": "BP_RangedWeapon_Rifle_C'Default__BP_RangedWeapon_Rifle_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Ranged_ParentClasses/BP_RangedWeapon_Rifle.1"
+    },
+    "Properties": {
+      "AbilitySetsToGrant": [
+        {
+          "ObjectName": "MerlinAbilitySet'DA_FoxyCanonballAbilitySet'",
+          "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/DA_FoxyCanonballAbilitySet.0"
+        }
+      ],
+      "AttachInfo": [
+        {
+          "AttachComponent": {
+            "OtherActor": null,
+            "ComponentProperty": "MeshComponent",
+            "PathToComponent": "/Script/Merlin.Default__RangedWeapon:WeaponMesh3P"
+          },
+          "CharacterAttachSocket": "Left_Hand_Attach_Socket",
+          "ItemAttachSocket": "None"
+        }
+      ],
+      "CharacterAttachPoint": "Left_Hand_Attach_Socket",
+      "MeshComponent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_FoxysCanonballLauncher_C:WeaponMesh3P'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncher.9"
+      },
+      "HitboxManagerComponent": {
+        "ObjectName": "HitboxManagerComponent'Default__BP_FoxysCanonballLauncher_C:Hitbox Manager'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncher.3"
+      },
+      "ChargeUpEffectComponent": {
+        "ObjectName": "NiagaraComponent'Default__BP_FoxysCanonballLauncher_C:ChargeUpEffect'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncher.5"
+      },
+      "ItemAnimationComponent": {
+        "ObjectName": "ItemAnimationComponent'Default__BP_FoxysCanonballLauncher_C:ItemAnimationComponent'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncher.4"
+      },
+      "AudioComponent": {
+        "ObjectName": "FMODAudioComponent'Default__BP_FoxysCanonballLauncher_C:AudioComponent'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncher.2"
+      },
+      "AnimSetType": "EItemAnimationType::IA_LeftHandedWeapon",
+      "RootComponent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_FoxysCanonballLauncher_C:WeaponMesh3P'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncher.9"
+      }
+    }
+  },
+  {
+    "Type": "FMODAudioComponent",
+    "Name": "AudioComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FMODAudioComponent'",
+    "Outer": {
+      "ObjectName": "BP_FoxysCanonballLauncher_C'Default__BP_FoxysCanonballLauncher_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncher.1"
+    },
+    "Template": {
+      "ObjectName": "FMODAudioComponent'Default__BP_RangedWeapon_Rifle_C:AudioComponent'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Ranged_ParentClasses/BP_RangedWeapon_Rifle.2"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_FoxysCanonballLauncher_C:WeaponMesh3P'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncher.9"
+      }
+    }
+  },
+  {
+    "Type": "HitboxManagerComponent",
+    "Name": "Hitbox Manager",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HitboxManagerComponent'",
+    "Outer": {
+      "ObjectName": "BP_FoxysCanonballLauncher_C'Default__BP_FoxysCanonballLauncher_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncher.1"
+    },
+    "Template": {
+      "ObjectName": "HitboxManagerComponent'Default__BP_RangedWeapon_Rifle_C:Hitbox Manager'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Ranged_ParentClasses/BP_RangedWeapon_Rifle.3"
+    }
+  },
+  {
+    "Type": "ItemAnimationComponent",
+    "Name": "ItemAnimationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ItemAnimationComponent'",
+    "Outer": {
+      "ObjectName": "BP_FoxysCanonballLauncher_C'Default__BP_FoxysCanonballLauncher_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncher.1"
+    },
+    "Template": {
+      "ObjectName": "ItemAnimationComponent'Default__BP_RangedWeapon_Rifle_C:ItemAnimationComponent'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Ranged_ParentClasses/BP_RangedWeapon_Rifle.4"
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "ChargeUpEffect",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BP_FoxysCanonballLauncher_C'Default__BP_FoxysCanonballLauncher_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncher.1"
+    },
+    "Template": {
+      "ObjectName": "NiagaraComponent'Default__BP_RangedWeapon_Rifle_C:ChargeUpEffect'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Ranged_ParentClasses/BP_RangedWeapon_Rifle.5"
+    },
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_FoxysCanonballLauncher_C:WeaponMesh3P'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncher.9"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FoxysCanonballLauncher_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncher.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FoxysCanonballLauncher_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncher.8"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_FoxysCanonballLauncher_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncher.6"
+      },
+      "VariableGuid": "916B7D0E-42F75BB8-61213082-E3061351",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FoxysCanonballLauncher_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncher.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_FoxysCanonballLauncher_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncher.7"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponentBudgeted",
+    "Name": "WeaponMesh3P",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponentBudgeted'",
+    "Outer": {
+      "ObjectName": "BP_FoxysCanonballLauncher_C'Default__BP_FoxysCanonballLauncher_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncher.1"
+    },
+    "Template": {
+      "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_RangedWeapon_Rifle_C:WeaponMesh3P'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Ranged_ParentClasses/BP_RangedWeapon_Rifle.9"
+    },
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_PirateCannonBallLauncher_C'",
+        "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Foxy/ABP_PirateCannonBallLauncher.1"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SKM_PirateCannon'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/PirateCannon/Meshes/SKM_PirateCannon.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SKM_PirateCannon'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/PirateCannon/Meshes/SKM_PirateCannon.1"
+      }
+    }
+  }
+]

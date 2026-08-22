@@ -1,0 +1,290 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_EndoSkeletonAudio_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Audio/FNaF/Characters/BP_EndoSkeletonAudio",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CharacterAudioBase_C'",
+      "ObjectPath": "/Game/Audio/_Shared/Character/BP_CharacterAudioBase.0"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_EndoSkeletonAudio_C'Default__BP_EndoSkeletonAudio_C'",
+      "ObjectPath": "/Game/Audio/FNaF/Characters/BP_EndoSkeletonAudio.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_EndoSkeletonAudio_C",
+    "Name": "Default__BP_EndoSkeletonAudio_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Audio/FNaF/Characters/BP_EndoSkeletonAudio.BP_EndoSkeletonAudio_C'",
+    "Package": "/Game/Audio/FNaF/Characters/BP_EndoSkeletonAudio",
+    "Template": {
+      "ObjectName": "BP_CharacterAudioBase_C'Default__BP_CharacterAudioBase_C'",
+      "ObjectPath": "/Game/Audio/_Shared/Character/BP_CharacterAudioBase.1"
+    },
+    "Properties": {
+      "ChildAudioSets": [
+        {
+          "AudioSetType": "EAudioSetType::MatchAll",
+          "AudioSetName": "EndoSkeleton",
+          "Item": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "RequiredTags": [],
+          "IncompatibleTags": [],
+          "DefaultSocket": "None",
+          "AudioSetPairs": [
+            {
+              "AudioEventName": {
+                "Name": "Footstep",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'EndoSkeletonFootSteps'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/EndoSkeletonFootSteps.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "FootstepRun",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'EndoSkeletonFootSteps'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/EndoSkeletonFootSteps.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "FootstepSlide",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'EndoSkeletonFootSteps'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/EndoSkeletonFootSteps.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "FootstepSprint",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'EndoSkeletonFootSteps'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/EndoSkeletonFootSteps.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "FootstepWalk",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'EndoSkeletonFootSteps'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/EndoSkeletonFootSteps.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "Land",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'EndoSkeletonFootSteps'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/EndoSkeletonFootSteps.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "Jump",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'DannyJump'",
+                "ObjectPath": "/Game/FMOD/Events/Character/HotFuzz/Danny/DannyJump.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "Dodge",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'DannyDodge'",
+                "ObjectPath": "/Game/FMOD/Events/Character/HotFuzz/Danny/DannyDodge.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "IdleGrunt",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FNAF_Char_EndoSkeleton_VO'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/EndoSkeleton/FNAF_Char_EndoSkeleton_VO.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "TakeHit",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FNAF_Char_EndoSkeleton_VO'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/EndoSkeleton/FNAF_Char_EndoSkeleton_VO.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "TakeHitBlockedTemporarily",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FNAF_Char_EndoSkeleton_Scream'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/EndoSkeleton/FNAF_Char_EndoSkeleton_Scream.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "TakeHitMeleeBlocked",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FNAF_Char_EndoSkeleton_Scream'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/EndoSkeleton/FNAF_Char_EndoSkeleton_Scream.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "TakeHitFriendly",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FNAF_Char_EndoSkeleton_Scream'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/EndoSkeleton/FNAF_Char_EndoSkeleton_Scream.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "TakeHitBlocked",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FNAF_Char_EndoSkeleton_VO'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/EndoSkeleton/FNAF_Char_EndoSkeleton_VO.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "Death",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FNAF_Char_EndoSkeleton_Scream'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/EndoSkeleton/FNAF_Char_EndoSkeleton_Scream.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "BodyMovement",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'EndoSkeletonMoveMed'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/EndoSkeletonMoveMed.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "MeleeSwipe",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FNAF_Char_EndoSkeleton_VO'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/EndoSkeleton/FNAF_Char_EndoSkeleton_VO.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "HeavyFullyCharged",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'DannyChargeAttackComplete'",
+                "ObjectPath": "/Game/FMOD/Events/Weapon/HotFuzz/Danny/DannyChargeAttackComplete.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "SlamAttack",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'DannySlamAttack'",
+                "ObjectPath": "/Game/FMOD/Events/Weapon/HotFuzz/Danny/DannySlamAttack.0"
+              }
+            }
+          ]
+        },
+        {
+          "AudioSetType": "EAudioSetType::MatchAll",
+          "AudioSetName": "DannyLowStamina",
+          "Item": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "RequiredTags": [
+            "Status.LowStamina"
+          ],
+          "IncompatibleTags": [],
+          "DefaultSocket": "None",
+          "AudioSetPairs": [
+            {
+              "AudioEventName": {
+                "Name": "Sprint",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'PantingMale'",
+                "ObjectPath": "/Game/FMOD/Events/Character/Generic/PantingMale.0"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

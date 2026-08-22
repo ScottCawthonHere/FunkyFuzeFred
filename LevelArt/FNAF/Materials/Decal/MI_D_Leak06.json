@@ -1,0 +1,2437 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_D_Leak06",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Package": "/Game/LevelArt/FNAF/Materials/Decal/MI_D_Leak06",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "MaterialInstanceConstant'MI_D_Leak05'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Materials/Decal/MI_D_Leak05.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "BC Multi Strength",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "0522EC8E-4D4B4705-2FDA8A96-65A4C2B7"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Base Colour",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.076042,
+            "G": 0.067714,
+            "B": 0.067091,
+            "A": 1.0,
+            "Hex": "4E4949"
+          },
+          "ExpressionGUID": "CB182942-4EE04850-8430E595-51CB23E5"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "BC Multiply Map UV",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.5,
+            "G": 0.5,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "BCBC00"
+          },
+          "ExpressionGUID": "CE4513A4-4FAD5903-6CD5E3A7-EFBD7F0E"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Mask Channel",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 1.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.0,
+            "Hex": "FF0000"
+          },
+          "ExpressionGUID": "11DC461D-418E98CA-597FAD88-CDA70519"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "BlendMode": "EBlendMode::BLEND_Translucent",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "StaticParametersRuntime": {
+        "StaticSwitchParameters": [
+          {
+            "Value": true,
+            "ParameterInfo": {
+              "Name": "Multuply base Colour?",
+              "Association": "EMaterialParameterAssociation::GlobalParameter",
+              "Index": -1
+            },
+            "bOverride": true,
+            "ExpressionGUID": "632CB3F4-42FAEAED-654C0C86-67870D0A"
+          }
+        ]
+      },
+      "bIncludedInBaseGame": true
+    },
+    "LoadedMaterialResources": [
+      {
+        "LoadedShaderMap": {
+          "ShaderMapId": {
+            "QualityLevel": "Num",
+            "FeatureLevel": "SM5",
+            "CookedShaderMapIdHash": "F952BC18BF5B76729F28F275936089C9B0BB49EE",
+            "LayoutParams": {
+              "MaxFieldAlignment": 8,
+              "Flags": "Flag_Initialized, Flag_AlignBases"
+            }
+          },
+          "Content": {
+            "OrderedMeshShaderMaps": [
+              {
+                "VertexFactoryTypeName": "FLocalVertexFactory",
+                "ShaderHash": [],
+                "ShaderTypes": [
+                  "FMeshDecalsVS",
+                  "TBasePassPSFNoLightMapPolicy",
+                  "TBasePassPSFSelfShadowedTranslucencyPolicy",
+                  "TBasePassPSFNoLightMapPolicySkylight",
+                  "TBasePassPSFSelfShadowedTranslucencyPolicySkylight",
+                  "TBasePassVSFSelfShadowedTranslucencyPolicy",
+                  "FMeshDecalsPS",
+                  "TBasePassVSFNoLightMapPolicy"
+                ],
+                "ShaderPermutations": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "Shaders": [
+                  {
+                    "Bindings": {
+                      "StructureLayoutHash": 0,
+                      "RootParameterBufferIndex": 65535
+                    },
+                    "ParameterMapInfo": {
+                      "UniformBuffers": [
+                        {
+                          "BaseIndex": 0
+                        },
+                        {
+                          "BaseIndex": 1
+                        },
+                        {
+                          "BaseIndex": 2
+                        }
+                      ],
+                      "TextureSamplers": [],
+                      "SRVs": [],
+                      "LooseParameterBuffers": [],
+                      "Hash": 0
+                    },
+                    "UniformBufferParameterStructs": [
+                      "View",
+                      "LocalVF",
+                      "Scene"
+                    ],
+                    "UniformBufferParameters": [
+                      {
+                        "BaseIndex": 0
+                      },
+                      {
+                        "BaseIndex": 2
+                      },
+                      {
+                        "BaseIndex": 1
+                      }
+                    ],
+                    "Type": "FMeshDecalsVS",
+                    "VFType": "FLocalVertexFactory",
+                    "Target": {
+                      "Frequency": "SF_Vertex",
+                      "Platform": "SP_PCD3D_SM5"
+                    },
+                    "ResourceIndex": 4,
+                    "NumInstructions": 119,
+                    "SortKey": 4132656826
+                  },
+                  {
+                    "Bindings": {
+                      "StructureLayoutHash": 0,
+                      "RootParameterBufferIndex": 65535
+                    },
+                    "ParameterMapInfo": {
+                      "UniformBuffers": [
+                        {
+                          "BaseIndex": 0
+                        },
+                        {
+                          "BaseIndex": 2
+                        },
+                        {
+                          "BaseIndex": 3
+                        }
+                      ],
+                      "TextureSamplers": [],
+                      "SRVs": [],
+                      "LooseParameterBuffers": [],
+                      "Hash": 0
+                    },
+                    "UniformBufferParameterStructs": [
+                      "View",
+                      "Scene"
+                    ],
+                    "UniformBufferParameters": [
+                      {
+                        "BaseIndex": 0
+                      },
+                      {
+                        "BaseIndex": 3
+                      }
+                    ],
+                    "Type": "TBasePassPSFNoLightMapPolicy",
+                    "VFType": "FLocalVertexFactory",
+                    "Target": {
+                      "Frequency": "SF_Pixel",
+                      "Platform": "SP_PCD3D_SM5"
+                    },
+                    "ResourceIndex": 1,
+                    "NumInstructions": 188,
+                    "SortKey": 1411768405
+                  },
+                  {
+                    "Bindings": {
+                      "StructureLayoutHash": 0,
+                      "RootParameterBufferIndex": 65535
+                    },
+                    "ParameterMapInfo": {
+                      "UniformBuffers": [
+                        {
+                          "BaseIndex": 0
+                        },
+                        {
+                          "BaseIndex": 2
+                        },
+                        {
+                          "BaseIndex": 3
+                        },
+                        {
+                          "BaseIndex": 4
+                        }
+                      ],
+                      "TextureSamplers": [],
+                      "SRVs": [],
+                      "LooseParameterBuffers": [],
+                      "Hash": 0
+                    },
+                    "UniformBufferParameterStructs": [
+                      "View",
+                      "TranslucentSelfShadow",
+                      "Scene"
+                    ],
+                    "UniformBufferParameters": [
+                      {
+                        "BaseIndex": 0
+                      },
+                      {
+                        "BaseIndex": 2
+                      },
+                      {
+                        "BaseIndex": 4
+                      }
+                    ],
+                    "Type": "TBasePassPSFSelfShadowedTranslucencyPolicy",
+                    "VFType": "FLocalVertexFactory",
+                    "Target": {
+                      "Frequency": "SF_Pixel",
+                      "Platform": "SP_PCD3D_SM5"
+                    },
+                    "ResourceIndex": 2,
+                    "NumInstructions": 232,
+                    "SortKey": 2252474730
+                  },
+                  {
+                    "Bindings": {
+                      "StructureLayoutHash": 0,
+                      "RootParameterBufferIndex": 65535
+                    },
+                    "ParameterMapInfo": {
+                      "UniformBuffers": [
+                        {
+                          "BaseIndex": 0
+                        },
+                        {
+                          "BaseIndex": 2
+                        },
+                        {
+                          "BaseIndex": 3
+                        }
+                      ],
+                      "TextureSamplers": [],
+                      "SRVs": [],
+                      "LooseParameterBuffers": [],
+                      "Hash": 0
+                    },
+                    "UniformBufferParameterStructs": [
+                      "View",
+                      "Scene"
+                    ],
+                    "UniformBufferParameters": [
+                      {
+                        "BaseIndex": 0
+                      },
+                      {
+                        "BaseIndex": 3
+                      }
+                    ],
+                    "Type": "TBasePassPSFNoLightMapPolicySkylight",
+                    "VFType": "FLocalVertexFactory",
+                    "Target": {
+                      "Frequency": "SF_Pixel",
+                      "Platform": "SP_PCD3D_SM5"
+                    },
+                    "ResourceIndex": 6,
+                    "NumInstructions": 225,
+                    "SortKey": 4051750358
+                  },
+                  {
+                    "Bindings": {
+                      "StructureLayoutHash": 0,
+                      "RootParameterBufferIndex": 65535
+                    },
+                    "ParameterMapInfo": {
+                      "UniformBuffers": [
+                        {
+                          "BaseIndex": 0
+                        },
+                        {
+                          "BaseIndex": 2
+                        },
+                        {
+                          "BaseIndex": 3
+                        },
+                        {
+                          "BaseIndex": 4
+                        }
+                      ],
+                      "TextureSamplers": [],
+                      "SRVs": [],
+                      "LooseParameterBuffers": [],
+                      "Hash": 0
+                    },
+                    "UniformBufferParameterStructs": [
+                      "View",
+                      "TranslucentSelfShadow",
+                      "Scene"
+                    ],
+                    "UniformBufferParameters": [
+                      {
+                        "BaseIndex": 0
+                      },
+                      {
+                        "BaseIndex": 2
+                      },
+                      {
+                        "BaseIndex": 4
+                      }
+                    ],
+                    "Type": "TBasePassPSFSelfShadowedTranslucencyPolicySkylight",
+                    "VFType": "FLocalVertexFactory",
+                    "Target": {
+                      "Frequency": "SF_Pixel",
+                      "Platform": "SP_PCD3D_SM5"
+                    },
+                    "ResourceIndex": 3,
+                    "NumInstructions": 269,
+                    "SortKey": 1378068664
+                  },
+                  {
+                    "Bindings": {
+                      "StructureLayoutHash": 0,
+                      "RootParameterBufferIndex": 65535
+                    },
+                    "ParameterMapInfo": {
+                      "UniformBuffers": [
+                        {
+                          "BaseIndex": 1
+                        },
+                        {
+                          "BaseIndex": 2
+                        },
+                        {
+                          "BaseIndex": 3
+                        }
+                      ],
+                      "TextureSamplers": [],
+                      "SRVs": [],
+                      "LooseParameterBuffers": [],
+                      "Hash": 0
+                    },
+                    "UniformBufferParameterStructs": [
+                      "View",
+                      "LocalVF",
+                      "Scene"
+                    ],
+                    "UniformBufferParameters": [
+                      {
+                        "BaseIndex": 1
+                      },
+                      {
+                        "BaseIndex": 3
+                      },
+                      {
+                        "BaseIndex": 2
+                      }
+                    ],
+                    "Type": "TBasePassVSFSelfShadowedTranslucencyPolicy",
+                    "VFType": "FLocalVertexFactory",
+                    "Target": {
+                      "Frequency": "SF_Vertex",
+                      "Platform": "SP_PCD3D_SM5"
+                    },
+                    "ResourceIndex": 5,
+                    "NumInstructions": 318,
+                    "SortKey": 4001533907
+                  },
+                  {
+                    "Bindings": {
+                      "StructureLayoutHash": 0,
+                      "RootParameterBufferIndex": 65535
+                    },
+                    "ParameterMapInfo": {
+                      "UniformBuffers": [
+                        {
+                          "BaseIndex": 0
+                        },
+                        {
+                          "BaseIndex": 2
+                        },
+                        {
+                          "BaseIndex": 3
+                        }
+                      ],
+                      "TextureSamplers": [],
+                      "SRVs": [],
+                      "LooseParameterBuffers": [],
+                      "Hash": 0
+                    },
+                    "UniformBufferParameterStructs": [
+                      "View",
+                      "Scene"
+                    ],
+                    "UniformBufferParameters": [
+                      {
+                        "BaseIndex": 0
+                      },
+                      {
+                        "BaseIndex": 3
+                      }
+                    ],
+                    "Type": "FMeshDecalsPS",
+                    "VFType": "FLocalVertexFactory",
+                    "Target": {
+                      "Frequency": "SF_Pixel",
+                      "Platform": "SP_PCD3D_SM5"
+                    },
+                    "ResourceIndex": 7,
+                    "NumInstructions": 109,
+                    "SortKey": 615410172
+                  },
+                  {
+                    "Bindings": {
+                      "StructureLayoutHash": 0,
+                      "RootParameterBufferIndex": 65535
+                    },
+                    "ParameterMapInfo": {
+                      "UniformBuffers": [
+                        {
+                          "BaseIndex": 1
+                        },
+                        {
+                          "BaseIndex": 2
+                        },
+                        {
+                          "BaseIndex": 3
+                        }
+                      ],
+                      "TextureSamplers": [],
+                      "SRVs": [],
+                      "LooseParameterBuffers": [],
+                      "Hash": 0
+                    },
+                    "UniformBufferParameterStructs": [
+                      "View",
+                      "LocalVF",
+                      "Scene"
+                    ],
+                    "UniformBufferParameters": [
+                      {
+                        "BaseIndex": 1
+                      },
+                      {
+                        "BaseIndex": 3
+                      },
+                      {
+                        "BaseIndex": 2
+                      }
+                    ],
+                    "Type": "TBasePassVSFNoLightMapPolicy",
+                    "VFType": "FLocalVertexFactory",
+                    "Target": {
+                      "Frequency": "SF_Vertex",
+                      "Platform": "SP_PCD3D_SM5"
+                    },
+                    "ResourceIndex": 5,
+                    "NumInstructions": 318,
+                    "SortKey": 4001533907
+                  }
+                ],
+                "ShaderPipelines": [],
+                "ShaderPlatform": "SP_PCD3D_SM5"
+              }
+            ],
+            "MaterialCompilationOutput": {
+              "UniformExpressionSet": {
+                "UniformVectorPreshaders": [],
+                "UniformScalarPreshaders": [],
+                "UniformScalarParameters": [],
+                "UniformVectorParameters": [],
+                "UniformParameterEvaluations": [],
+                "UniformPreshaders": [
+                  {
+                    "FieldIndex": 0,
+                    "NumFields": 1,
+                    "OpcodeOffset": 0,
+                    "OpcodeSize": 9
+                  },
+                  {
+                    "FieldIndex": 1,
+                    "NumFields": 1,
+                    "OpcodeOffset": 9,
+                    "OpcodeSize": 9
+                  },
+                  {
+                    "FieldIndex": 2,
+                    "NumFields": 1,
+                    "OpcodeOffset": 18,
+                    "OpcodeSize": 20
+                  },
+                  {
+                    "FieldIndex": 3,
+                    "NumFields": 1,
+                    "OpcodeOffset": 38,
+                    "OpcodeSize": 19
+                  },
+                  {
+                    "FieldIndex": 4,
+                    "NumFields": 1,
+                    "OpcodeOffset": 57,
+                    "OpcodeSize": 10
+                  },
+                  {
+                    "FieldIndex": 5,
+                    "NumFields": 1,
+                    "OpcodeOffset": 67,
+                    "OpcodeSize": 9
+                  },
+                  {
+                    "FieldIndex": 6,
+                    "NumFields": 1,
+                    "OpcodeOffset": 76,
+                    "OpcodeSize": 3
+                  },
+                  {
+                    "FieldIndex": 7,
+                    "NumFields": 1,
+                    "OpcodeOffset": 79,
+                    "OpcodeSize": 3
+                  },
+                  {
+                    "FieldIndex": 8,
+                    "NumFields": 1,
+                    "OpcodeOffset": 82,
+                    "OpcodeSize": 3
+                  },
+                  {
+                    "FieldIndex": 9,
+                    "NumFields": 1,
+                    "OpcodeOffset": 85,
+                    "OpcodeSize": 3
+                  },
+                  {
+                    "FieldIndex": 10,
+                    "NumFields": 1,
+                    "OpcodeOffset": 88,
+                    "OpcodeSize": 10
+                  },
+                  {
+                    "FieldIndex": 11,
+                    "NumFields": 1,
+                    "OpcodeOffset": 98,
+                    "OpcodeSize": 10
+                  },
+                  {
+                    "FieldIndex": 12,
+                    "NumFields": 1,
+                    "OpcodeOffset": 108,
+                    "OpcodeSize": 3
+                  },
+                  {
+                    "FieldIndex": 13,
+                    "NumFields": 1,
+                    "OpcodeOffset": 111,
+                    "OpcodeSize": 3
+                  }
+                ],
+                "UniformPreshaderFields": [
+                  {
+                    "BufferOffset": 0,
+                    "ComponentIndex": 0,
+                    "Type": "Float1"
+                  },
+                  {
+                    "BufferOffset": 1,
+                    "ComponentIndex": 0,
+                    "Type": "Float3"
+                  },
+                  {
+                    "BufferOffset": 4,
+                    "ComponentIndex": 0,
+                    "Type": "Float2"
+                  },
+                  {
+                    "BufferOffset": 6,
+                    "ComponentIndex": 0,
+                    "Type": "Float2"
+                  },
+                  {
+                    "BufferOffset": 8,
+                    "ComponentIndex": 0,
+                    "Type": "Float1"
+                  },
+                  {
+                    "BufferOffset": 9,
+                    "ComponentIndex": 0,
+                    "Type": "Float3"
+                  },
+                  {
+                    "BufferOffset": 12,
+                    "ComponentIndex": 0,
+                    "Type": "Float1"
+                  },
+                  {
+                    "BufferOffset": 13,
+                    "ComponentIndex": 0,
+                    "Type": "Float1"
+                  },
+                  {
+                    "BufferOffset": 14,
+                    "ComponentIndex": 0,
+                    "Type": "Float1"
+                  },
+                  {
+                    "BufferOffset": 16,
+                    "ComponentIndex": 0,
+                    "Type": "Float4"
+                  },
+                  {
+                    "BufferOffset": 20,
+                    "ComponentIndex": 0,
+                    "Type": "Float1"
+                  },
+                  {
+                    "BufferOffset": 21,
+                    "ComponentIndex": 0,
+                    "Type": "Float1"
+                  },
+                  {
+                    "BufferOffset": 22,
+                    "ComponentIndex": 0,
+                    "Type": "Float1"
+                  },
+                  {
+                    "BufferOffset": 23,
+                    "ComponentIndex": 0,
+                    "Type": "Float1"
+                  }
+                ],
+                "UniformNumericParameters": [
+                  {
+                    "ParameterInfo": {
+                      "Name": "SelectionColor",
+                      "Index": -1,
+                      "Association": "GlobalParameter"
+                    },
+                    "ParameterType": "Vector",
+                    "DefaultValueOffset": 0,
+                    "Value": {
+                      "R": 0.0,
+                      "G": 0.0,
+                      "B": 0.0,
+                      "A": 0.0,
+                      "Hex": "000000"
+                    }
+                  },
+                  {
+                    "ParameterInfo": {
+                      "Name": "BC Multiply Map UV",
+                      "Index": -1,
+                      "Association": "GlobalParameter"
+                    },
+                    "ParameterType": "Vector",
+                    "DefaultValueOffset": 16,
+                    "Value": {
+                      "R": 1.0,
+                      "G": 1.0,
+                      "B": 0.0,
+                      "A": 0.0,
+                      "Hex": "FFFF00"
+                    }
+                  },
+                  {
+                    "ParameterInfo": {
+                      "Name": "BC Multi Strength",
+                      "Index": -1,
+                      "Association": "GlobalParameter"
+                    },
+                    "ParameterType": "Scalar",
+                    "DefaultValueOffset": 32,
+                    "Value": 0.0
+                  },
+                  {
+                    "ParameterInfo": {
+                      "Name": "Base Colour",
+                      "Index": -1,
+                      "Association": "GlobalParameter"
+                    },
+                    "ParameterType": "Vector",
+                    "DefaultValueOffset": 36,
+                    "Value": {
+                      "R": 0.0,
+                      "G": 0.0,
+                      "B": 0.0,
+                      "A": 1.0,
+                      "Hex": "000000"
+                    }
+                  },
+                  {
+                    "ParameterInfo": {
+                      "Name": "Metallic",
+                      "Index": -1,
+                      "Association": "GlobalParameter"
+                    },
+                    "ParameterType": "Scalar",
+                    "DefaultValueOffset": 32,
+                    "Value": 0.0
+                  },
+                  {
+                    "ParameterInfo": {
+                      "Name": "Spec",
+                      "Index": -1,
+                      "Association": "GlobalParameter"
+                    },
+                    "ParameterType": "Scalar",
+                    "DefaultValueOffset": 52,
+                    "Value": 0.5
+                  },
+                  {
+                    "ParameterInfo": {
+                      "Name": "Roughness",
+                      "Index": -1,
+                      "Association": "GlobalParameter"
+                    },
+                    "ParameterType": "Scalar",
+                    "DefaultValueOffset": 32,
+                    "Value": 0.0
+                  },
+                  {
+                    "ParameterInfo": {
+                      "Name": "Alpha Contrast",
+                      "Index": -1,
+                      "Association": "GlobalParameter"
+                    },
+                    "ParameterType": "Scalar",
+                    "DefaultValueOffset": 32,
+                    "Value": 0.0
+                  },
+                  {
+                    "ParameterInfo": {
+                      "Name": "Mask Channel",
+                      "Index": -1,
+                      "Association": "GlobalParameter"
+                    },
+                    "ParameterType": "Vector",
+                    "DefaultValueOffset": 56,
+                    "Value": {
+                      "R": 1.0,
+                      "G": 0.0,
+                      "B": 0.0,
+                      "A": 0.0,
+                      "Hex": "FF0000"
+                    }
+                  },
+                  {
+                    "ParameterInfo": {
+                      "Name": "Opacity Strength",
+                      "Index": -1,
+                      "Association": "GlobalParameter"
+                    },
+                    "ParameterType": "Scalar",
+                    "DefaultValueOffset": 72,
+                    "Value": 1.0
+                  },
+                  {
+                    "ParameterInfo": {
+                      "Name": "RefractionDepthBias",
+                      "Index": -1,
+                      "Association": "GlobalParameter"
+                    },
+                    "ParameterType": "Scalar",
+                    "DefaultValueOffset": 32,
+                    "Value": 0.0
+                  }
+                ],
+                "UniformTextureParameters": [
+                  [
+                    {
+                      "TextureIndex": 3,
+                      "SamplerSource": "SSM_FromTextureAsset",
+                      "VirtualTextureLayerIndex": 255,
+                      "ParameterInfo": {
+                        "Name": "BC Multiply Map",
+                        "Index": -1,
+                        "Association": "GlobalParameter"
+                      },
+                      "ParameterInfoOld": null,
+                      "ParameterName": null
+                    },
+                    {
+                      "TextureIndex": 1,
+                      "SamplerSource": "SSM_FromTextureAsset",
+                      "VirtualTextureLayerIndex": 255,
+                      "ParameterInfo": {
+                        "Name": "Mask Map",
+                        "Index": -1,
+                        "Association": "GlobalParameter"
+                      },
+                      "ParameterInfoOld": null,
+                      "ParameterName": null
+                    }
+                  ],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  []
+                ],
+                "UniformExternalTextureParameters": [],
+                "UniformTextureCollectionParameters": null,
+                "UniformPreshaderBufferSize": 6,
+                "UniformPreshaderData": {
+                  "Names": [],
+                  "NamesOffset": null,
+                  "StructTypes": [],
+                  "StructComponentTypes": [],
+                  "Data": "AwAAJAED////AwAAJAMAAQL/AwEAJAEA////AwEAJAEB////JRYDAQAkAQL///8DAQAkAQP///8lAgEAAIA/AwIABQMDACQDAAEC/wMEAAMFAAMGAAMIAAMHAAIBAACAPwQCAQAAAAADBwAFAwkAAwoA",
+                  "bPreshader2": false,
+                  "bPreFixup": false,
+                  "Preshader2TemporarySize": 0
+                },
+                "DefaultValues": "AAAAAAAAAAAAAAAAAAAAAAAAgD8AAIA/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAPwAAAD8AAIA/AAAAAAAAAAAAAAAAAACAPw==",
+                "VTStacks": [],
+                "MaterialCacheTagStacks": null,
+                "ParameterCollections": [],
+                "UniformBufferLayoutInitializer": {
+                  "Name": "Material",
+                  "Resources": [
+                    {
+                      "MemberOffset": 96,
+                      "MemberType": "EUniformBufferBaseType_NumBits"
+                    },
+                    {
+                      "MemberOffset": 104,
+                      "MemberType": "UBMT_SAMPLER"
+                    },
+                    {
+                      "MemberOffset": 112,
+                      "MemberType": "EUniformBufferBaseType_NumBits"
+                    },
+                    {
+                      "MemberOffset": 120,
+                      "MemberType": "UBMT_SAMPLER"
+                    },
+                    {
+                      "MemberOffset": 128,
+                      "MemberType": "UBMT_SAMPLER"
+                    },
+                    {
+                      "MemberOffset": 136,
+                      "MemberType": "UBMT_SAMPLER"
+                    }
+                  ],
+                  "GraphResources": [],
+                  "GraphTextures": [],
+                  "GraphBuffers": [],
+                  "GraphUniformBuffers": [],
+                  "UniformBuffers": [],
+                  "Hash": 94177544,
+                  "ConstantBufferSize": 144,
+                  "RenderTargetsOffset": 65535,
+                  "StaticSlot": 255,
+                  "BindingFlags": "Shader",
+                  "Flags": "None"
+                },
+                "CompactUniformsVSOptional": null
+              },
+              "UserSceneTextureInputs": [],
+              "UsedSceneTextures": 256,
+              "UsedPathTracingBufferTextures": 0,
+              "StrataMaterialCompilationOutput": {
+                "SubstrateMaterialType": 7,
+                "SubstrateClosureCount": 0,
+                "SubstrateUintPerPixel": 1,
+                "bUsesComplexSpecialRenderPath": 0
+              },
+              "UsedDBufferTextures": 0,
+              "RuntimeVirtualTextureOutputAttributeMask": 0,
+              "b1": 0,
+              "b2": 0,
+              "b3": 0
+            },
+            "ShaderContentHash": "F79AC468023E404B636EB56932E687821E78F45A",
+            "UserSceneTextureOutput": "None",
+            "UserTextureDivisorX": 0,
+            "UserTextureDivisorY": 0,
+            "ResolutionRelativeToInput": "None",
+            "ShaderHash": [],
+            "ShaderTypes": [
+              "FDeferredDecalPS"
+            ],
+            "ShaderPermutations": [
+              0
+            ],
+            "Shaders": [
+              {
+                "Bindings": {
+                  "StructureLayoutHash": 0,
+                  "RootParameterBufferIndex": 65535
+                },
+                "ParameterMapInfo": {
+                  "UniformBuffers": [
+                    {
+                      "BaseIndex": 1
+                    },
+                    {
+                      "BaseIndex": 3
+                    }
+                  ],
+                  "TextureSamplers": [],
+                  "SRVs": [],
+                  "LooseParameterBuffers": [
+                    {
+                      "BaseIndex": 0,
+                      "Size": 100,
+                      "Parameters": [
+                        {
+                          "BaseIndex": 16,
+                          "Size": 64
+                        },
+                        {
+                          "BaseIndex": 160,
+                          "Size": 12
+                        },
+                        {
+                          "BaseIndex": 176,
+                          "Size": 8
+                        },
+                        {
+                          "BaseIndex": 192,
+                          "Size": 16
+                        }
+                      ]
+                    }
+                  ],
+                  "Hash": 0
+                },
+                "UniformBufferParameterStructs": [
+                  "View"
+                ],
+                "UniformBufferParameters": [
+                  {
+                    "BaseIndex": 1
+                  }
+                ],
+                "Type": "FDeferredDecalPS",
+                "VFType": "FLocalVertexFactory",
+                "Target": {
+                  "Frequency": "SF_Pixel",
+                  "Platform": "SP_PCD3D_SM5"
+                },
+                "ResourceIndex": 0,
+                "NumInstructions": 143,
+                "SortKey": 1031590191
+              }
+            ],
+            "ShaderPipelines": [],
+            "ShaderPlatform": "SP_PCD3D_SM5"
+          },
+          "PointerTable": {
+            "Types": [
+              "FDeferredDecalPS",
+              "FMeshDecalsVS",
+              "TBasePassPSFNoLightMapPolicy",
+              "TBasePassPSFSelfShadowedTranslucencyPolicy",
+              "TBasePassPSFNoLightMapPolicySkylight",
+              "TBasePassPSFSelfShadowedTranslucencyPolicySkylight",
+              "TBasePassVSFSelfShadowedTranslucencyPolicy",
+              "FMeshDecalsPS",
+              "TBasePassVSFNoLightMapPolicy"
+            ],
+            "VFTypes": [
+              "FLocalVertexFactory"
+            ],
+            "TypeDependencies": [
+              {
+                "Name": "FMaterialShaderMapContent",
+                "SavedLayoutSize": 572,
+                "SavedLayoutHash": "B06401A117D18578B87C47FCB5A0014434635607"
+              },
+              {
+                "Name": "FHashedName",
+                "SavedLayoutSize": 8,
+                "SavedLayoutHash": "30FD5AF790B755E56B0409FC43602589073952BB"
+              },
+              {
+                "Name": "FDeferredDecalPS",
+                "SavedLayoutSize": 292,
+                "SavedLayoutHash": "D21C435C3A03404755F9DA391140D65642FF5807"
+              },
+              {
+                "Name": "FShaderUniformBufferParameterInfo",
+                "SavedLayoutSize": 2,
+                "SavedLayoutHash": "49B92EF4F1FF8CF8CDAD2DDA1063B7AB70A0BA67"
+              },
+              {
+                "Name": "FShaderLooseParameterBufferInfo",
+                "SavedLayoutSize": 24,
+                "SavedLayoutHash": "EBCE4A67EFA2C887584DC54492F92497C576872B"
+              },
+              {
+                "Name": "FShaderLooseParameterInfo",
+                "SavedLayoutSize": 4,
+                "SavedLayoutHash": "74006A3EBF9DA53481EB770C5FFCFFBD3084A5F1"
+              },
+              {
+                "Name": "FShaderUniformBufferParameter",
+                "SavedLayoutSize": 2,
+                "SavedLayoutHash": "BDF329B25A04BFD9313361CD47C5163218B8537A"
+              },
+              {
+                "Name": "FMeshMaterialShaderMap",
+                "SavedLayoutSize": 104,
+                "SavedLayoutHash": "CC035A0C0B55828628A25CBB4DF55E48ACB5487C"
+              },
+              {
+                "Name": "FMeshDecalsVS",
+                "SavedLayoutSize": 264,
+                "SavedLayoutHash": "21435F6052EE052875F1C38E81F2BC08BE52C61E"
+              },
+              {
+                "Name": "FLocalVertexFactoryShaderParameters",
+                "SavedLayoutSize": 18,
+                "SavedLayoutHash": "81418F8992AC49B8E2AFD31AF3B57530A23E085E"
+              },
+              {
+                "Name": "TBasePassPSFNoLightMapPolicy",
+                "SavedLayoutSize": 272,
+                "SavedLayoutHash": "B08957B08340D0A597408AF0BAAEB516E0E7CA47"
+              },
+              {
+                "Name": "TBasePassPSFSelfShadowedTranslucencyPolicy",
+                "SavedLayoutSize": 272,
+                "SavedLayoutHash": "29B78B04B44C1A09B4A713426DD8133C96765C27"
+              },
+              {
+                "Name": "TBasePassPSFNoLightMapPolicySkylight",
+                "SavedLayoutSize": 272,
+                "SavedLayoutHash": "DA97FBAFEC1628191D52B0B69DF7AB04A796BE8D"
+              },
+              {
+                "Name": "TBasePassPSFSelfShadowedTranslucencyPolicySkylight",
+                "SavedLayoutSize": 272,
+                "SavedLayoutHash": "BB05CAA600140E3B20A7B2111629225CEB05E78E"
+              },
+              {
+                "Name": "TBasePassVSFSelfShadowedTranslucencyPolicy",
+                "SavedLayoutSize": 272,
+                "SavedLayoutHash": "CDFB7E16F03DB84771819A9417703E76DFB22784"
+              },
+              {
+                "Name": "FMeshDecalsPS",
+                "SavedLayoutSize": 264,
+                "SavedLayoutHash": "75202AD525FB120B9AB8200D367A5CFB310742DB"
+              },
+              {
+                "Name": "TBasePassVSFNoLightMapPolicy",
+                "SavedLayoutSize": 272,
+                "SavedLayoutHash": "9452CEDD58E9B10FF4177557BD2194A19C9C6C5D"
+              },
+              {
+                "Name": "FMaterialUniformPreshaderHeader",
+                "SavedLayoutSize": 16,
+                "SavedLayoutHash": "0AEB93F9BC8D33EA7738D143B6AC90B7242422E5"
+              },
+              {
+                "Name": "FMaterialUniformPreshaderField",
+                "SavedLayoutSize": 9,
+                "SavedLayoutHash": "A46F91DF56615B329F0AA139A9B7117610DBAD61"
+              },
+              {
+                "Name": "FMaterialNumericParameterInfo",
+                "SavedLayoutSize": 28,
+                "SavedLayoutHash": "78AC4B12B8749DE7603037C3AFFD5CFCDFEEE51B"
+              },
+              {
+                "Name": "FMaterialTextureParameterInfo",
+                "SavedLayoutSize": 26,
+                "SavedLayoutHash": "BFF3D615058D942EDACC22D4E7DA3EAE2E69021B"
+              },
+              {
+                "Name": "FRHIUniformBufferResourceInitializer",
+                "SavedLayoutSize": 3,
+                "SavedLayoutHash": "9D2C470E363439F76A7D7FB6BE0A9E1E14FC7740"
+              }
+            ]
+          },
+          "ResourceHash": "C89424CFCC43220F58F2E53B322FB61771A7C3F9",
+          "Code": null,
+          "ShaderPlatform": "SP_PCD3D_SM5",
+          "FrozenArchive": {
+            "LayoutParameters": {
+              "MaxFieldAlignment": 8,
+              "Flags": "Flag_Initialized, Flag_AlignBases"
+            },
+            "VTables": [],
+            "ScriptNames": [
+              {
+                "Name": "Alpha Contrast",
+                "Patches": [
+                  {
+                    "Offset": 4220
+                  }
+                ]
+              },
+              {
+                "Name": "Base Colour",
+                "Patches": [
+                  {
+                    "Offset": 4108
+                  }
+                ]
+              },
+              {
+                "Name": "BC Multi Strength",
+                "Patches": [
+                  {
+                    "Offset": 4080
+                  }
+                ]
+              },
+              {
+                "Name": "BC Multiply Map",
+                "Patches": [
+                  {
+                    "Offset": 4332
+                  }
+                ]
+              },
+              {
+                "Name": "BC Multiply Map UV",
+                "Patches": [
+                  {
+                    "Offset": 4052
+                  }
+                ]
+              },
+              {
+                "Name": "Mask Channel",
+                "Patches": [
+                  {
+                    "Offset": 4248
+                  }
+                ]
+              },
+              {
+                "Name": "Mask Map",
+                "Patches": [
+                  {
+                    "Offset": 4360
+                  }
+                ]
+              },
+              {
+                "Name": "Metallic",
+                "Patches": [
+                  {
+                    "Offset": 4136
+                  }
+                ]
+              },
+              {
+                "Name": "Opacity Strength",
+                "Patches": [
+                  {
+                    "Offset": 4276
+                  }
+                ]
+              },
+              {
+                "Name": "RefractionDepthBias",
+                "Patches": [
+                  {
+                    "Offset": 4304
+                  }
+                ]
+              },
+              {
+                "Name": "Roughness",
+                "Patches": [
+                  {
+                    "Offset": 4192
+                  }
+                ]
+              },
+              {
+                "Name": "SelectionColor",
+                "Patches": [
+                  {
+                    "Offset": 4024
+                  }
+                ]
+              },
+              {
+                "Name": "Spec",
+                "Patches": [
+                  {
+                    "Offset": 4164
+                  }
+                ]
+              }
+            ],
+            "MinimalNames": [
+              {
+                "Name": "PCD3D_SM5",
+                "Patches": [
+                  {
+                    "Offset": 88
+                  },
+                  {
+                    "Offset": 1048
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "LoadedShaderMap": {
+          "ShaderMapId": {
+            "QualityLevel": "Num",
+            "FeatureLevel": "SM6",
+            "CookedShaderMapIdHash": "EE96D8DC4E74FACC315A4F2F07525D43DD074F0E",
+            "LayoutParams": {
+              "MaxFieldAlignment": 8,
+              "Flags": "Flag_Initialized, Flag_AlignBases"
+            }
+          },
+          "Content": {
+            "OrderedMeshShaderMaps": [
+              {
+                "VertexFactoryTypeName": "FLocalVertexFactory",
+                "ShaderHash": [],
+                "ShaderTypes": [
+                  "FMeshDecalsVS",
+                  "TBasePassPSFNoLightMapPolicy",
+                  "TBasePassPSFSelfShadowedTranslucencyPolicy",
+                  "TBasePassPSFNoLightMapPolicySkylight",
+                  "TBasePassPSFSelfShadowedTranslucencyPolicySkylight",
+                  "TBasePassVSFSelfShadowedTranslucencyPolicy",
+                  "FMeshDecalsPS",
+                  "TBasePassVSFNoLightMapPolicy"
+                ],
+                "ShaderPermutations": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "Shaders": [
+                  {
+                    "Bindings": {
+                      "StructureLayoutHash": 0,
+                      "RootParameterBufferIndex": 65535
+                    },
+                    "ParameterMapInfo": {
+                      "UniformBuffers": [
+                        {
+                          "BaseIndex": 0
+                        },
+                        {
+                          "BaseIndex": 1
+                        },
+                        {
+                          "BaseIndex": 2
+                        }
+                      ],
+                      "TextureSamplers": [],
+                      "SRVs": [],
+                      "LooseParameterBuffers": [],
+                      "Hash": 0
+                    },
+                    "UniformBufferParameterStructs": [
+                      "View",
+                      "LocalVF",
+                      "Scene"
+                    ],
+                    "UniformBufferParameters": [
+                      {
+                        "BaseIndex": 0
+                      },
+                      {
+                        "BaseIndex": 2
+                      },
+                      {
+                        "BaseIndex": 1
+                      }
+                    ],
+                    "Type": "FMeshDecalsVS",
+                    "VFType": "FLocalVertexFactory",
+                    "Target": {
+                      "Frequency": "SF_Vertex",
+                      "Platform": "SP_PCD3D_SM6"
+                    },
+                    "ResourceIndex": 7,
+                    "NumInstructions": 135,
+                    "SortKey": 3328098210
+                  },
+                  {
+                    "Bindings": {
+                      "StructureLayoutHash": 0,
+                      "RootParameterBufferIndex": 65535
+                    },
+                    "ParameterMapInfo": {
+                      "UniformBuffers": [
+                        {
+                          "BaseIndex": 0
+                        },
+                        {
+                          "BaseIndex": 2
+                        },
+                        {
+                          "BaseIndex": 3
+                        }
+                      ],
+                      "TextureSamplers": [],
+                      "SRVs": [],
+                      "LooseParameterBuffers": [],
+                      "Hash": 0
+                    },
+                    "UniformBufferParameterStructs": [
+                      "View",
+                      "Scene"
+                    ],
+                    "UniformBufferParameters": [
+                      {
+                        "BaseIndex": 0
+                      },
+                      {
+                        "BaseIndex": 3
+                      }
+                    ],
+                    "Type": "TBasePassPSFNoLightMapPolicy",
+                    "VFType": "FLocalVertexFactory",
+                    "Target": {
+                      "Frequency": "SF_Pixel",
+                      "Platform": "SP_PCD3D_SM6"
+                    },
+                    "ResourceIndex": 2,
+                    "NumInstructions": 263,
+                    "SortKey": 1695743017
+                  },
+                  {
+                    "Bindings": {
+                      "StructureLayoutHash": 0,
+                      "RootParameterBufferIndex": 65535
+                    },
+                    "ParameterMapInfo": {
+                      "UniformBuffers": [
+                        {
+                          "BaseIndex": 0
+                        },
+                        {
+                          "BaseIndex": 2
+                        },
+                        {
+                          "BaseIndex": 3
+                        },
+                        {
+                          "BaseIndex": 4
+                        }
+                      ],
+                      "TextureSamplers": [],
+                      "SRVs": [],
+                      "LooseParameterBuffers": [],
+                      "Hash": 0
+                    },
+                    "UniformBufferParameterStructs": [
+                      "View",
+                      "TranslucentSelfShadow",
+                      "Scene"
+                    ],
+                    "UniformBufferParameters": [
+                      {
+                        "BaseIndex": 0
+                      },
+                      {
+                        "BaseIndex": 2
+                      },
+                      {
+                        "BaseIndex": 4
+                      }
+                    ],
+                    "Type": "TBasePassPSFSelfShadowedTranslucencyPolicy",
+                    "VFType": "FLocalVertexFactory",
+                    "Target": {
+                      "Frequency": "SF_Pixel",
+                      "Platform": "SP_PCD3D_SM6"
+                    },
+                    "ResourceIndex": 6,
+                    "NumInstructions": 320,
+                    "SortKey": 2556731033
+                  },
+                  {
+                    "Bindings": {
+                      "StructureLayoutHash": 0,
+                      "RootParameterBufferIndex": 65535
+                    },
+                    "ParameterMapInfo": {
+                      "UniformBuffers": [
+                        {
+                          "BaseIndex": 0
+                        },
+                        {
+                          "BaseIndex": 2
+                        },
+                        {
+                          "BaseIndex": 3
+                        }
+                      ],
+                      "TextureSamplers": [],
+                      "SRVs": [],
+                      "LooseParameterBuffers": [],
+                      "Hash": 0
+                    },
+                    "UniformBufferParameterStructs": [
+                      "View",
+                      "Scene"
+                    ],
+                    "UniformBufferParameters": [
+                      {
+                        "BaseIndex": 0
+                      },
+                      {
+                        "BaseIndex": 3
+                      }
+                    ],
+                    "Type": "TBasePassPSFNoLightMapPolicySkylight",
+                    "VFType": "FLocalVertexFactory",
+                    "Target": {
+                      "Frequency": "SF_Pixel",
+                      "Platform": "SP_PCD3D_SM6"
+                    },
+                    "ResourceIndex": 3,
+                    "NumInstructions": 309,
+                    "SortKey": 2526831938
+                  },
+                  {
+                    "Bindings": {
+                      "StructureLayoutHash": 0,
+                      "RootParameterBufferIndex": 65535
+                    },
+                    "ParameterMapInfo": {
+                      "UniformBuffers": [
+                        {
+                          "BaseIndex": 0
+                        },
+                        {
+                          "BaseIndex": 2
+                        },
+                        {
+                          "BaseIndex": 3
+                        },
+                        {
+                          "BaseIndex": 4
+                        }
+                      ],
+                      "TextureSamplers": [],
+                      "SRVs": [],
+                      "LooseParameterBuffers": [],
+                      "Hash": 0
+                    },
+                    "UniformBufferParameterStructs": [
+                      "View",
+                      "TranslucentSelfShadow",
+                      "Scene"
+                    ],
+                    "UniformBufferParameters": [
+                      {
+                        "BaseIndex": 0
+                      },
+                      {
+                        "BaseIndex": 2
+                      },
+                      {
+                        "BaseIndex": 4
+                      }
+                    ],
+                    "Type": "TBasePassPSFSelfShadowedTranslucencyPolicySkylight",
+                    "VFType": "FLocalVertexFactory",
+                    "Target": {
+                      "Frequency": "SF_Pixel",
+                      "Platform": "SP_PCD3D_SM6"
+                    },
+                    "ResourceIndex": 5,
+                    "NumInstructions": 365,
+                    "SortKey": 55548552
+                  },
+                  {
+                    "Bindings": {
+                      "StructureLayoutHash": 0,
+                      "RootParameterBufferIndex": 65535
+                    },
+                    "ParameterMapInfo": {
+                      "UniformBuffers": [
+                        {
+                          "BaseIndex": 1
+                        },
+                        {
+                          "BaseIndex": 2
+                        },
+                        {
+                          "BaseIndex": 3
+                        }
+                      ],
+                      "TextureSamplers": [],
+                      "SRVs": [],
+                      "LooseParameterBuffers": [],
+                      "Hash": 0
+                    },
+                    "UniformBufferParameterStructs": [
+                      "View",
+                      "LocalVF",
+                      "Scene"
+                    ],
+                    "UniformBufferParameters": [
+                      {
+                        "BaseIndex": 1
+                      },
+                      {
+                        "BaseIndex": 3
+                      },
+                      {
+                        "BaseIndex": 2
+                      }
+                    ],
+                    "Type": "TBasePassVSFSelfShadowedTranslucencyPolicy",
+                    "VFType": "FLocalVertexFactory",
+                    "Target": {
+                      "Frequency": "SF_Vertex",
+                      "Platform": "SP_PCD3D_SM6"
+                    },
+                    "ResourceIndex": 0,
+                    "NumInstructions": 295,
+                    "SortKey": 3968100891
+                  },
+                  {
+                    "Bindings": {
+                      "StructureLayoutHash": 0,
+                      "RootParameterBufferIndex": 65535
+                    },
+                    "ParameterMapInfo": {
+                      "UniformBuffers": [
+                        {
+                          "BaseIndex": 0
+                        },
+                        {
+                          "BaseIndex": 2
+                        },
+                        {
+                          "BaseIndex": 3
+                        }
+                      ],
+                      "TextureSamplers": [],
+                      "SRVs": [],
+                      "LooseParameterBuffers": [],
+                      "Hash": 0
+                    },
+                    "UniformBufferParameterStructs": [
+                      "View",
+                      "Scene"
+                    ],
+                    "UniformBufferParameters": [
+                      {
+                        "BaseIndex": 0
+                      },
+                      {
+                        "BaseIndex": 3
+                      }
+                    ],
+                    "Type": "FMeshDecalsPS",
+                    "VFType": "FLocalVertexFactory",
+                    "Target": {
+                      "Frequency": "SF_Pixel",
+                      "Platform": "SP_PCD3D_SM6"
+                    },
+                    "ResourceIndex": 1,
+                    "NumInstructions": 146,
+                    "SortKey": 172380956
+                  },
+                  {
+                    "Bindings": {
+                      "StructureLayoutHash": 0,
+                      "RootParameterBufferIndex": 65535
+                    },
+                    "ParameterMapInfo": {
+                      "UniformBuffers": [
+                        {
+                          "BaseIndex": 1
+                        },
+                        {
+                          "BaseIndex": 2
+                        },
+                        {
+                          "BaseIndex": 3
+                        }
+                      ],
+                      "TextureSamplers": [],
+                      "SRVs": [],
+                      "LooseParameterBuffers": [],
+                      "Hash": 0
+                    },
+                    "UniformBufferParameterStructs": [
+                      "View",
+                      "LocalVF",
+                      "Scene"
+                    ],
+                    "UniformBufferParameters": [
+                      {
+                        "BaseIndex": 1
+                      },
+                      {
+                        "BaseIndex": 3
+                      },
+                      {
+                        "BaseIndex": 2
+                      }
+                    ],
+                    "Type": "TBasePassVSFNoLightMapPolicy",
+                    "VFType": "FLocalVertexFactory",
+                    "Target": {
+                      "Frequency": "SF_Vertex",
+                      "Platform": "SP_PCD3D_SM6"
+                    },
+                    "ResourceIndex": 0,
+                    "NumInstructions": 295,
+                    "SortKey": 3968100891
+                  }
+                ],
+                "ShaderPipelines": [],
+                "ShaderPlatform": "SP_PCD3D_SM6"
+              }
+            ],
+            "MaterialCompilationOutput": {
+              "UniformExpressionSet": {
+                "UniformVectorPreshaders": [],
+                "UniformScalarPreshaders": [],
+                "UniformScalarParameters": [],
+                "UniformVectorParameters": [],
+                "UniformParameterEvaluations": [],
+                "UniformPreshaders": [
+                  {
+                    "FieldIndex": 0,
+                    "NumFields": 1,
+                    "OpcodeOffset": 0,
+                    "OpcodeSize": 9
+                  },
+                  {
+                    "FieldIndex": 1,
+                    "NumFields": 1,
+                    "OpcodeOffset": 9,
+                    "OpcodeSize": 9
+                  },
+                  {
+                    "FieldIndex": 2,
+                    "NumFields": 1,
+                    "OpcodeOffset": 18,
+                    "OpcodeSize": 20
+                  },
+                  {
+                    "FieldIndex": 3,
+                    "NumFields": 1,
+                    "OpcodeOffset": 38,
+                    "OpcodeSize": 19
+                  },
+                  {
+                    "FieldIndex": 4,
+                    "NumFields": 1,
+                    "OpcodeOffset": 57,
+                    "OpcodeSize": 10
+                  },
+                  {
+                    "FieldIndex": 5,
+                    "NumFields": 1,
+                    "OpcodeOffset": 67,
+                    "OpcodeSize": 9
+                  },
+                  {
+                    "FieldIndex": 6,
+                    "NumFields": 1,
+                    "OpcodeOffset": 76,
+                    "OpcodeSize": 3
+                  },
+                  {
+                    "FieldIndex": 7,
+                    "NumFields": 1,
+                    "OpcodeOffset": 79,
+                    "OpcodeSize": 3
+                  },
+                  {
+                    "FieldIndex": 8,
+                    "NumFields": 1,
+                    "OpcodeOffset": 82,
+                    "OpcodeSize": 3
+                  },
+                  {
+                    "FieldIndex": 9,
+                    "NumFields": 1,
+                    "OpcodeOffset": 85,
+                    "OpcodeSize": 3
+                  },
+                  {
+                    "FieldIndex": 10,
+                    "NumFields": 1,
+                    "OpcodeOffset": 88,
+                    "OpcodeSize": 10
+                  },
+                  {
+                    "FieldIndex": 11,
+                    "NumFields": 1,
+                    "OpcodeOffset": 98,
+                    "OpcodeSize": 10
+                  },
+                  {
+                    "FieldIndex": 12,
+                    "NumFields": 1,
+                    "OpcodeOffset": 108,
+                    "OpcodeSize": 3
+                  },
+                  {
+                    "FieldIndex": 13,
+                    "NumFields": 1,
+                    "OpcodeOffset": 111,
+                    "OpcodeSize": 3
+                  }
+                ],
+                "UniformPreshaderFields": [
+                  {
+                    "BufferOffset": 0,
+                    "ComponentIndex": 0,
+                    "Type": "Float1"
+                  },
+                  {
+                    "BufferOffset": 1,
+                    "ComponentIndex": 0,
+                    "Type": "Float3"
+                  },
+                  {
+                    "BufferOffset": 4,
+                    "ComponentIndex": 0,
+                    "Type": "Float2"
+                  },
+                  {
+                    "BufferOffset": 6,
+                    "ComponentIndex": 0,
+                    "Type": "Float2"
+                  },
+                  {
+                    "BufferOffset": 8,
+                    "ComponentIndex": 0,
+                    "Type": "Float1"
+                  },
+                  {
+                    "BufferOffset": 9,
+                    "ComponentIndex": 0,
+                    "Type": "Float3"
+                  },
+                  {
+                    "BufferOffset": 12,
+                    "ComponentIndex": 0,
+                    "Type": "Float1"
+                  },
+                  {
+                    "BufferOffset": 13,
+                    "ComponentIndex": 0,
+                    "Type": "Float1"
+                  },
+                  {
+                    "BufferOffset": 14,
+                    "ComponentIndex": 0,
+                    "Type": "Float1"
+                  },
+                  {
+                    "BufferOffset": 16,
+                    "ComponentIndex": 0,
+                    "Type": "Float4"
+                  },
+                  {
+                    "BufferOffset": 20,
+                    "ComponentIndex": 0,
+                    "Type": "Float1"
+                  },
+                  {
+                    "BufferOffset": 21,
+                    "ComponentIndex": 0,
+                    "Type": "Float1"
+                  },
+                  {
+                    "BufferOffset": 22,
+                    "ComponentIndex": 0,
+                    "Type": "Float1"
+                  },
+                  {
+                    "BufferOffset": 23,
+                    "ComponentIndex": 0,
+                    "Type": "Float1"
+                  }
+                ],
+                "UniformNumericParameters": [
+                  {
+                    "ParameterInfo": {
+                      "Name": "SelectionColor",
+                      "Index": -1,
+                      "Association": "GlobalParameter"
+                    },
+                    "ParameterType": "Vector",
+                    "DefaultValueOffset": 0,
+                    "Value": {
+                      "R": 0.0,
+                      "G": 0.0,
+                      "B": 0.0,
+                      "A": 0.0,
+                      "Hex": "000000"
+                    }
+                  },
+                  {
+                    "ParameterInfo": {
+                      "Name": "BC Multiply Map UV",
+                      "Index": -1,
+                      "Association": "GlobalParameter"
+                    },
+                    "ParameterType": "Vector",
+                    "DefaultValueOffset": 16,
+                    "Value": {
+                      "R": 1.0,
+                      "G": 1.0,
+                      "B": 0.0,
+                      "A": 0.0,
+                      "Hex": "FFFF00"
+                    }
+                  },
+                  {
+                    "ParameterInfo": {
+                      "Name": "BC Multi Strength",
+                      "Index": -1,
+                      "Association": "GlobalParameter"
+                    },
+                    "ParameterType": "Scalar",
+                    "DefaultValueOffset": 32,
+                    "Value": 0.0
+                  },
+                  {
+                    "ParameterInfo": {
+                      "Name": "Base Colour",
+                      "Index": -1,
+                      "Association": "GlobalParameter"
+                    },
+                    "ParameterType": "Vector",
+                    "DefaultValueOffset": 36,
+                    "Value": {
+                      "R": 0.0,
+                      "G": 0.0,
+                      "B": 0.0,
+                      "A": 1.0,
+                      "Hex": "000000"
+                    }
+                  },
+                  {
+                    "ParameterInfo": {
+                      "Name": "Metallic",
+                      "Index": -1,
+                      "Association": "GlobalParameter"
+                    },
+                    "ParameterType": "Scalar",
+                    "DefaultValueOffset": 32,
+                    "Value": 0.0
+                  },
+                  {
+                    "ParameterInfo": {
+                      "Name": "Spec",
+                      "Index": -1,
+                      "Association": "GlobalParameter"
+                    },
+                    "ParameterType": "Scalar",
+                    "DefaultValueOffset": 52,
+                    "Value": 0.5
+                  },
+                  {
+                    "ParameterInfo": {
+                      "Name": "Roughness",
+                      "Index": -1,
+                      "Association": "GlobalParameter"
+                    },
+                    "ParameterType": "Scalar",
+                    "DefaultValueOffset": 32,
+                    "Value": 0.0
+                  },
+                  {
+                    "ParameterInfo": {
+                      "Name": "Alpha Contrast",
+                      "Index": -1,
+                      "Association": "GlobalParameter"
+                    },
+                    "ParameterType": "Scalar",
+                    "DefaultValueOffset": 32,
+                    "Value": 0.0
+                  },
+                  {
+                    "ParameterInfo": {
+                      "Name": "Mask Channel",
+                      "Index": -1,
+                      "Association": "GlobalParameter"
+                    },
+                    "ParameterType": "Vector",
+                    "DefaultValueOffset": 56,
+                    "Value": {
+                      "R": 1.0,
+                      "G": 0.0,
+                      "B": 0.0,
+                      "A": 0.0,
+                      "Hex": "FF0000"
+                    }
+                  },
+                  {
+                    "ParameterInfo": {
+                      "Name": "Opacity Strength",
+                      "Index": -1,
+                      "Association": "GlobalParameter"
+                    },
+                    "ParameterType": "Scalar",
+                    "DefaultValueOffset": 72,
+                    "Value": 1.0
+                  },
+                  {
+                    "ParameterInfo": {
+                      "Name": "RefractionDepthBias",
+                      "Index": -1,
+                      "Association": "GlobalParameter"
+                    },
+                    "ParameterType": "Scalar",
+                    "DefaultValueOffset": 32,
+                    "Value": 0.0
+                  }
+                ],
+                "UniformTextureParameters": [
+                  [
+                    {
+                      "TextureIndex": 3,
+                      "SamplerSource": "SSM_FromTextureAsset",
+                      "VirtualTextureLayerIndex": 255,
+                      "ParameterInfo": {
+                        "Name": "BC Multiply Map",
+                        "Index": -1,
+                        "Association": "GlobalParameter"
+                      },
+                      "ParameterInfoOld": null,
+                      "ParameterName": null
+                    },
+                    {
+                      "TextureIndex": 1,
+                      "SamplerSource": "SSM_FromTextureAsset",
+                      "VirtualTextureLayerIndex": 255,
+                      "ParameterInfo": {
+                        "Name": "Mask Map",
+                        "Index": -1,
+                        "Association": "GlobalParameter"
+                      },
+                      "ParameterInfoOld": null,
+                      "ParameterName": null
+                    }
+                  ],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  []
+                ],
+                "UniformExternalTextureParameters": [],
+                "UniformTextureCollectionParameters": null,
+                "UniformPreshaderBufferSize": 6,
+                "UniformPreshaderData": {
+                  "Names": [],
+                  "NamesOffset": null,
+                  "StructTypes": [],
+                  "StructComponentTypes": [],
+                  "Data": "AwAAJAED////AwAAJAMAAQL/AwEAJAEA////AwEAJAEB////JRYDAQAkAQL///8DAQAkAQP///8lAgEAAIA/AwIABQMDACQDAAEC/wMEAAMFAAMGAAMIAAMHAAIBAACAPwQCAQAAAAADBwAFAwkAAwoA",
+                  "bPreshader2": false,
+                  "bPreFixup": false,
+                  "Preshader2TemporarySize": 0
+                },
+                "DefaultValues": "AAAAAAAAAAAAAAAAAAAAAAAAgD8AAIA/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAPwAAAD8AAIA/AAAAAAAAAAAAAAAAAACAPw==",
+                "VTStacks": [],
+                "MaterialCacheTagStacks": null,
+                "ParameterCollections": [],
+                "UniformBufferLayoutInitializer": {
+                  "Name": "Material",
+                  "Resources": [
+                    {
+                      "MemberOffset": 96,
+                      "MemberType": "EUniformBufferBaseType_NumBits"
+                    },
+                    {
+                      "MemberOffset": 104,
+                      "MemberType": "UBMT_SAMPLER"
+                    },
+                    {
+                      "MemberOffset": 112,
+                      "MemberType": "EUniformBufferBaseType_NumBits"
+                    },
+                    {
+                      "MemberOffset": 120,
+                      "MemberType": "UBMT_SAMPLER"
+                    },
+                    {
+                      "MemberOffset": 128,
+                      "MemberType": "UBMT_SAMPLER"
+                    },
+                    {
+                      "MemberOffset": 136,
+                      "MemberType": "UBMT_SAMPLER"
+                    }
+                  ],
+                  "GraphResources": [],
+                  "GraphTextures": [],
+                  "GraphBuffers": [],
+                  "GraphUniformBuffers": [],
+                  "UniformBuffers": [],
+                  "Hash": 94177544,
+                  "ConstantBufferSize": 144,
+                  "RenderTargetsOffset": 65535,
+                  "StaticSlot": 255,
+                  "BindingFlags": "Shader",
+                  "Flags": "None"
+                },
+                "CompactUniformsVSOptional": null
+              },
+              "UserSceneTextureInputs": [],
+              "UsedSceneTextures": 256,
+              "UsedPathTracingBufferTextures": 0,
+              "StrataMaterialCompilationOutput": {
+                "SubstrateMaterialType": 7,
+                "SubstrateClosureCount": 0,
+                "SubstrateUintPerPixel": 1,
+                "bUsesComplexSpecialRenderPath": 0
+              },
+              "UsedDBufferTextures": 0,
+              "RuntimeVirtualTextureOutputAttributeMask": 0,
+              "b1": 0,
+              "b2": 0,
+              "b3": 0
+            },
+            "ShaderContentHash": "F79AC468023E404B636EB56932E687821E78F45A",
+            "UserSceneTextureOutput": "None",
+            "UserTextureDivisorX": 0,
+            "UserTextureDivisorY": 0,
+            "ResolutionRelativeToInput": "None",
+            "ShaderHash": [],
+            "ShaderTypes": [
+              "FDeferredDecalPS"
+            ],
+            "ShaderPermutations": [
+              0
+            ],
+            "Shaders": [
+              {
+                "Bindings": {
+                  "StructureLayoutHash": 0,
+                  "RootParameterBufferIndex": 65535
+                },
+                "ParameterMapInfo": {
+                  "UniformBuffers": [
+                    {
+                      "BaseIndex": 1
+                    },
+                    {
+                      "BaseIndex": 3
+                    }
+                  ],
+                  "TextureSamplers": [],
+                  "SRVs": [],
+                  "LooseParameterBuffers": [
+                    {
+                      "BaseIndex": 0,
+                      "Size": 100,
+                      "Parameters": [
+                        {
+                          "BaseIndex": 16,
+                          "Size": 64
+                        },
+                        {
+                          "BaseIndex": 160,
+                          "Size": 12
+                        },
+                        {
+                          "BaseIndex": 176,
+                          "Size": 8
+                        },
+                        {
+                          "BaseIndex": 192,
+                          "Size": 16
+                        }
+                      ]
+                    }
+                  ],
+                  "Hash": 0
+                },
+                "UniformBufferParameterStructs": [
+                  "View"
+                ],
+                "UniformBufferParameters": [
+                  {
+                    "BaseIndex": 1
+                  }
+                ],
+                "Type": "FDeferredDecalPS",
+                "VFType": "FLocalVertexFactory",
+                "Target": {
+                  "Frequency": "SF_Pixel",
+                  "Platform": "SP_PCD3D_SM6"
+                },
+                "ResourceIndex": 4,
+                "NumInstructions": 176,
+                "SortKey": 1115208297
+              }
+            ],
+            "ShaderPipelines": [],
+            "ShaderPlatform": "SP_PCD3D_SM6"
+          },
+          "PointerTable": {
+            "Types": [
+              "FDeferredDecalPS",
+              "FMeshDecalsVS",
+              "TBasePassPSFNoLightMapPolicy",
+              "TBasePassPSFSelfShadowedTranslucencyPolicy",
+              "TBasePassPSFNoLightMapPolicySkylight",
+              "TBasePassPSFSelfShadowedTranslucencyPolicySkylight",
+              "TBasePassVSFSelfShadowedTranslucencyPolicy",
+              "FMeshDecalsPS",
+              "TBasePassVSFNoLightMapPolicy"
+            ],
+            "VFTypes": [
+              "FLocalVertexFactory"
+            ],
+            "TypeDependencies": [
+              {
+                "Name": "FMaterialShaderMapContent",
+                "SavedLayoutSize": 572,
+                "SavedLayoutHash": "B06401A117D18578B87C47FCB5A0014434635607"
+              },
+              {
+                "Name": "FHashedName",
+                "SavedLayoutSize": 8,
+                "SavedLayoutHash": "30FD5AF790B755E56B0409FC43602589073952BB"
+              },
+              {
+                "Name": "FDeferredDecalPS",
+                "SavedLayoutSize": 292,
+                "SavedLayoutHash": "D21C435C3A03404755F9DA391140D65642FF5807"
+              },
+              {
+                "Name": "FShaderUniformBufferParameterInfo",
+                "SavedLayoutSize": 2,
+                "SavedLayoutHash": "49B92EF4F1FF8CF8CDAD2DDA1063B7AB70A0BA67"
+              },
+              {
+                "Name": "FShaderLooseParameterBufferInfo",
+                "SavedLayoutSize": 24,
+                "SavedLayoutHash": "EBCE4A67EFA2C887584DC54492F92497C576872B"
+              },
+              {
+                "Name": "FShaderLooseParameterInfo",
+                "SavedLayoutSize": 4,
+                "SavedLayoutHash": "74006A3EBF9DA53481EB770C5FFCFFBD3084A5F1"
+              },
+              {
+                "Name": "FShaderUniformBufferParameter",
+                "SavedLayoutSize": 2,
+                "SavedLayoutHash": "BDF329B25A04BFD9313361CD47C5163218B8537A"
+              },
+              {
+                "Name": "FMeshMaterialShaderMap",
+                "SavedLayoutSize": 104,
+                "SavedLayoutHash": "CC035A0C0B55828628A25CBB4DF55E48ACB5487C"
+              },
+              {
+                "Name": "FMeshDecalsVS",
+                "SavedLayoutSize": 264,
+                "SavedLayoutHash": "21435F6052EE052875F1C38E81F2BC08BE52C61E"
+              },
+              {
+                "Name": "FLocalVertexFactoryShaderParameters",
+                "SavedLayoutSize": 18,
+                "SavedLayoutHash": "81418F8992AC49B8E2AFD31AF3B57530A23E085E"
+              },
+              {
+                "Name": "TBasePassPSFNoLightMapPolicy",
+                "SavedLayoutSize": 272,
+                "SavedLayoutHash": "B08957B08340D0A597408AF0BAAEB516E0E7CA47"
+              },
+              {
+                "Name": "TBasePassPSFSelfShadowedTranslucencyPolicy",
+                "SavedLayoutSize": 272,
+                "SavedLayoutHash": "29B78B04B44C1A09B4A713426DD8133C96765C27"
+              },
+              {
+                "Name": "TBasePassPSFNoLightMapPolicySkylight",
+                "SavedLayoutSize": 272,
+                "SavedLayoutHash": "DA97FBAFEC1628191D52B0B69DF7AB04A796BE8D"
+              },
+              {
+                "Name": "TBasePassPSFSelfShadowedTranslucencyPolicySkylight",
+                "SavedLayoutSize": 272,
+                "SavedLayoutHash": "BB05CAA600140E3B20A7B2111629225CEB05E78E"
+              },
+              {
+                "Name": "TBasePassVSFSelfShadowedTranslucencyPolicy",
+                "SavedLayoutSize": 272,
+                "SavedLayoutHash": "CDFB7E16F03DB84771819A9417703E76DFB22784"
+              },
+              {
+                "Name": "FMeshDecalsPS",
+                "SavedLayoutSize": 264,
+                "SavedLayoutHash": "75202AD525FB120B9AB8200D367A5CFB310742DB"
+              },
+              {
+                "Name": "TBasePassVSFNoLightMapPolicy",
+                "SavedLayoutSize": 272,
+                "SavedLayoutHash": "9452CEDD58E9B10FF4177557BD2194A19C9C6C5D"
+              },
+              {
+                "Name": "FMaterialUniformPreshaderHeader",
+                "SavedLayoutSize": 16,
+                "SavedLayoutHash": "0AEB93F9BC8D33EA7738D143B6AC90B7242422E5"
+              },
+              {
+                "Name": "FMaterialUniformPreshaderField",
+                "SavedLayoutSize": 9,
+                "SavedLayoutHash": "A46F91DF56615B329F0AA139A9B7117610DBAD61"
+              },
+              {
+                "Name": "FMaterialNumericParameterInfo",
+                "SavedLayoutSize": 28,
+                "SavedLayoutHash": "78AC4B12B8749DE7603037C3AFFD5CFCDFEEE51B"
+              },
+              {
+                "Name": "FMaterialTextureParameterInfo",
+                "SavedLayoutSize": 26,
+                "SavedLayoutHash": "BFF3D615058D942EDACC22D4E7DA3EAE2E69021B"
+              },
+              {
+                "Name": "FRHIUniformBufferResourceInitializer",
+                "SavedLayoutSize": 3,
+                "SavedLayoutHash": "9D2C470E363439F76A7D7FB6BE0A9E1E14FC7740"
+              }
+            ]
+          },
+          "ResourceHash": "4D9C01522E36DE7B277435891B869635551A6BDF",
+          "Code": null,
+          "ShaderPlatform": "SP_PCD3D_SM6",
+          "FrozenArchive": {
+            "LayoutParameters": {
+              "MaxFieldAlignment": 8,
+              "Flags": "Flag_Initialized, Flag_AlignBases"
+            },
+            "VTables": [],
+            "ScriptNames": [
+              {
+                "Name": "Alpha Contrast",
+                "Patches": [
+                  {
+                    "Offset": 4220
+                  }
+                ]
+              },
+              {
+                "Name": "Base Colour",
+                "Patches": [
+                  {
+                    "Offset": 4108
+                  }
+                ]
+              },
+              {
+                "Name": "BC Multi Strength",
+                "Patches": [
+                  {
+                    "Offset": 4080
+                  }
+                ]
+              },
+              {
+                "Name": "BC Multiply Map",
+                "Patches": [
+                  {
+                    "Offset": 4332
+                  }
+                ]
+              },
+              {
+                "Name": "BC Multiply Map UV",
+                "Patches": [
+                  {
+                    "Offset": 4052
+                  }
+                ]
+              },
+              {
+                "Name": "Mask Channel",
+                "Patches": [
+                  {
+                    "Offset": 4248
+                  }
+                ]
+              },
+              {
+                "Name": "Mask Map",
+                "Patches": [
+                  {
+                    "Offset": 4360
+                  }
+                ]
+              },
+              {
+                "Name": "Metallic",
+                "Patches": [
+                  {
+                    "Offset": 4136
+                  }
+                ]
+              },
+              {
+                "Name": "Opacity Strength",
+                "Patches": [
+                  {
+                    "Offset": 4276
+                  }
+                ]
+              },
+              {
+                "Name": "RefractionDepthBias",
+                "Patches": [
+                  {
+                    "Offset": 4304
+                  }
+                ]
+              },
+              {
+                "Name": "Roughness",
+                "Patches": [
+                  {
+                    "Offset": 4192
+                  }
+                ]
+              },
+              {
+                "Name": "SelectionColor",
+                "Patches": [
+                  {
+                    "Offset": 4024
+                  }
+                ]
+              },
+              {
+                "Name": "Spec",
+                "Patches": [
+                  {
+                    "Offset": 4164
+                  }
+                ]
+              }
+            ],
+            "MinimalNames": [
+              {
+                "Name": "PCD3D_SM6",
+                "Patches": [
+                  {
+                    "Offset": 88
+                  },
+                  {
+                    "Offset": 1048
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "CachedData": {
+      "ParentLayerIndexRemap": []
+    }
+  }
+]

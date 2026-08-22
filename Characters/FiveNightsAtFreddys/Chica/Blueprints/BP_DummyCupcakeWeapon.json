@@ -1,0 +1,476 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_DummyCupcakeWeapon_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_DummyCupcakeWeapon",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MeleeWeaponBase_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Melee_ParentClasses/BP_MeleeWeaponBase.0"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_DummyCupcakeWeapon_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_DummyCupcakeWeapon.12"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_DummyCupcakeWeapon_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_DummyCupcakeWeapon.4"
+      }
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "PointLight",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PointLightComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "FireMesh",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_DummyCupcakeWeapon_C'Default__BP_DummyCupcakeWeapon_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_DummyCupcakeWeapon.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_DummyCupcakeWeapon_C",
+    "Name": "Default__BP_DummyCupcakeWeapon_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_DummyCupcakeWeapon.BP_DummyCupcakeWeapon_C'",
+    "Package": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_DummyCupcakeWeapon",
+    "Template": {
+      "ObjectName": "BP_MeleeWeaponBase_C'Default__BP_MeleeWeaponBase_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Melee_ParentClasses/BP_MeleeWeaponBase.1"
+    },
+    "Properties": {
+      "MeshComponent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_DummyCupcakeWeapon_C:WeaponMesh3P'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_DummyCupcakeWeapon.13"
+      },
+      "HitboxManagerComponent": {
+        "ObjectName": "HitboxManagerComponent'Default__BP_DummyCupcakeWeapon_C:Hitbox Manager'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_DummyCupcakeWeapon.3"
+      },
+      "ChargeUpEffectComponent": {
+        "ObjectName": "NiagaraComponent'Default__BP_DummyCupcakeWeapon_C:ChargeUpEffect'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_DummyCupcakeWeapon.6"
+      },
+      "ItemAnimationComponent": {
+        "ObjectName": "ItemAnimationComponent'Default__BP_DummyCupcakeWeapon_C:ItemAnimationComponent'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_DummyCupcakeWeapon.5"
+      },
+      "AudioComponent": {
+        "ObjectName": "FMODAudioComponent'Default__BP_DummyCupcakeWeapon_C:AudioComponent'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_DummyCupcakeWeapon.2"
+      },
+      "AnimSetType": "EItemAnimationType::IA_SpecifiedItem",
+      "RootComponent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_DummyCupcakeWeapon_C:WeaponMesh3P'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_DummyCupcakeWeapon.13"
+      }
+    }
+  },
+  {
+    "Type": "FMODAudioComponent",
+    "Name": "AudioComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FMODAudioComponent'",
+    "Outer": {
+      "ObjectName": "BP_DummyCupcakeWeapon_C'Default__BP_DummyCupcakeWeapon_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_DummyCupcakeWeapon.1"
+    },
+    "Template": {
+      "ObjectName": "FMODAudioComponent'Default__BP_MeleeWeaponBase_C:AudioComponent'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Melee_ParentClasses/BP_MeleeWeaponBase.3"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_DummyCupcakeWeapon_C:WeaponMesh3P'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_DummyCupcakeWeapon.13"
+      }
+    }
+  },
+  {
+    "Type": "HitboxManagerComponent",
+    "Name": "Hitbox Manager",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HitboxManagerComponent'",
+    "Outer": {
+      "ObjectName": "BP_DummyCupcakeWeapon_C'Default__BP_DummyCupcakeWeapon_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_DummyCupcakeWeapon.1"
+    },
+    "Template": {
+      "ObjectName": "HitboxManagerComponent'Default__BP_MeleeWeaponBase_C:Hitbox Manager'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Melee_ParentClasses/BP_MeleeWeaponBase.4"
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DummyCupcakeWeapon_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_DummyCupcakeWeapon.0"
+    }
+  },
+  {
+    "Type": "ItemAnimationComponent",
+    "Name": "ItemAnimationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ItemAnimationComponent'",
+    "Outer": {
+      "ObjectName": "BP_DummyCupcakeWeapon_C'Default__BP_DummyCupcakeWeapon_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_DummyCupcakeWeapon.1"
+    },
+    "Template": {
+      "ObjectName": "ItemAnimationComponent'Default__BP_MeleeWeaponBase_C:ItemAnimationComponent'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Melee_ParentClasses/BP_MeleeWeaponBase.5"
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "ChargeUpEffect",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BP_DummyCupcakeWeapon_C'Default__BP_DummyCupcakeWeapon_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_DummyCupcakeWeapon.1"
+    },
+    "Template": {
+      "ObjectName": "NiagaraComponent'Default__BP_MeleeWeaponBase_C:ChargeUpEffect'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Melee_ParentClasses/BP_MeleeWeaponBase.6"
+    },
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_DummyCupcakeWeapon_C:WeaponMesh3P'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_DummyCupcakeWeapon.13"
+      }
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "PointLight_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DummyCupcakeWeapon_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_DummyCupcakeWeapon.0"
+    },
+    "Properties": {
+      "SourceRadius": 15.0,
+      "SourceLength": 10.0,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "InverseExposureBlend": 0.5,
+      "AttenuationRadius": 150.0,
+      "Temperature": 1700.0,
+      "MaxDrawDistance": 4500.0,
+      "MaxDistanceFadeRange": 1500.0,
+      "bUseTemperature": true,
+      "Intensity": 0.2,
+      "CastShadows": false,
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 18.0
+      }
+    },
+    "IntensityNits": 0.70735526
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DummyCupcakeWeapon_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_DummyCupcakeWeapon.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_DummyCupcakeWeapon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_DummyCupcakeWeapon.12"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_DummyCupcakeWeapon_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_DummyCupcakeWeapon.8"
+      },
+      "VariableGuid": "50E813D4-4D8953B6-504616B9-8E473F63",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_DummyCupcakeWeapon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_DummyCupcakeWeapon.12"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_DummyCupcakeWeapon_C:FireMesh_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_DummyCupcakeWeapon.14"
+      },
+      "AttachToName": "Head_Jnt",
+      "ParentComponentOrVariableName": "WeaponMesh3P",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_DummyCupcakeWeapon_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_DummyCupcakeWeapon.11"
+        }
+      ],
+      "VariableGuid": "3F813780-42C5B281-52842292-952EA9E7",
+      "InternalVariableName": "FireMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_DummyCupcakeWeapon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_DummyCupcakeWeapon.12"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PointLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PointLightComponent'BP_DummyCupcakeWeapon_C:PointLight_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_DummyCupcakeWeapon.7"
+      },
+      "VariableGuid": "0617B049-4DDDD48D-6B29F09A-11EDB15A",
+      "InternalVariableName": "PointLight"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DummyCupcakeWeapon_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_DummyCupcakeWeapon.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_DummyCupcakeWeapon_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_DummyCupcakeWeapon.10"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_DummyCupcakeWeapon_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_DummyCupcakeWeapon.10"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_DummyCupcakeWeapon_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_DummyCupcakeWeapon.11"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_DummyCupcakeWeapon_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_DummyCupcakeWeapon.9"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponentBudgeted",
+    "Name": "WeaponMesh3P",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponentBudgeted'",
+    "Outer": {
+      "ObjectName": "BP_DummyCupcakeWeapon_C'Default__BP_DummyCupcakeWeapon_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_DummyCupcakeWeapon.1"
+    },
+    "Template": {
+      "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_MeleeWeaponBase_C:WeaponMesh3P'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Melee_ParentClasses/BP_MeleeWeaponBase.11"
+    },
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_Cupcake_C'",
+        "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.1"
+      },
+      "AnimationData": {
+        "AnimToPlay": {
+          "ObjectName": "AnimSequence'A_Idle_Held_Cupcake'",
+          "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/A_Idle_Held_Cupcake.0"
+        }
+      },
+      "AnimationMode": "EAnimationMode::AnimationSingleNode",
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SKM_Cupcake'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Meshes/SKM_Cupcake.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SKM_Cupcake'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Meshes/SKM_Cupcake.1"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "FireMesh_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DummyCupcakeWeapon_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_DummyCupcakeWeapon.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_flame01'",
+        "ObjectPath": "/Game/VFX/Vinyl_Effects/Vinyl_Fire/Meshes/SM_flame01.2"
+      },
+      "CastShadow": false,
+      "bAffectDistanceFieldLighting": false,
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel2",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel3",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel4",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel5",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel6",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_WEAPON",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_PROJECTILE",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "MeleeWeapon",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel16",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel17",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel18",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -5.286498,
+        "Y": -0.068716,
+        "Z": 47.521366
+      },
+      "RelativeScale3D": {
+        "X": 0.4,
+        "Y": 0.4,
+        "Z": 0.4
+      }
+    }
+  }
+]

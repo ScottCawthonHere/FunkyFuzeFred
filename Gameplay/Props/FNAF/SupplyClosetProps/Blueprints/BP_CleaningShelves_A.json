@@ -1,0 +1,2162 @@
+[
+  {
+    "Type": "ArrowComponent",
+    "Name": "SpawnLocation_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'ArrowComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CleaningShelves_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.1"
+    },
+    "Template": {
+      "ObjectName": "ArrowComponent'BP_Destructible_C:SpawnLocation_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.0"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -107.0,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_CleaningShelves_A_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Destructible_C'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.1"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_CleaningShelves_A_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.35"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_CleaningShelves_A_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.11"
+      }
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Box3",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'BoxComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Box4",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'BoxComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Box",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'BoxComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Box1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'BoxComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Box2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'BoxComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Capsule2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapsuleComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Capsule1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapsuleComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Capsule",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapsuleComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_TissueBox",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_SupermarketWashPods",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_Mop",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_Detergent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_CryptProps_CryptProps_SprayCan",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_ToiletRoll5",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_ToiletRoll4",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_ToiletRoll3",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_ToiletRoll2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_ToiletRoll1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_ToiletRoll",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_CleaningShelves_A_C'Default__BP_CleaningShelves_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.7"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoxComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CleaningShelves_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.1"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "DestructibleInitial",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_INTERACT",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "COLLISION_EXPLOSION",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -0.65393925,
+        "Y": -32.27222,
+        "Z": 15.128243
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.8513418,
+        "Roll": -0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.5432296,
+        "Y": 1.3143336,
+        "Z": 0.36120614
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box2_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoxComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CleaningShelves_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.1"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "DestructibleInitial",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_INTERACT",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "COLLISION_EXPLOSION",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -0.6898868,
+        "Y": -29.853088,
+        "Z": 41.304726
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.8513421,
+        "Roll": -0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.5432296,
+        "Y": 0.967959,
+        "Z": 0.3612058
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box3_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoxComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CleaningShelves_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.1"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "DestructibleInitial",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_INTERACT",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "COLLISION_EXPLOSION",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -0.7023109,
+        "Y": -29.017,
+        "Z": 67.64683
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.8513421,
+        "Roll": -0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.5432296,
+        "Y": 0.44145292,
+        "Z": 0.3612058
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box4_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoxComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CleaningShelves_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.1"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "DestructibleInitial",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_INTERACT",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "COLLISION_EXPLOSION",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -3.6339328,
+        "Y": -73.186485,
+        "Z": 129.12935
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.8513421,
+        "Roll": -0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.34922278,
+        "Y": 0.5558977,
+        "Z": 0.2607138
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoxComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CleaningShelves_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.1"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "DestructibleInitial",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_INTERACT",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "COLLISION_EXPLOSION",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.08336973,
+        "Y": -127.60228,
+        "Z": 11.330714
+      },
+      "RelativeRotation": {
+        "Pitch": -0.0,
+        "Yaw": -16.279783,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.54322976,
+        "Y": 0.8008282,
+        "Z": 0.2700656
+      }
+    }
+  },
+  {
+    "Type": "BP_CleaningShelves_A_C",
+    "Name": "Default__BP_CleaningShelves_A_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.BP_CleaningShelves_A_C'",
+    "Package": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A",
+    "Template": {
+      "ObjectName": "BP_Destructible_C'Default__BP_Destructible_C'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.2"
+    },
+    "Properties": {
+      "VFX Container": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Destructible_Dust_Small_C'",
+        "ObjectPath": "/Game/VFX/Charlie_VFX_Folder/Charlie_VFX/NiagaraSystems/Generic_Destructible/Dust/Blueprints/BP_Destructible_Dust_Small.0"
+      },
+      "HitFailWobble": true,
+      "InitialMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BP_CleaningShelves_A_C:StaticMeshComponent'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.47"
+      },
+      "TriggerActorsComponent": {
+        "ObjectName": "TriggerActorsComponent'Default__BP_CleaningShelves_A_C:TriggerActorsComponent'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.48"
+      },
+      "MaxRadialImpulseStrength": 700.0,
+      "RadialImpulseRadius": 900.0,
+      "AliveTime": 800.0,
+      "OptimizationComponent": {
+        "ObjectName": "PropMovementComponent'Default__BP_CleaningShelves_A_C:PropMovementComponent'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.13"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Capsule1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CleaningShelves_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.1"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "DestructibleInitial",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_INTERACT",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "COLLISION_EXPLOSION",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 5.684342E-14,
+        "Y": -155.79433,
+        "Z": 137.32292
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 82.678375
+      },
+      "RelativeScale3D": {
+        "X": 0.5958252,
+        "Y": 0.5958252,
+        "Z": 1.3045465
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Capsule2_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CleaningShelves_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.1"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "DestructibleInitial",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_INTERACT",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "COLLISION_EXPLOSION",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.45814693,
+        "Y": -5.1802073,
+        "Z": 164.25578
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 11.595803,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.1114922,
+        "Y": 1.3097541,
+        "Z": 1.1253674
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Capsule_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CleaningShelves_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.1"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "DestructibleInitial",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_INTERACT",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "COLLISION_EXPLOSION",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -5.684342E-13,
+        "Y": -202.72072,
+        "Z": 36.75592
+      },
+      "RelativeScale3D": {
+        "X": 0.7974286,
+        "Y": 0.7974286,
+        "Z": 0.7974286
+      }
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CleaningShelves_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.1"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'ArrowComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "ArrowComponent'BP_CleaningShelves_A_C:SpawnLocation_GEN_VARIABLE'",
+            "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.0"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Destructible_C'",
+              "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.1"
+            },
+            "SCSVariableName": "SpawnLocation",
+            "AssociatedGuid": "8CFA620C-424D4A03-FAC93ABE-B6E1CDC1"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MerlinActorOptimizationComponent",
+    "Name": "ActorOptimizationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MerlinActorOptimizationComponent'",
+    "Outer": {
+      "ObjectName": "BP_CleaningShelves_A_C'Default__BP_CleaningShelves_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.7"
+    },
+    "Template": {
+      "ObjectName": "MerlinActorOptimizationComponent'Default__BP_Destructible_C:ActorOptimizationComponent'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.45"
+    }
+  },
+  {
+    "Type": "PropMovementComponent",
+    "Name": "PropMovementComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PropMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_CleaningShelves_A_C'Default__BP_CleaningShelves_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.7"
+    },
+    "Template": {
+      "ObjectName": "PropMovementComponent'Default__BP_Destructible_C:PropMovementComponent'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.47"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CleaningShelves_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CleaningShelves_A_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.35"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_CleaningShelves_A_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.14"
+      },
+      "VariableGuid": "D2891D61-496DC5E0-1DED4F92-273BF3B4",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CleaningShelves_A_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.35"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_CleaningShelves_A_C:SM_ToiletRoll_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.46"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "38A10131-447E7245-860C1F88-36546A06",
+      "InternalVariableName": "SM_ToiletRoll"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CleaningShelves_A_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.35"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_CleaningShelves_A_C:SM_Mop_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.38"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "F7F227DA-4F2CB2A3-CC57F19A-81691CE4",
+      "InternalVariableName": "SM_Mop"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CleaningShelves_A_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.35"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapsuleComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapsuleComponent'BP_CleaningShelves_A_C:Capsule_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.10"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "E320D770-4F19285F-9A0232A9-89E40F82",
+      "InternalVariableName": "Capsule"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CleaningShelves_A_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.35"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_CleaningShelves_A_C:SM_SupermarketWashPods_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.39"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "65F57E7A-492211F5-339B86A1-3719D450",
+      "InternalVariableName": "SM_SupermarketWashPods"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CleaningShelves_A_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.35"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapsuleComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapsuleComponent'BP_CleaningShelves_A_C:Capsule1_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.8"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "D9D97F9C-429975EA-4FBE2BAC-893C9DE3",
+      "InternalVariableName": "Capsule1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CleaningShelves_A_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.35"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapsuleComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapsuleComponent'BP_CleaningShelves_A_C:Capsule2_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.9"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "506425BC-4FE31269-623C8B8F-D55FFC0E",
+      "InternalVariableName": "Capsule2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_15",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CleaningShelves_A_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.35"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoxComponent'BP_CleaningShelves_A_C:Box_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.6"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "CBE3908B-4A0E6255-0057FC8B-216288B7",
+      "InternalVariableName": "Box"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_16",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CleaningShelves_A_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.35"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoxComponent'BP_CleaningShelves_A_C:Box1_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.2"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "C5ADF9DF-41EAF4A8-6ED44C8C-0F53FED3",
+      "InternalVariableName": "Box1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_17",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CleaningShelves_A_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.35"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoxComponent'BP_CleaningShelves_A_C:Box2_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.3"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "3C95672F-448B2AD4-A83BBC95-10CFA957",
+      "InternalVariableName": "Box2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_18",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CleaningShelves_A_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.35"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoxComponent'BP_CleaningShelves_A_C:Box3_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.4"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "E487B196-496F1170-182C77BD-24B10697",
+      "InternalVariableName": "Box3"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_19",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CleaningShelves_A_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.35"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoxComponent'BP_CleaningShelves_A_C:Box4_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.5"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "7B826902-4DD36E2F-7B7F2489-417AA1FF",
+      "InternalVariableName": "Box4"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CleaningShelves_A_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.35"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_CleaningShelves_A_C:SM_ToiletRoll1_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.41"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "1BA2C6BD-40405A2F-EDF98BAC-6ED528DD",
+      "InternalVariableName": "SM_ToiletRoll1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CleaningShelves_A_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.35"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_CleaningShelves_A_C:SM_ToiletRoll2_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.42"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "D9A8D467-44741452-E2A0B5B9-F2CB7A99",
+      "InternalVariableName": "SM_ToiletRoll2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CleaningShelves_A_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.35"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_CleaningShelves_A_C:SM_ToiletRoll3_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.43"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "19F8E42F-4B612345-C36CC891-8A0EE248",
+      "InternalVariableName": "SM_ToiletRoll3"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CleaningShelves_A_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.35"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_CleaningShelves_A_C:SM_ToiletRoll4_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.44"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "099B6A4F-42B2A01F-D2315D93-93CF0A4A",
+      "InternalVariableName": "SM_ToiletRoll4"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CleaningShelves_A_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.35"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_CleaningShelves_A_C:SM_ToiletRoll5_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.45"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "275B80D2-497E4CFB-8AC22697-734233A0",
+      "InternalVariableName": "SM_ToiletRoll5"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CleaningShelves_A_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.35"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_CleaningShelves_A_C:SM_TissueBox_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.40"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "4803942E-4EBABF91-201FCA8E-DC93F067",
+      "InternalVariableName": "SM_TissueBox"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CleaningShelves_A_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.35"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_CleaningShelves_A_C:SM_CryptProps_CryptProps_SprayCan_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.36"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "E5611CCC-42111F7D-B9735D86-28EA2EE3",
+      "InternalVariableName": "SM_CryptProps_CryptProps_SprayCan"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CleaningShelves_A_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.35"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_CleaningShelves_A_C:SM_Detergent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.37"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "453FE410-4432C3D7-1A7A769F-27520573",
+      "InternalVariableName": "SM_Detergent"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CleaningShelves_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.1"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_CleaningShelves_A_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.16"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CleaningShelves_A_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.27"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CleaningShelves_A_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.28"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CleaningShelves_A_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.29"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CleaningShelves_A_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.30"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CleaningShelves_A_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.31"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CleaningShelves_A_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.33"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CleaningShelves_A_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.34"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CleaningShelves_A_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.17"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CleaningShelves_A_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.19"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CleaningShelves_A_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.32"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CleaningShelves_A_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.18"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CleaningShelves_A_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.20"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CleaningShelves_A_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.21"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CleaningShelves_A_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.24"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CleaningShelves_A_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.23"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CleaningShelves_A_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.22"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CleaningShelves_A_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.26"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CleaningShelves_A_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.25"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_CleaningShelves_A_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.16"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CleaningShelves_A_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.27"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CleaningShelves_A_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.28"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CleaningShelves_A_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.29"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CleaningShelves_A_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.30"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CleaningShelves_A_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.31"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CleaningShelves_A_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.33"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CleaningShelves_A_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.34"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CleaningShelves_A_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.17"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CleaningShelves_A_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.19"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CleaningShelves_A_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.32"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CleaningShelves_A_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.18"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CleaningShelves_A_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.20"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CleaningShelves_A_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.21"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CleaningShelves_A_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.24"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CleaningShelves_A_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.23"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CleaningShelves_A_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.22"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CleaningShelves_A_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.26"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CleaningShelves_A_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.25"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_CleaningShelves_A_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.15"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_CryptProps_CryptProps_SprayCan_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CleaningShelves_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_CryptProps_CryptProps_SprayCan'",
+        "ObjectPath": "/Game/Gameplay/Props/HotFuzz/CryptProps/Meshes/SM_CryptProps_CryptProps_SprayCan.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Metal'",
+          "ObjectPath": "/Game/Physics/PM_Metal.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 7.3263476E-07,
+        "Y": -203.74625,
+        "Z": 2.257669
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 13.969056,
+        "Roll": 0.0
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_Detergent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CleaningShelves_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Detergent'",
+        "ObjectPath": "/Game/Gameplay/Props/TheThing/LaundryProps/Meshes/SM_Detergent.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Plastic'",
+          "ObjectPath": "/Game/Physics/PM_Plastic.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -1.3394897,
+        "Y": -6.6837025,
+        "Z": 120.749535
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 205.69273,
+        "Roll": 0.0
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_Mop_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CleaningShelves_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Mop'",
+        "ObjectPath": "/Game/Gameplay/Props/UmbrellaAcademy/BucketMop/Meshes/SM_Mop.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Metal'",
+          "ObjectPath": "/Game/Physics/PM_Metal.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -1.5454305E-13,
+        "Y": -110.42549,
+        "Z": 142.65242
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -1.5902774E-14,
+        "Roll": -98.26386
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_SupermarketWashPods_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CleaningShelves_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SupermarketWashPods'",
+        "ObjectPath": "/Game/Gameplay/Props/HotFuzz/SupermarketProps/Meshes/SM_SupermarketWashPods.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Plastic'",
+          "ObjectPath": "/Game/Physics/PM_Plastic.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -2.466193,
+        "Y": -72.291,
+        "Z": 121.02488
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": -1.6268759
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_TissueBox_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CleaningShelves_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_TissueBox'",
+        "ObjectPath": "/Game/Gameplay/Props/UmbrellaAcademy/TissueBox/Meshes/SM_TissueBox.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -127.90785,
+        "Z": 0.7129462
+      },
+      "RelativeRotation": {
+        "Pitch": -0.0,
+        "Yaw": -15.204347,
+        "Roll": 0.0
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_ToiletRoll1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CleaningShelves_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_ToiletRoll'",
+        "ObjectPath": "/Game/Gameplay/Props/TheThing/ToiletRoll/Meshes/SM_ToiletRoll.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -5.684342E-14,
+        "Y": -46.076206,
+        "Z": 27.245264
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_ToiletRoll2_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CleaningShelves_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_ToiletRoll'",
+        "ObjectPath": "/Game/Gameplay/Props/TheThing/ToiletRoll/Meshes/SM_ToiletRoll.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -5.684342E-14,
+        "Y": -31.335182,
+        "Z": 0.23659888
+      },
+      "bVisible": false,
+      "DetailMode_Low": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_ToiletRoll3_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CleaningShelves_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_ToiletRoll'",
+        "ObjectPath": "/Game/Gameplay/Props/TheThing/ToiletRoll/Meshes/SM_ToiletRoll.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -5.684342E-14,
+        "Y": -63.07699,
+        "Z": 0.23659892
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_ToiletRoll4_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CleaningShelves_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_ToiletRoll'",
+        "ObjectPath": "/Game/Gameplay/Props/TheThing/ToiletRoll/Meshes/SM_ToiletRoll.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 3.2684966E-13,
+        "Y": -13.900898,
+        "Z": 26.745348
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_ToiletRoll5_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CleaningShelves_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_ToiletRoll'",
+        "ObjectPath": "/Game/Gameplay/Props/TheThing/ToiletRoll/Meshes/SM_ToiletRoll.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 3.9790393E-13,
+        "Y": -28.907177,
+        "Z": 53.955517
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_ToiletRoll_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CleaningShelves_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_ToiletRoll'",
+        "ObjectPath": "/Game/Gameplay/Props/TheThing/ToiletRoll/Meshes/SM_ToiletRoll.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.21472034,
+        "Z": 0.23659895
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_CleaningShelves_A_C'Default__BP_CleaningShelves_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.7"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'Default__BP_Destructible_C:StaticMeshComponent'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.60"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_CleaningShelves_A_Merged'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/MergedMeshes/SM_CleaningShelves_A_Merged.2"
+      },
+      "BodyInstance": {
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Plastic'",
+          "ObjectPath": "/Game/Physics/PM_Plastic.0"
+        }
+      }
+    }
+  },
+  {
+    "Type": "TriggerActorsComponent",
+    "Name": "TriggerActorsComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TriggerActorsComponent'",
+    "Outer": {
+      "ObjectName": "BP_CleaningShelves_A_C'Default__BP_CleaningShelves_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/SupplyClosetProps/Blueprints/BP_CleaningShelves_A.7"
+    },
+    "Template": {
+      "ObjectName": "TriggerActorsComponent'Default__BP_Destructible_C:TriggerActorsComponent'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.64"
+    }
+  }
+]

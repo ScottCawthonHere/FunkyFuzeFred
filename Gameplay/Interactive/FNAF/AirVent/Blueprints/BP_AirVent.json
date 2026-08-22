@@ -1,0 +1,750 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_AirVent_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Destructible_C'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.1"
+    },
+    "Properties": {
+      "NumReplicatedProperties": 1,
+      "Timelines": [
+        {
+          "ObjectName": "TimelineTemplate'BP_AirVent_C:Timeline_Template'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.20"
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_AirVent_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.18"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_AirVent_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.9"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_AirVent_C:ExecuteUbergraph_BP_AirVent'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.4"
+      }
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_AirVent_C:OnRep_Child_Trigger'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.5"
+      },
+      {
+        "ObjectName": "Function'BP_AirVent_C:Timeline__FinishedFunc'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.6"
+      },
+      {
+        "ObjectName": "Function'BP_AirVent_C:Timeline__UpdateFunc'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.7"
+      },
+      {
+        "ObjectName": "Function'BP_AirVent_C:Trigger'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.8"
+      },
+      {
+        "ObjectName": "Function'BP_AirVent_C:Child_Respawn'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.3"
+      },
+      {
+        "ObjectName": "Function'BP_AirVent_C:ExecuteUbergraph_BP_AirVent'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.4"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "FinalParts",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DestructibleParts",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Timeline_NewTrack_0_BBF049A94301760F99A4E184514D0F44",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "Timeline__Direction_BBF049A94301760F99A4E184514D0F44",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'ETimelineDirection'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Timeline",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'TimelineComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Child_Trigger",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | Net | DisableEditOnInstance | RepNotify",
+        "RepIndex": 12,
+        "RepNotifyFunc": "OnRep_Child_Trigger",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_AirVent": {
+        "ObjectName": "Function'BP_AirVent_C:ExecuteUbergraph_BP_AirVent'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.4"
+      },
+      "Child_Respawn": {
+        "ObjectName": "Function'BP_AirVent_C:Child_Respawn'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.3"
+      },
+      "Trigger": {
+        "ObjectName": "Function'BP_AirVent_C:Trigger'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.8"
+      },
+      "Timeline__UpdateFunc": {
+        "ObjectName": "Function'BP_AirVent_C:Timeline__UpdateFunc'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.7"
+      },
+      "Timeline__FinishedFunc": {
+        "ObjectName": "Function'BP_AirVent_C:Timeline__FinishedFunc'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.6"
+      },
+      "OnRep_Child_Trigger": {
+        "ObjectName": "Function'BP_AirVent_C:OnRep_Child_Trigger'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.5"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_AirVent_C'Default__BP_AirVent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_AirVent_C",
+    "Name": "Default__BP_AirVent_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.BP_AirVent_C'",
+    "Package": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent",
+    "Template": {
+      "ObjectName": "BP_Destructible_C'Default__BP_Destructible_C'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.2"
+    },
+    "Properties": {
+      "UberGraphFrame": {},
+      "VFX Container": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Destructible_Dust_Large_C'",
+        "ObjectPath": "/Game/VFX/Charlie_VFX_Folder/Charlie_VFX/NiagaraSystems/Generic_Destructible/Dust/Blueprints/BP_Destructible_Dust_Large.0"
+      },
+      "Indestructible": true,
+      "InitialMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BP_AirVent_C:StaticMeshComponent'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.19"
+      },
+      "TriggerActorsComponent": {
+        "ObjectName": "TriggerActorsComponent'Default__BP_AirVent_C:TriggerActorsComponent'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.21"
+      },
+      "OptimizationComponent": {
+        "ObjectName": "PropMovementComponent'Default__BP_AirVent_C:PropMovementComponent'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.11"
+      }
+    }
+  },
+  {
+    "Type": "CurveFloat",
+    "Name": "CurveFloat_1_2",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CurveFloat'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AirVent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.0"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 1.0,
+            "Value": 0.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Child_Respawn",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AirVent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "Condition",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_AirVent",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AirVent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_InInstigator",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_TriggeringCharacter",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Character'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Event_TriggerAction",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'ETriggerAction'",
+          "ObjectPath": "/Script/Merlin"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_Magnitude",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_CustomEvent_Condition",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_ToBoolean__TriggerAction__Return",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetComponentBounds_Origin",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "Class'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetComponentBounds_BoxExtent",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "Class'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetComponentBounds_SphereRadius",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeTransform_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 96,
+        "Struct": {
+          "ObjectName": "Class'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_FinishSpawningActor_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnRep_Child_Trigger",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AirVent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.0"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Timeline__FinishedFunc",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AirVent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.0"
+    },
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Timeline__UpdateFunc",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AirVent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.0"
+    },
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Trigger",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AirVent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.0"
+    },
+    "Super": {
+      "ObjectName": "Function'BP_Destructible_C:Trigger'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.38"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "InInstigator",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TriggeringCharacter",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Character'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "TriggerAction",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Enum": {
+          "ObjectName": "Class'ETriggerAction'",
+          "ObjectPath": "/Script/Merlin"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Magnitude",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AirVent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.0"
+    }
+  },
+  {
+    "Type": "MerlinActorOptimizationComponent",
+    "Name": "ActorOptimizationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MerlinActorOptimizationComponent'",
+    "Outer": {
+      "ObjectName": "BP_AirVent_C'Default__BP_AirVent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.1"
+    },
+    "Template": {
+      "ObjectName": "MerlinActorOptimizationComponent'Default__BP_Destructible_C:ActorOptimizationComponent'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.45"
+    }
+  },
+  {
+    "Type": "PropMovementComponent",
+    "Name": "PropMovementComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PropMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_AirVent_C'Default__BP_AirVent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.1"
+    },
+    "Template": {
+      "ObjectName": "PropMovementComponent'Default__BP_Destructible_C:PropMovementComponent'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.47"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AirVent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DestructibleParts_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AirVent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "FinalParts_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AirVent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AirVent_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.18"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_AirVent_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.12"
+      },
+      "VariableGuid": "5477FA29-4572AB6E-509209B5-FE3143D1",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AirVent_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.18"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_AirVent_C:DestructibleParts_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.13"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "E9A370C1-4B609A36-4D0865BB-61230A44",
+      "InternalVariableName": "DestructibleParts"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AirVent_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.18"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_AirVent_C:FinalParts_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.14"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "606AAC47-4B2414CD-5B4985AD-01161B55",
+      "InternalVariableName": "FinalParts"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AirVent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_AirVent_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.16"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AirVent_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.17"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_AirVent_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.16"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AirVent_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.17"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_AirVent_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.15"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_AirVent_C'Default__BP_AirVent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.1"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'Default__BP_Destructible_C:StaticMeshComponent'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.60"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_AirVent'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Meshes/SM_AirVent.2"
+      },
+      "bCanEverAffectNavigation": false
+    }
+  },
+  {
+    "Type": "TimelineTemplate",
+    "Name": "Timeline_Template",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TimelineTemplate'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AirVent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.0"
+    },
+    "Properties": {
+      "TimelineLength": 1.0,
+      "FloatTracks": [
+        {
+          "CurveFloat": {
+            "ObjectName": "CurveFloat'BP_AirVent_C:CurveFloat_1_2'",
+            "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.2"
+          },
+          "PropertyName": "Timeline_NewTrack_0_BBF049A94301760F99A4E184514D0F44",
+          "TrackName": "NewTrack_0",
+          "bIsExternalCurve": false
+        }
+      ],
+      "TimelineGuid": "BBF049A9-4301760F-99A4E184-514D0F44",
+      "VariableName": "Timeline",
+      "DirectionPropertyName": "Timeline__Direction_BBF049A94301760F99A4E184514D0F44",
+      "UpdateFunctionName": "Timeline__UpdateFunc",
+      "FinishedFunctionName": "Timeline__FinishedFunc"
+    }
+  },
+  {
+    "Type": "TriggerActorsComponent",
+    "Name": "TriggerActorsComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TriggerActorsComponent'",
+    "Outer": {
+      "ObjectName": "BP_AirVent_C'Default__BP_AirVent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/AirVent/Blueprints/BP_AirVent.1"
+    },
+    "Template": {
+      "ObjectName": "TriggerActorsComponent'Default__BP_Destructible_C:TriggerActorsComponent'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.64"
+    }
+  }
+]

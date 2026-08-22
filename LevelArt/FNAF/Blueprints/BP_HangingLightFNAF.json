@@ -1,0 +1,377 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_HangingLightFNAF_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/LevelArt/FNAF/Blueprints/BP_HangingLightFNAF",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CeilingLight_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight.0"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_HangingLightFNAF_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_HangingLightFNAF.8"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_HangingLightFNAF_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_HangingLightFNAF.2"
+      }
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_CielingPlug",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_Lamp_Wire",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_HangingLightFNAF_C'Default__BP_HangingLightFNAF_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_HangingLightFNAF.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_HangingLightFNAF_C",
+    "Name": "Default__BP_HangingLightFNAF_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/LevelArt/FNAF/Blueprints/BP_HangingLightFNAF.BP_HangingLightFNAF_C'",
+    "Package": "/Game/LevelArt/FNAF/Blueprints/BP_HangingLightFNAF",
+    "Template": {
+      "ObjectName": "BP_CeilingLight_C'Default__BP_CeilingLight_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight.1"
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_HangingLightFNAF_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_HangingLightFNAF.0"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StaticMeshComponent'BP_HangingLightFNAF_C:SM_Light_GEN_VARIABLE'",
+            "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_HangingLightFNAF.11"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_CeilingLight_JustEmissive_C'",
+              "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight_JustEmissive.0"
+            },
+            "SCSVariableName": "SM_Light",
+            "AssociatedGuid": "E7F694A7-4497A1B4-98F65398-F32D1F15"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'PointLightComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "PointLightComponent'BP_HangingLightFNAF_C:AmbientLight_GEN_VARIABLE'",
+            "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_HangingLightFNAF.3"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_CeilingLight_C'",
+              "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight.0"
+            },
+            "SCSVariableName": "AmbientLight",
+            "AssociatedGuid": "442A4070-4DE4204B-CC31C6B3-0885FEA1"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "AmbientLight_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_HangingLightFNAF_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_HangingLightFNAF.0"
+    },
+    "Template": {
+      "ObjectName": "PointLightComponent'BP_CeilingLight_C:AmbientLight_GEN_VARIABLE'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight.9"
+    },
+    "Properties": {
+      "SourceLength": 0.0,
+      "RelativeLocation": {
+        "X": -1.6394282E-06,
+        "Y": -1.9595394E-15,
+        "Z": -28.021242
+      }
+    },
+    "IntensityNits": 1.0
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_HangingLightFNAF_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_HangingLightFNAF.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_HangingLightFNAF_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_HangingLightFNAF.8"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_HangingLightFNAF_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_HangingLightFNAF.4"
+      },
+      "VariableGuid": "23341D2A-456BEFB1-708F1080-DEAAC981",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_HangingLightFNAF_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_HangingLightFNAF.8"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_HangingLightFNAF_C:SM_Lamp_Wire_GEN_VARIABLE'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_HangingLightFNAF.10"
+      },
+      "ParentComponentOrVariableName": "SM_Light",
+      "ParentComponentOwnerClassName": "BP_CeilingLight_JustEmissive_C",
+      "VariableGuid": "44F992D8-4C6C6EEC-22AE22AE-83722535",
+      "InternalVariableName": "SM_Lamp_Wire"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_HangingLightFNAF_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_HangingLightFNAF.8"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_HangingLightFNAF_C:SM_CielingPlug_GEN_VARIABLE'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_HangingLightFNAF.9"
+      },
+      "ParentComponentOrVariableName": "SM_Light",
+      "ParentComponentOwnerClassName": "BP_CeilingLight_JustEmissive_C",
+      "VariableGuid": "F39C9E56-47A9D70C-2E1531AC-B4810075",
+      "InternalVariableName": "SM_CielingPlug"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_HangingLightFNAF_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_HangingLightFNAF.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_HangingLightFNAF_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_HangingLightFNAF.6"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_HangingLightFNAF_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_HangingLightFNAF.7"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_HangingLightFNAF_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_HangingLightFNAF.6"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_HangingLightFNAF_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_HangingLightFNAF.7"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_HangingLightFNAF_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_HangingLightFNAF.5"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_CielingPlug_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_HangingLightFNAF_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_HangingLightFNAF.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Lamp_Head'",
+        "ObjectPath": "/Game/LevelArt/TheThing/Meshes/SM_Lamp_Head.2"
+      },
+      "OverrideMaterials": [
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_TT_Atlas_A'",
+          "ObjectPath": "/Game/LevelArt/TheThing/Materials/MI_TT_Atlas_A.0"
+        }
+      ],
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "COLLISION_INTERACT",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "COLLISION_EXPLOSION",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "MeleeWeapon",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Interactable",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Audio",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 9.2487653E-07,
+        "Y": 1.4649925E-08,
+        "Z": 168.63098
+      },
+      "RelativeRotation": {
+        "Pitch": 6.9717277E-07,
+        "Yaw": 180.0,
+        "Roll": 180.0
+      },
+      "RelativeScale3D": {
+        "X": 0.18832995,
+        "Y": 0.18832995,
+        "Z": 0.18832995
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_Lamp_Wire_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_HangingLightFNAF_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_HangingLightFNAF.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Lamp_Wire'",
+        "ObjectPath": "/Game/LevelArt/TheThing/Meshes/SM_Lamp_Wire.2"
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_Light_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_HangingLightFNAF_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_HangingLightFNAF.0"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'BP_CeilingLight_C:SM_Light_GEN_VARIABLE'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_CeilingLight.22"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Lamp_Head'",
+        "ObjectPath": "/Game/LevelArt/TheThing/Meshes/SM_Lamp_Head.2"
+      },
+      "OverrideMaterials": [
+        null,
+        null
+      ]
+    }
+  }
+]

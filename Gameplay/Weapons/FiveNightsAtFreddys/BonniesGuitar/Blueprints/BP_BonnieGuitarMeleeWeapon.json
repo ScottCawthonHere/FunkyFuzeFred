@@ -1,0 +1,291 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_BonnieGuitarMeleeWeapon_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/BonniesGuitar/Blueprints/BP_BonnieGuitarMeleeWeapon",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MeleeWeaponBase_Enemies_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Melee_ParentClasses/Enemies/BP_MeleeWeaponBase_Enemies.0"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_BonnieGuitarMeleeWeapon_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/BonniesGuitar/Blueprints/BP_BonnieGuitarMeleeWeapon.10"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_BonnieGuitarMeleeWeapon_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/BonniesGuitar/Blueprints/BP_BonnieGuitarMeleeWeapon.5"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_BonnieGuitarMeleeWeapon_C'Default__BP_BonnieGuitarMeleeWeapon_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/BonniesGuitar/Blueprints/BP_BonnieGuitarMeleeWeapon.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_BonnieGuitarMeleeWeapon_C",
+    "Name": "Default__BP_BonnieGuitarMeleeWeapon_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Gameplay/Weapons/FiveNightsAtFreddys/BonniesGuitar/Blueprints/BP_BonnieGuitarMeleeWeapon.BP_BonnieGuitarMeleeWeapon_C'",
+    "Package": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/BonniesGuitar/Blueprints/BP_BonnieGuitarMeleeWeapon",
+    "Template": {
+      "ObjectName": "BP_MeleeWeaponBase_Enemies_C'Default__BP_MeleeWeaponBase_Enemies_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Melee_ParentClasses/Enemies/BP_MeleeWeaponBase_Enemies.1"
+    },
+    "Properties": {
+      "AbilitySetsToGrant": [
+        {
+          "ObjectName": "MerlinAbilitySet'DA_BonnieMeleeAbilitySet'",
+          "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/BonniesGuitar/Blueprints/DA_BonnieMeleeAbilitySet.0"
+        }
+      ],
+      "AttachInfo": [
+        {
+          "AttachComponent": {
+            "OtherActor": null,
+            "ComponentProperty": "MeshComponent",
+            "PathToComponent": "/Script/Merlin.Default__Weapon:WeaponMesh3P"
+          },
+          "CharacterAttachSocket": "Left_Hand_Attach_Socket",
+          "ItemAttachSocket": "None"
+        }
+      ],
+      "CharacterAttachPoint": "Left_Hand_Attach_Socket",
+      "MeshComponent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_BonnieGuitarMeleeWeapon_C:WeaponMesh3P'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/BonniesGuitar/Blueprints/BP_BonnieGuitarMeleeWeapon.11"
+      },
+      "HitboxManagerComponent": {
+        "ObjectName": "HitboxManagerComponent'Default__BP_BonnieGuitarMeleeWeapon_C:Hitbox Manager'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/BonniesGuitar/Blueprints/BP_BonnieGuitarMeleeWeapon.4"
+      },
+      "ChargeUpEffectComponent": {
+        "ObjectName": "NiagaraComponent'Default__BP_BonnieGuitarMeleeWeapon_C:ChargeUpEffect'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/BonniesGuitar/Blueprints/BP_BonnieGuitarMeleeWeapon.7"
+      },
+      "ItemAnimationComponent": {
+        "ObjectName": "ItemAnimationComponent'Default__BP_BonnieGuitarMeleeWeapon_C:ItemAnimationComponent'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/BonniesGuitar/Blueprints/BP_BonnieGuitarMeleeWeapon.6"
+      },
+      "AudioComponent": {
+        "ObjectName": "FMODAudioComponent'Default__BP_BonnieGuitarMeleeWeapon_C:AudioComponent'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/BonniesGuitar/Blueprints/BP_BonnieGuitarMeleeWeapon.3"
+      },
+      "AnimSetType": "EItemAnimationType::IA_SpecifiedItem",
+      "RootComponent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_BonnieGuitarMeleeWeapon_C:WeaponMesh3P'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/BonniesGuitar/Blueprints/BP_BonnieGuitarMeleeWeapon.11"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "WeaponHitbox_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BonnieGuitarMeleeWeapon_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/BonniesGuitar/Blueprints/BP_BonnieGuitarMeleeWeapon.0"
+    },
+    "Template": {
+      "ObjectName": "CapsuleComponent'BP_MeleeWeaponBase_Enemies_C:WeaponHitbox_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Melee_ParentClasses/Enemies/BP_MeleeWeaponBase_Enemies.2"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -6.0
+      }
+    }
+  },
+  {
+    "Type": "FMODAudioComponent",
+    "Name": "AudioComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FMODAudioComponent'",
+    "Outer": {
+      "ObjectName": "BP_BonnieGuitarMeleeWeapon_C'Default__BP_BonnieGuitarMeleeWeapon_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/BonniesGuitar/Blueprints/BP_BonnieGuitarMeleeWeapon.1"
+    },
+    "Template": {
+      "ObjectName": "FMODAudioComponent'Default__BP_MeleeWeaponBase_Enemies_C:AudioComponent'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Melee_ParentClasses/Enemies/BP_MeleeWeaponBase_Enemies.3"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_BonnieGuitarMeleeWeapon_C:WeaponMesh3P'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/BonniesGuitar/Blueprints/BP_BonnieGuitarMeleeWeapon.11"
+      }
+    }
+  },
+  {
+    "Type": "HitboxManagerComponent",
+    "Name": "Hitbox Manager",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HitboxManagerComponent'",
+    "Outer": {
+      "ObjectName": "BP_BonnieGuitarMeleeWeapon_C'Default__BP_BonnieGuitarMeleeWeapon_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/BonniesGuitar/Blueprints/BP_BonnieGuitarMeleeWeapon.1"
+    },
+    "Template": {
+      "ObjectName": "HitboxManagerComponent'Default__BP_MeleeWeaponBase_Enemies_C:Hitbox Manager'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Melee_ParentClasses/Enemies/BP_MeleeWeaponBase_Enemies.4"
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BonnieGuitarMeleeWeapon_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/BonniesGuitar/Blueprints/BP_BonnieGuitarMeleeWeapon.0"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'CapsuleComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "CapsuleComponent'BP_BonnieGuitarMeleeWeapon_C:WeaponHitbox_GEN_VARIABLE'",
+            "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/BonniesGuitar/Blueprints/BP_BonnieGuitarMeleeWeapon.2"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_MeleeWeaponBase_Enemies_C'",
+              "ObjectPath": "/Game/Gameplay/Weapons/Melee_ParentClasses/Enemies/BP_MeleeWeaponBase_Enemies.0"
+            },
+            "SCSVariableName": "WeaponHitbox",
+            "AssociatedGuid": "6F6CF380-47419A61-701D85A7-D7A4D36A"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ItemAnimationComponent",
+    "Name": "ItemAnimationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ItemAnimationComponent'",
+    "Outer": {
+      "ObjectName": "BP_BonnieGuitarMeleeWeapon_C'Default__BP_BonnieGuitarMeleeWeapon_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/BonniesGuitar/Blueprints/BP_BonnieGuitarMeleeWeapon.1"
+    },
+    "Template": {
+      "ObjectName": "ItemAnimationComponent'Default__BP_MeleeWeaponBase_Enemies_C:ItemAnimationComponent'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Melee_ParentClasses/Enemies/BP_MeleeWeaponBase_Enemies.5"
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "ChargeUpEffect",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BP_BonnieGuitarMeleeWeapon_C'Default__BP_BonnieGuitarMeleeWeapon_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/BonniesGuitar/Blueprints/BP_BonnieGuitarMeleeWeapon.1"
+    },
+    "Template": {
+      "ObjectName": "NiagaraComponent'Default__BP_MeleeWeaponBase_Enemies_C:ChargeUpEffect'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Melee_ParentClasses/Enemies/BP_MeleeWeaponBase_Enemies.6"
+    },
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_BonnieGuitarMeleeWeapon_C:WeaponMesh3P'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/BonniesGuitar/Blueprints/BP_BonnieGuitarMeleeWeapon.11"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BonnieGuitarMeleeWeapon_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/BonniesGuitar/Blueprints/BP_BonnieGuitarMeleeWeapon.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_BonnieGuitarMeleeWeapon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/BonniesGuitar/Blueprints/BP_BonnieGuitarMeleeWeapon.10"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_BonnieGuitarMeleeWeapon_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/BonniesGuitar/Blueprints/BP_BonnieGuitarMeleeWeapon.8"
+      },
+      "VariableGuid": "FE8AE19A-4331363F-D8232187-8069B20E",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BonnieGuitarMeleeWeapon_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/BonniesGuitar/Blueprints/BP_BonnieGuitarMeleeWeapon.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_BonnieGuitarMeleeWeapon_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/BonniesGuitar/Blueprints/BP_BonnieGuitarMeleeWeapon.9"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponentBudgeted",
+    "Name": "WeaponMesh3P",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponentBudgeted'",
+    "Outer": {
+      "ObjectName": "BP_BonnieGuitarMeleeWeapon_C'Default__BP_BonnieGuitarMeleeWeapon_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/BonniesGuitar/Blueprints/BP_BonnieGuitarMeleeWeapon.1"
+    },
+    "Template": {
+      "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_MeleeWeaponBase_Enemies_C:WeaponMesh3P'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Melee_ParentClasses/Enemies/BP_MeleeWeaponBase_Enemies.11"
+    },
+    "Properties": {
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SKM_BonniesGuitar'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/BonniesGuitar/Meshes/SKM_BonniesGuitar.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SKM_BonniesGuitar'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/BonniesGuitar/Meshes/SKM_BonniesGuitar.1"
+      }
+    }
+  }
+]

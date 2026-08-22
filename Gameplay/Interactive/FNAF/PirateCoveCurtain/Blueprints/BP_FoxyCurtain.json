@@ -1,0 +1,974 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_FoxyCurtain_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Timeline_Doors_C'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Timeline_Doors.0"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_FoxyCurtain_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.14"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_FoxyCurtain_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.7"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_FoxyCurtain_C:ExecuteUbergraph_BP_FoxyCurtain'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.4"
+      }
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_FoxyCurtain_C:UpdateAnimation'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.6"
+      },
+      {
+        "ObjectName": "Function'BP_FoxyCurtain_C:Trigger'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.5"
+      },
+      {
+        "ObjectName": "Function'BP_FoxyCurtain_C:DoorFinishedMoving'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.3"
+      },
+      {
+        "ObjectName": "Function'BP_FoxyCurtain_C:ExecuteUbergraph_BP_FoxyCurtain'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.4"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CollisionL",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CollisionR",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SKM_PirateCoveCurtain_Open",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OpenSound",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'FMODAudioComponent'",
+          "ObjectPath": "/Script/FMODStudio"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_FoxyCurtain": {
+        "ObjectName": "Function'BP_FoxyCurtain_C:ExecuteUbergraph_BP_FoxyCurtain'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.4"
+      },
+      "DoorFinishedMoving": {
+        "ObjectName": "Function'BP_FoxyCurtain_C:DoorFinishedMoving'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.3"
+      },
+      "Trigger": {
+        "ObjectName": "Function'BP_FoxyCurtain_C:Trigger'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.5"
+      },
+      "UpdateAnimation": {
+        "ObjectName": "Function'BP_FoxyCurtain_C:UpdateAnimation'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.6"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_FoxyCurtain_C'Default__BP_FoxyCurtain_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_FoxyCurtain_C",
+    "Name": "Default__BP_FoxyCurtain_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.BP_FoxyCurtain_C'",
+    "Package": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain",
+    "Template": {
+      "ObjectName": "BP_Timeline_Doors_C'Default__BP_Timeline_Doors_C'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Timeline_Doors.1"
+    },
+    "Properties": {
+      "UberGraphFrame": {},
+      "AnimationCurve": {
+        "ObjectName": "CurveFloat'C_Doors_Ease'",
+        "ObjectPath": "/Game/Blueprints/Curves/Doors/C_Doors_Ease.0"
+      },
+      "OpeningSpeedMultiplier": 0.1,
+      "RemoteRole": "ENetRole::ROLE_SimulatedProxy"
+    }
+  },
+  {
+    "Type": "FMODAudioComponent",
+    "Name": "OpenSound_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FMODAudioComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FoxyCurtain_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.0"
+    },
+    "Properties": {
+      "Event": {
+        "ObjectName": "FMODEvent'FNaF__Curtain'",
+        "ObjectPath": "/Game/FMOD/Events/Objects/FNaF/FNaF__Curtain.0"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 322.0,
+        "Z": 0.0
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "DoorFinishedMoving",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FoxyCurtain_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.0"
+    },
+    "Super": {
+      "ObjectName": "Function'BP_Timeline_Doors_C:DoorFinishedMoving'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Timeline_Doors.10"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_FoxyCurtain",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FoxyCurtain_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "Temp_byte_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'ECollisionEnabled'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "Temp_byte_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'ECollisionEnabled'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Has_Been_Initd_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_IsClosed_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "K2Node_Event_Float",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_InInstigator",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_TriggeringCharacter",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Character'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Event_TriggerAction",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'ETriggerAction'",
+          "ObjectPath": "/Script/Merlin"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_Magnitude",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_DoubleDouble_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_SelectFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_ToBoolean__TriggerAction__Return",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_ToBoolean__TriggerAction__Return_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'ECollisionEnabled'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_SetPosition_InPos_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_EqualEqual_DoubleDouble_A_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "Trigger",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FoxyCurtain_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.0"
+    },
+    "Super": {
+      "ObjectName": "Function'BP_Timeline_Doors_C:Trigger'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Timeline_Doors.23"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "InInstigator",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TriggeringCharacter",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Character'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "TriggerAction",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Enum": {
+          "ObjectName": "Class'ETriggerAction'",
+          "ObjectPath": "/Script/Merlin"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Magnitude",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateAnimation",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FoxyCurtain_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.0"
+    },
+    "Super": {
+      "ObjectName": "Function'BP_Timeline_Doors_C:UpdateAnimation'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Timeline_Doors.25"
+    },
+    "ChildProperties": [
+      {
+        "Type": "DoubleProperty",
+        "Name": "Float",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FoxyCurtain_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.0"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StaticMeshComponent'BP_FoxyCurtain_C:RightDoor_GEN_VARIABLE'",
+            "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.20"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Timeline_Doors_C'",
+              "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Timeline_Doors.0"
+            },
+            "SCSVariableName": "RightDoor",
+            "AssociatedGuid": "C6E01698-4998392A-57AB338B-01F95496"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StaticMeshComponent'BP_FoxyCurtain_C:LeftDoor_GEN_VARIABLE'",
+            "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.19"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Timeline_Doors_C'",
+              "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Timeline_Doors.0"
+            },
+            "SCSVariableName": "LeftDoor",
+            "AssociatedGuid": "9DDC465E-4E17B019-A0440A88-3803CA76"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'SphereComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "SphereComponent'BP_FoxyCurtain_C:PlayerSensor_GEN_VARIABLE'",
+            "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.16"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Timeline_Doors_C'",
+              "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Timeline_Doors.0"
+            },
+            "SCSVariableName": "PlayerSensor",
+            "AssociatedGuid": "307277E5-45847ECA-718038B2-6B5DB6DF"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FoxyCurtain_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FoxyCurtain_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.14"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_FoxyCurtain_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.8"
+      },
+      "VariableGuid": "289B1A2B-44C218FC-F7CC18AD-8328D822",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FoxyCurtain_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.14"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_FoxyCurtain_C:CollisionR_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.18"
+      },
+      "ParentComponentOrVariableName": "DefaultSceneRoot",
+      "ParentComponentOwnerClassName": "BP_Timeline_Doors_C",
+      "VariableGuid": "61C884A1-421B19F7-752CFEB9-F349F1A4",
+      "InternalVariableName": "CollisionR"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FoxyCurtain_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.14"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_FoxyCurtain_C:CollisionL_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.17"
+      },
+      "ParentComponentOrVariableName": "DefaultSceneRoot",
+      "ParentComponentOwnerClassName": "BP_Timeline_Doors_C",
+      "VariableGuid": "8C8EE0CA-4333CA3F-0CADEE9A-E323F132",
+      "InternalVariableName": "CollisionL"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FoxyCurtain_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.14"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'FMODAudioComponent'",
+        "ObjectPath": "/Script/FMODStudio"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "FMODAudioComponent'BP_FoxyCurtain_C:OpenSound_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.2"
+      },
+      "ParentComponentOrVariableName": "DefaultSceneRoot",
+      "ParentComponentOwnerClassName": "BP_Timeline_Doors_C",
+      "VariableGuid": "E9682595-4661E770-2E1EDA90-FC088595",
+      "InternalVariableName": "OpenSound"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FoxyCurtain_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.14"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalMeshComponent'BP_FoxyCurtain_C:SKM_PirateCoveCurtain_Open_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.15"
+      },
+      "ParentComponentOrVariableName": "DefaultSceneRoot",
+      "ParentComponentOwnerClassName": "BP_Timeline_Doors_C",
+      "VariableGuid": "5711A9F0-461D9E91-9BCA5AB0-98F3EE6A",
+      "InternalVariableName": "SKM_PirateCoveCurtain_Open"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FoxyCurtain_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_FoxyCurtain_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FoxyCurtain_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.13"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FoxyCurtain_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.10"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FoxyCurtain_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.11"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_FoxyCurtain_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FoxyCurtain_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.13"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FoxyCurtain_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.10"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FoxyCurtain_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.11"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_FoxyCurtain_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.9"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "SKM_PirateCoveCurtain_Open_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FoxyCurtain_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.0"
+    },
+    "Properties": {
+      "AnimationData": {
+        "AnimToPlay": {
+          "ObjectName": "AnimSequence'SKM_PirateCoveCurtain_Open_Anim'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Meshes/SKM_PirateCoveCurtain_Open_Anim.0"
+        },
+        "bSavedLooping": false,
+        "bSavedPlaying": false
+      },
+      "AnimationMode": "EAnimationMode::AnimationSingleNode",
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SKM_PirateCoveCurtain_Open'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Meshes/SKM_PirateCoveCurtain_Open.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SKM_PirateCoveCurtain_Open'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Meshes/SKM_PirateCoveCurtain_Open.1"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "PlayerSensor_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'SphereComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FoxyCurtain_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.0"
+    },
+    "Template": {
+      "ObjectName": "SphereComponent'BP_Timeline_Doors_C:PlayerSensor_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Timeline_Doors.42"
+    },
+    "Properties": {
+      "SphereRadius": 500.0,
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 200.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "CollisionL_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FoxyCurtain_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Shield_ShieldProjectorTop_L'",
+        "ObjectPath": "/Game/Gameplay/Interactive/Funko/DeployableShield/Meshes/SM_Shield_ShieldProjectorTop_L.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'M_DebugGrid'",
+          "ObjectPath": "/Game/LevelArt/Global/FluidFlux/Tools/ProceduralMesh/M_DebugGrid.0"
+        }
+      ],
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "COLLISION_INTERACT",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "COLLISION_EXPLOSION",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "MeleeWeapon",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Interactable",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Audio",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -854.76666,
+        "Y": -236.32243,
+        "Z": 292.0
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 540.0,
+        "Roll": -866.25
+      },
+      "RelativeScale3D": {
+        "X": 30.0,
+        "Y": 5.0,
+        "Z": 5.0
+      },
+      "bHiddenInGame": true
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "CollisionR_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FoxyCurtain_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Shield_ShieldProjectorTop_L'",
+        "ObjectPath": "/Game/Gameplay/Interactive/Funko/DeployableShield/Meshes/SM_Shield_ShieldProjectorTop_L.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'M_DebugGrid'",
+          "ObjectPath": "/Game/LevelArt/Global/FluidFlux/Tools/ProceduralMesh/M_DebugGrid.0"
+        }
+      ],
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "COLLISION_INTERACT",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "COLLISION_EXPLOSION",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "MeleeWeapon",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Interactable",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Audio",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -25.195547,
+        "Y": 661.1749,
+        "Z": 292.0
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -374.03625,
+        "Roll": -47.838757
+      },
+      "RelativeScale3D": {
+        "X": 30.0,
+        "Y": 5.0,
+        "Z": 4.0
+      },
+      "bHiddenInGame": true
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "LeftDoor_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FoxyCurtain_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.0"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'BP_Timeline_Doors_C:LeftDoor_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Timeline_Doors.43"
+    },
+    "Properties": {
+      "bEvaluateWorldPositionOffsetInRayTracing": true,
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -372.0,
+        "Z": 215.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "RightDoor_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FoxyCurtain_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/PirateCoveCurtain/Blueprints/BP_FoxyCurtain.0"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'BP_Timeline_Doors_C:RightDoor_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Timeline_Doors.44"
+    },
+    "Properties": {
+      "bEvaluateWorldPositionOffsetInRayTracing": true
+    }
+  }
+]

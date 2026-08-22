@@ -1,0 +1,31 @@
+{
+  "Textures": {},
+  "Parameters": {
+    "BlendMode": 1,
+    "ShadingModel": 0,
+    "Colors": {},
+    "Scalars": {},
+    "Switches": {},
+    "Properties": {
+      "MaterialDecalResponse": "EMaterialDecalResponse::MDR_None",
+      "ShadingModels": {
+        "ShadingModelField": 1
+      },
+      "bUsedWithSkeletalMesh": true,
+      "bUsedWithNiagaraMeshParticles": true,
+      "bUsedWithClothing": true,
+      "bUsedWithNanite": true,
+      "bFullyRough": true,
+      "ShadingRate": "EMaterialShadingRate::MSR_4x4",
+      "bCastRayTracedShadows": false,
+      "StateId": "78E488C7-436C3DDF-D6D4CA99-E6810E11",
+      "bIncludedInBaseGame": true
+    },
+    "HasTopDiffuse": false,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": false,
+    "IsNull": true
+  }
+}

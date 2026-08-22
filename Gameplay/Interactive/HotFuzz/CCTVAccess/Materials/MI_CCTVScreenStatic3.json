@@ -1,0 +1,157 @@
+{
+  "Textures": {
+    "T_RGBPixel_D": "/Game/Gameplay/Materials/Textures/T_RGBPixel_D.T_RGBPixel_D",
+    "T_CRTDistortion_D": "/Game/Gameplay/Materials/Textures/T_CRTDistortion_D.T_CRTDistortion_D",
+    "T_ComputerTerminalScreen_BC": "/Game/Gameplay/Interactive/Funko/ComputerTerminal/Textures/T_ComputerTerminalScreen_BC.T_ComputerTerminalScreen_BC",
+    "Good64x64TilingNoiseHighFreq": "/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq",
+    "PM_Diffuse": "/Game/LevelArt/Global/Misc/Textures/T_NoiseTexture128.T_NoiseTexture128",
+    "DiffuseTextureInput": "/Game/LevelArt/Global/Misc/Textures/T_NoiseTexture128.T_NoiseTexture128",
+    "CA_Diffuse_2": "/Game/Gameplay/Interactive/Funko/ComputerTerminal/Textures/T_ComputerTerminalScreen_BC.T_ComputerTerminalScreen_BC",
+    "CA_Diffuse_1": "/Game/Gameplay/Interactive/Funko/ComputerTerminal/Textures/T_ComputerTerminalScreen_BC.T_ComputerTerminalScreen_BC",
+    "CA_Diffuse_3": "/Game/Gameplay/Interactive/Funko/ComputerTerminal/Textures/T_ComputerTerminalScreen_BC.T_ComputerTerminalScreen_BC",
+    "PM_SpecularMasks": "/Game/Gameplay/Interactive/Funko/ComputerTerminal/Textures/T_ComputerTerminalScreen_BC.T_ComputerTerminalScreen_BC"
+  },
+  "Parameters": {
+    "BlendMode": 1,
+    "ShadingModel": 0,
+    "Colors": {
+      "BaseColourMultiply": {
+        "R": 0.229167,
+        "G": 0.229167,
+        "B": 0.229167,
+        "A": 1.0,
+        "Hex": "848484"
+      },
+      "BaseColour": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "ObjectCalloutColour": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "000000"
+      },
+      "R": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "FF0000"
+      },
+      "G": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "00FF00"
+      },
+      "B": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 0.0,
+        "Hex": "0000FF"
+      },
+      "CustomDissolveColor": {
+        "R": 0.005605,
+        "G": 0.013702,
+        "B": 0.026241,
+        "A": 1.0,
+        "Hex": "111F2D"
+      },
+      "ScanlineSpeed": {
+        "R": 0.1,
+        "G": -0.005,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "590000"
+      },
+      "RotationAxis": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "0000FF"
+      },
+      "OscillateAxis": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "0000FF"
+      },
+      "HeightAxis": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "0000FF"
+      }
+    },
+    "Scalars": {
+      "Roughness": 0.25,
+      "DepthRange": 2.0,
+      "DepthRangeMultiplier": 100.0,
+      "DepthRangeFade": 0.1,
+      "RGBTexCordScale": 0.0,
+      "EmissivePower": 2.0,
+      "DistortionMainStrength": 2.0,
+      "DistortionEdgeStrength": 0.0,
+      "DistortionNoiseStrength": 0.1,
+      "ScanlinesScale": 1.0,
+      "ChromaticAberrationStrength": 0.01,
+      "TextureScrollX": -0.2,
+      "TextureScrollY": -1.0,
+      "CamAlpha": 1.0,
+      "Global Mat Fade": 1.0,
+      "FilterWidth": 10.0,
+      "Fresnel Strength": 2.0,
+      "Fade": 0.0,
+      "EdgeGlowIntensity": 100.0,
+      "CalloutGlowMin": 25.0,
+      "CalloutGlowMax": 30.0,
+      "Fresnel Reflect": 1E-05,
+      "Fresnel Power": 3.5,
+      "CalloutSpeed": 1.0,
+      "Rainbow": 0.0,
+      "Flicker Time Value": 0.8,
+      "PannerAmount": 0.1,
+      "TextureScaleX": 1.0,
+      "TextureScaleY": 1.0,
+      "RotationSpeed": 0.15,
+      "OscillateSpeed": 0.3,
+      "OscillateAmount": 10.0,
+      "B": 0.0,
+      "ObjectHeight": 0.0,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {
+      "SolidShadowOnFade": true,
+      "TextureScroll": true
+    },
+    "Properties": {
+      "bUsedWithSkeletalMesh": true,
+      "bUsedWithStaticLighting": true,
+      "bUsedWithInstancedStaticMeshes": true,
+      "bUsedWithNanite": true,
+      "StateId": "A115FCA6-4B0CB9D4-363EE7B2-5012D454",
+      "bIncludedInBaseGame": true,
+      "bHasStaticPermutationResource": true,
+      "BasePropertyOverrides": {
+        "BlendMode": "EBlendMode::BLEND_Masked",
+        "OpacityMaskClipValue": 0.3333
+      }
+    },
+    "HasTopDiffuse": false,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": false,
+    "IsNull": false
+  }
+}

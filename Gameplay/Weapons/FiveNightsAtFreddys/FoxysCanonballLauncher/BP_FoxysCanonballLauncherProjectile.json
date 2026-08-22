@@ -1,0 +1,562 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_FoxysCanonballLauncherProjectile_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncherProjectile",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_FoxysCanonballLauncherProjectile_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncherProjectile.8"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_FoxysCanonballLauncherProjectile_C:ExecuteUbergraph_BP_FoxysCanonballLauncherProjectile'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncherProjectile.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'RangedProjectile'",
+      "ObjectPath": "/Script/Merlin"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_FoxysCanonballLauncherProjectile_C:ReceiveHit'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncherProjectile.3"
+      },
+      {
+        "ObjectName": "Function'BP_FoxysCanonballLauncherProjectile_C:ExecuteUbergraph_BP_FoxysCanonballLauncherProjectile'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncherProjectile.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Sphere",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_FoxysCanonballLauncherProjectile": {
+        "ObjectName": "Function'BP_FoxysCanonballLauncherProjectile_C:ExecuteUbergraph_BP_FoxysCanonballLauncherProjectile'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncherProjectile.2"
+      },
+      "ReceiveHit": {
+        "ObjectName": "Function'BP_FoxysCanonballLauncherProjectile_C:ReceiveHit'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncherProjectile.3"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_FoxysCanonballLauncherProjectile_C'Default__BP_FoxysCanonballLauncherProjectile_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncherProjectile.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_FoxysCanonballLauncherProjectile_C",
+    "Name": "Default__BP_FoxysCanonballLauncherProjectile_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncherProjectile.BP_FoxysCanonballLauncherProjectile_C'",
+    "Package": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncherProjectile",
+    "Properties": {
+      "UberGraphFrame": {},
+      "MovementComp": {
+        "ObjectName": "TickAggregatorProjectileMovementComponent'Default__BP_FoxysCanonballLauncherProjectile_C:ProjectileComp'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncherProjectile.11"
+      },
+      "CollisionComp": {
+        "ObjectName": "SphereComponent'Default__BP_FoxysCanonballLauncherProjectile_C:SphereComp'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncherProjectile.9"
+      },
+      "NiagaraComp": {
+        "ObjectName": "NiagaraComponent'Default__BP_FoxysCanonballLauncherProjectile_C:NiagaraComp'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncherProjectile.4"
+      },
+      "RootComponent": {
+        "ObjectName": "SphereComponent'Default__BP_FoxysCanonballLauncherProjectile_C:SphereComp'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncherProjectile.9"
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_FoxysCanonballLauncherProjectile",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FoxysCanonballLauncherProjectile_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncherProjectile.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_MyComp",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_Other",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_OtherComp",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bSelfMoved",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_Event_HitLocation",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "Class'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_Event_HitNormal",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "Class'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_Event_NormalImpulse",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "Class'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_Event_Hit",
+        "Flags": "RF_Public",
+        "ElementSize": 256,
+        "PropertyFlags": "ConstParm | ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "Class'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveHit",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FoxysCanonballLauncherProjectile_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncherProjectile.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Actor:ReceiveHit'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "MyComp",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Other",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OtherComp",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bSelfMoved",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "HitLocation",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "Class'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "HitNormal",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "Class'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "NormalImpulse",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "Class'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Hit",
+        "Flags": "RF_Public",
+        "ElementSize": 256,
+        "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm | ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "Class'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "NiagaraComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BP_FoxysCanonballLauncherProjectile_C'Default__BP_FoxysCanonballLauncherProjectile_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncherProjectile.1"
+    },
+    "Properties": {
+      "OverrideParameters": {},
+      "bAllowCullDistanceVolume": false,
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Default__BP_FoxysCanonballLauncherProjectile_C:SphereComp'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncherProjectile.9"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FoxysCanonballLauncherProjectile_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncherProjectile.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FoxysCanonballLauncherProjectile_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncherProjectile.8"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_FoxysCanonballLauncherProjectile_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncherProjectile.5"
+      },
+      "VariableGuid": "58811EAA-44F49F77-B03A6DB1-5821482B",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FoxysCanonballLauncherProjectile_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncherProjectile.8"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_FoxysCanonballLauncherProjectile_C:Sphere_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncherProjectile.10"
+      },
+      "ParentComponentOrVariableName": "SphereComp",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "765AB1F9-4F2F7A4D-4AFE6DA1-8B66CCCF",
+      "InternalVariableName": "Sphere"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FoxysCanonballLauncherProjectile_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncherProjectile.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_FoxysCanonballLauncherProjectile_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncherProjectile.7"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_FoxysCanonballLauncherProjectile_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncherProjectile.7"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_FoxysCanonballLauncherProjectile_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncherProjectile.6"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "SphereComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SphereComponent'",
+    "Outer": {
+      "ObjectName": "BP_FoxysCanonballLauncherProjectile_C'Default__BP_FoxysCanonballLauncherProjectile_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncherProjectile.1"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Sphere_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FoxysCanonballLauncherProjectile_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncherProjectile.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_MeatballBolt'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/PirateCannon/Meshes/SM_MeatballBolt.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_Meatball'",
+          "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/PirateCannon/Materials/MI_Meatball.0"
+        }
+      ],
+      "CanCharacterStepUpOn": "ECanBeCharacterBase::ECB_No",
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel2",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel3",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel4",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel5",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel6",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_WEAPON",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_PROJECTILE",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "MeleeWeapon",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel16",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel17",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel18",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeScale3D": {
+        "X": 2.0,
+        "Y": 2.0,
+        "Z": 2.0
+      }
+    }
+  },
+  {
+    "Type": "TickAggregatorProjectileMovementComponent",
+    "Name": "ProjectileComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TickAggregatorProjectileMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_FoxysCanonballLauncherProjectile_C'Default__BP_FoxysCanonballLauncherProjectile_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncherProjectile.1"
+    },
+    "Properties": {
+      "InitialSpeed": 6000.0,
+      "MaxSpeed": 6000.0
+    }
+  }
+]

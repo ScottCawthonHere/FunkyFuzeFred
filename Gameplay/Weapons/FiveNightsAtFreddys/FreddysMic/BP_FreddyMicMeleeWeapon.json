@@ -1,0 +1,237 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_FreddyMicMeleeWeapon_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysMic/BP_FreddyMicMeleeWeapon",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MeleeWeaponBase_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Melee_ParentClasses/BP_MeleeWeaponBase.0"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_FreddyMicMeleeWeapon_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysMic/BP_FreddyMicMeleeWeapon.9"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_FreddyMicMeleeWeapon_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysMic/BP_FreddyMicMeleeWeapon.4"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_FreddyMicMeleeWeapon_C'Default__BP_FreddyMicMeleeWeapon_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysMic/BP_FreddyMicMeleeWeapon.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_FreddyMicMeleeWeapon_C",
+    "Name": "Default__BP_FreddyMicMeleeWeapon_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysMic/BP_FreddyMicMeleeWeapon.BP_FreddyMicMeleeWeapon_C'",
+    "Package": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysMic/BP_FreddyMicMeleeWeapon",
+    "Template": {
+      "ObjectName": "BP_MeleeWeaponBase_C'Default__BP_MeleeWeaponBase_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Melee_ParentClasses/BP_MeleeWeaponBase.1"
+    },
+    "Properties": {
+      "AbilitySetsToGrant": [
+        {
+          "ObjectName": "MerlinAbilitySet'DA_FreddyMicAbilitySet'",
+          "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysMic/DA_FreddyMicAbilitySet.0"
+        }
+      ],
+      "MeshComponent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_FreddyMicMeleeWeapon_C:WeaponMesh3P'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysMic/BP_FreddyMicMeleeWeapon.10"
+      },
+      "HitboxManagerComponent": {
+        "ObjectName": "HitboxManagerComponent'Default__BP_FreddyMicMeleeWeapon_C:Hitbox Manager'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysMic/BP_FreddyMicMeleeWeapon.3"
+      },
+      "ChargeUpEffectComponent": {
+        "ObjectName": "NiagaraComponent'Default__BP_FreddyMicMeleeWeapon_C:ChargeUpEffect'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysMic/BP_FreddyMicMeleeWeapon.6"
+      },
+      "ItemAnimationComponent": {
+        "ObjectName": "ItemAnimationComponent'Default__BP_FreddyMicMeleeWeapon_C:ItemAnimationComponent'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysMic/BP_FreddyMicMeleeWeapon.5"
+      },
+      "AudioComponent": {
+        "ObjectName": "FMODAudioComponent'Default__BP_FreddyMicMeleeWeapon_C:AudioComponent'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysMic/BP_FreddyMicMeleeWeapon.2"
+      },
+      "AnimSetType": "EItemAnimationType::IA_Club",
+      "RootComponent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_FreddyMicMeleeWeapon_C:WeaponMesh3P'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysMic/BP_FreddyMicMeleeWeapon.10"
+      }
+    }
+  },
+  {
+    "Type": "FMODAudioComponent",
+    "Name": "AudioComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FMODAudioComponent'",
+    "Outer": {
+      "ObjectName": "BP_FreddyMicMeleeWeapon_C'Default__BP_FreddyMicMeleeWeapon_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysMic/BP_FreddyMicMeleeWeapon.1"
+    },
+    "Template": {
+      "ObjectName": "FMODAudioComponent'Default__BP_MeleeWeaponBase_C:AudioComponent'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Melee_ParentClasses/BP_MeleeWeaponBase.3"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_FreddyMicMeleeWeapon_C:WeaponMesh3P'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysMic/BP_FreddyMicMeleeWeapon.10"
+      }
+    }
+  },
+  {
+    "Type": "HitboxManagerComponent",
+    "Name": "Hitbox Manager",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HitboxManagerComponent'",
+    "Outer": {
+      "ObjectName": "BP_FreddyMicMeleeWeapon_C'Default__BP_FreddyMicMeleeWeapon_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysMic/BP_FreddyMicMeleeWeapon.1"
+    },
+    "Template": {
+      "ObjectName": "HitboxManagerComponent'Default__BP_MeleeWeaponBase_C:Hitbox Manager'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Melee_ParentClasses/BP_MeleeWeaponBase.4"
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyMicMeleeWeapon_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysMic/BP_FreddyMicMeleeWeapon.0"
+    }
+  },
+  {
+    "Type": "ItemAnimationComponent",
+    "Name": "ItemAnimationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ItemAnimationComponent'",
+    "Outer": {
+      "ObjectName": "BP_FreddyMicMeleeWeapon_C'Default__BP_FreddyMicMeleeWeapon_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysMic/BP_FreddyMicMeleeWeapon.1"
+    },
+    "Template": {
+      "ObjectName": "ItemAnimationComponent'Default__BP_MeleeWeaponBase_C:ItemAnimationComponent'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Melee_ParentClasses/BP_MeleeWeaponBase.5"
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "ChargeUpEffect",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BP_FreddyMicMeleeWeapon_C'Default__BP_FreddyMicMeleeWeapon_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysMic/BP_FreddyMicMeleeWeapon.1"
+    },
+    "Template": {
+      "ObjectName": "NiagaraComponent'Default__BP_MeleeWeaponBase_C:ChargeUpEffect'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Melee_ParentClasses/BP_MeleeWeaponBase.6"
+    },
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_FreddyMicMeleeWeapon_C:WeaponMesh3P'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysMic/BP_FreddyMicMeleeWeapon.10"
+      },
+      "RelativeLocation": {
+        "X": 22.572742,
+        "Y": 0.0,
+        "Z": 86.39659
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyMicMeleeWeapon_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysMic/BP_FreddyMicMeleeWeapon.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FreddyMicMeleeWeapon_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysMic/BP_FreddyMicMeleeWeapon.9"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_FreddyMicMeleeWeapon_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysMic/BP_FreddyMicMeleeWeapon.7"
+      },
+      "VariableGuid": "E0C5EC08-4C842894-C79007AE-6C56B8DE",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyMicMeleeWeapon_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysMic/BP_FreddyMicMeleeWeapon.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_FreddyMicMeleeWeapon_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysMic/BP_FreddyMicMeleeWeapon.8"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponentBudgeted",
+    "Name": "WeaponMesh3P",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponentBudgeted'",
+    "Outer": {
+      "ObjectName": "BP_FreddyMicMeleeWeapon_C'Default__BP_FreddyMicMeleeWeapon_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysMic/BP_FreddyMicMeleeWeapon.1"
+    },
+    "Template": {
+      "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_MeleeWeaponBase_C:WeaponMesh3P'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Melee_ParentClasses/BP_MeleeWeaponBase.11"
+    },
+    "Properties": {
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SKM_OversizedMic'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/OversizedMic/Meshes/SKM_OversizedMic.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SKM_OversizedMic'",
+        "ObjectPath": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/OversizedMic/Meshes/SKM_OversizedMic.1"
+      }
+    }
+  }
+]

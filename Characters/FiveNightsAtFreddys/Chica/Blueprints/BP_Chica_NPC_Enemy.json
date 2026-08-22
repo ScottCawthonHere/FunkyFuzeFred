@@ -1,0 +1,1538 @@
+[
+  {
+    "Type": "ArrowComponent",
+    "Name": "LootSpawnDirection_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'ArrowComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Chica_NPC_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.2"
+    },
+    "Template": {
+      "ObjectName": "ArrowComponent'BP_MerlinCharacter_C:LootSpawnDirection_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Blueprints/Character/BP_MerlinCharacter.1"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 11.695584,
+        "Y": 2.2737368E-13,
+        "Z": -1.0563497E-08
+      },
+      "RelativeRotation": {
+        "Pitch": 49.83672,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "AttackableComponent",
+    "Name": "AttackableComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AttackableComponent'",
+    "Outer": {
+      "ObjectName": "BP_Chica_NPC_Enemy_C'Default__BP_Chica_NPC_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.3"
+    },
+    "Template": {
+      "ObjectName": "AttackableComponent'Default__BP_HumanoidNonPlayableMaster_C:AttackableComponent'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/Humanoid/BP_HumanoidNonPlayableMaster.0"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Chica_NPC_Enemy_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_HumanoidNonPlayableMaster_C'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/Humanoid/BP_HumanoidNonPlayableMaster.1"
+    },
+    "Properties": {
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "ComponentDelegateBinding'BP_Chica_NPC_Enemy_C:ComponentDelegateBinding_0'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.6"
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Chica_NPC_Enemy_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.36"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_Chica_NPC_Enemy_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.16"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_Chica_NPC_Enemy_C:ExecuteUbergraph_BP_Chica_NPC_Enemy'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.12"
+      }
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_Chica_NPC_Enemy_C:DetermineDamageTreatment'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.11"
+      },
+      {
+        "ObjectName": "Function'BP_Chica_NPC_Enemy_C:ReceiveBeginPlay'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.13"
+      },
+      {
+        "ObjectName": "Function'BP_Chica_NPC_Enemy_C:ReceivePossessed'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.14"
+      },
+      {
+        "ObjectName": "Function'BP_Chica_NPC_Enemy_C:BndEvt__BP_Chica_NPC_Enemy_CapsuleComponent_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.10"
+      },
+      {
+        "ObjectName": "Function'BP_Chica_NPC_Enemy_C:ReceiveUnpossessed'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.15"
+      },
+      {
+        "ObjectName": "Function'BP_Chica_NPC_Enemy_C:ExecuteUbergraph_BP_Chica_NPC_Enemy'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.12"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "FNAF_Char_ChicaVO2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'FMODAudioComponent'",
+          "ObjectPath": "/Script/FMODStudio"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "FNAF_Char_ChicaGrunt",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'FMODAudioComponent'",
+          "ObjectPath": "/Script/FMODStudio"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "FNAF_Char_ChicaVO",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'FMODAudioComponent'",
+          "ObjectPath": "/Script/FMODStudio"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Dizzy Stars",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'NiagaraComponent'",
+          "ObjectPath": "/Script/Niagara"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_KineticTriggerComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_KineticTriggerComponent_C'",
+          "ObjectPath": "/Game/Characters/UmbrellaAcademy/Guardians/Blueprints/BP_KineticTriggerComponent.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Widget_KineticTrigger",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'WidgetComponent'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "ShouldPlayAudioVO",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_Chica_NPC_Enemy": {
+        "ObjectName": "Function'BP_Chica_NPC_Enemy_C:ExecuteUbergraph_BP_Chica_NPC_Enemy'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.12"
+      },
+      "ReceiveUnpossessed": {
+        "ObjectName": "Function'BP_Chica_NPC_Enemy_C:ReceiveUnpossessed'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.15"
+      },
+      "BndEvt__BP_Chica_NPC_Enemy_CapsuleComponent_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature": {
+        "ObjectName": "Function'BP_Chica_NPC_Enemy_C:BndEvt__BP_Chica_NPC_Enemy_CapsuleComponent_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.10"
+      },
+      "ReceivePossessed": {
+        "ObjectName": "Function'BP_Chica_NPC_Enemy_C:ReceivePossessed'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.14"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_Chica_NPC_Enemy_C:ReceiveBeginPlay'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.13"
+      },
+      "DetermineDamageTreatment": {
+        "ObjectName": "Function'BP_Chica_NPC_Enemy_C:DetermineDamageTreatment'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.11"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Chica_NPC_Enemy_C'Default__BP_Chica_NPC_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Chica_NPC_Enemy_C",
+    "Name": "Default__BP_Chica_NPC_Enemy_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.BP_Chica_NPC_Enemy_C'",
+    "Package": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy",
+    "Template": {
+      "ObjectName": "BP_HumanoidNonPlayableMaster_C'Default__BP_HumanoidNonPlayableMaster_C'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/Humanoid/BP_HumanoidNonPlayableMaster.2"
+    },
+    "Properties": {
+      "UberGraphFrame": {},
+      "ShouldPlayAudioVO": true,
+      "NumHitsToPopOffComponents": 2,
+      "bBlockJitterCorrection": false
+    }
+  },
+  {
+    "Type": "BP_KineticTriggerComponent_C",
+    "Name": "BP_KineticTriggerComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Characters/UmbrellaAcademy/Guardians/Blueprints/BP_KineticTriggerComponent.BP_KineticTriggerComponent_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Chica_NPC_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.2"
+    },
+    "Template": {
+      "ObjectName": "BP_KineticTriggerComponent_C'Default__BP_KineticTriggerComponent_C'",
+      "ObjectPath": "/Game/Characters/UmbrellaAcademy/Guardians/Blueprints/BP_KineticTriggerComponent.1"
+    },
+    "Properties": {
+      "DamageDecreaser": 7.5,
+      "MultiTrigger": true,
+      "Restart On Complete": false,
+      "bShould Show Damage Text": true,
+      "Colour Curve": {
+        "ObjectName": "CurveLinearColor'DizzyColours_Curve'",
+        "ObjectPath": "/Game/Gameplay/Interactive/UmbrellaAcademy/KineticChain_BookDesk/UI/DizzyColours_Curve.0"
+      },
+      "bPlaySoundFX": false
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_Chica_NPC_Enemy_C'Default__BP_Chica_NPC_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.3"
+    },
+    "Template": {
+      "ObjectName": "CapsuleComponent'Default__BP_HumanoidNonPlayableMaster_C:CollisionCylinder'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/Humanoid/BP_HumanoidNonPlayableMaster.3"
+    }
+  },
+  {
+    "Type": "ComponentDelegateBinding",
+    "Name": "ComponentDelegateBinding_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ComponentDelegateBinding'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Chica_NPC_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.2"
+    },
+    "Properties": {
+      "ComponentDelegateBindings": [
+        {
+          "ComponentPropertyName": "CapsuleComponent",
+          "DelegatePropertyName": "OnComponentBeginOverlap",
+          "FunctionNameToBind": "BndEvt__BP_Chica_NPC_Enemy_CapsuleComponent_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "FMODAudioComponent",
+    "Name": "FNAF_Char_ChicaGrunt_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FMODAudioComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Chica_NPC_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.2"
+    },
+    "Properties": {
+      "Event": {
+        "ObjectName": "FMODEvent'FNAF_Char_ChicaGrunt'",
+        "ObjectPath": "/Game/FMOD/Events/Character/FNAF/Chica/FNAF_Char_ChicaGrunt.0"
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "FMODAudioComponent",
+    "Name": "FNAF_Char_ChicaVO2_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FMODAudioComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Chica_NPC_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.2"
+    },
+    "Properties": {
+      "Event": {
+        "ObjectName": "FMODEvent'FNAF_Char_ChicaVO'",
+        "ObjectPath": "/Game/FMOD/Events/Character/FNAF/Chica/FNAF_Char_ChicaVO.0"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 64.666664
+      },
+      "RelativeScale3D": {
+        "X": 0.6666667,
+        "Y": 0.6666667,
+        "Z": 0.6666667
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "FMODAudioComponent",
+    "Name": "FNAF_Char_ChicaVO_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FMODAudioComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Chica_NPC_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.2"
+    },
+    "Properties": {
+      "Event": {
+        "ObjectName": "FMODEvent'FNAF_Char_ChicaLaugh'",
+        "ObjectPath": "/Game/FMOD/Events/Character/FNAF/Chica/FNAF_Char_ChicaLaugh.0"
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__BP_Chica_NPC_Enemy_CapsuleComponent_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Chica_NPC_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.2"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "OverlappedComponent",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OtherActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OtherComp",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "OtherBodyIndex",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bFromSweep",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "SweepResult",
+        "Flags": "RF_Public",
+        "ElementSize": 256,
+        "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm | ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "Class'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_HasOutParms | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "DetermineDamageTreatment",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Chica_NPC_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.2"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MerlinCharacter:DetermineDamageTreatment'",
+      "ObjectPath": "/Script/Merlin"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "Impact",
+        "Flags": "RF_Public",
+        "ElementSize": 256,
+        "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm | ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "Class'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ImpactInstigator",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Pawn'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "DamageTags",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "Class'GameplayTagContainer'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "Parm | OutParm | ReturnParm",
+        "Enum": {
+          "ObjectName": "Class'EDamageTreatmant'",
+          "ObjectPath": "/Script/Merlin"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_Chica_NPC_Enemy",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Chica_NPC_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.2"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetController_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Controller'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetBossComponentFromController_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'MiniBossBehaviourComponent'",
+          "ObjectPath": "/Script/Merlin"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsFNAFMini_Boss_Component",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'FNAFMiniBossComponent'",
+          "ObjectPath": "/Script/Merlin"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_MakeArray_Array",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ConstParm | ReferenceParm | ContainsInstancedReference",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_MakeArray_Array",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "InstancedReference",
+          "PropertyClass": {
+            "ObjectName": "Class'SkeletalMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_NewController",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Controller'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OverlappedComponent",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherComp",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherBodyIndex",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_ComponentBoundEvent_bFromSweep",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_ComponentBoundEvent_SweepResult",
+        "Flags": "RF_Public",
+        "ElementSize": 256,
+        "PropertyFlags": "ConstParm | ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "Class'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsBP_Merlin_Character",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_MerlinCharacter_C'",
+          "ObjectPath": "/Game/Blueprints/Character/BP_MerlinCharacter.4"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetMiniBoss_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'MiniBossBehaviourComponent'",
+          "ObjectPath": "/Script/Merlin"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Apply_Simple_Damage_Gameplay_Effect_Success",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsChica_FNAFMini_Boss",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'ChicaFNAFMiniBoss'",
+          "ObjectPath": "/Script/Merlin"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_QueryBool_bResult",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "CallFunc_QueryBool_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'ECommandAndQueryResult'",
+          "ObjectPath": "/Script/Merlin"
+        }
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_RandomFloatInRange_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_RandomFloatInRange_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_OldController",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Controller'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Delay_Duration_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Delay_Duration_ImplicitCast_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Chica_NPC_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.2"
+    },
+    "Super": {
+      "ObjectName": "Function'BP_HumanoidNonPlayableMaster_C:ReceiveBeginPlay'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/Humanoid/BP_HumanoidNonPlayableMaster.5"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceivePossessed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Chica_NPC_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.2"
+    },
+    "Super": {
+      "ObjectName": "Function'BP_ExtendedCharacter_C:ReceivePossessed'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/BP_ExtendedCharacter.39"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "NewController",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Controller'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintAuthorityOnly | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveUnpossessed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Chica_NPC_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.2"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Pawn:ReceiveUnpossessed'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "OldController",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Controller'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintAuthorityOnly | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Chica_NPC_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.2"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'SkeletalMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "SkeletalMeshComponent'BP_Chica_NPC_Enemy_C:Head_GEN_VARIABLE'",
+            "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.37"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_ExtendedCharacter_C'",
+              "ObjectPath": "/Game/Characters/Blueprints/Extended/BP_ExtendedCharacter.1"
+            },
+            "SCSVariableName": "Head",
+            "AssociatedGuid": "229C3DB0-43D152B7-F9604498-C2BD9E0C"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'ItemSpawnerComponent'",
+            "ObjectPath": "/Script/Merlin"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "ItemSpawnerComponent'BP_Chica_NPC_Enemy_C:ItemSpawnerComponent1_GEN_VARIABLE'",
+            "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.18"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_ExtendedCharacter_C'",
+              "ObjectPath": "/Game/Characters/Blueprints/Extended/BP_ExtendedCharacter.1"
+            },
+            "SCSVariableName": "ItemSpawnerComponent1",
+            "AssociatedGuid": "75A4B090-4000348A-1DCF66AA-19256A34"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'SkeletalMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "SkeletalMeshComponent'BP_Chica_NPC_Enemy_C:Skeleton_GEN_VARIABLE'",
+            "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.38"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_HumanoidNonPlayableMaster_C'",
+              "ObjectPath": "/Game/Characters/Blueprints/Extended/Humanoid/BP_HumanoidNonPlayableMaster.1"
+            },
+            "SCSVariableName": "Skeleton",
+            "AssociatedGuid": "6E559F23-4A78BABE-EAA5D88D-36426060"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'ArrowComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "ArrowComponent'BP_Chica_NPC_Enemy_C:LootSpawnDirection_GEN_VARIABLE'",
+            "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.0"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_MerlinCharacter_C'",
+              "ObjectPath": "/Game/Blueprints/Character/BP_MerlinCharacter.4"
+            },
+            "SCSVariableName": "LootSpawnDirection",
+            "AssociatedGuid": "0B079D43-43B59E46-367DF1A8-403AF93A"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "InventoryComponent",
+    "Name": "InventoryComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InventoryComponent'",
+    "Outer": {
+      "ObjectName": "BP_Chica_NPC_Enemy_C'Default__BP_Chica_NPC_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.3"
+    },
+    "Template": {
+      "ObjectName": "InventoryComponent'Default__BP_HumanoidNonPlayableMaster_C:InventoryComponent'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/Humanoid/BP_HumanoidNonPlayableMaster.8"
+    },
+    "Properties": {
+      "MaxInventoryCapacity": 1
+    }
+  },
+  {
+    "Type": "ItemSpawnerComponent",
+    "Name": "ItemSpawnerComponent1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'ItemSpawnerComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Chica_NPC_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.2"
+    },
+    "Template": {
+      "ObjectName": "ItemSpawnerComponent'BP_ExtendedCharacter_C:ItemSpawnerComponent1_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/BP_ExtendedCharacter.44"
+    },
+    "Properties": {
+      "LootCalculationMode": "ELootCalculationMode::ELCM_StaticSetOfItems",
+      "LootTable_Static": {
+        "ItemList": [
+          {
+            "ObjectName": "BlueprintGeneratedClass'BP_KeyCardFNAF_C'",
+            "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.0"
+          }
+        ]
+      },
+      "ItemsToSpawn": 1
+    }
+  },
+  {
+    "Type": "MaterialOverrideControllerComponent",
+    "Name": "MaterialOverrideController",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialOverrideControllerComponent'",
+    "Outer": {
+      "ObjectName": "BP_Chica_NPC_Enemy_C'Default__BP_Chica_NPC_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.3"
+    },
+    "Template": {
+      "ObjectName": "MaterialOverrideControllerComponent'Default__BP_HumanoidNonPlayableMaster_C:MaterialOverrideController'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/Humanoid/BP_HumanoidNonPlayableMaster.9"
+    }
+  },
+  {
+    "Type": "MerlinAbilitySystemComponent",
+    "Name": "AbilitySystem",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MerlinAbilitySystemComponent'",
+    "Outer": {
+      "ObjectName": "BP_Chica_NPC_Enemy_C'Default__BP_Chica_NPC_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.3"
+    },
+    "Template": {
+      "ObjectName": "MerlinAbilitySystemComponent'Default__BP_HumanoidNonPlayableMaster_C:AbilitySystem'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/Humanoid/BP_HumanoidNonPlayableMaster.10"
+    }
+  },
+  {
+    "Type": "MerlinCharacterMovementComponent",
+    "Name": "CharMoveComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MerlinCharacterMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_Chica_NPC_Enemy_C'Default__BP_Chica_NPC_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.3"
+    },
+    "Template": {
+      "ObjectName": "MerlinCharacterMovementComponent'Default__BP_HumanoidNonPlayableMaster_C:CharMoveComp'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/Humanoid/BP_HumanoidNonPlayableMaster.11"
+    }
+  },
+  {
+    "Type": "MerlinCharacterOptimizationComponent",
+    "Name": "MerlinOptimizationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MerlinCharacterOptimizationComponent'",
+    "Outer": {
+      "ObjectName": "BP_Chica_NPC_Enemy_C'Default__BP_Chica_NPC_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.3"
+    },
+    "Template": {
+      "ObjectName": "MerlinCharacterOptimizationComponent'Default__BP_HumanoidNonPlayableMaster_C:MerlinOptimizationComponent'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/Humanoid/BP_HumanoidNonPlayableMaster.12"
+    }
+  },
+  {
+    "Type": "MotionWarpingComponent",
+    "Name": "MotionWarpingComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MotionWarpingComponent'",
+    "Outer": {
+      "ObjectName": "BP_Chica_NPC_Enemy_C'Default__BP_Chica_NPC_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.3"
+    },
+    "Template": {
+      "ObjectName": "MotionWarpingComponent'Default__BP_HumanoidNonPlayableMaster_C:MotionWarpingComponent'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/Humanoid/BP_HumanoidNonPlayableMaster.13"
+    }
+  },
+  {
+    "Type": "NavigationInvokerComponent",
+    "Name": "InvokerComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NavigationInvokerComponent'",
+    "Outer": {
+      "ObjectName": "BP_Chica_NPC_Enemy_C'Default__BP_Chica_NPC_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.3"
+    },
+    "Template": {
+      "ObjectName": "NavigationInvokerComponent'Default__BP_HumanoidNonPlayableMaster_C:InvokerComponent'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/Humanoid/BP_HumanoidNonPlayableMaster.14"
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "Dizzy Stars_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Chica_NPC_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.2"
+    },
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'NS_StunnedStars'",
+        "ObjectPath": "/Game/VFX/Wills_VFX_Folder/NiagaraSystems/NS_StunnedStars.39"
+      },
+      "OverrideParameters": {},
+      "bAllowCullDistanceVolume": false,
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 160.0
+      },
+      "RelativeScale3D": {
+        "X": 0.6666667,
+        "Y": 0.6666667,
+        "Z": 0.6666667
+      },
+      "ComponentTags": [
+        "DizzyStars"
+      ],
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "FloatingDamageTextVfx",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BP_Chica_NPC_Enemy_C'Default__BP_Chica_NPC_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.3"
+    },
+    "Template": {
+      "ObjectName": "NiagaraComponent'Default__BP_HumanoidNonPlayableMaster_C:FloatingDamageTextVfx'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/Humanoid/BP_HumanoidNonPlayableMaster.15"
+    },
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Chica_NPC_Enemy_C:CollisionCylinder'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.5"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "MegaVinylEffectComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BP_Chica_NPC_Enemy_C'Default__BP_Chica_NPC_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.3"
+    },
+    "Template": {
+      "ObjectName": "NiagaraComponent'Default__BP_HumanoidNonPlayableMaster_C:MegaVinylEffectComponent'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/Humanoid/BP_HumanoidNonPlayableMaster.16"
+    },
+    "Properties": {
+      "OverrideParameters": {}
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Chica_NPC_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Chica_NPC_Enemy_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.36"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Chica_NPC_Enemy_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.28"
+      },
+      "VariableGuid": "0C502B91-4D2278CC-CE1AB0B9-E6A877CF",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Chica_NPC_Enemy_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.36"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'WidgetComponent'",
+        "ObjectPath": "/Script/UMG"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "WidgetComponent'BP_Chica_NPC_Enemy_C:Widget_KineticTrigger_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.41"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "AC1F1F75-4B58DC39-7F909EA3-9523B4CD",
+      "InternalVariableName": "Widget_KineticTrigger"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Chica_NPC_Enemy_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.36"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_KineticTriggerComponent_C'",
+        "ObjectPath": "/Game/Characters/UmbrellaAcademy/Guardians/Blueprints/BP_KineticTriggerComponent.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_KineticTriggerComponent_C'BP_Chica_NPC_Enemy_C:BP_KineticTriggerComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.4"
+      },
+      "VariableGuid": "0BFB8289-46B2D200-0A2B3AA4-61DE73FF",
+      "InternalVariableName": "BP_KineticTriggerComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Chica_NPC_Enemy_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.36"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'NiagaraComponent'",
+        "ObjectPath": "/Script/Niagara"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "NiagaraComponent'BP_Chica_NPC_Enemy_C:Dizzy Stars_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.25"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "4AAFFEAC-46F3CC38-1147738C-7F7CEC73",
+      "InternalVariableName": "Dizzy Stars"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Chica_NPC_Enemy_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.36"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'FMODAudioComponent'",
+        "ObjectPath": "/Script/FMODStudio"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "FMODAudioComponent'BP_Chica_NPC_Enemy_C:FNAF_Char_ChicaVO_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.9"
+      },
+      "ParentComponentOrVariableName": "Head",
+      "ParentComponentOwnerClassName": "BP_ExtendedCharacter_C",
+      "VariableGuid": "94F3F220-44300A04-DBFD6283-89C65AC9",
+      "InternalVariableName": "FNAF_Char_ChicaVO"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Chica_NPC_Enemy_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.36"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'FMODAudioComponent'",
+        "ObjectPath": "/Script/FMODStudio"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "FMODAudioComponent'BP_Chica_NPC_Enemy_C:FNAF_Char_ChicaGrunt_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.7"
+      },
+      "ParentComponentOrVariableName": "Head",
+      "ParentComponentOwnerClassName": "BP_ExtendedCharacter_C",
+      "VariableGuid": "4E85E783-46FFEDB6-DB3FDEBB-70AD1781",
+      "InternalVariableName": "FNAF_Char_ChicaGrunt"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Chica_NPC_Enemy_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.36"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'FMODAudioComponent'",
+        "ObjectPath": "/Script/FMODStudio"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "FMODAudioComponent'BP_Chica_NPC_Enemy_C:FNAF_Char_ChicaVO2_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.8"
+      },
+      "ParentComponentOrVariableName": "Head",
+      "ParentComponentOwnerClassName": "BP_ExtendedCharacter_C",
+      "VariableGuid": "822B1483-4B7DA40C-42FFFC99-4A13DE84",
+      "InternalVariableName": "FNAF_Char_ChicaVO2"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Chica_NPC_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.2"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Chica_NPC_Enemy_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.30"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Chica_NPC_Enemy_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.31"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Chica_NPC_Enemy_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.32"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Chica_NPC_Enemy_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.33"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Chica_NPC_Enemy_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.34"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Chica_NPC_Enemy_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.35"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Chica_NPC_Enemy_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.30"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Chica_NPC_Enemy_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.31"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Chica_NPC_Enemy_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.32"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Chica_NPC_Enemy_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.33"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Chica_NPC_Enemy_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.34"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Chica_NPC_Enemy_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.35"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Chica_NPC_Enemy_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.29"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "Head_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Chica_NPC_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.2"
+    },
+    "Template": {
+      "ObjectName": "SkeletalMeshComponent'BP_HumanoidExtendedCharacter_C:Head_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/Humanoid/BP_HumanoidExtendedCharacter.20"
+    },
+    "Properties": {
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SKM_Chica_Head'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Meshes/SKM_Chica_Head.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SKM_Chica_Head'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Meshes/SKM_Chica_Head.1"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_HEAD_Chica_Flocked'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Materials/MI_HEAD_Chica_Flocked.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "Skeleton_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Chica_NPC_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.2"
+    },
+    "Template": {
+      "ObjectName": "SkeletalMeshComponent'BP_HumanoidNonPlayableMaster_C:Skeleton_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/Humanoid/BP_HumanoidNonPlayableMaster.21"
+    },
+    "Properties": {
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SKM_NightmareEndoSkeleton_Preview'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/NightmareEndoSkeleton/Meshes/SKM_NightmareEndoSkeleton_Preview.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SKM_NightmareEndoSkeleton_Preview'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/NightmareEndoSkeleton/Meshes/SKM_NightmareEndoSkeleton_Preview.1"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponentBudgeted",
+    "Name": "CharacterMesh0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponentBudgeted'",
+    "Outer": {
+      "ObjectName": "BP_Chica_NPC_Enemy_C'Default__BP_Chica_NPC_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.3"
+    },
+    "Template": {
+      "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_HumanoidNonPlayableMaster_C:CharacterMesh0'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/Humanoid/BP_HumanoidNonPlayableMaster.22"
+    },
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_Chica_NPC_Enemy_C'",
+        "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Chica/ABP_Chica_NPC_Enemy.1"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SKM_Chica_Body'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Meshes/SKM_Chica_Body.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SKM_Chica_Body'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Meshes/SKM_Chica_Body.1"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_BODY_Chica_Flocked'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Materials/MI_BODY_Chica_Flocked.0"
+        }
+      ],
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Chica_NPC_Enemy_C:CollisionCylinder'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.5"
+      },
+      "RelativeScale3D": {
+        "X": 1.5,
+        "Y": 1.5,
+        "Z": 1.5
+      }
+    }
+  },
+  {
+    "Type": "TargetableComponent",
+    "Name": "TargetingComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TargetableComponent'",
+    "Outer": {
+      "ObjectName": "BP_Chica_NPC_Enemy_C'Default__BP_Chica_NPC_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.3"
+    },
+    "Template": {
+      "ObjectName": "TargetableComponent'Default__BP_HumanoidNonPlayableMaster_C:TargetingComponent'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/Humanoid/BP_HumanoidNonPlayableMaster.24"
+    }
+  },
+  {
+    "Type": "WidgetComponent",
+    "Name": "Widget_KineticTrigger_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Chica_NPC_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_Chica_NPC_Enemy.2"
+    },
+    "Properties": {
+      "Space": "EWidgetSpace::Screen",
+      "WidgetClass": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_ProgressBarKineticChain_C'",
+        "ObjectPath": "/Game/Gameplay/Interactive/UmbrellaAcademy/KineticChain_BookDesk/UI/UI_ProgressBarKineticChain.36"
+      },
+      "DrawSize": {
+        "X": 75,
+        "Y": 75
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -11.363636,
+        "Z": 151.81818
+      }
+    }
+  }
+]

@@ -1,0 +1,494 @@
+[
+  {
+    "Type": "AttackableComponent",
+    "Name": "AttackableComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AttackableComponent'",
+    "Outer": {
+      "ObjectName": "BP_Foxy_Rainbow_C'Default__BP_Foxy_Rainbow_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Rainbow.2"
+    },
+    "Template": {
+      "ObjectName": "AttackableComponent'Default__BP_Foxy_Zombie_C:AttackableComponent'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Zombie.0"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Foxy_Rainbow_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Rainbow",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Foxy_Zombie_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Zombie.1"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Foxy_Rainbow_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Rainbow.24"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_Foxy_Rainbow_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Rainbow.4"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Foxy_Rainbow_C'Default__BP_Foxy_Rainbow_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Rainbow.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Foxy_Rainbow_C",
+    "Name": "Default__BP_Foxy_Rainbow_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Rainbow.BP_Foxy_Rainbow_C'",
+    "Package": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Rainbow",
+    "Template": {
+      "ObjectName": "BP_Foxy_Zombie_C'Default__BP_Foxy_Zombie_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Zombie.2"
+    },
+    "Properties": {
+      "NumHitsToPopOffComponents": 1,
+      "PoisonOverlayIndex": 234881024,
+      "InvokerComponent": null
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_Foxy_Rainbow_C'Default__BP_Foxy_Rainbow_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Rainbow.2"
+    },
+    "Template": {
+      "ObjectName": "CapsuleComponent'Default__BP_Foxy_Zombie_C:CollisionCylinder'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Zombie.3"
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Foxy_Rainbow_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Rainbow.1"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'SkeletalMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "SkeletalMeshComponent'BP_Foxy_Rainbow_C:Head_GEN_VARIABLE'",
+            "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Rainbow.25"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_ExtendedCharacter_C'",
+              "ObjectPath": "/Game/Characters/Blueprints/Extended/BP_ExtendedCharacter.1"
+            },
+            "SCSVariableName": "Head",
+            "AssociatedGuid": "229C3DB0-43D152B7-F9604498-C2BD9E0C"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "InventoryComponent",
+    "Name": "InventoryComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InventoryComponent'",
+    "Outer": {
+      "ObjectName": "BP_Foxy_Rainbow_C'Default__BP_Foxy_Rainbow_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Rainbow.2"
+    },
+    "Template": {
+      "ObjectName": "InventoryComponent'Default__BP_Foxy_Zombie_C:InventoryComponent'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Zombie.5"
+    }
+  },
+  {
+    "Type": "MaterialOverrideControllerComponent",
+    "Name": "MaterialOverrideController",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialOverrideControllerComponent'",
+    "Outer": {
+      "ObjectName": "BP_Foxy_Rainbow_C'Default__BP_Foxy_Rainbow_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Rainbow.2"
+    },
+    "Template": {
+      "ObjectName": "MaterialOverrideControllerComponent'Default__BP_Foxy_Zombie_C:MaterialOverrideController'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Zombie.6"
+    }
+  },
+  {
+    "Type": "MerlinAbilitySystemComponent",
+    "Name": "AbilitySystem",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MerlinAbilitySystemComponent'",
+    "Outer": {
+      "ObjectName": "BP_Foxy_Rainbow_C'Default__BP_Foxy_Rainbow_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Rainbow.2"
+    },
+    "Template": {
+      "ObjectName": "MerlinAbilitySystemComponent'Default__BP_Foxy_Zombie_C:AbilitySystem'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Zombie.7"
+    }
+  },
+  {
+    "Type": "MerlinCharacterMovementComponent",
+    "Name": "CharMoveComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MerlinCharacterMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_Foxy_Rainbow_C'Default__BP_Foxy_Rainbow_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Rainbow.2"
+    },
+    "Template": {
+      "ObjectName": "MerlinCharacterMovementComponent'Default__BP_Foxy_Zombie_C:CharMoveComp'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Zombie.8"
+    }
+  },
+  {
+    "Type": "MerlinCharacterOptimizationComponent",
+    "Name": "MerlinOptimizationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MerlinCharacterOptimizationComponent'",
+    "Outer": {
+      "ObjectName": "BP_Foxy_Rainbow_C'Default__BP_Foxy_Rainbow_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Rainbow.2"
+    },
+    "Template": {
+      "ObjectName": "MerlinCharacterOptimizationComponent'Default__BP_Foxy_Zombie_C:MerlinOptimizationComponent'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Zombie.9"
+    }
+  },
+  {
+    "Type": "MotionWarpingComponent",
+    "Name": "MotionWarpingComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MotionWarpingComponent'",
+    "Outer": {
+      "ObjectName": "BP_Foxy_Rainbow_C'Default__BP_Foxy_Rainbow_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Rainbow.2"
+    },
+    "Template": {
+      "ObjectName": "MotionWarpingComponent'Default__BP_Foxy_Zombie_C:MotionWarpingComponent'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Zombie.10"
+    }
+  },
+  {
+    "Type": "NavigationInvokerComponent",
+    "Name": "InvokerComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NavigationInvokerComponent'",
+    "Outer": {
+      "ObjectName": "BP_Foxy_Rainbow_C'Default__BP_Foxy_Rainbow_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Rainbow.2"
+    },
+    "Template": {
+      "ObjectName": "NavigationInvokerComponent'Default__BP_Foxy_Zombie_C:InvokerComponent'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Zombie.11"
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "FloatingDamageTextVfx",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BP_Foxy_Rainbow_C'Default__BP_Foxy_Rainbow_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Rainbow.2"
+    },
+    "Template": {
+      "ObjectName": "NiagaraComponent'Default__BP_Foxy_Zombie_C:FloatingDamageTextVfx'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Zombie.12"
+    },
+    "Properties": {
+      "OverrideParameters": {
+        "DataInterfaces": [
+          {
+            "ObjectName": "NiagaraDataInterfaceArrayColor'Default__BP_Foxy_Rainbow_C:FloatingDamageTextVfx.NiagaraDataInterfaceArrayColor_1'",
+            "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Rainbow.15"
+          },
+          {
+            "ObjectName": "NiagaraDataInterfaceArrayFloat'Default__BP_Foxy_Rainbow_C:FloatingDamageTextVfx.NiagaraDataInterfaceArrayFloat_1'",
+            "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Rainbow.17"
+          },
+          {
+            "ObjectName": "NiagaraDataInterfaceArrayInt32'Default__BP_Foxy_Rainbow_C:FloatingDamageTextVfx.NiagaraDataInterfaceArrayInt32_1'",
+            "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Rainbow.19"
+          },
+          {
+            "ObjectName": "NiagaraDataInterfaceArrayPosition'Default__BP_Foxy_Rainbow_C:FloatingDamageTextVfx.NiagaraDataInterfaceArrayPosition_1'",
+            "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Rainbow.21"
+          }
+        ]
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Foxy_Rainbow_C:CollisionCylinder'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Rainbow.3"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "MegaVinylEffectComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BP_Foxy_Rainbow_C'Default__BP_Foxy_Rainbow_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Rainbow.2"
+    },
+    "Template": {
+      "ObjectName": "NiagaraComponent'Default__BP_Foxy_Zombie_C:MegaVinylEffectComponent'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Zombie.13"
+    },
+    "Properties": {
+      "OverrideParameters": {}
+    }
+  },
+  {
+    "Type": "NiagaraDataInterfaceArrayColor",
+    "Name": "NiagaraDataInterfaceArrayColor_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraDataInterfaceArrayColor'",
+    "Outer": {
+      "ObjectName": "NiagaraComponent'Default__BP_Foxy_Rainbow_C:FloatingDamageTextVfx'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Rainbow.12"
+    },
+    "Template": {
+      "ObjectName": "NiagaraDataInterfaceArrayColor'Default__BP_Foxy_Zombie_C:FloatingDamageTextVfx.NiagaraDataInterfaceArrayColor_0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Zombie.14"
+    }
+  },
+  {
+    "Type": "NiagaraDataInterfaceArrayColor",
+    "Name": "NiagaraDataInterfaceArrayColor_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraDataInterfaceArrayColor'",
+    "Outer": {
+      "ObjectName": "NiagaraComponent'Default__BP_Foxy_Rainbow_C:FloatingDamageTextVfx'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Rainbow.12"
+    },
+    "Template": {
+      "ObjectName": "NiagaraDataInterfaceArrayColor'Default__BP_Foxy_Zombie_C:FloatingDamageTextVfx.NiagaraDataInterfaceArrayColor_1'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Zombie.15"
+    }
+  },
+  {
+    "Type": "NiagaraDataInterfaceArrayFloat",
+    "Name": "NiagaraDataInterfaceArrayFloat_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraDataInterfaceArrayFloat'",
+    "Outer": {
+      "ObjectName": "NiagaraComponent'Default__BP_Foxy_Rainbow_C:FloatingDamageTextVfx'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Rainbow.12"
+    },
+    "Template": {
+      "ObjectName": "NiagaraDataInterfaceArrayFloat'Default__BP_Foxy_Zombie_C:FloatingDamageTextVfx.NiagaraDataInterfaceArrayFloat_0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Zombie.17"
+    }
+  },
+  {
+    "Type": "NiagaraDataInterfaceArrayFloat",
+    "Name": "NiagaraDataInterfaceArrayFloat_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraDataInterfaceArrayFloat'",
+    "Outer": {
+      "ObjectName": "NiagaraComponent'Default__BP_Foxy_Rainbow_C:FloatingDamageTextVfx'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Rainbow.12"
+    },
+    "Template": {
+      "ObjectName": "NiagaraDataInterfaceArrayFloat'Default__BP_Foxy_Zombie_C:FloatingDamageTextVfx.NiagaraDataInterfaceArrayFloat_1'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Zombie.18"
+    }
+  },
+  {
+    "Type": "NiagaraDataInterfaceArrayInt32",
+    "Name": "NiagaraDataInterfaceArrayInt32_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraDataInterfaceArrayInt32'",
+    "Outer": {
+      "ObjectName": "NiagaraComponent'Default__BP_Foxy_Rainbow_C:FloatingDamageTextVfx'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Rainbow.12"
+    },
+    "Template": {
+      "ObjectName": "NiagaraDataInterfaceArrayInt32'Default__BP_Foxy_Zombie_C:FloatingDamageTextVfx.NiagaraDataInterfaceArrayInt32_0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Zombie.20"
+    }
+  },
+  {
+    "Type": "NiagaraDataInterfaceArrayInt32",
+    "Name": "NiagaraDataInterfaceArrayInt32_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraDataInterfaceArrayInt32'",
+    "Outer": {
+      "ObjectName": "NiagaraComponent'Default__BP_Foxy_Rainbow_C:FloatingDamageTextVfx'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Rainbow.12"
+    },
+    "Template": {
+      "ObjectName": "NiagaraDataInterfaceArrayInt32'Default__BP_Foxy_Zombie_C:FloatingDamageTextVfx.NiagaraDataInterfaceArrayInt32_1'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Zombie.21"
+    }
+  },
+  {
+    "Type": "NiagaraDataInterfaceArrayPosition",
+    "Name": "NiagaraDataInterfaceArrayPosition_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraDataInterfaceArrayPosition'",
+    "Outer": {
+      "ObjectName": "NiagaraComponent'Default__BP_Foxy_Rainbow_C:FloatingDamageTextVfx'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Rainbow.12"
+    },
+    "Template": {
+      "ObjectName": "NiagaraDataInterfaceArrayPosition'Default__BP_Foxy_Zombie_C:FloatingDamageTextVfx.NiagaraDataInterfaceArrayPosition_0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Zombie.23"
+    }
+  },
+  {
+    "Type": "NiagaraDataInterfaceArrayPosition",
+    "Name": "NiagaraDataInterfaceArrayPosition_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraDataInterfaceArrayPosition'",
+    "Outer": {
+      "ObjectName": "NiagaraComponent'Default__BP_Foxy_Rainbow_C:FloatingDamageTextVfx'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Rainbow.12"
+    },
+    "Template": {
+      "ObjectName": "NiagaraDataInterfaceArrayPosition'Default__BP_Foxy_Zombie_C:FloatingDamageTextVfx.NiagaraDataInterfaceArrayPosition_1'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Zombie.24"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Foxy_Rainbow_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Rainbow.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Foxy_Rainbow_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Rainbow.24"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Foxy_Rainbow_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Rainbow.22"
+      },
+      "VariableGuid": "C5141D1D-4533789B-FC70F986-3546B6EE",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Foxy_Rainbow_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Rainbow.1"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Foxy_Rainbow_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Rainbow.23"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "Head_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Foxy_Rainbow_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Rainbow.1"
+    },
+    "Template": {
+      "ObjectName": "SkeletalMeshComponent'BP_Foxy_Zombie_C:Head_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Zombie.28"
+    },
+    "Properties": {
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_HEAD_Foxy_Rainbow'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Materials/MI_HEAD_Foxy_Rainbow.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponentBudgeted",
+    "Name": "CharacterMesh0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponentBudgeted'",
+    "Outer": {
+      "ObjectName": "BP_Foxy_Rainbow_C'Default__BP_Foxy_Rainbow_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Rainbow.2"
+    },
+    "Template": {
+      "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Foxy_Zombie_C:CharacterMesh0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Zombie.29"
+    },
+    "Properties": {
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_BODY_Foxy_Rainbow'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Materials/MI_BODY_Foxy_Rainbow.0"
+        }
+      ],
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Foxy_Rainbow_C:CollisionCylinder'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Rainbow.3"
+      }
+    }
+  },
+  {
+    "Type": "TargetableComponent",
+    "Name": "TargetingComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TargetableComponent'",
+    "Outer": {
+      "ObjectName": "BP_Foxy_Rainbow_C'Default__BP_Foxy_Rainbow_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Rainbow.2"
+    },
+    "Template": {
+      "ObjectName": "TargetableComponent'Default__BP_Foxy_Zombie_C:TargetingComponent'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_Foxy_Zombie.30"
+    }
+  }
+]

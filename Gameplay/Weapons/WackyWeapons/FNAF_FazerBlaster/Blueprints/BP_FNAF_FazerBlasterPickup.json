@@ -1,0 +1,381 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_FNAF_FazerBlasterPickup_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlasterPickup",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WeaponPickup_Base_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/WeaponPickup_ParentClasses/BP_WeaponPickup_Base.0"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_FNAF_FazerBlasterPickup_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlasterPickup.10"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_FNAF_FazerBlasterPickup_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlasterPickup.4"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_FNAF_FazerBlasterPickup_C'Default__BP_FNAF_FazerBlasterPickup_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlasterPickup.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_FNAF_FazerBlasterPickup_C",
+    "Name": "Default__BP_FNAF_FazerBlasterPickup_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlasterPickup.BP_FNAF_FazerBlasterPickup_C'",
+    "Package": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlasterPickup",
+    "Template": {
+      "ObjectName": "BP_WeaponPickup_Base_C'Default__BP_WeaponPickup_Base_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/WeaponPickup_ParentClasses/BP_WeaponPickup_Base.2"
+    },
+    "Properties": {
+      "InteractiveComponent": {
+        "ObjectName": "DestinationMarkerComponent'Default__BP_FNAF_FazerBlasterPickup_C:UIMarker'",
+        "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlasterPickup.3"
+      },
+      "InteractCharacter": {
+        "ObjectName": "InteractiveComponent'Default__BP_FNAF_FazerBlasterPickup_C:InteractiveComponent'",
+        "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlasterPickup.5"
+      },
+      "PickupSound": null,
+      "EquipSound": {
+        "ObjectName": "FMODEvent'SMG_PickUp'",
+        "ObjectPath": "/Game/FMOD/Events/Weapon/WhackyWeapons/WeaponPickups/SMG_PickUp.0"
+      },
+      "StaticMesh": {
+        "ObjectName": "CapsuleComponent'Default__BP_FNAF_FazerBlasterPickup_C:RootCollisionComp'",
+        "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlasterPickup.2"
+      },
+      "NiagaraComp": {
+        "ObjectName": "StaticMeshComponent'Default__BP_FNAF_FazerBlasterPickup_C:PickupStaticMesh'",
+        "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlasterPickup.12"
+      },
+      "ProjectileMovementComponent": {
+        "ObjectName": "NiagaraComponent'Default__BP_FNAF_FazerBlasterPickup_C:NiagaraComp'",
+        "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlasterPickup.7"
+      },
+      "TimeToPickup": 2E-44
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "RootCollisionComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_FNAF_FazerBlasterPickup_C'Default__BP_FNAF_FazerBlasterPickup_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlasterPickup.1"
+    },
+    "Template": {
+      "ObjectName": "CapsuleComponent'Default__BP_WeaponPickup_Base_C:RootCollisionComp'",
+      "ObjectPath": "/Game/Gameplay/Weapons/WeaponPickup_ParentClasses/BP_WeaponPickup_Base.3"
+    },
+    "Properties": {
+      "OnComponentHit": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_FNAF_FazerBlasterPickup_C'Default__BP_FNAF_FazerBlasterPickup_C'",
+              "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlasterPickup.1"
+            },
+            "FunctionName": "OnRootCollisionHit"
+          }
+        ]
+      },
+      "PhysicsVolumeChangedDelegate": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "TickAggregatorProjectileMovementComponent'Default__BP_FNAF_FazerBlasterPickup_C:ProjectileMovementComponent'",
+              "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlasterPickup.13"
+            },
+            "FunctionName": "PhysicsVolumeChanged"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "DestinationMarkerComponent",
+    "Name": "UIMarker",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DestinationMarkerComponent'",
+    "Outer": {
+      "ObjectName": "BP_FNAF_FazerBlasterPickup_C'Default__BP_FNAF_FazerBlasterPickup_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlasterPickup.1"
+    },
+    "Template": {
+      "ObjectName": "DestinationMarkerComponent'Default__BP_WeaponPickup_Base_C:UIMarker'",
+      "ObjectPath": "/Game/Gameplay/Weapons/WeaponPickup_ParentClasses/BP_WeaponPickup_Base.4"
+    },
+    "Properties": {
+      "ClientAttachedChildren": [
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_FazerBlasterPickup_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlasterPickup.0"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'NiagaraComponent'",
+            "ObjectPath": "/Script/Niagara"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "NiagaraComponent'BP_FNAF_FazerBlasterPickup_C:ItemTrail_GEN_VARIABLE'",
+            "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlasterPickup.6"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_InteractablePickup_C'",
+              "ObjectPath": "/Game/Blueprints/Gameplay/Parents/Pickups/BP_InteractablePickup.0"
+            },
+            "SCSVariableName": "ItemTrail",
+            "AssociatedGuid": "78F822FE-490706A6-884F36A5-5E77AF42"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StaticMeshComponent'BP_FNAF_FazerBlasterPickup_C:StaticMeshWeaponGlow_GEN_VARIABLE'",
+            "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlasterPickup.11"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_WeaponPickup_Base_C'",
+              "ObjectPath": "/Game/Gameplay/Weapons/WeaponPickup_ParentClasses/BP_WeaponPickup_Base.0"
+            },
+            "SCSVariableName": "StaticMeshWeaponGlow",
+            "AssociatedGuid": "E5181EE2-49493EA2-DF9E88AE-AC0A1B2B"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "InteractiveComponent",
+    "Name": "InteractiveComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractiveComponent'",
+    "Outer": {
+      "ObjectName": "BP_FNAF_FazerBlasterPickup_C'Default__BP_FNAF_FazerBlasterPickup_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlasterPickup.1"
+    },
+    "Template": {
+      "ObjectName": "InteractiveComponent'Default__BP_WeaponPickup_Base_C:InteractiveComponent'",
+      "ObjectPath": "/Game/Gameplay/Weapons/WeaponPickup_ParentClasses/BP_WeaponPickup_Base.12"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_FNAF_FazerBlasterPickup_C:RootCollisionComp'",
+        "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlasterPickup.2"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "ItemTrail_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_FazerBlasterPickup_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlasterPickup.0"
+    },
+    "Template": {
+      "ObjectName": "NiagaraComponent'BP_WeaponPickup_Base_C:ItemTrail_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Gameplay/Weapons/WeaponPickup_ParentClasses/BP_WeaponPickup_Base.14"
+    },
+    "Properties": {
+      "OverrideParameters": {}
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "NiagaraComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BP_FNAF_FazerBlasterPickup_C'Default__BP_FNAF_FazerBlasterPickup_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlasterPickup.1"
+    },
+    "Template": {
+      "ObjectName": "NiagaraComponent'Default__BP_WeaponPickup_Base_C:NiagaraComp'",
+      "ObjectPath": "/Game/Gameplay/Weapons/WeaponPickup_ParentClasses/BP_WeaponPickup_Base.15"
+    },
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'Default__BP_FNAF_FazerBlasterPickup_C:PickupStaticMesh'",
+        "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlasterPickup.12"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 13.28859
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_FazerBlasterPickup_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlasterPickup.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FNAF_FazerBlasterPickup_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlasterPickup.10"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_FNAF_FazerBlasterPickup_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlasterPickup.8"
+      },
+      "VariableGuid": "CC9CE16E-4190F1F1-B940C9B8-237D65FE",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_FazerBlasterPickup_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlasterPickup.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_FNAF_FazerBlasterPickup_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlasterPickup.9"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshWeaponGlow_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_FazerBlasterPickup_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlasterPickup.0"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'BP_WeaponPickup_Base_C:StaticMeshWeaponGlow_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Gameplay/Weapons/WeaponPickup_ParentClasses/BP_WeaponPickup_Base.24"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FazerBlaster'",
+        "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Meshes/SM_FazerBlaster.2"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "PickupStaticMesh",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_FNAF_FazerBlasterPickup_C'Default__BP_FNAF_FazerBlasterPickup_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlasterPickup.1"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'Default__BP_WeaponPickup_Base_C:PickupStaticMesh'",
+      "ObjectPath": "/Game/Gameplay/Weapons/WeaponPickup_ParentClasses/BP_WeaponPickup_Base.26"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FazerBlaster_Pickup'",
+        "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Meshes/SM_FazerBlaster_Pickup.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FazerBlaster_Pickup'",
+          "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Materials/MI_FazerBlaster_Pickup.0"
+        }
+      ],
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_FNAF_FazerBlasterPickup_C:RootCollisionComp'",
+        "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlasterPickup.2"
+      }
+    }
+  },
+  {
+    "Type": "TickAggregatorProjectileMovementComponent",
+    "Name": "ProjectileMovementComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TickAggregatorProjectileMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_FNAF_FazerBlasterPickup_C'Default__BP_FNAF_FazerBlasterPickup_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlasterPickup.1"
+    },
+    "Template": {
+      "ObjectName": "TickAggregatorProjectileMovementComponent'Default__BP_WeaponPickup_Base_C:ProjectileMovementComponent'",
+      "ObjectPath": "/Game/Gameplay/Weapons/WeaponPickup_ParentClasses/BP_WeaponPickup_Base.27"
+    },
+    "Properties": {
+      "OnProjectileStop": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_FNAF_FazerBlasterPickup_C'Default__BP_FNAF_FazerBlasterPickup_C'",
+              "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlasterPickup.1"
+            },
+            "FunctionName": "OnProjectileStop"
+          }
+        ]
+      }
+    }
+  }
+]

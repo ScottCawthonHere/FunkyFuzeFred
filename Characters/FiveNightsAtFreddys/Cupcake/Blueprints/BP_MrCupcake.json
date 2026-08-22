@@ -1,0 +1,1087 @@
+[
+  {
+    "Type": "AttackableComponent",
+    "Name": "AttackableComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AttackableComponent'",
+    "Outer": {
+      "ObjectName": "BP_MrCupcake_C'Default__BP_MrCupcake_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.2"
+    },
+    "Template": {
+      "ObjectName": "AttackableComponent'Default__BP_NonHumanoidMaster_C:AttackableComponent'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/BP_NonHumanoidMaster.0"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_MrCupcake_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_NonHumanoidMaster_C'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/BP_NonHumanoidMaster.1"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_MrCupcake_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.26"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_MrCupcake_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.10"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_MrCupcake_C:ExecuteUbergraph_BP_MrCupcake'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.5"
+      }
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_MrCupcake_C:ReceiveBeginPlay'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.8"
+      },
+      {
+        "ObjectName": "Function'BP_MrCupcake_C:ReceiveActorBeginOverlap'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.7"
+      },
+      {
+        "ObjectName": "Function'BP_MrCupcake_C:OnCharacterDeathEvent'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.6"
+      },
+      {
+        "ObjectName": "Function'BP_MrCupcake_C:SpawnExplosion'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.9"
+      },
+      {
+        "ObjectName": "Function'BP_MrCupcake_C:ExecuteUbergraph_BP_MrCupcake'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.5"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "RunLP",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'FMODAudioComponent'",
+          "ObjectPath": "/Script/FMODStudio"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "FireMesh",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PointLight",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PointLightComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_MrCupcake": {
+        "ObjectName": "Function'BP_MrCupcake_C:ExecuteUbergraph_BP_MrCupcake'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.5"
+      },
+      "SpawnExplosion": {
+        "ObjectName": "Function'BP_MrCupcake_C:SpawnExplosion'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.9"
+      },
+      "OnCharacterDeathEvent": {
+        "ObjectName": "Function'BP_MrCupcake_C:OnCharacterDeathEvent'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.6"
+      },
+      "ReceiveActorBeginOverlap": {
+        "ObjectName": "Function'BP_MrCupcake_C:ReceiveActorBeginOverlap'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.7"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_MrCupcake_C:ReceiveBeginPlay'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.8"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_MrCupcake_C'Default__BP_MrCupcake_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_MrCupcake_C",
+    "Name": "Default__BP_MrCupcake_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.BP_MrCupcake_C'",
+    "Package": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake",
+    "Template": {
+      "ObjectName": "BP_NonHumanoidMaster_C'Default__BP_NonHumanoidMaster_C'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/BP_NonHumanoidMaster.2"
+    },
+    "Properties": {
+      "UberGraphFrame": {},
+      "NumHitsToPopOffComponents": 1,
+      "PoisonOverlayIndex": 335544320,
+      "MerlinSpringArmComponent": null,
+      "InvokerComponent": null
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_MrCupcake_C'Default__BP_MrCupcake_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.2"
+    },
+    "Template": {
+      "ObjectName": "CapsuleComponent'Default__BP_NonHumanoidMaster_C:CollisionCylinder'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/BP_NonHumanoidMaster.3"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 50.0,
+      "CapsuleRadius": 50.0
+    }
+  },
+  {
+    "Type": "FMODAudioComponent",
+    "Name": "RunLP_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FMODAudioComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MrCupcake_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.1"
+    },
+    "Properties": {
+      "Event": {
+        "ObjectName": "FMODEvent'FNAF_Char_MrCupcake_CandleLight_TickTok'",
+        "ObjectPath": "/Game/FMOD/Events/Character/FNAF/MrCupcake/FNAF_Char_MrCupcake_CandleLight_TickTok.0"
+      },
+      "OcclusionDetails": {
+        "bEnableOcclusion": true,
+        "OcclusionMultiplier": 0.872
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_MrCupcake",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MrCupcake_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_OtherActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetTransform_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 96,
+        "PropertyFlags": "ConstParm",
+        "Struct": {
+          "ObjectName": "Class'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsBP_Funko_Battery_Socket_Single_FNAF",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_FunkoBatterySocketSingleFNAF_C'",
+          "ObjectPath": "/Game/Gameplay/Interactive/Funko/BatterySockets/BP_FunkoBatterySocketSingleFNAF.2"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Location",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "Class'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Rotation",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "Class'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Scale",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "Class'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SpawnSystemAtLocation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'NiagaraComponent'",
+          "ObjectPath": "/Script/Niagara"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_PlayEventAtLocation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "Class'FMODEventInstance'",
+          "ObjectPath": "/Script/FMODStudio"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsBP_Merlin_Character",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_MerlinCharacter_C'",
+          "ObjectPath": "/Game/Blueprints/Character/BP_MerlinCharacter.4"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAbilitySystemComponent_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'AbilitySystemComponent'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsPlayerControlled_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAbilitySystemComponent_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'AbilitySystemComponent'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BP_ApplyGameplayEffectToTarget_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "Class'ActiveGameplayEffectHandle'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasAuthority_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetMerlinAbilitySystemComponent_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'MerlinAbilitySystemComponent'",
+          "ObjectPath": "/Script/Merlin"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_Killer",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Controller'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_DeathCauser",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeEffectContext_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "Class'GameplayEffectContextHandle'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BP_ApplyDamageDealingGameplayEffectToTarget_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "Class'ActiveGameplayEffectHandle'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnCharacterDeathEvent",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MrCupcake_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.1"
+    },
+    "Super": {
+      "ObjectName": "Function'BP_ExtendedCharacter_C:OnCharacterDeathEvent'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/BP_ExtendedCharacter.25"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Killer",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Controller'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DeathCauser",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveActorBeginOverlap",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MrCupcake_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Actor:ReceiveActorBeginOverlap'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "OtherActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MrCupcake_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.1"
+    },
+    "Super": {
+      "ObjectName": "Function'BP_ExtendedCharacter_C:ReceiveBeginPlay'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/BP_ExtendedCharacter.38"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SpawnExplosion",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MrCupcake_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.1"
+    },
+    "FunctionFlags": "FUNC_Net | FUNC_NetMulticast | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MrCupcake_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.1"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'SkeletalMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "SkeletalMeshComponent'BP_MrCupcake_C:Head_GEN_VARIABLE'",
+            "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.27"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_ExtendedCharacter_C'",
+              "ObjectPath": "/Game/Characters/Blueprints/Extended/BP_ExtendedCharacter.1"
+            },
+            "SCSVariableName": "Head",
+            "AssociatedGuid": "229C3DB0-43D152B7-F9604498-C2BD9E0C"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "InventoryComponent",
+    "Name": "InventoryComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InventoryComponent'",
+    "Outer": {
+      "ObjectName": "BP_MrCupcake_C'Default__BP_MrCupcake_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.2"
+    },
+    "Template": {
+      "ObjectName": "InventoryComponent'Default__BP_NonHumanoidMaster_C:InventoryComponent'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/BP_NonHumanoidMaster.5"
+    }
+  },
+  {
+    "Type": "MaterialOverrideControllerComponent",
+    "Name": "MaterialOverrideController",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialOverrideControllerComponent'",
+    "Outer": {
+      "ObjectName": "BP_MrCupcake_C'Default__BP_MrCupcake_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.2"
+    },
+    "Template": {
+      "ObjectName": "MaterialOverrideControllerComponent'Default__BP_NonHumanoidMaster_C:MaterialOverrideController'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/BP_NonHumanoidMaster.6"
+    }
+  },
+  {
+    "Type": "MerlinAbilitySystemComponent",
+    "Name": "AbilitySystem",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MerlinAbilitySystemComponent'",
+    "Outer": {
+      "ObjectName": "BP_MrCupcake_C'Default__BP_MrCupcake_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.2"
+    },
+    "Template": {
+      "ObjectName": "MerlinAbilitySystemComponent'Default__BP_NonHumanoidMaster_C:AbilitySystem'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/BP_NonHumanoidMaster.7"
+    }
+  },
+  {
+    "Type": "MerlinCharacterMovementComponent",
+    "Name": "CharMoveComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MerlinCharacterMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_MrCupcake_C'Default__BP_MrCupcake_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.2"
+    },
+    "Template": {
+      "ObjectName": "MerlinCharacterMovementComponent'Default__BP_NonHumanoidMaster_C:CharMoveComp'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/BP_NonHumanoidMaster.8"
+    },
+    "Properties": {
+      "MaxADSSpeed": 620.0,
+      "bEnableServerDualMoveScopedMovementUpdates": false
+    }
+  },
+  {
+    "Type": "MerlinCharacterOptimizationComponent",
+    "Name": "MerlinOptimizationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MerlinCharacterOptimizationComponent'",
+    "Outer": {
+      "ObjectName": "BP_MrCupcake_C'Default__BP_MrCupcake_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.2"
+    },
+    "Template": {
+      "ObjectName": "MerlinCharacterOptimizationComponent'Default__BP_NonHumanoidMaster_C:MerlinOptimizationComponent'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/BP_NonHumanoidMaster.9"
+    }
+  },
+  {
+    "Type": "MotionWarpingComponent",
+    "Name": "MotionWarpingComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MotionWarpingComponent'",
+    "Outer": {
+      "ObjectName": "BP_MrCupcake_C'Default__BP_MrCupcake_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.2"
+    },
+    "Template": {
+      "ObjectName": "MotionWarpingComponent'Default__BP_NonHumanoidMaster_C:MotionWarpingComponent'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/BP_NonHumanoidMaster.10"
+    }
+  },
+  {
+    "Type": "NavigationInvokerComponent",
+    "Name": "InvokerComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NavigationInvokerComponent'",
+    "Outer": {
+      "ObjectName": "BP_MrCupcake_C'Default__BP_MrCupcake_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.2"
+    },
+    "Template": {
+      "ObjectName": "NavigationInvokerComponent'Default__BP_NonHumanoidMaster_C:InvokerComponent'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/BP_NonHumanoidMaster.11"
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "FloatingDamageTextVfx",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BP_MrCupcake_C'Default__BP_MrCupcake_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.2"
+    },
+    "Template": {
+      "ObjectName": "NiagaraComponent'Default__BP_NonHumanoidMaster_C:FloatingDamageTextVfx'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/BP_NonHumanoidMaster.12"
+    },
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_MrCupcake_C:CollisionCylinder'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.3"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "MegaVinylEffectComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BP_MrCupcake_C'Default__BP_MrCupcake_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.2"
+    },
+    "Template": {
+      "ObjectName": "NiagaraComponent'Default__BP_NonHumanoidMaster_C:MegaVinylEffectComponent'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/BP_NonHumanoidMaster.13"
+    },
+    "Properties": {
+      "OverrideParameters": {}
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "PointLight_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MrCupcake_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.1"
+    },
+    "Properties": {
+      "SourceRadius": 15.0,
+      "SourceLength": 10.0,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "InverseExposureBlend": 0.5,
+      "AttenuationRadius": 150.0,
+      "Temperature": 1700.0,
+      "MaxDrawDistance": 4500.0,
+      "MaxDistanceFadeRange": 1500.0,
+      "bUseTemperature": true,
+      "Intensity": 0.2,
+      "CastShadows": false,
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 18.0
+      }
+    },
+    "IntensityNits": 0.70735526
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MrCupcake_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MrCupcake_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.26"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_MrCupcake_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.21"
+      },
+      "VariableGuid": "84EAF3D6-4481E654-C7579591-72E8B9F9",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MrCupcake_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.26"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'FMODAudioComponent'",
+        "ObjectPath": "/Script/FMODStudio"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "FMODAudioComponent'BP_MrCupcake_C:RunLP_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.4"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "5881A279-4C96A541-EF840495-81E1BDE8",
+      "InternalVariableName": "RunLP"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MrCupcake_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.26"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_MrCupcake_C:FireMesh_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.29"
+      },
+      "AttachToName": "Head_Jnt",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_MrCupcake_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.25"
+        }
+      ],
+      "VariableGuid": "4D8073CE-4368D246-8DEE228A-B3EEB2C2",
+      "InternalVariableName": "FireMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_MrCupcake_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.26"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PointLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PointLightComponent'BP_MrCupcake_C:PointLight_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.20"
+      },
+      "VariableGuid": "DD21BF01-49395A55-A1A85B86-88D24463",
+      "InternalVariableName": "PointLight"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MrCupcake_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.1"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_MrCupcake_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.24"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MrCupcake_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.23"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_MrCupcake_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.25"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MrCupcake_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.24"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_MrCupcake_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.23"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_MrCupcake_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.22"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "Head_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MrCupcake_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.1"
+    },
+    "Template": {
+      "ObjectName": "SkeletalMeshComponent'BP_ExtendedCharacter_C:Head_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/BP_ExtendedCharacter.65"
+    },
+    "Properties": {
+      "SkeletalMesh": null,
+      "SkinnedAsset": null
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponentBudgeted",
+    "Name": "CharacterMesh0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponentBudgeted'",
+    "Outer": {
+      "ObjectName": "BP_MrCupcake_C'Default__BP_MrCupcake_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.2"
+    },
+    "Template": {
+      "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_NonHumanoidMaster_C:CharacterMesh0'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/BP_NonHumanoidMaster.17"
+    },
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_Cupcake_C'",
+        "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/Cupcake/ABP_Cupcake.1"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SKM_Cupcake'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Meshes/SKM_Cupcake.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SKM_Cupcake'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Meshes/SKM_Cupcake.1"
+      },
+      "PhysicsAssetOverride": {
+        "ObjectName": "PhysicsAsset'SKM_Cupcake_PhysicsAsset'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Meshes/SKM_Cupcake_PhysicsAsset.0"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_MrCupcake_C:CollisionCylinder'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.3"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -50.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "FireMesh_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MrCupcake_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_flame01'",
+        "ObjectPath": "/Game/VFX/Vinyl_Effects/Vinyl_Fire/Meshes/SM_flame01.2"
+      },
+      "CastShadow": false,
+      "bAffectDistanceFieldLighting": false,
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel2",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel3",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel4",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel5",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel6",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_WEAPON",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_PROJECTILE",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "MeleeWeapon",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel16",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel17",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel18",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -5.2864985,
+        "Y": -0.06871622,
+        "Z": 47.521366
+      },
+      "RelativeRotation": {
+        "Pitch": 3.3448045E-16,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.4,
+        "Y": 0.4,
+        "Z": 0.4
+      }
+    }
+  },
+  {
+    "Type": "TargetableComponent",
+    "Name": "TargetingComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TargetableComponent'",
+    "Outer": {
+      "ObjectName": "BP_MrCupcake_C'Default__BP_MrCupcake_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Blueprints/BP_MrCupcake.2"
+    },
+    "Template": {
+      "ObjectName": "TargetableComponent'Default__BP_NonHumanoidMaster_C:TargetingComponent'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/BP_NonHumanoidMaster.18"
+    }
+  }
+]

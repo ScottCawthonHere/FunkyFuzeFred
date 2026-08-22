@@ -1,0 +1,98 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_PopBox_FreddyBlacklight",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Package": "/Game/Gameplay/PopBox/FNAF/Freddy/Materials/MI_PopBox_FreddyBlacklight",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'M_PopBox'",
+        "ObjectPath": "/Game/Gameplay/PopBox/Template/Materials/M_PopBox.0"
+      },
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Base Colour/Alpha",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_PopBox_Freddy_Blacklight_BC'",
+            "ObjectPath": "/Game/Gameplay/PopBox/FNAF/Freddy/Textures/T_PopBox_Freddy_Blacklight_BC.0"
+          },
+          "ExpressionGUID": "C85EE01F-406908C2-390054B9-351AD80F"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Normal, Rough, Metal",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_PopBox_NRM'",
+            "ObjectPath": "/Game/Gameplay/PopBox/Template/Textures/T_PopBox_NRM.0"
+          },
+          "ExpressionGUID": "24CE8327-49B940FE-2848249F-A6A72D75"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "BlendMode": "EBlendMode::BLEND_Masked",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "bIncludedInBaseGame": true,
+      "TextureStreamingData": [
+        {
+          "SamplingScale": 5.0,
+          "UVChannelIndex": 2,
+          "TextureName": "T_Fractal_BC"
+        },
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_PopBox_Freddy_Blacklight_BC"
+        },
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_PopBox_NRM"
+        },
+        {
+          "SamplingScale": 0.979126,
+          "UVChannelIndex": 2,
+          "TextureName": "T_PopBox_Outline"
+        },
+        {
+          "SamplingScale": 0.328125,
+          "UVChannelIndex": 1,
+          "TextureName": "T_PopBoxAppear_DAT"
+        },
+        {
+          "SamplingScale": 0.328125,
+          "UVChannelIndex": 1,
+          "TextureName": "T_PopBoxAppear_Rotated_DAT"
+        },
+        {
+          "SamplingScale": 2.0,
+          "UVChannelIndex": 3,
+          "TextureName": "T_PopBoxCrossBlend_DAT"
+        }
+      ]
+    },
+    "LoadedMaterialResources": [],
+    "CachedData": {
+      "ParentLayerIndexRemap": []
+    }
+  }
+]

@@ -1,0 +1,530 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_KeyCardFNAF_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BasePLug_C'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_BasePLug.0"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_KeyCardFNAF_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.14"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_KeyCardFNAF_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.6"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_KeyCardFNAF_C:ExecuteUbergraph_BP_KeyCardFNAF'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.4"
+      }
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_KeyCardFNAF_C:ReceiveBeginPlay'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.5"
+      },
+      {
+        "ObjectName": "Function'BP_KeyCardFNAF_C:ExecuteUbergraph_BP_KeyCardFNAF'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.4"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_DestinationMarkerComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_DestinationMarkerComponent_C'",
+          "ObjectPath": "/Game/Blueprints/Components/BP_DestinationMarkerComponent.0"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_KeyCardFNAF": {
+        "ObjectName": "Function'BP_KeyCardFNAF_C:ExecuteUbergraph_BP_KeyCardFNAF'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.4"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_KeyCardFNAF_C:ReceiveBeginPlay'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.5"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_KeyCardFNAF_C'Default__BP_KeyCardFNAF_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_DestinationMarkerComponent_C",
+    "Name": "BP_DestinationMarkerComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Blueprints/Components/BP_DestinationMarkerComponent.BP_DestinationMarkerComponent_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KeyCardFNAF_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.0"
+    },
+    "Template": {
+      "ObjectName": "BP_DestinationMarkerComponent_C'Default__BP_DestinationMarkerComponent_C'",
+      "ObjectPath": "/Game/Blueprints/Components/BP_DestinationMarkerComponent.1"
+    },
+    "Properties": {
+      "MarkerStyle": "EUIMarkerStyle::Marker_PointOfInterest"
+    }
+  },
+  {
+    "Type": "BP_KeyCardFNAF_C",
+    "Name": "Default__BP_KeyCardFNAF_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.BP_KeyCardFNAF_C'",
+    "Package": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF",
+    "Template": {
+      "ObjectName": "BP_BasePLug_C'Default__BP_BasePLug_C'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_BasePLug.1"
+    },
+    "Properties": {
+      "UberGraphFrame": {},
+      "DummyMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BP_KeyCardFNAF_C:Dummy Mesh'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.16"
+      },
+      "ThrowAudioComponent": {
+        "ObjectName": "FMODAudioComponent'Default__BP_KeyCardFNAF_C:Throw Audio Component'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.3"
+      },
+      "PutDownSound": {
+        "ObjectName": "StaticMeshComponent'Default__BP_KeyCardFNAF_C:StaticMesh'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.17"
+      },
+      "ItemAnimationComponent": {
+        "ObjectName": "TickAggregatorProjectileMovementComponent'Default__BP_KeyCardFNAF_C:Projectile Movement'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.18"
+      },
+      "CurrentSocket": {
+        "ObjectName": "BlueprintGeneratedClass'BP_KeyCardFNAF_C'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.0"
+      },
+      "AbilitySetsToGrantOnAdded": [
+        null,
+        {
+          "ObjectName": "ItemAnimationComponent'Default__BP_KeyCardFNAF_C:ItemAnimationComponent'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.8"
+        },
+        {
+          "ObjectName": "InteractiveComponent'Default__BP_KeyCardFNAF_C:InteractiveComponent'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.7"
+        },
+        {
+          "ObjectName": "StaticMeshComponent'Default__BP_KeyCardFNAF_C:StaticMesh'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.17"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "Type": "FMODAudioComponent",
+    "Name": "Throw Audio Component",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FMODAudioComponent'",
+    "Outer": {
+      "ObjectName": "BP_KeyCardFNAF_C'Default__BP_KeyCardFNAF_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.2"
+    },
+    "Template": {
+      "ObjectName": "FMODAudioComponent'Default__BP_BasePLug_C:Throw Audio Component'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_BasePLug.2"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'Default__BP_KeyCardFNAF_C:StaticMesh'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.17"
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_KeyCardFNAF",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KeyCardFNAF_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KeyCardFNAF_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.0"
+    },
+    "Super": {
+      "ObjectName": "Function'BP_DeployablePlug_C:ReceiveBeginPlay'",
+      "ObjectPath": "/Game/Blueprints/GAS/Experimental/Deployment/BP_DeployablePlug.46"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KeyCardFNAF_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.0"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'MaterialBillboardComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "MaterialBillboardComponent'BP_KeyCardFNAF_C:InteractionPromptLocation_GEN_VARIABLE'",
+            "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.9"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_DeployablePlug_C'",
+              "ObjectPath": "/Game/Blueprints/GAS/Experimental/Deployment/BP_DeployablePlug.2"
+            },
+            "SCSVariableName": "InteractionPromptLocation",
+            "AssociatedGuid": "0DCC67B7-47D5FCB8-4F2517BE-48718B66"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'NiagaraComponent'",
+            "ObjectPath": "/Script/Niagara"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "NiagaraComponent'BP_KeyCardFNAF_C:NS_DamageSparks_GEN_VARIABLE'",
+            "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.10"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_DeployablePlug_C'",
+              "ObjectPath": "/Game/Blueprints/GAS/Experimental/Deployment/BP_DeployablePlug.2"
+            },
+            "SCSVariableName": "NS_DamageSparks",
+            "AssociatedGuid": "D7646B80-4F9D8913-2EC13785-02991A70"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StaticMeshComponent'BP_KeyCardFNAF_C:Static Mesh Visual_GEN_VARIABLE'",
+            "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.15"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_DeployablePlug_C'",
+              "ObjectPath": "/Game/Blueprints/GAS/Experimental/Deployment/BP_DeployablePlug.2"
+            },
+            "SCSVariableName": "Static Mesh Visual",
+            "AssociatedGuid": "5CD2A00F-47F8797F-046DA38E-49A985D1"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "InteractiveComponent",
+    "Name": "InteractiveComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractiveComponent'",
+    "Outer": {
+      "ObjectName": "BP_KeyCardFNAF_C'Default__BP_KeyCardFNAF_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.2"
+    },
+    "Template": {
+      "ObjectName": "InteractiveComponent'Default__BP_BasePLug_C:InteractiveComponent'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_BasePLug.10"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'Default__BP_KeyCardFNAF_C:StaticMesh'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.17"
+      }
+    }
+  },
+  {
+    "Type": "ItemAnimationComponent",
+    "Name": "ItemAnimationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ItemAnimationComponent'",
+    "Outer": {
+      "ObjectName": "BP_KeyCardFNAF_C'Default__BP_KeyCardFNAF_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.2"
+    },
+    "Template": {
+      "ObjectName": "ItemAnimationComponent'Default__BP_BasePLug_C:ItemAnimationComponent'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_BasePLug.11"
+    }
+  },
+  {
+    "Type": "MaterialBillboardComponent",
+    "Name": "InteractionPromptLocation_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'MaterialBillboardComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KeyCardFNAF_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.0"
+    },
+    "Template": {
+      "ObjectName": "MaterialBillboardComponent'BP_DeployablePlug_C:InteractionPromptLocation_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Blueprints/GAS/Experimental/Deployment/BP_DeployablePlug.64"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 90.0
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "NS_DamageSparks_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KeyCardFNAF_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.0"
+    },
+    "Template": {
+      "ObjectName": "NiagaraComponent'BP_BasePLug_C:NS_DamageSparks_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_BasePLug.12"
+    },
+    "Properties": {
+      "OverrideParameters": {}
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KeyCardFNAF_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_KeyCardFNAF_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.14"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_KeyCardFNAF_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.11"
+      },
+      "VariableGuid": "A34D12C1-434236BB-C259ACBF-5E54E454",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_KeyCardFNAF_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.14"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_DestinationMarkerComponent_C'",
+        "ObjectPath": "/Game/Blueprints/Components/BP_DestinationMarkerComponent.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_DestinationMarkerComponent_C'BP_KeyCardFNAF_C:BP_DestinationMarkerComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.1"
+      },
+      "ParentComponentOrVariableName": "StaticMesh",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "6BFF4158-4BD18A38-D76C10BF-BCCCF467",
+      "InternalVariableName": "BP_DestinationMarkerComponent"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KeyCardFNAF_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_KeyCardFNAF_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.13"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_KeyCardFNAF_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.13"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_KeyCardFNAF_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.12"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Static Mesh Visual_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_KeyCardFNAF_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.0"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'BP_DeployablePlug_C:Static Mesh Visual_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Blueprints/GAS/Experimental/Deployment/BP_DeployablePlug.78"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 50.0,
+        "Z": 32.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": -90.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Dummy Mesh",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_KeyCardFNAF_C'Default__BP_KeyCardFNAF_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.2"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'Default__BP_BasePLug_C:Dummy Mesh'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_BasePLug.16"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'Default__BP_KeyCardFNAF_C:StaticMesh'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.17"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_KeyCardFNAF_C'Default__BP_KeyCardFNAF_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.2"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'Default__BP_BasePLug_C:StaticMesh'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_BasePLug.17"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_KeyCardFNAF'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Meshes/SM_KeyCardFNAF.2"
+      }
+    }
+  },
+  {
+    "Type": "TickAggregatorProjectileMovementComponent",
+    "Name": "Projectile Movement",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TickAggregatorProjectileMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_KeyCardFNAF_C'Default__BP_KeyCardFNAF_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/KeyCard/Blueprints/BP_KeyCardFNAF.2"
+    },
+    "Template": {
+      "ObjectName": "TickAggregatorProjectileMovementComponent'Default__BP_BasePLug_C:Projectile Movement'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_BasePLug.18"
+    }
+  }
+]

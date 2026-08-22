@@ -1,0 +1,443 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_FNAFTeleportLocation_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Characters/FiveNightsAtFreddys/BP_FNAFTeleportLocation",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_FNAFTeleportLocation_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/BP_FNAFTeleportLocation.10"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_FNAFTeleportLocation_C:ExecuteUbergraph_BP_FNAFTeleportLocation'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/BP_FNAFTeleportLocation.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'FNAFTeleportLocation'",
+      "ObjectPath": "/Script/Merlin"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_FNAFTeleportLocation_C:Check if Enemy Active'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/BP_FNAFTeleportLocation.3"
+      },
+      {
+        "ObjectName": "Function'BP_FNAFTeleportLocation_C:StopViewingRoom'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/BP_FNAFTeleportLocation.6"
+      },
+      {
+        "ObjectName": "Function'BP_FNAFTeleportLocation_C:StartViewingRoom'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/BP_FNAFTeleportLocation.5"
+      },
+      {
+        "ObjectName": "Function'BP_FNAFTeleportLocation_C:TriggerJumpscare'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/BP_FNAFTeleportLocation.7"
+      },
+      {
+        "ObjectName": "Function'BP_FNAFTeleportLocation_C:ExecuteUbergraph_BP_FNAFTeleportLocation'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/BP_FNAFTeleportLocation.4"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "JumpscareCharacter",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_JumpscareCharacterParent_C'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.1"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ActiveCamera",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_FNAFTeleportLocation": {
+        "ObjectName": "Function'BP_FNAFTeleportLocation_C:ExecuteUbergraph_BP_FNAFTeleportLocation'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/BP_FNAFTeleportLocation.4"
+      },
+      "TriggerJumpscare": {
+        "ObjectName": "Function'BP_FNAFTeleportLocation_C:TriggerJumpscare'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/BP_FNAFTeleportLocation.7"
+      },
+      "StartViewingRoom": {
+        "ObjectName": "Function'BP_FNAFTeleportLocation_C:StartViewingRoom'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/BP_FNAFTeleportLocation.5"
+      },
+      "StopViewingRoom": {
+        "ObjectName": "Function'BP_FNAFTeleportLocation_C:StopViewingRoom'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/BP_FNAFTeleportLocation.6"
+      },
+      "Check if Enemy Active": {
+        "ObjectName": "Function'BP_FNAFTeleportLocation_C:Check if Enemy Active'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/BP_FNAFTeleportLocation.3"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_FNAFTeleportLocation_C'Default__BP_FNAFTeleportLocation_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/BP_FNAFTeleportLocation.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "CollisionComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoxComponent'",
+    "Outer": {
+      "ObjectName": "BP_FNAFTeleportLocation_C'Default__BP_FNAFTeleportLocation_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/BP_FNAFTeleportLocation.2"
+    },
+    "Properties": {
+      "OnComponentBeginOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_FNAFTeleportLocation_C'Default__BP_FNAFTeleportLocation_C'",
+              "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/BP_FNAFTeleportLocation.2"
+            },
+            "FunctionName": "OnCharacterEnterRoom"
+          }
+        ]
+      },
+      "OnComponentEndOverlap": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "BP_FNAFTeleportLocation_C'Default__BP_FNAFTeleportLocation_C'",
+              "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/BP_FNAFTeleportLocation.2"
+            },
+            "FunctionName": "OnCharacterLeaveRoom"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "BP_FNAFTeleportLocation_C",
+    "Name": "Default__BP_FNAFTeleportLocation_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Characters/FiveNightsAtFreddys/BP_FNAFTeleportLocation.BP_FNAFTeleportLocation_C'",
+    "Package": "/Game/Characters/FiveNightsAtFreddys/BP_FNAFTeleportLocation",
+    "Properties": {
+      "UberGraphFrame": {},
+      "TriggerActorsComponent": {
+        "ObjectName": "TriggerActorsComponent'Default__BP_FNAFTeleportLocation_C:AirVentLoopingTimerTriggerActors'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/BP_FNAFTeleportLocation.11"
+      },
+      "CollisionComponent": null,
+      "RootComponent": {
+        "ObjectName": "BoxComponent'Default__BP_FNAFTeleportLocation_C:CollisionComp'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/BP_FNAFTeleportLocation.1"
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Check if Enemy Active",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAFTeleportLocation_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/BP_FNAFTeleportLocation.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Enemy",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'MerlinCharacter'",
+          "ObjectPath": "/Script/Merlin"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "EnemyActive",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "Parm | OutParm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetBossComponentFromActor_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'MiniBossBehaviourComponent'",
+          "ObjectPath": "/Script/Merlin"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_QueryBool_bResult",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "CallFunc_QueryBool_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'ECommandAndQueryResult'",
+          "ObjectPath": "/Script/Merlin"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_QueryBool_bResult_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "CallFunc_QueryBool_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'ECommandAndQueryResult'",
+          "ObjectPath": "/Script/Merlin"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_FNAFTeleportLocation",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAFTeleportLocation_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/BP_FNAFTeleportLocation.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Check_if_Enemy_Active_EnemyActive",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_CustomEvent_Camera",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "StartViewingRoom",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAFTeleportLocation_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/BP_FNAFTeleportLocation.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Camera",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "StopViewingRoom",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAFTeleportLocation_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/BP_FNAFTeleportLocation.0"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "TriggerJumpscare",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAFTeleportLocation_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/BP_FNAFTeleportLocation.0"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAFTeleportLocation_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/BP_FNAFTeleportLocation.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FNAFTeleportLocation_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/BP_FNAFTeleportLocation.10"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_FNAFTeleportLocation_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/BP_FNAFTeleportLocation.8"
+      },
+      "VariableGuid": "6ABBB783-4A7D7BF8-01B7EC9F-D606F03E",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAFTeleportLocation_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/BP_FNAFTeleportLocation.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_FNAFTeleportLocation_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/BP_FNAFTeleportLocation.9"
+      }
+    }
+  },
+  {
+    "Type": "TriggerActorsComponent",
+    "Name": "AirVentLoopingTimerTriggerActors",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TriggerActorsComponent'",
+    "Outer": {
+      "ObjectName": "BP_FNAFTeleportLocation_C'Default__BP_FNAFTeleportLocation_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/BP_FNAFTeleportLocation.2"
+    }
+  }
+]

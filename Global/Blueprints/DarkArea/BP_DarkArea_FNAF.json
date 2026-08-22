@@ -1,0 +1,122 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_DarkArea_FNAF_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Global/Blueprints/DarkArea/BP_DarkArea_FNAF",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DarkArea_C'",
+      "ObjectPath": "/Game/Global/Blueprints/DarkArea/BP_DarkArea.0"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_DarkArea_FNAF_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Global/Blueprints/DarkArea/BP_DarkArea_FNAF.5"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_DarkArea_FNAF_C'Default__BP_DarkArea_FNAF_C'",
+      "ObjectPath": "/Game/Global/Blueprints/DarkArea/BP_DarkArea_FNAF.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "CollisionComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoxComponent'",
+    "Outer": {
+      "ObjectName": "BP_DarkArea_FNAF_C'Default__BP_DarkArea_FNAF_C'",
+      "ObjectPath": "/Game/Global/Blueprints/DarkArea/BP_DarkArea_FNAF.2"
+    },
+    "Template": {
+      "ObjectName": "BoxComponent'Default__BP_DarkArea_C:CollisionComp'",
+      "ObjectPath": "/Game/Global/Blueprints/DarkArea/BP_DarkArea.1"
+    }
+  },
+  {
+    "Type": "BP_DarkArea_FNAF_C",
+    "Name": "Default__BP_DarkArea_FNAF_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Global/Blueprints/DarkArea/BP_DarkArea_FNAF.BP_DarkArea_FNAF_C'",
+    "Package": "/Game/Global/Blueprints/DarkArea/BP_DarkArea_FNAF",
+    "Template": {
+      "ObjectName": "BP_DarkArea_C'Default__BP_DarkArea_C'",
+      "ObjectPath": "/Game/Global/Blueprints/DarkArea/BP_DarkArea.2"
+    },
+    "Properties": {
+      "Intensity": 1.7,
+      "Attenuation Radius": 3000.0,
+      "Light Function Material": {
+        "ObjectName": "Material'M_TorchLight'",
+        "ObjectPath": "/Game/LevelArt/Global/LightFuntions/Materials/M_TorchLight.0"
+      },
+      "CollisionComponent": {
+        "ObjectName": "BoxComponent'Default__BP_DarkArea_FNAF_C:CollisionComp'",
+        "ObjectPath": "/Game/Global/Blueprints/DarkArea/BP_DarkArea_FNAF.1"
+      },
+      "RootComponent": {
+        "ObjectName": "BoxComponent'Default__BP_DarkArea_FNAF_C:CollisionComp'",
+        "ObjectPath": "/Game/Global/Blueprints/DarkArea/BP_DarkArea_FNAF.1"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DarkArea_FNAF_C'",
+      "ObjectPath": "/Game/Global/Blueprints/DarkArea/BP_DarkArea_FNAF.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_DarkArea_FNAF_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Global/Blueprints/DarkArea/BP_DarkArea_FNAF.5"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_DarkArea_FNAF_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Global/Blueprints/DarkArea/BP_DarkArea_FNAF.3"
+      },
+      "VariableGuid": "25EC1DEB-4E41732C-03EF6DAC-D5AC8879",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DarkArea_FNAF_C'",
+      "ObjectPath": "/Game/Global/Blueprints/DarkArea/BP_DarkArea_FNAF.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_DarkArea_FNAF_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Global/Blueprints/DarkArea/BP_DarkArea_FNAF.4"
+      }
+    }
+  }
+]

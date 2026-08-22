@@ -1,0 +1,1460 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_ThemedCardboardBoxes_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Destructible_C'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.1"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_ThemedCardboardBoxes_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.19"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_ThemedCardboardBoxes_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.3"
+      }
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Box",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'BoxComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Static Mesh1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Static Mesh3",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Static Mesh2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Static Mesh10",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Static Mesh4",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Static Mesh8",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Static Mesh7",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Static Mesh6",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Static Mesh5",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Static Mesh9",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_ThemedCardboardBoxes_C'Default__BP_ThemedCardboardBoxes_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoxComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ThemedCardboardBoxes_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.0"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "DestructibleInitial",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_INTERACT",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "COLLISION_EXPLOSION",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -0.18168785,
+        "Y": -11.834853,
+        "Z": -81.737946
+      },
+      "RelativeRotation": {
+        "Pitch": -0.0,
+        "Yaw": -2.5444438E-14,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 5.680096,
+        "Y": 1.811974,
+        "Z": 4.4998894
+      }
+    }
+  },
+  {
+    "Type": "BP_ThemedCardboardBoxes_C",
+    "Name": "Default__BP_ThemedCardboardBoxes_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.BP_ThemedCardboardBoxes_C'",
+    "Package": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes",
+    "Template": {
+      "ObjectName": "BP_Destructible_C'Default__BP_Destructible_C'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.2"
+    },
+    "Properties": {
+      "Alive Time": 3.0,
+      "VFX Container": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Destructible_Dust_Small_C'",
+        "ObjectPath": "/Game/VFX/Charlie_VFX_Folder/Charlie_VFX/NiagaraSystems/Generic_Destructible/Dust/Blueprints/BP_Destructible_Dust_Small.0"
+      },
+      "Impact Sound": {
+        "ObjectName": "FMODEvent'BoxesCrashHit'",
+        "ObjectPath": "/Game/FMOD/Events/Objects/UA/BoxesCrashHit.0"
+      },
+      "HitFailWobble": true,
+      "InitialMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BP_ThemedCardboardBoxes_C:StaticMeshComponent'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.30"
+      },
+      "TriggerActorsComponent": {
+        "ObjectName": "TriggerActorsComponent'Default__BP_ThemedCardboardBoxes_C:TriggerActorsComponent'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.31"
+      },
+      "MaxRadialImpulseStrength": 900.0,
+      "RadialImpulseRadius": 1100.0,
+      "AliveTime": 900.0,
+      "OptimizationComponent": {
+        "ObjectName": "PropMovementComponent'Default__BP_ThemedCardboardBoxes_C:PropMovementComponent'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.5"
+      }
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ThemedCardboardBoxes_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.0"
+    }
+  },
+  {
+    "Type": "MerlinActorOptimizationComponent",
+    "Name": "ActorOptimizationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MerlinActorOptimizationComponent'",
+    "Outer": {
+      "ObjectName": "BP_ThemedCardboardBoxes_C'Default__BP_ThemedCardboardBoxes_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.2"
+    },
+    "Template": {
+      "ObjectName": "MerlinActorOptimizationComponent'Default__BP_Destructible_C:ActorOptimizationComponent'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.45"
+    }
+  },
+  {
+    "Type": "PropMovementComponent",
+    "Name": "PropMovementComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PropMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_ThemedCardboardBoxes_C'Default__BP_ThemedCardboardBoxes_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.2"
+    },
+    "Template": {
+      "ObjectName": "PropMovementComponent'Default__BP_Destructible_C:PropMovementComponent'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.47"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ThemedCardboardBoxes_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ThemedCardboardBoxes_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.19"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_ThemedCardboardBoxes_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.6"
+      },
+      "VariableGuid": "F8D2CCFD-40FFBC07-406128A6-ED575152",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ThemedCardboardBoxes_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.19"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ThemedCardboardBoxes_C:Static Mesh9_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.29"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "37F07B62-48ADF668-4491E59B-0A51EC57",
+      "InternalVariableName": "Static Mesh9"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ThemedCardboardBoxes_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.19"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ThemedCardboardBoxes_C:Static Mesh1_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.21"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "15BFE4FE-444CDEDB-ACC6569A-E5B9BD31",
+      "InternalVariableName": "Static Mesh1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ThemedCardboardBoxes_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.19"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoxComponent'BP_ThemedCardboardBoxes_C:Box_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.1"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "021DA020-4725BAF3-D89A87B9-417841D5",
+      "InternalVariableName": "Box"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ThemedCardboardBoxes_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.19"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ThemedCardboardBoxes_C:Static Mesh5_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.25"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "20733370-4578BABF-F5E271BC-54E809C3",
+      "InternalVariableName": "Static Mesh5"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ThemedCardboardBoxes_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.19"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ThemedCardboardBoxes_C:Static Mesh6_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.26"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "493A4871-456DA342-86A01992-677ECDDC",
+      "InternalVariableName": "Static Mesh6"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ThemedCardboardBoxes_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.19"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ThemedCardboardBoxes_C:Static Mesh7_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.27"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "04BE80EE-41617873-3145388B-F0808FD5",
+      "InternalVariableName": "Static Mesh7"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ThemedCardboardBoxes_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.19"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ThemedCardboardBoxes_C:Static Mesh8_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.28"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "E486FBEC-43BE14C1-43EDEC8A-DB1E6530",
+      "InternalVariableName": "Static Mesh8"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ThemedCardboardBoxes_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.19"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ThemedCardboardBoxes_C:Static Mesh4_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.24"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "42E9E702-437495B3-632DE7A9-26FC9D5F",
+      "InternalVariableName": "Static Mesh4"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ThemedCardboardBoxes_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.19"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ThemedCardboardBoxes_C:Static Mesh10_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.20"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "A77DAAAD-4AC7FD70-39A8DFB2-ED567780",
+      "InternalVariableName": "Static Mesh10"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ThemedCardboardBoxes_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.19"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ThemedCardboardBoxes_C:Static Mesh2_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.22"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "472CA917-4B953AFE-70ABE0B0-1069F20D",
+      "InternalVariableName": "Static Mesh2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ThemedCardboardBoxes_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.19"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ThemedCardboardBoxes_C:Static Mesh3_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.23"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "789DF418-43B8248F-1B7174B6-A00804AC",
+      "InternalVariableName": "Static Mesh3"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ThemedCardboardBoxes_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ThemedCardboardBoxes_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.8"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ThemedCardboardBoxes_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.11"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ThemedCardboardBoxes_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ThemedCardboardBoxes_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.13"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ThemedCardboardBoxes_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.14"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ThemedCardboardBoxes_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.15"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ThemedCardboardBoxes_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.16"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ThemedCardboardBoxes_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.17"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ThemedCardboardBoxes_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.18"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ThemedCardboardBoxes_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.9"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ThemedCardboardBoxes_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.10"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ThemedCardboardBoxes_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.8"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ThemedCardboardBoxes_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.11"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ThemedCardboardBoxes_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ThemedCardboardBoxes_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.13"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ThemedCardboardBoxes_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.14"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ThemedCardboardBoxes_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.15"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ThemedCardboardBoxes_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.16"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ThemedCardboardBoxes_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.17"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ThemedCardboardBoxes_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.18"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ThemedCardboardBoxes_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.9"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ThemedCardboardBoxes_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.10"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_ThemedCardboardBoxes_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.7"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Static Mesh10_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ThemedCardboardBoxes_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_ThemedCardboardBoxes_ThemedCardboardBoxes02'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Meshes/SM_ThemedCardboardBoxes_ThemedCardboardBoxes02.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_ThemedCardboardBoxes'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Materials/MI_ThemedCardboardBoxes.0"
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Plastic'",
+          "ObjectPath": "/Game/Physics/PM_Plastic.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 147.9433,
+        "Y": -15.841431,
+        "Z": -17.17488
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -59.766106,
+        "Roll": 0.0
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part",
+        "NoPhysics"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Static Mesh1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ThemedCardboardBoxes_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_ThemedCardboardBoxes_ThemedCardboardBoxes01'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Meshes/SM_ThemedCardboardBoxes_ThemedCardboardBoxes01.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_ThemedCardboardBoxes'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Materials/MI_ThemedCardboardBoxes.0"
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Plastic'",
+          "ObjectPath": "/Game/Physics/PM_Plastic.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 143.39087,
+        "Y": 0.58183277,
+        "Z": -243.74026
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 20.0,
+        "Roll": 0.0
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part",
+        "NoPhysics"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Static Mesh2_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ThemedCardboardBoxes_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_ThemedCardboardBoxes_ThemedCardboardBoxes00'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Meshes/SM_ThemedCardboardBoxes_ThemedCardboardBoxes00.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_ThemedCardboardBoxes'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Materials/MI_ThemedCardboardBoxes.0"
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Plastic'",
+          "ObjectPath": "/Game/Physics/PM_Plastic.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -130.71945,
+        "Y": 7.8715,
+        "Z": -244.74026
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -71.65367,
+        "Roll": 0.0
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part",
+        "NoPhysics"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Static Mesh3_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ThemedCardboardBoxes_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_ThemedCardboardBoxes_ThemedCardboardBoxes00'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Meshes/SM_ThemedCardboardBoxes_ThemedCardboardBoxes00.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_ThemedCardboardBoxes'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Materials/MI_ThemedCardboardBoxes.0"
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Plastic'",
+          "ObjectPath": "/Game/Physics/PM_Plastic.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -0.5306474,
+        "Y": -1.6872079,
+        "Z": -244.17488
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 49.50614,
+        "Roll": 0.0
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part",
+        "NoPhysics"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Static Mesh4_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ThemedCardboardBoxes_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_ThemedCardboardBoxes_ThemedCardboardBoxes02'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Meshes/SM_ThemedCardboardBoxes_ThemedCardboardBoxes02.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_ThemedCardboardBoxes'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Materials/MI_ThemedCardboardBoxes.0"
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Plastic'",
+          "ObjectPath": "/Game/Physics/PM_Plastic.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -128.65771,
+        "Y": -12.331698,
+        "Z": -92.17488
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -105.0,
+        "Roll": 0.0
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part",
+        "NoPhysics"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Static Mesh5_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ThemedCardboardBoxes_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_ThemedCardboardBoxes_ThemedCardboardBoxes01'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Meshes/SM_ThemedCardboardBoxes_ThemedCardboardBoxes01.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_ThemedCardboardBoxes'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Materials/MI_ThemedCardboardBoxes.0"
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Plastic'",
+          "ObjectPath": "/Game/Physics/PM_Plastic.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 139.19641,
+        "Y": -4.873943,
+        "Z": -154.17488
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -5.0,
+        "Roll": 0.0
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part",
+        "NoPhysics"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Static Mesh6_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ThemedCardboardBoxes_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_ThemedCardboardBoxes_ThemedCardboardBoxes01'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Meshes/SM_ThemedCardboardBoxes_ThemedCardboardBoxes01.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_ThemedCardboardBoxes'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Materials/MI_ThemedCardboardBoxes.0"
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Plastic'",
+          "ObjectPath": "/Game/Physics/PM_Plastic.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.91320074,
+        "Y": -9.677477,
+        "Z": -92.24762
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 95.06981,
+        "Roll": 0.0
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part",
+        "NoPhysics"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Static Mesh7_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ThemedCardboardBoxes_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_ThemedCardboardBoxes_ThemedCardboardBoxes04'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Meshes/SM_ThemedCardboardBoxes_ThemedCardboardBoxes04.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_ThemedCardboardBoxes'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Materials/MI_ThemedCardboardBoxes.0"
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Plastic'",
+          "ObjectPath": "/Game/Physics/PM_Plastic.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 143.67577,
+        "Y": -16.546707,
+        "Z": -59.247623
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 30.0,
+        "Roll": 0.0
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part",
+        "NoPhysics"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Static Mesh8_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ThemedCardboardBoxes_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_ThemedCardboardBoxes_ThemedCardboardBoxes03'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Meshes/SM_ThemedCardboardBoxes_ThemedCardboardBoxes03.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_ThemedCardboardBoxes'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Materials/MI_ThemedCardboardBoxes.0"
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Plastic'",
+          "ObjectPath": "/Game/Physics/PM_Plastic.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -125.6208,
+        "Y": -3.8017714,
+        "Z": -7.960489
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -45.0,
+        "Roll": 0.0
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part",
+        "NoPhysics"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Static Mesh9_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ThemedCardboardBoxes_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_ThemedCardboardBoxes_ThemedCardboardBoxes02'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Meshes/SM_ThemedCardboardBoxes_ThemedCardboardBoxes02.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_ThemedCardboardBoxes'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Materials/MI_ThemedCardboardBoxes.0"
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Plastic'",
+          "ObjectPath": "/Game/Physics/PM_Plastic.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 0.93290883,
+        "Y": 0.33734137,
+        "Z": -0.6807563
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 65.0,
+        "Roll": 0.0
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part",
+        "NoPhysics"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_ThemedCardboardBoxes_C'Default__BP_ThemedCardboardBoxes_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.2"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'Default__BP_Destructible_C:StaticMeshComponent'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.60"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_ThemedCardboardBoxes_Merged'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/MergedMeshes/SM_ThemedCardboardBoxes_Merged.2"
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -92.66211,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "TriggerActorsComponent",
+    "Name": "TriggerActorsComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TriggerActorsComponent'",
+    "Outer": {
+      "ObjectName": "BP_ThemedCardboardBoxes_C'Default__BP_ThemedCardboardBoxes_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Blueprints/BP_ThemedCardboardBoxes.2"
+    },
+    "Template": {
+      "ObjectName": "TriggerActorsComponent'Default__BP_Destructible_C:TriggerActorsComponent'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.64"
+    }
+  }
+]

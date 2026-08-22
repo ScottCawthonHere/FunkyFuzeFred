@@ -1,0 +1,254 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_FNAF_PopBox_LevelTrigger_Child_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Blueprints/Gameplay/Parents/LevelTriggers/IP/BP_FNAF_PopBox_LevelTrigger_Child",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PopBox_LevelTrigger_C'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/LevelTriggers/BP_PopBox_LevelTrigger.1"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_FNAF_PopBox_LevelTrigger_Child_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Blueprints/Gameplay/Parents/LevelTriggers/IP/BP_FNAF_PopBox_LevelTrigger_Child.7"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_FNAF_PopBox_LevelTrigger_Child_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Blueprints/Gameplay/Parents/LevelTriggers/IP/BP_FNAF_PopBox_LevelTrigger_Child.2"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_FNAF_PopBox_LevelTrigger_Child_C'Default__BP_FNAF_PopBox_LevelTrigger_Child_C'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/LevelTriggers/IP/BP_FNAF_PopBox_LevelTrigger_Child.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_FNAF_PopBox_LevelTrigger_Child_C",
+    "Name": "Default__BP_FNAF_PopBox_LevelTrigger_Child_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Blueprints/Gameplay/Parents/LevelTriggers/IP/BP_FNAF_PopBox_LevelTrigger_Child.BP_FNAF_PopBox_LevelTrigger_Child_C'",
+    "Package": "/Game/Blueprints/Gameplay/Parents/LevelTriggers/IP/BP_FNAF_PopBox_LevelTrigger_Child",
+    "Template": {
+      "ObjectName": "BP_PopBox_LevelTrigger_C'Default__BP_PopBox_LevelTrigger_C'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/LevelTriggers/BP_PopBox_LevelTrigger.3"
+    },
+    "Properties": {
+      "DefaultSceneRoot": {
+        "ObjectName": "SceneComponent'Default__BP_FNAF_PopBox_LevelTrigger_Child_C:DefaultSceneRoot'",
+        "ObjectPath": "/Game/Blueprints/Gameplay/Parents/LevelTriggers/IP/BP_FNAF_PopBox_LevelTrigger_Child.5"
+      },
+      "InteractiveComponent": {
+        "ObjectName": "InteractiveComponent'Default__BP_FNAF_PopBox_LevelTrigger_Child_C:InteractiveComponent'",
+        "ObjectPath": "/Game/Blueprints/Gameplay/Parents/LevelTriggers/IP/BP_FNAF_PopBox_LevelTrigger_Child.3"
+      },
+      "InitialLifeSpan": 2.154E-42,
+      "Layers": []
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_PopBox_LevelTrigger_Child_C'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/LevelTriggers/IP/BP_FNAF_PopBox_LevelTrigger_Child.0"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'TextRenderComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "TextRenderComponent'BP_FNAF_PopBox_LevelTrigger_Child_C:IPNAME_TextRender_GEN_VARIABLE'",
+            "ObjectPath": "/Game/Blueprints/Gameplay/Parents/LevelTriggers/IP/BP_FNAF_PopBox_LevelTrigger_Child.8"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_PopBox_LevelTrigger_C'",
+              "ObjectPath": "/Game/Blueprints/Gameplay/Parents/LevelTriggers/BP_PopBox_LevelTrigger.1"
+            },
+            "SCSVariableName": "IPNAME_TextRender",
+            "AssociatedGuid": "EA7062F5-4CA2CAB2-4493E8A8-3B84ABCD"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'TextRenderComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "TextRenderComponent'BP_FNAF_PopBox_LevelTrigger_Child_C:ObjectiveName_TextRender_GEN_VARIABLE'",
+            "ObjectPath": "/Game/Blueprints/Gameplay/Parents/LevelTriggers/IP/BP_FNAF_PopBox_LevelTrigger_Child.9"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_PopBox_LevelTrigger_C'",
+              "ObjectPath": "/Game/Blueprints/Gameplay/Parents/LevelTriggers/BP_PopBox_LevelTrigger.1"
+            },
+            "SCSVariableName": "ObjectiveName_TextRender",
+            "AssociatedGuid": "42D207A1-4EA6EA3B-7EC65882-3004FA98"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "InteractiveComponent",
+    "Name": "InteractiveComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InteractiveComponent'",
+    "Outer": {
+      "ObjectName": "BP_FNAF_PopBox_LevelTrigger_Child_C'Default__BP_FNAF_PopBox_LevelTrigger_Child_C'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/LevelTriggers/IP/BP_FNAF_PopBox_LevelTrigger_Child.1"
+    },
+    "Template": {
+      "ObjectName": "InteractiveComponent'Default__BP_PopBox_LevelTrigger_C:InteractiveComponent'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/LevelTriggers/BP_PopBox_LevelTrigger.17"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_FNAF_PopBox_LevelTrigger_Child_C:DefaultSceneRoot'",
+        "ObjectPath": "/Game/Blueprints/Gameplay/Parents/LevelTriggers/IP/BP_FNAF_PopBox_LevelTrigger_Child.5"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_PopBox_LevelTrigger_Child_C'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/LevelTriggers/IP/BP_FNAF_PopBox_LevelTrigger_Child.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_FNAF_PopBox_LevelTrigger_Child_C'Default__BP_FNAF_PopBox_LevelTrigger_Child_C'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/LevelTriggers/IP/BP_FNAF_PopBox_LevelTrigger_Child.1"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'Default__BP_PopBox_LevelTrigger_C:DefaultSceneRoot'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/LevelTriggers/BP_PopBox_LevelTrigger.19"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FNAF_PopBox_LevelTrigger_Child_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/LevelTriggers/IP/BP_FNAF_PopBox_LevelTrigger_Child.7"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_FNAF_PopBox_LevelTrigger_Child_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Blueprints/Gameplay/Parents/LevelTriggers/IP/BP_FNAF_PopBox_LevelTrigger_Child.4"
+      },
+      "VariableGuid": "EC2CDF57-49D30D6B-DEEFE0A6-2C0C68C6",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_PopBox_LevelTrigger_Child_C'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/LevelTriggers/IP/BP_FNAF_PopBox_LevelTrigger_Child.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_FNAF_PopBox_LevelTrigger_Child_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Blueprints/Gameplay/Parents/LevelTriggers/IP/BP_FNAF_PopBox_LevelTrigger_Child.6"
+      }
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "IPNAME_TextRender_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_PopBox_LevelTrigger_Child_C'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/LevelTriggers/IP/BP_FNAF_PopBox_LevelTrigger_Child.0"
+    },
+    "Template": {
+      "ObjectName": "TextRenderComponent'BP_PopBox_LevelTrigger_C:IPNAME_TextRender_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/LevelTriggers/BP_PopBox_LevelTrigger.39"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "7BD0A41E4DDCC7727B7FE6A63E2D5E35",
+        "SourceString": "Five Nights at Freddy’s\r\n",
+        "LocalizedString": "Five Nights at Freddy’s\r\n"
+      },
+      "RelativeLocation": {
+        "X": 237.0,
+        "Y": -21.43066,
+        "Z": 603.0
+      }
+    }
+  },
+  {
+    "Type": "TextRenderComponent",
+    "Name": "ObjectiveName_TextRender_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'TextRenderComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_PopBox_LevelTrigger_Child_C'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/LevelTriggers/IP/BP_FNAF_PopBox_LevelTrigger_Child.0"
+    },
+    "Template": {
+      "ObjectName": "TextRenderComponent'BP_PopBox_LevelTrigger_C:ObjectiveName_TextRender_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/LevelTriggers/BP_PopBox_LevelTrigger.40"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "65C6E95E4F96F6C622E94796A63BF36B",
+        "SourceString": "Cameo Objective 1",
+        "LocalizedString": "Cameo Objective 1"
+      },
+      "RelativeLocation": {
+        "X": 237.0,
+        "Y": -12.871843,
+        "Z": 62.57708
+      }
+    }
+  }
+]

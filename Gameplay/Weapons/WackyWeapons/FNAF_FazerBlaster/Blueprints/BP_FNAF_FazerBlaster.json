@@ -1,0 +1,264 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_FNAF_FazerBlaster_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlaster",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_WW_RangedWeapon_SMG_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Ranged_ParentClasses/WackyWeapons/BP_WW_RangedWeapon_SMG.0"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_FNAF_FazerBlaster_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlaster.9"
+      }
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_FNAF_FazerBlaster_C:GetStackLimit'",
+        "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlaster.3"
+      }
+    ],
+    "FuncMap": {
+      "GetStackLimit": {
+        "ObjectName": "Function'BP_FNAF_FazerBlaster_C:GetStackLimit'",
+        "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlaster.3"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_FNAF_FazerBlaster_C'Default__BP_FNAF_FazerBlaster_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlaster.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_FNAF_FazerBlaster_C",
+    "Name": "Default__BP_FNAF_FazerBlaster_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlaster.BP_FNAF_FazerBlaster_C'",
+    "Package": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlaster",
+    "Template": {
+      "ObjectName": "BP_WW_RangedWeapon_SMG_C'Default__BP_WW_RangedWeapon_SMG_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Ranged_ParentClasses/WackyWeapons/BP_WW_RangedWeapon_SMG.1"
+    },
+    "Properties": {
+      "AbilitySetsToGrantWhenEquipped": [
+        {
+          "ObjectName": "MerlinAbilitySet'DA_FNAF_FazerBlasterAbilitySet'",
+          "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/DA_FNAF_FazerBlasterAbilitySet.0"
+        }
+      ],
+      "MeshComponent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_FNAF_FazerBlaster_C:WeaponMesh3P'",
+        "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlaster.10"
+      },
+      "HitboxManagerComponent": {
+        "ObjectName": "HitboxManagerComponent'Default__BP_FNAF_FazerBlaster_C:Hitbox Manager'",
+        "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlaster.4"
+      },
+      "ChargeUpEffectComponent": {
+        "ObjectName": "NiagaraComponent'Default__BP_FNAF_FazerBlaster_C:ChargeUpEffect'",
+        "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlaster.6"
+      },
+      "ItemAnimationComponent": {
+        "ObjectName": "ItemAnimationComponent'Default__BP_FNAF_FazerBlaster_C:ItemAnimationComponent'",
+        "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlaster.5"
+      },
+      "AudioComponent": {
+        "ObjectName": "FMODAudioComponent'Default__BP_FNAF_FazerBlaster_C:AudioComponent'",
+        "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlaster.2"
+      },
+      "ItemUIInfo": {
+        "Icon": {
+          "ObjectName": "Texture2D'T_WackyWeapon_FNAF_FazerBlaster_UI'",
+          "ObjectPath": "/Game/UI/HUD/Art/WackyWeapons/T_WackyWeapon_FNAF_FazerBlaster_UI.0"
+        }
+      },
+      "PickupType": {
+        "ObjectName": "BlueprintGeneratedClass'BP_FNAF_FazerBlasterPickup_C'",
+        "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlasterPickup.0"
+      },
+      "AnimSetType": "EItemAnimationType::IA_WackyPistol",
+      "RootComponent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_FNAF_FazerBlaster_C:WeaponMesh3P'",
+        "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlaster.10"
+      }
+    }
+  },
+  {
+    "Type": "FMODAudioComponent",
+    "Name": "AudioComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FMODAudioComponent'",
+    "Outer": {
+      "ObjectName": "BP_FNAF_FazerBlaster_C'Default__BP_FNAF_FazerBlaster_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlaster.1"
+    },
+    "Template": {
+      "ObjectName": "FMODAudioComponent'Default__BP_WW_RangedWeapon_SMG_C:AudioComponent'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Ranged_ParentClasses/WackyWeapons/BP_WW_RangedWeapon_SMG.2"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_FNAF_FazerBlaster_C:WeaponMesh3P'",
+        "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlaster.10"
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "GetStackLimit",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_FazerBlaster_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlaster.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'InventoryItemInterface:GetStackLimit'",
+      "ObjectPath": "/Script/Merlin"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "Parm | OutParm | ReturnParm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "HitboxManagerComponent",
+    "Name": "Hitbox Manager",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HitboxManagerComponent'",
+    "Outer": {
+      "ObjectName": "BP_FNAF_FazerBlaster_C'Default__BP_FNAF_FazerBlaster_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlaster.1"
+    },
+    "Template": {
+      "ObjectName": "HitboxManagerComponent'Default__BP_WW_RangedWeapon_SMG_C:Hitbox Manager'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Ranged_ParentClasses/WackyWeapons/BP_WW_RangedWeapon_SMG.3"
+    }
+  },
+  {
+    "Type": "ItemAnimationComponent",
+    "Name": "ItemAnimationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ItemAnimationComponent'",
+    "Outer": {
+      "ObjectName": "BP_FNAF_FazerBlaster_C'Default__BP_FNAF_FazerBlaster_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlaster.1"
+    },
+    "Template": {
+      "ObjectName": "ItemAnimationComponent'Default__BP_WW_RangedWeapon_SMG_C:ItemAnimationComponent'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Ranged_ParentClasses/WackyWeapons/BP_WW_RangedWeapon_SMG.4"
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "ChargeUpEffect",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BP_FNAF_FazerBlaster_C'Default__BP_FNAF_FazerBlaster_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlaster.1"
+    },
+    "Template": {
+      "ObjectName": "NiagaraComponent'Default__BP_WW_RangedWeapon_SMG_C:ChargeUpEffect'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Ranged_ParentClasses/WackyWeapons/BP_WW_RangedWeapon_SMG.5"
+    },
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_FNAF_FazerBlaster_C:WeaponMesh3P'",
+        "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlaster.10"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_FazerBlaster_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlaster.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FNAF_FazerBlaster_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlaster.9"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_FNAF_FazerBlaster_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlaster.7"
+      },
+      "VariableGuid": "F1BAACA1-49D14577-94B5E18E-87AF1E72",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_FazerBlaster_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlaster.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_FNAF_FazerBlaster_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlaster.8"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponentBudgeted",
+    "Name": "WeaponMesh3P",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponentBudgeted'",
+    "Outer": {
+      "ObjectName": "BP_FNAF_FazerBlaster_C'Default__BP_FNAF_FazerBlaster_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Blueprints/BP_FNAF_FazerBlaster.1"
+    },
+    "Template": {
+      "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_WW_RangedWeapon_SMG_C:WeaponMesh3P'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Ranged_ParentClasses/WackyWeapons/BP_WW_RangedWeapon_SMG.9"
+    },
+    "Properties": {
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SKM_FazerBlaster'",
+        "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Meshes/SKM_FazerBlaster.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SKM_FazerBlaster'",
+        "ObjectPath": "/Game/Gameplay/Weapons/WackyWeapons/FNAF_FazerBlaster/Meshes/SKM_FazerBlaster.1"
+      }
+    }
+  }
+]

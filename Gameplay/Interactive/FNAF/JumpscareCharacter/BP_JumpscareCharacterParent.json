@@ -1,0 +1,2195 @@
+[
+  {
+    "Type": "AttackableComponent",
+    "Name": "AttackableComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AttackableComponent'",
+    "Outer": {
+      "ObjectName": "BP_JumpscareCharacterParent_C'Default__BP_JumpscareCharacterParent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.2"
+    },
+    "Template": {
+      "ObjectName": "AttackableComponent'Default__BP_MerlinCharacter_C:AttackableComponent'",
+      "ObjectPath": "/Game/Blueprints/Character/BP_MerlinCharacter.2"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_JumpscareCharacterParent_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MerlinCharacter_C'",
+      "ObjectPath": "/Game/Blueprints/Character/BP_MerlinCharacter.4"
+    },
+    "Properties": {
+      "Timelines": [
+        {
+          "ObjectName": "TimelineTemplate'BP_JumpscareCharacterParent_C:Timeline_Template'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.36"
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_JumpscareCharacterParent_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.31"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_JumpscareCharacterParent_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.17"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_JumpscareCharacterParent_C:ExecuteUbergraph_BP_JumpscareCharacterParent'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.6"
+      }
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_JumpscareCharacterParent_C:CheckWhichAnimatronic'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.5"
+      },
+      {
+        "ObjectName": "Function'BP_JumpscareCharacterParent_C:Timeline__FinishedFunc'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.13"
+      },
+      {
+        "ObjectName": "Function'BP_JumpscareCharacterParent_C:Timeline__UpdateFunc'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.14"
+      },
+      {
+        "ObjectName": "Function'BP_JumpscareCharacterParent_C:Trigger'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.15"
+      },
+      {
+        "ObjectName": "Function'BP_JumpscareCharacterParent_C:ReceiveBeginPlay'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.7"
+      },
+      {
+        "ObjectName": "Function'BP_JumpscareCharacterParent_C:ResetJumpscare'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.10"
+      },
+      {
+        "ObjectName": "Function'BP_JumpscareCharacterParent_C:SetTimerActive'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.12"
+      },
+      {
+        "ObjectName": "Function'BP_JumpscareCharacterParent_C:ReceiveTick'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.8"
+      },
+      {
+        "ObjectName": "Function'BP_JumpscareCharacterParent_C:ResetAllTimers'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.9"
+      },
+      {
+        "ObjectName": "Function'BP_JumpscareCharacterParent_C:TriggerJumpscare'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.16"
+      },
+      {
+        "ObjectName": "Function'BP_JumpscareCharacterParent_C:SetTerminalsJumpscareMaterial'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.11"
+      },
+      {
+        "ObjectName": "Function'BP_JumpscareCharacterParent_C:ExecuteUbergraph_BP_JumpscareCharacterParent'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.6"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Hat",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SpotLight",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SpotLightComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Timeline_Alpha_44ABBCDB4EA6FCB91A125395671341CA",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "Timeline__Direction_44ABBCDB4EA6FCB91A125395671341CA",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'ETimelineDirection'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Timeline",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'TimelineComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MontageToPlay",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'AnimMontage'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CameraToAttachTo",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Terminals",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "Terminals",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_CCTVTerminalFNAF_C'",
+            "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_CCTVTerminalFNAF.1"
+          }
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CurrentParent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "JumpscareTime",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "FreddyTimer",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "FoxyTimer",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "BonnieTimer",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "FreddyTimerActive",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "FoxyTimerActive",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "BonnieTimerActive",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Room",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_FNAFTeleportLocation_C'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/BP_FNAFTeleportLocation.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Animatronic",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'MerlinCharacter'",
+          "ObjectPath": "/Script/Merlin"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Debug",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "JumpscaresEnabled",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "JumpscareSound",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "Class'FMODEventInstance'",
+          "ObjectPath": "/Script/FMODStudio"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_JumpscareCharacterParent": {
+        "ObjectName": "Function'BP_JumpscareCharacterParent_C:ExecuteUbergraph_BP_JumpscareCharacterParent'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.6"
+      },
+      "SetTerminalsJumpscareMaterial": {
+        "ObjectName": "Function'BP_JumpscareCharacterParent_C:SetTerminalsJumpscareMaterial'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.11"
+      },
+      "TriggerJumpscare": {
+        "ObjectName": "Function'BP_JumpscareCharacterParent_C:TriggerJumpscare'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.16"
+      },
+      "ResetAllTimers": {
+        "ObjectName": "Function'BP_JumpscareCharacterParent_C:ResetAllTimers'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.9"
+      },
+      "ReceiveTick": {
+        "ObjectName": "Function'BP_JumpscareCharacterParent_C:ReceiveTick'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.8"
+      },
+      "SetTimerActive": {
+        "ObjectName": "Function'BP_JumpscareCharacterParent_C:SetTimerActive'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.12"
+      },
+      "ResetJumpscare": {
+        "ObjectName": "Function'BP_JumpscareCharacterParent_C:ResetJumpscare'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.10"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_JumpscareCharacterParent_C:ReceiveBeginPlay'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.7"
+      },
+      "Trigger": {
+        "ObjectName": "Function'BP_JumpscareCharacterParent_C:Trigger'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.15"
+      },
+      "Timeline__UpdateFunc": {
+        "ObjectName": "Function'BP_JumpscareCharacterParent_C:Timeline__UpdateFunc'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.14"
+      },
+      "Timeline__FinishedFunc": {
+        "ObjectName": "Function'BP_JumpscareCharacterParent_C:Timeline__FinishedFunc'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.13"
+      },
+      "CheckWhichAnimatronic": {
+        "ObjectName": "Function'BP_JumpscareCharacterParent_C:CheckWhichAnimatronic'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.5"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "Interfaces": [
+      {
+        "Class": {
+          "ObjectName": "Class'TriggerInterface'",
+          "ObjectPath": "/Script/Merlin"
+        },
+        "PointerProperty": null,
+        "PointerOffset": 0,
+        "bImplementedByK2": true
+      }
+    ],
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_JumpscareCharacterParent_C'Default__BP_JumpscareCharacterParent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal",
+      "ImplementedInterfaces": "((Interface=\"/Script/CoreUObject.Class'/Script/Merlin.TriggerInterface'\"))"
+    }
+  },
+  {
+    "Type": "BP_JumpscareCharacterParent_C",
+    "Name": "Default__BP_JumpscareCharacterParent_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.BP_JumpscareCharacterParent_C'",
+    "Package": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent",
+    "Template": {
+      "ObjectName": "BP_MerlinCharacter_C'Default__BP_MerlinCharacter_C'",
+      "ObjectPath": "/Game/Blueprints/Character/BP_MerlinCharacter.6"
+    },
+    "Properties": {
+      "UberGraphFrame": {},
+      "MontageToPlay": {
+        "ObjectName": "AnimMontage'AM_JumpScare_FreddyFazzbear'",
+        "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/FreddyFazbear/AM_JumpScare_FreddyFazzbear.0"
+      },
+      "JumpscareTime": 3.0,
+      "JumpscareSound": {},
+      "NumHitsToPopOffComponents": 1,
+      "PoisonOverlayIndex": 452984832,
+      "InvokerComponent": null,
+      "InputActions": {
+        "InteractHoldAction": null,
+        "GadgetAction": null,
+        "InventorySelectAction": null,
+        "InventoryTogglePrimaryAndSlotItem": null,
+        "InventorySwitchToMelee": null,
+        "InventoryDropAction": null,
+        "CycleInventoryLeft": null,
+        "CycleInventoryRight": null,
+        "JumpInventorySlot1": null,
+        "JumpInventorySlot2": null,
+        "JumpInventorySlot3": {
+          "ObjectName": "CapsuleComponent'Default__BP_JumpscareCharacterParent_C:CollisionCylinder'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.3"
+        }
+      },
+      "WallWalkComponent": null,
+      "InventoryComponent": null
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_JumpscareCharacterParent_C'Default__BP_JumpscareCharacterParent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.2"
+    },
+    "Template": {
+      "ObjectName": "CapsuleComponent'Default__BP_MerlinCharacter_C:CollisionCylinder'",
+      "ObjectPath": "/Game/Blueprints/Character/BP_MerlinCharacter.9"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bLockXTranslation": true,
+        "bLockYTranslation": true,
+        "bLockZTranslation": true,
+        "bLockXRotation": true,
+        "bLockYRotation": true,
+        "bLockZRotation": true,
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel2",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel3",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel4",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel5",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel6",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_WEAPON",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_PROJECTILE",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "MeleeWeapon",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel16",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel17",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel18",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        },
+        "bEnableGravity": false
+      }
+    }
+  },
+  {
+    "Type": "CurveFloat",
+    "Name": "CurveFloat_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CurveFloat'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_JumpscareCharacterParent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.1"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": 4,
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 0.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 1.5,
+            "Value": 0.8,
+            "ArriveTangent": 1.1944121,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 1.1944121,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "CheckWhichAnimatronic",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_JumpscareCharacterParent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "InAnimatronic",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'MerlinCharacter'",
+          "ObjectPath": "/Script/Merlin"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "OutAnimatronic",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "Parm | OutParm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsBP_Bonnie_NPC_Enemy",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_Bonnie_NPC_Enemy_C'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Bonnie/Blueprints/BP_Bonnie_NPC_Enemy.1"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsBP_Foxy_the_Pirate_Enemy",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_FoxyThePirate_Enemy_C'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_FoxyThePirate_Enemy.1"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsBP_Freddy_Fazbear_Enemy",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_JumpscareCharacterParent",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_JumpscareCharacterParent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_PlayEvent2D_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "Class'FMODEventInstance'",
+          "ObjectPath": "/Script/FMODStudio"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_FormatArgumentData",
+        "Flags": "RF_Public",
+        "ElementSize": 72,
+        "Struct": {
+          "ObjectName": "Class'FormatArgumentData'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_MakeArray_Array",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "K2Node_MakeArray_Array",
+          "Flags": "RF_Public",
+          "ElementSize": 72,
+          "Struct": {
+            "ObjectName": "Class'FormatArgumentData'",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_LessEqual_DoubleDouble_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_Format_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable_2",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable_2",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable_3",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable_3",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_InInstigator",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_TriggeringCharacter",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Character'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Event_TriggerAction",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'ETriggerAction'",
+          "ObjectPath": "/Script/Merlin"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_Magnitude",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_RandomInteger_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetAllActorsOfClass_OutActors",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetAllActorsOfClass_OutActors",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_FNAFTeleportLocation_C'",
+            "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/BP_FNAFTeleportLocation.0"
+          }
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_LessEqual_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsBP_CCTVFnaf_Test",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetAllActorsOfClass_OutActors_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetAllActorsOfClass_OutActors_1",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_CCTVTerminalFNAF_C'",
+            "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_CCTVTerminalFNAF.1"
+          }
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable_4",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_CCTVTerminalFNAF_C'",
+          "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_CCTVTerminalFNAF.1"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_4",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_AddUnique_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_CCTVTerminalFNAF_C'",
+          "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_CCTVTerminalFNAF.1"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_CCTVTerminalFNAF_C'",
+          "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_CCTVTerminalFNAF.1"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "Class'TimerDynamicDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetTimerDelegate_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "Class'TimerHandle'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_CustomEvent_Active",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_CustomEvent_Animatronic",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MerlinCharacter'",
+          "ObjectPath": "/Script/Merlin"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_CustomEvent_Room",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_FNAFTeleportLocation_C'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/BP_FNAFTeleportLocation.0"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_CheckWhichAnimatronic_OutAnimatronic",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchName_CmpSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_GetWorldDeltaSeconds_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_GetWorldDeltaSeconds_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Subtract_DoubleDouble_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Subtract_DoubleDouble_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_GetWorldDeltaSeconds_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_FormatArgumentData_1",
+        "Flags": "RF_Public",
+        "ElementSize": 72,
+        "Struct": {
+          "ObjectName": "Class'FormatArgumentData'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_LessEqual_DoubleDouble_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_MakeArray_Array_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "K2Node_MakeArray_Array_1",
+          "Flags": "RF_Public",
+          "ElementSize": 72,
+          "Struct": {
+            "ObjectName": "Class'FormatArgumentData'",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_Format_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Subtract_DoubleDouble_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable_4",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item_3",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_FNAFTeleportLocation_C'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/BP_FNAFTeleportLocation.0"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_FormatArgumentData_2",
+        "Flags": "RF_Public",
+        "ElementSize": 72,
+        "Struct": {
+          "ObjectName": "Class'FormatArgumentData'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_LessEqual_DoubleDouble_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_MakeArray_Array_2",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "K2Node_MakeArray_Array_2",
+          "Flags": "RF_Public",
+          "ElementSize": 72,
+          "Struct": {
+            "ObjectName": "Class'FormatArgumentData'",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_Format_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_K2_AttachToComponent_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_VLerp_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "Class'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeTransform_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 96,
+        "Struct": {
+          "ObjectName": "Class'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetActorRelativeTransform_SweepHitResult",
+        "Flags": "RF_Public",
+        "ElementSize": 256,
+        "PropertyFlags": "ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "Class'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_CheckWhichAnimatronic_OutAnimatronic_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchName_CmpSuccess_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_CustomEvent_StaticMaterialOn",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item_4",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_CCTVTerminalFNAF_C'",
+          "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_CCTVTerminalFNAF.1"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_4",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue_4",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_GetNumPlayerControllers_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue_5",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_JumpscareCharacterParent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.1"
+    },
+    "Super": {
+      "ObjectName": "Function'BP_MerlinCharacter_C:ReceiveBeginPlay'",
+      "ObjectPath": "/Game/Blueprints/Character/BP_MerlinCharacter.37"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveTick",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_JumpscareCharacterParent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Actor:ReceiveTick'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ResetAllTimers",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_JumpscareCharacterParent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ResetJumpscare",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_JumpscareCharacterParent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetTerminalsJumpscareMaterial",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_JumpscareCharacterParent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "StaticMaterialOn",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetTimerActive",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_JumpscareCharacterParent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "Active",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Animatronic",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'MerlinCharacter'",
+          "ObjectPath": "/Script/Merlin"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Room",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_FNAFTeleportLocation_C'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/BP_FNAFTeleportLocation.0"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Timeline__FinishedFunc",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_JumpscareCharacterParent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Timeline__UpdateFunc",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_JumpscareCharacterParent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Trigger",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_JumpscareCharacterParent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "InInstigator",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TriggeringCharacter",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Character'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "TriggerAction",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Enum": {
+          "ObjectName": "Class'ETriggerAction'",
+          "ObjectPath": "/Script/Merlin"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Magnitude",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "TriggerJumpscare",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_JumpscareCharacterParent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_JumpscareCharacterParent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.1"
+    }
+  },
+  {
+    "Type": "InventoryComponent",
+    "Name": "InventoryComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InventoryComponent'",
+    "Outer": {
+      "ObjectName": "BP_JumpscareCharacterParent_C'Default__BP_JumpscareCharacterParent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.2"
+    },
+    "Template": {
+      "ObjectName": "InventoryComponent'Default__BP_MerlinCharacter_C:InventoryComponent'",
+      "ObjectPath": "/Game/Blueprints/Character/BP_MerlinCharacter.38"
+    }
+  },
+  {
+    "Type": "MaterialOverrideControllerComponent",
+    "Name": "MaterialOverrideController",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialOverrideControllerComponent'",
+    "Outer": {
+      "ObjectName": "BP_JumpscareCharacterParent_C'Default__BP_JumpscareCharacterParent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.2"
+    },
+    "Template": {
+      "ObjectName": "MaterialOverrideControllerComponent'Default__BP_MerlinCharacter_C:MaterialOverrideController'",
+      "ObjectPath": "/Game/Blueprints/Character/BP_MerlinCharacter.39"
+    }
+  },
+  {
+    "Type": "MerlinAbilitySystemComponent",
+    "Name": "AbilitySystem",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MerlinAbilitySystemComponent'",
+    "Outer": {
+      "ObjectName": "BP_JumpscareCharacterParent_C'Default__BP_JumpscareCharacterParent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.2"
+    },
+    "Template": {
+      "ObjectName": "MerlinAbilitySystemComponent'Default__BP_MerlinCharacter_C:AbilitySystem'",
+      "ObjectPath": "/Game/Blueprints/Character/BP_MerlinCharacter.40"
+    }
+  },
+  {
+    "Type": "MerlinCharacterMovementComponent",
+    "Name": "CharMoveComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MerlinCharacterMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_JumpscareCharacterParent_C'Default__BP_JumpscareCharacterParent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.2"
+    },
+    "Template": {
+      "ObjectName": "MerlinCharacterMovementComponent'Default__BP_MerlinCharacter_C:CharMoveComp'",
+      "ObjectPath": "/Game/Blueprints/Character/BP_MerlinCharacter.42"
+    },
+    "Properties": {
+      "bSweepWhileNavWalking": false
+    }
+  },
+  {
+    "Type": "MerlinCharacterOptimizationComponent",
+    "Name": "MerlinOptimizationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MerlinCharacterOptimizationComponent'",
+    "Outer": {
+      "ObjectName": "BP_JumpscareCharacterParent_C'Default__BP_JumpscareCharacterParent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.2"
+    },
+    "Template": {
+      "ObjectName": "MerlinCharacterOptimizationComponent'Default__BP_MerlinCharacter_C:MerlinOptimizationComponent'",
+      "ObjectPath": "/Game/Blueprints/Character/BP_MerlinCharacter.43"
+    }
+  },
+  {
+    "Type": "MotionWarpingComponent",
+    "Name": "MotionWarpingComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MotionWarpingComponent'",
+    "Outer": {
+      "ObjectName": "BP_JumpscareCharacterParent_C'Default__BP_JumpscareCharacterParent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.2"
+    },
+    "Template": {
+      "ObjectName": "MotionWarpingComponent'Default__BP_MerlinCharacter_C:MotionWarpingComponent'",
+      "ObjectPath": "/Game/Blueprints/Character/BP_MerlinCharacter.44"
+    }
+  },
+  {
+    "Type": "NavigationInvokerComponent",
+    "Name": "InvokerComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NavigationInvokerComponent'",
+    "Outer": {
+      "ObjectName": "BP_JumpscareCharacterParent_C'Default__BP_JumpscareCharacterParent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.2"
+    },
+    "Template": {
+      "ObjectName": "NavigationInvokerComponent'Default__BP_MerlinCharacter_C:InvokerComponent'",
+      "ObjectPath": "/Game/Blueprints/Character/BP_MerlinCharacter.45"
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "FloatingDamageTextVfx",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BP_JumpscareCharacterParent_C'Default__BP_JumpscareCharacterParent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.2"
+    },
+    "Template": {
+      "ObjectName": "NiagaraComponent'Default__BP_MerlinCharacter_C:FloatingDamageTextVfx'",
+      "ObjectPath": "/Game/Blueprints/Character/BP_MerlinCharacter.46"
+    },
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_JumpscareCharacterParent_C:CollisionCylinder'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.3"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "MegaVinylEffectComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BP_JumpscareCharacterParent_C'Default__BP_JumpscareCharacterParent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.2"
+    },
+    "Template": {
+      "ObjectName": "NiagaraComponent'Default__BP_MerlinCharacter_C:MegaVinylEffectComponent'",
+      "ObjectPath": "/Game/Blueprints/Character/BP_MerlinCharacter.47"
+    },
+    "Properties": {
+      "OverrideParameters": {}
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_JumpscareCharacterParent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_JumpscareCharacterParent_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.31"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_JumpscareCharacterParent_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.27"
+      },
+      "VariableGuid": "9EC1A006-4471DC10-D39281BD-0395A622",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_JumpscareCharacterParent_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.31"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SpotLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SpotLightComponent'BP_JumpscareCharacterParent_C:SpotLight_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.33"
+      },
+      "ParentComponentOrVariableName": "Arrow",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "C84C5F55-43FB2F24-395CB1A8-3E5554F5",
+      "InternalVariableName": "SpotLight"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_JumpscareCharacterParent_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.31"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_JumpscareCharacterParent_C:Hat_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.34"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "4AD6149A-410E2EDC-2537E5B6-4032F64A",
+      "InternalVariableName": "Hat"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_JumpscareCharacterParent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.1"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_JumpscareCharacterParent_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.29"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_JumpscareCharacterParent_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.30"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_JumpscareCharacterParent_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.29"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_JumpscareCharacterParent_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.30"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_JumpscareCharacterParent_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.28"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponentBudgeted",
+    "Name": "CharacterMesh0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponentBudgeted'",
+    "Outer": {
+      "ObjectName": "BP_JumpscareCharacterParent_C'Default__BP_JumpscareCharacterParent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.2"
+    },
+    "Template": {
+      "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_MerlinCharacter_C:CharacterMesh0'",
+      "ObjectPath": "/Game/Blueprints/Character/BP_MerlinCharacter.59"
+    },
+    "Properties": {
+      "bAutoRegisterWithBudgetAllocator": false,
+      "AnimationData": {
+        "AnimToPlay": {
+          "ObjectName": "AnimSequence'A_JumpScare_Trailer_FreddyFazzbear'",
+          "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/FreddyFazbear/A_JumpScare_Trailer_FreddyFazzbear.0"
+        }
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SKM_FreddyFazbear_Preview'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Meshes/SKM_FreddyFazbear_Preview.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SKM_FreddyFazbear_Preview'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Meshes/SKM_FreddyFazbear_Preview.1"
+      },
+      "bNeverDistanceCull": true,
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bLockXTranslation": true,
+        "bLockYTranslation": true,
+        "bLockZTranslation": true,
+        "bLockXRotation": true,
+        "bLockYRotation": true,
+        "bLockZRotation": true,
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel2",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel3",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel4",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel5",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel6",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_WEAPON",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_PROJECTILE",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "MeleeWeapon",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel16",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel17",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel18",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        },
+        "bEnableGravity": false
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_JumpscareCharacterParent_C:CollisionCylinder'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.3"
+      }
+    }
+  },
+  {
+    "Type": "SpotLightComponent",
+    "Name": "SpotLight_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SpotLightComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_JumpscareCharacterParent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.1"
+    },
+    "Properties": {
+      "LightFalloffExponent": 16.0,
+      "RelativeLocation": {
+        "X": 94.072296,
+        "Y": 5.6245215E-15,
+        "Z": 156.11351
+      },
+      "RelativeRotation": {
+        "Pitch": -35.0,
+        "Yaw": 180.0,
+        "Roll": 180.0
+      }
+    },
+    "IntensityNits": 0.0
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Hat_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_JumpscareCharacterParent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FreddyFazbear_Hat'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Meshes/SM_FreddyFazbear_Hat.2"
+      },
+      "bNeverDistanceCull": true,
+      "bGenerateOverlapEvents": false,
+      "bReceivesDecals": false,
+      "bCastCinematicShadow": true,
+      "LightingChannels": {
+        "bChannel1": true
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePartSeeThrough",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -1.2201804,
+        "Y": 0.0,
+        "Z": 182.05327
+      },
+      "RelativeRotation": {
+        "Pitch": 2.4868996E-14,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "bUseAttachParentBound": true,
+      "bCanEverAffectNavigation": false
+    }
+  },
+  {
+    "Type": "TargetableComponent",
+    "Name": "TargetingComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TargetableComponent'",
+    "Outer": {
+      "ObjectName": "BP_JumpscareCharacterParent_C'Default__BP_JumpscareCharacterParent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.2"
+    },
+    "Template": {
+      "ObjectName": "TargetableComponent'Default__BP_MerlinCharacter_C:TargetingComponent'",
+      "ObjectPath": "/Game/Blueprints/Character/BP_MerlinCharacter.60"
+    }
+  },
+  {
+    "Type": "TimelineTemplate",
+    "Name": "Timeline_Template",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TimelineTemplate'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_JumpscareCharacterParent_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.1"
+    },
+    "Properties": {
+      "TimelineLength": 1.5,
+      "FloatTracks": [
+        {
+          "CurveFloat": {
+            "ObjectName": "CurveFloat'BP_JumpscareCharacterParent_C:CurveFloat_0'",
+            "ObjectPath": "/Game/Gameplay/Interactive/FNAF/JumpscareCharacter/BP_JumpscareCharacterParent.4"
+          },
+          "PropertyName": "Timeline_Alpha_44ABBCDB4EA6FCB91A125395671341CA",
+          "TrackName": "Alpha",
+          "bIsExternalCurve": false
+        }
+      ],
+      "TimelineGuid": "44ABBCDB-4EA6FCB9-1A125395-671341CA",
+      "VariableName": "Timeline",
+      "DirectionPropertyName": "Timeline__Direction_44ABBCDB4EA6FCB91A125395671341CA",
+      "UpdateFunctionName": "Timeline__UpdateFunc",
+      "FinishedFunctionName": "Timeline__FinishedFunc"
+    }
+  }
+]

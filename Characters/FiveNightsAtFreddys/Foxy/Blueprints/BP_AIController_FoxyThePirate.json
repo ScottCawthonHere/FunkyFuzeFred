@@ -1,0 +1,227 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_AIController_FoxyThePirate_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_AIController_FoxyThePirate",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_MerlinAIController_C'",
+      "ObjectPath": "/Game/Intelligence/Controllers/BP_MerlinAIController.4"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_AIController_FoxyThePirate_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_AIController_FoxyThePirate.9"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_AIController_FoxyThePirate_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_AIController_FoxyThePirate.4"
+      }
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "FoxyFNAFMiniBoss",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'FoxyFNAFMiniBoss'",
+          "ObjectPath": "/Script/Merlin"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_NotPlaceable | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_AIController_FoxyThePirate_C'Default__BP_AIController_FoxyThePirate_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_AIController_FoxyThePirate.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_AIController_FoxyThePirate_C",
+    "Name": "Default__BP_AIController_FoxyThePirate_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_AIController_FoxyThePirate.BP_AIController_FoxyThePirate_C'",
+    "Package": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_AIController_FoxyThePirate",
+    "Template": {
+      "ObjectName": "BP_MerlinAIController_C'Default__BP_MerlinAIController_C'",
+      "ObjectPath": "/Game/Intelligence/Controllers/BP_MerlinAIController.5"
+    },
+    "Properties": {
+      "BehaviourTreeToRun": {
+        "ObjectName": "BehaviorTree'BT_FoxyThePirate'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BT_FoxyThePirate.0"
+      },
+      "BrainComponent": {
+        "ObjectName": "CrowdFollowingComponent'Default__BP_AIController_FoxyThePirate_C:PathFollowingComponent'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_AIController_FoxyThePirate.2"
+      },
+      "ControlRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "InitialLifeSpan": 0.0
+    }
+  },
+  {
+    "Type": "CrowdFollowingComponent",
+    "Name": "PathFollowingComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CrowdFollowingComponent'",
+    "Outer": {
+      "ObjectName": "BP_AIController_FoxyThePirate_C'Default__BP_AIController_FoxyThePirate_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_AIController_FoxyThePirate.1"
+    },
+    "Template": {
+      "ObjectName": "CrowdFollowingComponent'Default__BP_MerlinAIController_C:PathFollowingComponent'",
+      "ObjectPath": "/Game/Intelligence/Controllers/BP_MerlinAIController.6"
+    }
+  },
+  {
+    "Type": "FoxyFNAFMiniBoss",
+    "Name": "FoxyFNAFMiniBoss_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FoxyFNAFMiniBoss'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AIController_FoxyThePirate_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_AIController_FoxyThePirate.0"
+    },
+    "Properties": {
+      "ChanceForCurtainToOpen": 33,
+      "Tag_LightsOn": {
+        "TagName": "Character.Context.CameraLight"
+      },
+      "TimeTillStartMoving": 15.0,
+      "PauseTime": 12.5,
+      "NumClocksNeeded": [
+        -1,
+        -1,
+        -1,
+        3,
+        2
+      ],
+      "MaxMovementSpeedModifier": 2.0,
+      "MinMovementSpeedModifier": 0.6,
+      "Channel": {
+        "TagName": "Merlin.Objective.GameFlow"
+      }
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AIController_FoxyThePirate_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_AIController_FoxyThePirate.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AIController_FoxyThePirate_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_AIController_FoxyThePirate.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "TransformComponent0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_AIController_FoxyThePirate_C'Default__BP_AIController_FoxyThePirate_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_AIController_FoxyThePirate.1"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'Default__BP_MerlinAIController_C:TransformComponent0'",
+      "ObjectPath": "/Game/Intelligence/Controllers/BP_MerlinAIController.12"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AIController_FoxyThePirate_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_AIController_FoxyThePirate.9"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_AIController_FoxyThePirate_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_AIController_FoxyThePirate.5"
+      },
+      "VariableGuid": "D5134B89-41983131-4FC22684-8223AA46",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AIController_FoxyThePirate_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_AIController_FoxyThePirate.9"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'FoxyFNAFMiniBoss'",
+        "ObjectPath": "/Script/Merlin"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "FoxyFNAFMiniBoss'BP_AIController_FoxyThePirate_C:FoxyFNAFMiniBoss_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_AIController_FoxyThePirate.3"
+      },
+      "VariableGuid": "3CB625AD-46C118ED-62DF5CB8-344172EC",
+      "InternalVariableName": "FoxyFNAFMiniBoss"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AIController_FoxyThePirate_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_AIController_FoxyThePirate.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_AIController_FoxyThePirate_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_AIController_FoxyThePirate.8"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_AIController_FoxyThePirate_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_AIController_FoxyThePirate.8"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_AIController_FoxyThePirate_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Blueprints/BP_AIController_FoxyThePirate.7"
+      }
+    }
+  }
+]

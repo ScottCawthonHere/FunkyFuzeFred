@@ -1,0 +1,2030 @@
+[
+  {
+    "Type": "ArrowComponent",
+    "Name": "SpawnLocation_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'ArrowComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SecurityOfficeDesk_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.1"
+    },
+    "Template": {
+      "ObjectName": "ArrowComponent'BP_Destructible_C:SpawnLocation_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.0"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": -57.530205,
+        "Y": 1.1189438E-13,
+        "Z": 60.935295
+      },
+      "RelativeRotation": {
+        "Pitch": 20.000002,
+        "Yaw": 180.0,
+        "Roll": 180.0
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_SecurityOfficeDesk_A_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Destructible_C'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.1"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.29"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_SecurityOfficeDesk_A_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.7"
+      }
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_OfficeDesk",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_CCTVAccess_VCRFlap",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Box1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'BoxComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Box",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'BoxComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Capsule1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapsuleComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Capsule",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapsuleComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_VHSTapes_CCTV",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_VHSTapes_C",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_DiningProps_DrinksCup1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_DiningProps_DrinksCup",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_CCTVAccess_VCR",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_CCTVAccess_Monitor1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_CCTVAccess_Monitor",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_OfficeDeskDraw3",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_OfficeDeskDraw2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StaticMesh1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StaticMesh",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_SecurityOfficeDesk_A_C'Default__BP_SecurityOfficeDesk_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.4"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoxComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SecurityOfficeDesk_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.1"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "DestructibleInitial",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_INTERACT",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "COLLISION_EXPLOSION",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -29.447325,
+        "Y": 89.07593,
+        "Z": 131.28398
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.275938,
+        "Y": 0.587071,
+        "Z": 0.105337
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoxComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SecurityOfficeDesk_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.1"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "DestructibleInitial",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_INTERACT",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "COLLISION_EXPLOSION",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -23.744766,
+        "Y": -83.24835,
+        "Z": 96.925285
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 160.0,
+        "Roll": -0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.27593848,
+        "Y": 0.5870712,
+        "Z": 0.105336875
+      }
+    }
+  },
+  {
+    "Type": "BP_SecurityOfficeDesk_A_C",
+    "Name": "Default__BP_SecurityOfficeDesk_A_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.BP_SecurityOfficeDesk_A_C'",
+    "Package": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A",
+    "Template": {
+      "ObjectName": "BP_Destructible_C'Default__BP_Destructible_C'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.2"
+    },
+    "Properties": {
+      "VFX Container": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Destructible_Dust_Small_C'",
+        "ObjectPath": "/Game/VFX/Charlie_VFX_Folder/Charlie_VFX/NiagaraSystems/Generic_Destructible/Dust/Blueprints/BP_Destructible_Dust_Small.0"
+      },
+      "HitFailWobble": true,
+      "InitialMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BP_SecurityOfficeDesk_A_C:StaticMeshComponent'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.43"
+      },
+      "TriggerActorsComponent": {
+        "ObjectName": "TriggerActorsComponent'Default__BP_SecurityOfficeDesk_A_C:TriggerActorsComponent'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.44"
+      },
+      "MaxRadialImpulseStrength": 600.0,
+      "RadialImpulseRadius": 800.0,
+      "AliveTime": 700.0,
+      "OptimizationComponent": {
+        "ObjectName": "PropMovementComponent'Default__BP_SecurityOfficeDesk_A_C:PropMovementComponent'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.9"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Capsule1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SecurityOfficeDesk_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.1"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "DestructibleInitial",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_INTERACT",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "COLLISION_EXPLOSION",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -22.724922,
+        "Y": -36.7013,
+        "Z": 103.887634
+      },
+      "RelativeRotation": {
+        "Pitch": 1.888642E-09,
+        "Yaw": -40.0,
+        "Roll": -80.0
+      },
+      "RelativeScale3D": {
+        "X": 0.615779,
+        "Y": 0.615779,
+        "Z": 0.467735
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Capsule_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SecurityOfficeDesk_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.1"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "DestructibleInitial",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_INTERACT",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "COLLISION_EXPLOSION",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -19.893726,
+        "Y": 32.549828,
+        "Z": 143.68587
+      },
+      "RelativeRotation": {
+        "Pitch": -0.0,
+        "Yaw": -60.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.6157791,
+        "Y": 0.6157791,
+        "Z": 0.4677346
+      }
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SecurityOfficeDesk_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.1"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'ArrowComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "ArrowComponent'BP_SecurityOfficeDesk_A_C:SpawnLocation_GEN_VARIABLE'",
+            "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.0"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Destructible_C'",
+              "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.1"
+            },
+            "SCSVariableName": "SpawnLocation",
+            "AssociatedGuid": "8CFA620C-424D4A03-FAC93ABE-B6E1CDC1"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MerlinActorOptimizationComponent",
+    "Name": "ActorOptimizationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MerlinActorOptimizationComponent'",
+    "Outer": {
+      "ObjectName": "BP_SecurityOfficeDesk_A_C'Default__BP_SecurityOfficeDesk_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.4"
+    },
+    "Template": {
+      "ObjectName": "MerlinActorOptimizationComponent'Default__BP_Destructible_C:ActorOptimizationComponent'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.45"
+    }
+  },
+  {
+    "Type": "PropMovementComponent",
+    "Name": "PropMovementComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PropMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_SecurityOfficeDesk_A_C'Default__BP_SecurityOfficeDesk_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.4"
+    },
+    "Template": {
+      "ObjectName": "PropMovementComponent'Default__BP_Destructible_C:PropMovementComponent'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.47"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SecurityOfficeDesk_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.29"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_SecurityOfficeDesk_A_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.10"
+      },
+      "VariableGuid": "6D7FA758-4B14D39E-3B5BDEBB-CA550E50",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.29"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_SecurityOfficeDesk_A_C:StaticMesh_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.42"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "52FDEDB2-49302611-752CE98E-8B7E743F",
+      "InternalVariableName": "StaticMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.29"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_SecurityOfficeDesk_A_C:SM_DiningProps_DrinksCup1_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.34"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "8245707B-430D93E0-2582DA93-AC38E852",
+      "InternalVariableName": "SM_DiningProps_DrinksCup1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.29"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_SecurityOfficeDesk_A_C:SM_VHSTapes_C_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.39"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "D2EBFA70-4F9EDFB1-D67703A1-649FC63F",
+      "InternalVariableName": "SM_VHSTapes_C"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.29"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_SecurityOfficeDesk_A_C:SM_VHSTapes_CCTV_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.40"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "92F37E99-434BDDFE-E1294AAA-F43B6DBE",
+      "InternalVariableName": "SM_VHSTapes_CCTV"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.29"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapsuleComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapsuleComponent'BP_SecurityOfficeDesk_A_C:Capsule_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.6"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "254BD290-4EA7173D-B199D9B4-6009BAB2",
+      "InternalVariableName": "Capsule"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.29"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapsuleComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapsuleComponent'BP_SecurityOfficeDesk_A_C:Capsule1_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.5"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "B1DB963A-4F90C60F-F26F1BBA-BBEAFB8A",
+      "InternalVariableName": "Capsule1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_15",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.29"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoxComponent'BP_SecurityOfficeDesk_A_C:Box_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.3"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "B9A5B4DF-46175C1B-6DE371BB-5F7256ED",
+      "InternalVariableName": "Box"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_16",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.29"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoxComponent'BP_SecurityOfficeDesk_A_C:Box1_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.2"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "1B35A7D3-4A780E72-20A05A96-DA766440",
+      "InternalVariableName": "Box1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_17",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.29"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_SecurityOfficeDesk_A_C:SM_OfficeDesk_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.36"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "69C72187-4AC645D1-60FEF1A1-29E03FC3",
+      "InternalVariableName": "SM_OfficeDesk"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.29"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_SecurityOfficeDesk_A_C:StaticMesh1_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.41"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "E15DD5F7-47CD84D7-C1FF2C84-9308E8A9",
+      "InternalVariableName": "StaticMesh1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.29"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_SecurityOfficeDesk_A_C:SM_OfficeDeskDraw2_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.37"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "A52558B3-4C2BC68B-7AD0BAB0-1E835F52",
+      "InternalVariableName": "SM_OfficeDeskDraw2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.29"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_SecurityOfficeDesk_A_C:SM_OfficeDeskDraw3_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.38"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "BB8C653E-4B875206-CD146B81-6FDD2612",
+      "InternalVariableName": "SM_OfficeDeskDraw3"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.29"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_SecurityOfficeDesk_A_C:SM_CCTVAccess_Monitor_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.31"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "14B5F8D7-4076DE5B-AD443BB2-C7855D02",
+      "InternalVariableName": "SM_CCTVAccess_Monitor"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.29"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_SecurityOfficeDesk_A_C:SM_CCTVAccess_Monitor1_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.30"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "84803BE7-400B8A08-C5D066A4-DCD3264A",
+      "InternalVariableName": "SM_CCTVAccess_Monitor1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.29"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_SecurityOfficeDesk_A_C:SM_CCTVAccess_VCR_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.32"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "6A67E0E0-4EE9BF13-7609EA8E-3E3E1248",
+      "InternalVariableName": "SM_CCTVAccess_VCR"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.29"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_SecurityOfficeDesk_A_C:SM_CCTVAccess_VCRFlap_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.33"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "5C87EE21-4DBE3E86-5B3DA0AE-F1876E2F",
+      "InternalVariableName": "SM_CCTVAccess_VCRFlap"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.29"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_SecurityOfficeDesk_A_C:SM_DiningProps_DrinksCup_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.35"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "6FB25F99-4BCDCF2E-BE28BBA5-E21AF66B",
+      "InternalVariableName": "SM_DiningProps_DrinksCup"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SecurityOfficeDesk_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.1"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.21"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.22"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.23"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.24"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.25"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.26"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.28"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.13"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.14"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.15"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.16"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.17"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.18"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.19"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.27"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.20"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.21"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.22"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.23"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.24"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.25"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.26"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.28"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.13"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.14"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.15"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.16"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.17"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.18"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.19"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.27"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.20"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_SecurityOfficeDesk_A_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.11"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_CCTVAccess_Monitor1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SecurityOfficeDesk_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_CCTVAccess_Monitor'",
+        "ObjectPath": "/Game/Gameplay/Interactive/HotFuzz/CCTVAccess/Meshes/SM_CCTVAccess_Monitor.2"
+      },
+      "OverrideMaterials": [
+        null,
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_CRTBroken'",
+          "ObjectPath": "/Game/Gameplay/Props/ShaunOfTheDead/CRT/Materials/MI_CRTBroken.0"
+        }
+      ],
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructibleInitial",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_INTERACT",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "COLLISION_EXPLOSION",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Metal'",
+          "ObjectPath": "/Game/Physics/PM_Metal.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 5.4502244,
+        "Y": 22.111734,
+        "Z": 68.52972
+      },
+      "RelativeRotation": {
+        "Pitch": -1.2106617E-07,
+        "Yaw": -180.0,
+        "Roll": 1.0077924E-08
+      },
+      "RelativeScale3D": {
+        "X": 0.7,
+        "Y": 0.70000005,
+        "Z": 0.70000005
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Final"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_CCTVAccess_Monitor_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SecurityOfficeDesk_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_CCTVAccess_Monitor'",
+        "ObjectPath": "/Game/Gameplay/Interactive/HotFuzz/CCTVAccess/Meshes/SM_CCTVAccess_Monitor.2"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructibleInitial",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_INTERACT",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "COLLISION_EXPLOSION",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Metal'",
+          "ObjectPath": "/Game/Physics/PM_Metal.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": 5.4502234,
+        "Y": 59.406357,
+        "Z": 99.31337
+      },
+      "RelativeRotation": {
+        "Pitch": -1.2106301E-07,
+        "Yaw": -170.0,
+        "Roll": -90.0
+      },
+      "RelativeScale3D": {
+        "X": 0.7,
+        "Y": 0.70000005,
+        "Z": 0.70000005
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Final"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_CCTVAccess_VCR_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SecurityOfficeDesk_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_CCTVAccess_VCR'",
+        "ObjectPath": "/Game/Gameplay/Interactive/HotFuzz/CCTVAccess/Meshes/SM_CCTVAccess_VCR.2"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructibleInitial",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_INTERACT",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "COLLISION_EXPLOSION",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -8.083836,
+        "Y": -61.815403,
+        "Z": 69.58469
+      },
+      "RelativeRotation": {
+        "Pitch": -2.452599E-16,
+        "Yaw": 170.0,
+        "Roll": -4.4431837E-24
+      },
+      "RelativeScale3D": {
+        "X": 0.5,
+        "Y": 0.50000006,
+        "Z": 0.50000006
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Final"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_CCTVAccess_VCRFlap_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SecurityOfficeDesk_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_CCTVAccess_VCRFlap'",
+        "ObjectPath": "/Game/Gameplay/Interactive/HotFuzz/CCTVAccess/Meshes/SM_CCTVAccess_VCRFlap.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -44.2663,
+        "Y": -74.33507,
+        "Z": 113.4094
+      },
+      "RelativeRotation": {
+        "Pitch": 4.040278E-15,
+        "Yaw": 170.0,
+        "Roll": -5.684342E-14
+      },
+      "RelativeScale3D": {
+        "X": 0.65,
+        "Y": 0.65,
+        "Z": 0.65
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_DiningProps_DrinksCup1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SecurityOfficeDesk_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_DiningProps_DrinksCup'",
+        "ObjectPath": "/Game/Gameplay/Props/Funko/DiningTableProps/Meshes/SM_DiningProps_DrinksCup.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FNAFDiningProps'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyProps/Materials/MI_FNAFDiningProps.0"
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -10.880834,
+        "Y": -22.216694,
+        "Z": 103.67668
+      },
+      "RelativeRotation": {
+        "Pitch": 29.498705,
+        "Yaw": 144.27489,
+        "Roll": 88.49161
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_DiningProps_DrinksCup_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SecurityOfficeDesk_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_DiningProps_DrinksCup'",
+        "ObjectPath": "/Game/Gameplay/Props/Funko/DiningTableProps/Meshes/SM_DiningProps_DrinksCup.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_FNAFDiningProps'",
+          "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyProps/Materials/MI_FNAFDiningProps.0"
+        }
+      ],
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -19.893726,
+        "Y": 32.549828,
+        "Z": 121.91773
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -60.0,
+        "Roll": 0.0
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_OfficeDesk_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SecurityOfficeDesk_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_OfficeDesk'",
+        "ObjectPath": "/Game/Gameplay/Props/TheThing/OfficeDesk/Meshes/SM_OfficeDesk.2"
+      },
+      "BodyInstance": {
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Metal'",
+          "ObjectPath": "/Game/Physics/PM_Metal.0"
+        }
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Final"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_OfficeDeskDraw2_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SecurityOfficeDesk_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_OfficeDeskDraw2'",
+        "ObjectPath": "/Game/Gameplay/Props/TheThing/OfficeDesk/Meshes/SM_OfficeDeskDraw2.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Metal'",
+          "ObjectPath": "/Game/Physics/PM_Metal.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -22.07623,
+        "Y": 75.8557,
+        "Z": 17.763714
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_OfficeDeskDraw3_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SecurityOfficeDesk_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_OfficeDeskDraw2'",
+        "ObjectPath": "/Game/Gameplay/Props/TheThing/OfficeDesk/Meshes/SM_OfficeDeskDraw2.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Metal'",
+          "ObjectPath": "/Game/Physics/PM_Metal.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -22.445555,
+        "Y": -78.85911,
+        "Z": 17.763714
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_VHSTapes_C_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SecurityOfficeDesk_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_VHSTapes_C'",
+        "ObjectPath": "/Game/Gameplay/Interactive/HotFuzz/CCTVAccess/Meshes/SM_VHSTapes_C.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -29.958794,
+        "Y": 90.417534,
+        "Z": 131.96645
+      },
+      "RelativeRotation": {
+        "Pitch": -2.942013E-14,
+        "Yaw": 180.0,
+        "Roll": 3.180555E-14
+      },
+      "RelativeScale3D": {
+        "X": 0.7,
+        "Y": 0.7,
+        "Z": 0.7
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_VHSTapes_CCTV_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SecurityOfficeDesk_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_VHSTapes_CCTV'",
+        "ObjectPath": "/Game/Gameplay/Interactive/HotFuzz/CCTVAccess/Meshes/SM_VHSTapes_CCTV.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Vinyl'",
+          "ObjectPath": "/Game/Physics/PM_Vinyl.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -23.744766,
+        "Y": -83.24835,
+        "Z": 96.563446
+      },
+      "RelativeRotation": {
+        "Pitch": -2.4779034E-29,
+        "Yaw": 160.0,
+        "Roll": -2.5037872E-14
+      },
+      "RelativeScale3D": {
+        "X": 0.5,
+        "Y": 0.5,
+        "Z": 0.5
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SecurityOfficeDesk_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_OfficeDeskDraw1'",
+        "ObjectPath": "/Game/Gameplay/Props/TheThing/OfficeDesk/Meshes/SM_OfficeDeskDraw1.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Metal'",
+          "ObjectPath": "/Game/Physics/PM_Metal.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -25.523245,
+        "Y": -77.82765,
+        "Z": 43.3452
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_SecurityOfficeDesk_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_OfficeDeskDraw1'",
+        "ObjectPath": "/Game/Gameplay/Props/TheThing/OfficeDesk/Meshes/SM_OfficeDeskDraw1.2"
+      },
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly",
+        "CollisionProfileName": "DestructiblePart",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_FADEFORCAM",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Metal'",
+          "ObjectPath": "/Game/Physics/PM_Metal.0"
+        }
+      },
+      "RelativeLocation": {
+        "X": -25.523245,
+        "Y": 77.05055,
+        "Z": 43.3452
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "bVisible": false,
+      "ComponentTags": [
+        "Part"
+      ]
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_SecurityOfficeDesk_A_C'Default__BP_SecurityOfficeDesk_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.4"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'Default__BP_Destructible_C:StaticMeshComponent'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.60"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SecurityOfficeDesk_A_Merged'",
+        "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/MergedMeshes/SM_SecurityOfficeDesk_A_Merged.2"
+      },
+      "BodyInstance": {
+        "PhysMaterialOverride": {
+          "ObjectName": "PhysicalMaterial'PM_Metal'",
+          "ObjectPath": "/Game/Physics/PM_Metal.0"
+        }
+      },
+      "RelativeScale3D": {
+        "X": 1.3,
+        "Y": 1.3,
+        "Z": 1.3
+      }
+    }
+  },
+  {
+    "Type": "TriggerActorsComponent",
+    "Name": "TriggerActorsComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TriggerActorsComponent'",
+    "Outer": {
+      "ObjectName": "BP_SecurityOfficeDesk_A_C'Default__BP_SecurityOfficeDesk_A_C'",
+      "ObjectPath": "/Game/Gameplay/Props/FNAF/OfficeDesks/Blueprints/BP_SecurityOfficeDesk_A.4"
+    },
+    "Template": {
+      "ObjectName": "TriggerActorsComponent'Default__BP_Destructible_C:TriggerActorsComponent'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.64"
+    }
+  }
+]

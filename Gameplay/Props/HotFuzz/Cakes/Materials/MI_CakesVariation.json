@@ -1,0 +1,237 @@
+{
+  "Textures": {
+    "T_blankWhite_BCA": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_blankWhite_BCA.T_blankWhite_BCA",
+    "T_blankFlatNorm_NRM": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_blankFlatNorm_NRM.T_blankFlatNorm_NRM",
+    "T_Grunge_02": "/Game/Global/Textures/T_Grunge_02.T_Grunge_02",
+    "T_DummyGlow_E": "/Game/Gameplay/Materials/Textures/T_DummyGlow_E.T_DummyGlow_E",
+    "T_NoiseVinyl_NR": "/Game/Global/Textures/T_NoiseVinyl_NR.T_NoiseVinyl_NR",
+    "T_GlowPannerBlur_D": "/Game/Gameplay/Materials/Textures/T_GlowPannerBlur_D.T_GlowPannerBlur_D",
+    "Good64x64TilingNoiseHighFreq": "/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq",
+    "T_GoldVinyl_R": "/Game/Gameplay/Materials/Textures/T_GoldVinyl_R.T_GoldVinyl_R",
+    "PM_Normals": "/Game/Gameplay/Props/HotFuzz/Cakes/Textures/T_Cakes_NRM.T_Cakes_NRM",
+    "Colour, AO": "/Game/Gameplay/Props/HotFuzz/Cakes/Textures/T_CakesVariation_BC.T_CakesVariation_BC",
+    "Normal, Rough, Metal": "/Game/Gameplay/Props/HotFuzz/Cakes/Textures/T_Cakes_NRM.T_Cakes_NRM",
+    "RoughnessVariation": "/Game/Global/Textures/T_Grunge_02.T_Grunge_02",
+    "Glow Texture": "/Game/Gameplay/Materials/Textures/T_DummyGlow_E.T_DummyGlow_E",
+    "PannerTexture": "/Game/Gameplay/Materials/Textures/T_GlowPannerBlur_D.T_GlowPannerBlur_D",
+    "RoughnessTexture": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_blankWhite_BCA.T_blankWhite_BCA",
+    "DirtMaskTexture": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_blankWhite_BCA.T_blankWhite_BCA",
+    "PM_Diffuse": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_blankWhite_BCA.T_blankWhite_BCA",
+    "DirtDiffuse": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_blankWhite_BCA.T_blankWhite_BCA",
+    "PM_SpecularMasks": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_blankWhite_BCA.T_blankWhite_BCA",
+    "DirtNRM": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_blankWhite_BCA.T_blankWhite_BCA",
+    "Colour, AO - NoGore": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_blankWhite_BCA.T_blankWhite_BCA",
+    "Normal, Rough, Metal - No Gore": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_blankFlatNorm_NRM.T_blankFlatNorm_NRM",
+    "PM_Emissive": "/Game/Gameplay/Materials/Textures/T_DummyGlow_E.T_DummyGlow_E",
+    "T_CakesVariation_BC": "/Game/Gameplay/Props/HotFuzz/Cakes/Textures/T_CakesVariation_BC.T_CakesVariation_BC"
+  },
+  "Parameters": {
+    "BlendMode": 1,
+    "ShadingModel": 0,
+    "Colors": {
+      "Colour Tint": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "Glow Tint": {
+        "R": 0.0,
+        "G": 0.350257,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "00A0FF"
+      },
+      "GlowTint": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "BaseColour": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "RotationAxis": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "0000FF"
+      },
+      "OscillateAxis": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "0000FF"
+      },
+      "HeightAxis": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "0000FF"
+      },
+      "ObjectCalloutColour": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "000000"
+      },
+      "R": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "FF0000"
+      },
+      "G": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "00FF00"
+      },
+      "B": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 0.0,
+        "Hex": "0000FF"
+      },
+      "CustomDissolveColor": {
+        "R": 0.0056053917,
+        "G": 0.013702083,
+        "B": 0.026241222,
+        "A": 1.0,
+        "Hex": "111F2D"
+      },
+      "EmissiveColour": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "HitFlashColour": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF0000"
+      },
+      "BaseColour - NoGore": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "Colour Tint - NoGore": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "Gore Colour - NoGore": {
+        "R": 0.053,
+        "G": 0.213,
+        "B": 0.046,
+        "A": 1.0,
+        "Hex": "417F3C"
+      },
+      "Gore Colour": {
+        "R": 0.124772,
+        "G": 0.019382,
+        "B": 0.016807,
+        "A": 1.0,
+        "Hex": "632623"
+      }
+    },
+    "Scalars": {
+      "SpecularGlobal": 0.35,
+      "Roughness Modifier": 0.0,
+      "Metalness Error Fix": -0.025,
+      "Glow Strength (Vert)": 1.0,
+      "RoughnessNoiseAmount": 0.1,
+      "NoiseScale": 32.0,
+      "NoiseNormalFlatten": 0.5,
+      "RoughnessNoiseScale": 1.0,
+      "Glow Strength (Texture)": 1.0,
+      "Roughness": 0.5,
+      "Metallic": 0.7,
+      "PannerSpeedX": 20.0,
+      "PannerSpeedY": 0.0,
+      "SineMultiply": 0.5,
+      "GlowFlickerStrength": 0.95,
+      "DirtTextureScale": 1.0,
+      "CamAlpha": 1.0,
+      "Global Mat Fade": 1.0,
+      "RotationSpeed": 0.15,
+      "OscillateSpeed": 0.3,
+      "OscillateAmount": 10.0,
+      "B": 0.0,
+      "ObjectHeight": 0.0,
+      "FilterWidth": 10.0,
+      "Fresnel Strength": 2.0,
+      "Fade": 0.0,
+      "EdgeGlowIntensity": 100.0,
+      "ObjectFadeValue": 0.1,
+      "CalloutGlowMin": 25.0,
+      "CalloutGlowMax": 30.0,
+      "Fresnel Reflect": 1E-05,
+      "Fresnel Power": 3.5,
+      "CalloutSpeed": 1.0,
+      "Rainbow": 0.0,
+      "Opacity": 1.0,
+      "CalloutGlow_Fade": -1.0,
+      "CalloutEmissiveValue": 1.0,
+      "CalloutDistanceFadeValue": 1500.0,
+      "TextureRotationSpeed": 0.5,
+      "Droop Amount": 0.0,
+      "Ripples": 0.0,
+      "Swing Speed": 0.5,
+      "Swing Max Angle": 0.01,
+      "Swing Vertex Colour Distortion": 0.0,
+      "Swing Angle in Wind Direction": 0.0,
+      "MetallicVinylScale": 1.0,
+      "BlinkSpeed": 1.0,
+      "BlinkTimeOffset": 0.0,
+      "EmissivePower": 1.0,
+      "HitFlash": 0.0,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {},
+    "Properties": {
+      "TranslucencyLightingMode": "ETranslucencyLightingMode::TLM_Surface",
+      "bUsedWithSkeletalMesh": true,
+      "bUsedWithNiagaraMeshParticles": true,
+      "bUsedWithStaticLighting": true,
+      "bUsedWithSplineMeshes": true,
+      "bUsedWithInstancedStaticMeshes": true,
+      "bUsedWithGeometryCollections": true,
+      "bUsedWithClothing": true,
+      "bUsedWithNanite": true,
+      "StateId": "D95A8105-4B70A0C0-511D1883-B77F4E54",
+      "bIncludedInBaseGame": true,
+      "BasePropertyOverrides": {
+        "BlendMode": "EBlendMode::BLEND_Masked",
+        "OpacityMaskClipValue": 0.3333
+      }
+    },
+    "HasTopDiffuse": false,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": false,
+    "IsNull": false
+  }
+}

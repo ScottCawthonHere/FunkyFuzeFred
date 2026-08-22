@@ -1,0 +1,667 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Small_Ceiling_Spotlight_FNAF_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/LevelArt/FNAF/Blueprints/BP_Small_Ceiling_Spotlight_FNAF",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Small_Ceiling_Spotlight_FNAF_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_Small_Ceiling_Spotlight_FNAF.12"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Actor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "PointLight",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PointLightComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SpotLight_Gen8Only",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SpotLightComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SpotLight_Gen9Only",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SpotLightComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_LightConeCentre",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_SP_Round_Light_Small",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SharedRoot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Small_Ceiling_Spotlight_FNAF_C'Default__BP_Small_Ceiling_Spotlight_FNAF_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_Small_Ceiling_Spotlight_FNAF.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_Small_Ceiling_Spotlight_FNAF_C",
+    "Name": "Default__BP_Small_Ceiling_Spotlight_FNAF_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/LevelArt/FNAF/Blueprints/BP_Small_Ceiling_Spotlight_FNAF.BP_Small_Ceiling_Spotlight_FNAF_C'",
+    "Package": "/Game/LevelArt/FNAF/Blueprints/BP_Small_Ceiling_Spotlight_FNAF",
+    "Properties": {
+      "PrimaryActorTick": {
+        "bStartWithTickEnabled": false
+      }
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "PointLight_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Small_Ceiling_Spotlight_FNAF_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_Small_Ceiling_Spotlight_FNAF.0"
+    },
+    "Properties": {
+      "bUseInverseSquaredFalloff": false,
+      "LightFalloffExponent": 2.0,
+      "SpecularScale": 0.0,
+      "Intensity": 2.0,
+      "CastShadows": false,
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -3.1820805E-06,
+        "Z": -471.17123
+      },
+      "DetailMode_High": false,
+      "DetailMode_Epic": false
+    },
+    "IntensityNits": 2.0
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Small_Ceiling_Spotlight_FNAF_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_Small_Ceiling_Spotlight_FNAF.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SharedRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Small_Ceiling_Spotlight_FNAF_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_Small_Ceiling_Spotlight_FNAF.0"
+    },
+    "Properties": {
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Small_Ceiling_Spotlight_FNAF_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_Small_Ceiling_Spotlight_FNAF.12"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Small_Ceiling_Spotlight_FNAF_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_Small_Ceiling_Spotlight_FNAF.3"
+      },
+      "VariableGuid": "2E46F6DC-44779E69-3005E595-8AB3A8D4",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Small_Ceiling_Spotlight_FNAF_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_Small_Ceiling_Spotlight_FNAF.12"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Small_Ceiling_Spotlight_FNAF_C:SharedRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_Small_Ceiling_Spotlight_FNAF.4"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Small_Ceiling_Spotlight_FNAF_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_Small_Ceiling_Spotlight_FNAF.8"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Small_Ceiling_Spotlight_FNAF_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_Small_Ceiling_Spotlight_FNAF.11"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Small_Ceiling_Spotlight_FNAF_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_Small_Ceiling_Spotlight_FNAF.7"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Small_Ceiling_Spotlight_FNAF_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_Small_Ceiling_Spotlight_FNAF.9"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Small_Ceiling_Spotlight_FNAF_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_Small_Ceiling_Spotlight_FNAF.10"
+        }
+      ],
+      "VariableGuid": "0DE6AA98-4BF5E001-B24B3EBD-DD4E47B4",
+      "InternalVariableName": "SharedRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Small_Ceiling_Spotlight_FNAF_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_Small_Ceiling_Spotlight_FNAF.12"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SpotLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SpotLightComponent'BP_Small_Ceiling_Spotlight_FNAF_C:SpotLight_Gen9Only_GEN_VARIABLE'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_Small_Ceiling_Spotlight_FNAF.14"
+      },
+      "VariableGuid": "BD3BF70C-47E99ECA-E5218F9E-F65D44D1",
+      "InternalVariableName": "SpotLight_Gen9Only"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Small_Ceiling_Spotlight_FNAF_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_Small_Ceiling_Spotlight_FNAF.12"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_Small_Ceiling_Spotlight_FNAF_C:SM_SP_Round_Light_Small_GEN_VARIABLE'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_Small_Ceiling_Spotlight_FNAF.16"
+      },
+      "VariableGuid": "6F0586A5-42F215C8-DC1660B8-6E48C427",
+      "InternalVariableName": "SM_SP_Round_Light_Small"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Small_Ceiling_Spotlight_FNAF_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_Small_Ceiling_Spotlight_FNAF.12"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SpotLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SpotLightComponent'BP_Small_Ceiling_Spotlight_FNAF_C:SpotLight_Gen8Only_GEN_VARIABLE'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_Small_Ceiling_Spotlight_FNAF.13"
+      },
+      "VariableGuid": "CA5C3ED9-47B6F097-4735CFAF-50B52731",
+      "InternalVariableName": "SpotLight_Gen8Only"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Small_Ceiling_Spotlight_FNAF_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_Small_Ceiling_Spotlight_FNAF.12"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PointLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PointLightComponent'BP_Small_Ceiling_Spotlight_FNAF_C:PointLight_GEN_VARIABLE'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_Small_Ceiling_Spotlight_FNAF.2"
+      },
+      "VariableGuid": "BE0DE9B5-4F814AFE-58DA40B0-BD0E8FC9",
+      "InternalVariableName": "PointLight"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Small_Ceiling_Spotlight_FNAF_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_Small_Ceiling_Spotlight_FNAF.12"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_Small_Ceiling_Spotlight_FNAF_C:SM_LightConeCentre_GEN_VARIABLE'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_Small_Ceiling_Spotlight_FNAF.15"
+      },
+      "VariableGuid": "27D00CF4-423F7101-04D6F5BC-D637CEE0",
+      "InternalVariableName": "SM_LightConeCentre"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Small_Ceiling_Spotlight_FNAF_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_Small_Ceiling_Spotlight_FNAF.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Small_Ceiling_Spotlight_FNAF_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_Small_Ceiling_Spotlight_FNAF.6"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Small_Ceiling_Spotlight_FNAF_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_Small_Ceiling_Spotlight_FNAF.6"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Small_Ceiling_Spotlight_FNAF_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_Small_Ceiling_Spotlight_FNAF.8"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Small_Ceiling_Spotlight_FNAF_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_Small_Ceiling_Spotlight_FNAF.11"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Small_Ceiling_Spotlight_FNAF_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_Small_Ceiling_Spotlight_FNAF.7"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Small_Ceiling_Spotlight_FNAF_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_Small_Ceiling_Spotlight_FNAF.9"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Small_Ceiling_Spotlight_FNAF_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_Small_Ceiling_Spotlight_FNAF.10"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Small_Ceiling_Spotlight_FNAF_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_Small_Ceiling_Spotlight_FNAF.5"
+      }
+    }
+  },
+  {
+    "Type": "SpotLightComponent",
+    "Name": "SpotLight_Gen8Only_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SpotLightComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Small_Ceiling_Spotlight_FNAF_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_Small_Ceiling_Spotlight_FNAF.0"
+    },
+    "Properties": {
+      "InnerConeAngle": 10.0,
+      "OuterConeAngle": 35.0,
+      "bUseInverseSquaredFalloff": false,
+      "LightFalloffExponent": 2.0,
+      "SourceRadius": 10.0,
+      "MaxDrawDistance": 6000.0,
+      "MaxDistanceFadeRange": 1000.0,
+      "Intensity": 5.0,
+      "LightColor": {
+        "B": 207,
+        "G": 242,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFF2CF"
+      },
+      "CastShadows": false,
+      "VolumetricScatteringIntensity": 0.1,
+      "RelativeLocation": {
+        "X": 0.548223,
+        "Y": 0.084398,
+        "Z": -11.121664
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 179.99258,
+        "Roll": -179.99258
+      },
+      "Mobility": "EComponentMobility::Static",
+      "DetailMode_High": false,
+      "DetailMode_Epic": false,
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true
+    },
+    "IntensityNits": 5.0
+  },
+  {
+    "Type": "SpotLightComponent",
+    "Name": "SpotLight_Gen9Only_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SpotLightComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Small_Ceiling_Spotlight_FNAF_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_Small_Ceiling_Spotlight_FNAF.0"
+    },
+    "Properties": {
+      "InnerConeAngle": 10.0,
+      "OuterConeAngle": 35.0,
+      "bUseInverseSquaredFalloff": false,
+      "LightFalloffExponent": 2.0,
+      "SourceRadius": 10.0,
+      "MaxDrawDistance": 6000.0,
+      "MaxDistanceFadeRange": 1000.0,
+      "Intensity": 5.0,
+      "LightColor": {
+        "B": 207,
+        "G": 242,
+        "R": 255,
+        "A": 255,
+        "Hex": "FFF2CF"
+      },
+      "VolumetricScatteringIntensity": 0.1,
+      "bDistanceCastShadows": true,
+      "CastShadowsDistance": 2000.0,
+      "RelativeLocation": {
+        "X": 0.5482234,
+        "Y": 0.0843984,
+        "Z": -11.121664
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 179.99258,
+        "Roll": -179.99258
+      },
+      "Mobility": "EComponentMobility::Static",
+      "DetailMode_Low": false,
+      "DetailMode_Medium": false,
+      "UCSSerializationIndex": 0,
+      "bNetAddressable": true
+    },
+    "IntensityNits": 5.0
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_LightConeCentre_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Small_Ceiling_Spotlight_FNAF_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_Small_Ceiling_Spotlight_FNAF.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_LightConeCentre'",
+        "ObjectPath": "/Game/LevelArt/Global/Effects/Meshes/SM_LightConeCentre.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_LightConeCore_Warm_UA'",
+          "ObjectPath": "/Game/LevelArt/Global/Effects/Materials/MI_LightConeCore_Warm_UA.0"
+        }
+      ],
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel2",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel3",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel4",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel5",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel6",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_WEAPON",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_PROJECTILE",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "MeleeWeapon",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel16",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel17",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel18",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        },
+        "MaxAngularVelocity": 3599.9998
+      },
+      "RelativeLocation": {
+        "X": -4.042016E-07,
+        "Y": 2.842171E-14,
+        "Z": -1.65106
+      },
+      "RelativeScale3D": {
+        "X": 0.15771274,
+        "Y": 0.15771274,
+        "Z": 0.100714795
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_SP_Round_Light_Small_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Small_Ceiling_Spotlight_FNAF_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_Small_Ceiling_Spotlight_FNAF.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SP_Round_Light_Small'",
+        "ObjectPath": "/Game/LevelArt/ScottPilgrim/Meshes/SM_SP_Round_Light_Small.2"
+      },
+      "OverrideMaterials": [
+        null,
+        null
+      ],
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "COLLISION_INTERACT",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "COLLISION_EXPLOSION",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "MeleeWeapon",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Interactable",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Audio",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        },
+        "MaxAngularVelocity": 3599.9998
+      },
+      "RelativeLocation": {
+        "X": 0.5482234,
+        "Y": 0.08439844,
+        "Z": 4.4318924
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 179.99258,
+        "Roll": -179.99258
+      },
+      "RelativeScale3D": {
+        "X": 0.37476897,
+        "Y": 0.37476897,
+        "Z": 0.37476897
+      },
+      "Mobility": "EComponentMobility::Static",
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      }
+    }
+  }
+]

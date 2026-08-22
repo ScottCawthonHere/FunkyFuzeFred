@@ -1,0 +1,2693 @@
+[
+  {
+    "Type": "ArrowComponent",
+    "Name": "JumpscarePoint_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ArrowComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 150.0,
+        "Y": 9.547918E-15,
+        "Z": -100.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 2.4904015E-29
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_CCTVFnafTest_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest",
+    "Properties": {
+      "NumReplicatedProperties": 1,
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "ComponentDelegateBinding'BP_CCTVFnafTest_C:ComponentDelegateBinding_0'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.4"
+        }
+      ],
+      "Timelines": [
+        {
+          "ObjectName": "TimelineTemplate'BP_CCTVFnafTest_C:T_CameraScan_Template'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.47"
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_CCTVFnafTest_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.44"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:ExecuteUbergraph_BP_CCTVFnafTest'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.13"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CCTVCamera'",
+      "ObjectPath": "/Script/Merlin"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:OnRep_TriggeredByBattery'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.18"
+      },
+      {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:T_CameraScan__FinishedFunc'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.24"
+      },
+      {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:T_CameraScan__UpdateFunc'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.25"
+      },
+      {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:OnMessageReceived_5BFEDE844E6F1E3E5DA37083B9AABB5A'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.16"
+      },
+      {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:CCTVCameraSelected'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.10"
+      },
+      {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:Trigger'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.27"
+      },
+      {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:CCTVCameraDeselect'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.9"
+      },
+      {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:BndEvt__BP_CCTVFnafTest_PawnDetector_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.7"
+      },
+      {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:BndEvt__BP_CCTVFnafTest_PawnDetector_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.8"
+      },
+      {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:StartCameraScan'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.22"
+      },
+      {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:StopCameraScan'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.23"
+      },
+      {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:TerminalExited'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.26"
+      },
+      {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:RemoveGEOnExit'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.20"
+      },
+      {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:ReceiveBeginPlay'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.19"
+      },
+      {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:OnPowered'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.17"
+      },
+      {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:Activate Camera Render Target'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.6"
+      },
+      {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:Deactivate Camera Render Target'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.11"
+      },
+      {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:ResetTriggeredByBattery'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.21"
+      },
+      {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:EjectBattery'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.12"
+      },
+      {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:TriggerJumpscare'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.30"
+      },
+      {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:TriggerActorsServer'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.29"
+      },
+      {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:TriggerActorsMulti'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.28"
+      },
+      {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:ExecuteUbergraph_BP_CCTVFnafTest'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.13"
+      },
+      {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:OnBatteryAdded__DelegateSignature'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.14"
+      },
+      {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:OnBatteryRemoved__DelegateSignature'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.15"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "JumpscarePoint",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ArrowComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PawnDetector",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'BoxComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TriggerActors",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'TriggerActorsComponent'",
+          "ObjectPath": "/Script/Merlin"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SceneCaptureComponent2D",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneCaptureComponent2D'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MerlinCamera",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MerlinCameraComponent'",
+          "ObjectPath": "/Script/Merlin"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_Camera",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_CameraBase",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DefaultSceneRoot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "T_CameraScan_RotZ_8D00ED284D544ECA8E19E69D4651D993",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "T_CameraScan__Direction_8D00ED284D544ECA8E19E69D4651D993",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'ETimelineDirection'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "T_CameraScan",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'TimelineComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PoweringSocket",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_FunkoBatterySocketSingleFNAF_C'",
+          "ObjectPath": "/Game/Gameplay/Interactive/Funko/BatterySockets/BP_FunkoBatterySocketSingleFNAF.2"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Plugged Battery",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_BatteryPlug_C'",
+          "ObjectPath": "/Game/PIckups/Items/Funko/Battery/Blueprints/BP_BatteryPlug.0"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CharactersInArea",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "CharactersInArea",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_MerlinCharacter_C'",
+            "ObjectPath": "/Game/Blueprints/Character/BP_MerlinCharacter.4"
+          }
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CameraLightMat",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'MaterialInstanceDynamic'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "OnGameplayMessage",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 12,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "OffGameplayMessage",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 12,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "OnBatteryRemoved",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 24,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | BlueprintAssignable | BlueprintCallable",
+        "SignatureFunction": {
+          "ObjectName": "Function'BP_CCTVFnafTest_C:OnBatteryRemoved__DelegateSignature'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.15"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "OnBatteryAdded",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 24,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | BlueprintAssignable | BlueprintCallable",
+        "SignatureFunction": {
+          "ObjectName": "Function'BP_CCTVFnafTest_C:OnBatteryAdded__DelegateSignature'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.14"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Room",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_FNAFTeleportLocation_C'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/BP_FNAFTeleportLocation.0"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Terminals",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "Terminals",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_CCTVTerminalFNAF_C'",
+            "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_CCTVTerminalFNAF.1"
+          }
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "FirstTimePoweringOn",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "TriggeredByBattery",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | Net | DisableEditOnInstance",
+        "RepIndex": 11,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "IsBeingJumpscared",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "JumpscaresEnabled",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ResetBatteryTimer",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "Class'TimerHandle'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "OnBatteryRemoved__DelegateSignature": {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:OnBatteryRemoved__DelegateSignature'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.15"
+      },
+      "OnBatteryAdded__DelegateSignature": {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:OnBatteryAdded__DelegateSignature'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.14"
+      },
+      "ExecuteUbergraph_BP_CCTVFnafTest": {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:ExecuteUbergraph_BP_CCTVFnafTest'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.13"
+      },
+      "TriggerActorsMulti": {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:TriggerActorsMulti'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.28"
+      },
+      "TriggerActorsServer": {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:TriggerActorsServer'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.29"
+      },
+      "TriggerJumpscare": {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:TriggerJumpscare'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.30"
+      },
+      "EjectBattery": {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:EjectBattery'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.12"
+      },
+      "ResetTriggeredByBattery": {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:ResetTriggeredByBattery'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.21"
+      },
+      "Deactivate Camera Render Target": {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:Deactivate Camera Render Target'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.11"
+      },
+      "Activate Camera Render Target": {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:Activate Camera Render Target'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.6"
+      },
+      "OnPowered": {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:OnPowered'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.17"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:ReceiveBeginPlay'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.19"
+      },
+      "RemoveGEOnExit": {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:RemoveGEOnExit'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.20"
+      },
+      "TerminalExited": {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:TerminalExited'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.26"
+      },
+      "StopCameraScan": {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:StopCameraScan'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.23"
+      },
+      "StartCameraScan": {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:StartCameraScan'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.22"
+      },
+      "BndEvt__BP_CCTVFnafTest_PawnDetector_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature": {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:BndEvt__BP_CCTVFnafTest_PawnDetector_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.8"
+      },
+      "BndEvt__BP_CCTVFnafTest_PawnDetector_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature": {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:BndEvt__BP_CCTVFnafTest_PawnDetector_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.7"
+      },
+      "CCTVCameraDeselect": {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:CCTVCameraDeselect'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.9"
+      },
+      "Trigger": {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:Trigger'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.27"
+      },
+      "CCTVCameraSelected": {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:CCTVCameraSelected'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.10"
+      },
+      "OnMessageReceived_5BFEDE844E6F1E3E5DA37083B9AABB5A": {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:OnMessageReceived_5BFEDE844E6F1E3E5DA37083B9AABB5A'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.16"
+      },
+      "T_CameraScan__UpdateFunc": {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:T_CameraScan__UpdateFunc'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.25"
+      },
+      "T_CameraScan__FinishedFunc": {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:T_CameraScan__FinishedFunc'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.24"
+      },
+      "OnRep_TriggeredByBattery": {
+        "ObjectName": "Function'BP_CCTVFnafTest_C:OnRep_TriggeredByBattery'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.18"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_CCTVFnafTest_C'Default__BP_CCTVFnafTest_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PawnDetector_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoxComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+    },
+    "Properties": {
+      "BodyInstance": {
+        "CollisionProfileName": "DynamicOverlapOnlyPawn",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_WEAPON",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_PROJECTILE",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "MeleeWeapon",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 50.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "BP_CCTVFnafTest_C",
+    "Name": "Default__BP_CCTVFnafTest_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.BP_CCTVFnafTest_C'",
+    "Package": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest",
+    "Properties": {
+      "UberGraphFrame": {},
+      "OnBatteryRemoved": {
+        "InvocationList": []
+      },
+      "OnBatteryAdded": {
+        "InvocationList": []
+      },
+      "FirstTimePoweringOn": true,
+      "JumpscaresEnabled": true,
+      "ResetBatteryTimer": {
+        "Handle": 0
+      },
+      "PropMovementComponent": {
+        "ObjectName": "PropMovementComponent'Default__BP_CCTVFnafTest_C:PropMovementComponent'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.33"
+      },
+      "OptimizationComponent": {
+        "ObjectName": "MerlinActorOptimizationComponent'Default__BP_CCTVFnafTest_C:ActorOptimizationComponent'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.31"
+      },
+      "PrimaryActorTick": {
+        "bStartWithTickEnabled": true
+      }
+    }
+  },
+  {
+    "Type": "ComponentDelegateBinding",
+    "Name": "ComponentDelegateBinding_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ComponentDelegateBinding'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+    },
+    "Properties": {
+      "ComponentDelegateBindings": [
+        {
+          "ComponentPropertyName": "PawnDetector",
+          "DelegatePropertyName": "OnComponentEndOverlap",
+          "FunctionNameToBind": "BndEvt__BP_CCTVFnafTest_PawnDetector_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "PawnDetector",
+          "DelegatePropertyName": "OnComponentBeginOverlap",
+          "FunctionNameToBind": "BndEvt__BP_CCTVFnafTest_PawnDetector_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CurveFloat",
+    "Name": "CurveFloat_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CurveFloat'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 10.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 3.5,
+            "Value": -10.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 7.0,
+            "Value": 10.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Activate Camera Render Target",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__BP_CCTVFnafTest_PawnDetector_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "OverlappedComponent",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OtherActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OtherComp",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "OtherBodyIndex",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bFromSweep",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "SweepResult",
+        "Flags": "RF_Public",
+        "ElementSize": 256,
+        "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm | ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "Class'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_HasOutParms | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__BP_CCTVFnafTest_PawnDetector_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "OverlappedComponent",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OtherActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OtherComp",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "OtherBodyIndex",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "CCTVCameraDeselect",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "CCTVCameraSelected",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Deactivate Camera Render Target",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "EjectBattery",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_CCTVFnafTest",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "Class'TimerDynamicDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetTimerDelegate_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "Class'TimerHandle'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable_2",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetGameInstanceSubsystem_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'GameplayMessageSubsystem'",
+          "ObjectPath": "/Script/GameplayMessageRuntime"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_InInstigator",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_TriggeringCharacter",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Character'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Event_TriggerAction",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'ETriggerAction'",
+          "ObjectPath": "/Script/Merlin"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_Magnitude",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_DoubleDouble_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_DoubleDouble_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_ToBoolean__TriggerAction__Return",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OverlappedComponent_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherActor_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherComp_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherBodyIndex_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_ComponentBoundEvent_bFromSweep",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_ComponentBoundEvent_SweepResult",
+        "Flags": "RF_Public",
+        "ElementSize": 256,
+        "PropertyFlags": "ConstParm | ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "Class'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OverlappedComponent",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherComp",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherBodyIndex",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsBP_Merlin_Character",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_MerlinCharacter_C'",
+          "ObjectPath": "/Game/Blueprints/Character/BP_MerlinCharacter.4"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsBP_Merlin_Character_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_MerlinCharacter_C'",
+          "ObjectPath": "/Game/Blueprints/Character/BP_MerlinCharacter.4"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetMerlinAbilitySystemComponent_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'MerlinAbilitySystemComponent'",
+          "ObjectPath": "/Script/Merlin"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetMerlinAbilitySystemComponent_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'MerlinAbilitySystemComponent'",
+          "ObjectPath": "/Script/Merlin"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BP_ApplyGameplayEffectToTarget_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "Class'ActiveGameplayEffectHandle'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Add_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Array_RemoveItem_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetGameInstanceSubsystem_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'GameplayMessageSubsystem'",
+          "ObjectPath": "/Script/GameplayMessageRuntime"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakRotator_Roll",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakRotator_Pitch",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakRotator_Yaw",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_ListenForGameplayMessages_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AsyncAction_ListenForGameplayMessage'",
+          "ObjectPath": "/Script/GameplayMessageRuntime"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeRotator_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "Class'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetRelativeRotation_SweepHitResult",
+        "Flags": "RF_Public",
+        "ElementSize": 256,
+        "PropertyFlags": "ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "Class'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable_2",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Temp_object_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AsyncAction_ListenForGameplayMessage'",
+          "ObjectPath": "/Script/GameplayMessageRuntime"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable_3",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetCurrentPluggedItem_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_CreateDynamicMaterialInstance_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MaterialInstanceDynamic'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Temp_struct_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "Class'GameplayTag'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Temp_struct_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 88,
+        "Struct": {
+          "ObjectName": "Class'EventPayload'",
+          "ObjectPath": "/Script/MovieSceneTracks"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetAllActorsOfClass_OutActors",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetAllActorsOfClass_OutActors",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_TerminalFNAf_C'",
+            "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/Blueprints/BP_TerminalFNAf.0"
+          }
+        }
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Conv_NameToString_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Contains_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_CCTVTerminalFNAF_C'",
+          "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_CCTVTerminalFNAF.1"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Contains_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_MerlinCharacter_C'",
+          "ObjectPath": "/Game/Blueprints/Character/BP_MerlinCharacter.4"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetMerlinAbilitySystemComponent_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'MerlinAbilitySystemComponent'",
+          "ObjectPath": "/Script/Merlin"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BP_ApplyGameplayEffectToTarget_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "Class'ActiveGameplayEffectHandle'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Conv_NameToString_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_StrStr_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_EventPayload",
+        "Flags": "RF_Public",
+        "ElementSize": 88,
+        "Struct": {
+          "ObjectName": "Class'EventPayload'",
+          "ObjectPath": "/Script/MovieSceneTracks"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_CustomEvent_ProxyObject",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AsyncAction_ListenForGameplayMessage'",
+          "ObjectPath": "/Script/GameplayMessageRuntime"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_CustomEvent_ActualChannel",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "Class'GameplayTag'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_EventPayload_1",
+        "Flags": "RF_Public",
+        "ElementSize": 88,
+        "Struct": {
+          "ObjectName": "Class'EventPayload'",
+          "ObjectPath": "/Script/MovieSceneTracks"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable_3",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "Class'AsyncGameplayMessageDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/GameplayMessageRuntime"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_MerlinCharacter_C'",
+          "ObjectPath": "/Game/Blueprints/Character/BP_MerlinCharacter.4"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetMerlinAbilitySystemComponent_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'MerlinAbilitySystemComponent'",
+          "ObjectPath": "/Script/Merlin"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item_3",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_CCTVTerminalFNAF_C'",
+          "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_CCTVTerminalFNAF.1"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Temp_struct_Variable_2",
+        "Flags": "RF_Public",
+        "ElementSize": 88,
+        "Struct": {
+          "ObjectName": "Class'EventPayload'",
+          "ObjectPath": "/Script/MovieSceneTracks"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetPayload_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_2",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "Class'TimerDynamicDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetTimerDelegate_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "Class'TimerHandle'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_CustomEvent_BoolIn_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_CustomEvent_BoolIn",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "CallFunc_ToTriggerAction__Boolean__ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'ETriggerAction'",
+          "ObjectPath": "/Script/Merlin"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_EqualEqual_DoubleDouble_A_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Less_DoubleDouble_A_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnBatteryAdded__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CCTV",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_Delegate | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnBatteryRemoved__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CCTV",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_Delegate | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnMessageReceived_5BFEDE844E6F1E3E5DA37083B9AABB5A",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "ProxyObject",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'AsyncAction_ListenForGameplayMessage'",
+          "ObjectPath": "/Script/GameplayMessageRuntime"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ActualChannel",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "Class'GameplayTag'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnPowered",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CCTVCamera:OnPowered'",
+      "ObjectPath": "/Script/Merlin"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnRep_TriggeredByBattery",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "RemoveGEOnExit",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ResetTriggeredByBattery",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "StartCameraScan",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "StopCameraScan",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "T_CameraScan__FinishedFunc",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "T_CameraScan__UpdateFunc",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "TerminalExited",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Trigger",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'TriggerInterface:Trigger'",
+      "ObjectPath": "/Script/Merlin"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "InInstigator",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TriggeringCharacter",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Character'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "TriggerAction",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Enum": {
+          "ObjectName": "Class'ETriggerAction'",
+          "ObjectPath": "/Script/Merlin"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Magnitude",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "TriggerActorsMulti",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "BoolIn",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Net | FUNC_NetReliable | FUNC_NetMulticast | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "TriggerActorsServer",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "BoolIn",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Net | FUNC_NetReliable | FUNC_NetServer | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "TriggerJumpscare",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "MerlinActorOptimizationComponent",
+    "Name": "ActorOptimizationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MerlinActorOptimizationComponent'",
+    "Outer": {
+      "ObjectName": "BP_CCTVFnafTest_C'Default__BP_CCTVFnafTest_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.3"
+    },
+    "Properties": {
+      "RequiredSignificanceForTick": 0.0
+    }
+  },
+  {
+    "Type": "MerlinCameraComponent",
+    "Name": "MerlinCamera_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MerlinCameraComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+    },
+    "Properties": {
+      "OrthoWidth": 512.0,
+      "bAutoCalculateOrthoPlanes": false,
+      "OrthoNearClipPlane": 0.0,
+      "PostProcessSettings": {
+        "WeightedBlendables": {
+          "Array": [
+            {
+              "Weight": 1.0,
+              "Object": {
+                "ObjectName": "MaterialInstanceConstant'PPMI_CCTV_HotFuzz'",
+                "ObjectPath": "/Game/Global/Materials/PostProcess/CCTV/PPMI_CCTV_HotFuzz.0"
+              }
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 100.0,
+        "Y": 0.0,
+        "Z": 45.0
+      }
+    }
+  },
+  {
+    "Type": "PropMovementComponent",
+    "Name": "PropMovementComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PropMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_CCTVFnafTest_C'Default__BP_CCTVFnafTest_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.3"
+    }
+  },
+  {
+    "Type": "SceneCaptureComponent2D",
+    "Name": "SceneCaptureComponent2D_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneCaptureComponent2D'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+    },
+    "Properties": {
+      "OrthoWidth": 512.0,
+      "bAutoCalculateOrthoPlanes": false,
+      "TextureTarget": {
+        "ObjectName": "TextureRenderTarget2D'RT_FNAFCCTV'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/Materials/RT_FNAFCCTV.0"
+      },
+      "PostProcessSettings": {
+        "WeightedBlendables": {
+          "Array": [
+            {
+              "Weight": 1.0,
+              "Object": {
+                "ObjectName": "MaterialInstanceConstant'PPMI_CCTV_HotFuzz'",
+                "ObjectPath": "/Game/Global/Materials/PostProcess/CCTV/PPMI_CCTV_HotFuzz.0"
+              }
+            }
+          ]
+        }
+      },
+      "CustomNearClippingPlane": 10000.0,
+      "bCaptureEveryFrame": false,
+      "bCaptureOnMovement": false,
+      "MaxViewDistanceOverride": 2000.0,
+      "ShowFlagSettings": [
+        {
+          "ShowFlagName": "Cloud",
+          "Enabled": false
+        },
+        {
+          "ShowFlagName": "Fog",
+          "Enabled": false
+        },
+        {
+          "ShowFlagName": "AmbientOcclusion",
+          "Enabled": false
+        },
+        {
+          "ShowFlagName": "DynamicShadows",
+          "Enabled": false
+        },
+        {
+          "ShowFlagName": "ScreenSpaceReflections",
+          "Enabled": false
+        }
+      ],
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CCTVFnafTest_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.44"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_CCTVFnafTest_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.35"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_CCTVFnafTest_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.37"
+        }
+      ],
+      "VariableGuid": "63DC7821-4EFF8EF4-A39DCCA2-2449D2DA",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CCTVFnafTest_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.44"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_CCTVFnafTest_C:SM_CameraBase_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.46"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_CCTVFnafTest_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.38"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CCTVFnafTest_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.42"
+        }
+      ],
+      "VariableGuid": "0E80FD56-4CCA0247-F38229A9-520359B9",
+      "InternalVariableName": "SM_CameraBase"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CCTVFnafTest_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.44"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_CCTVFnafTest_C:SM_Camera_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.45"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_CCTVFnafTest_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.39"
+        }
+      ],
+      "VariableGuid": "373F984D-4F42F724-DFA7C9B2-BFD20886",
+      "InternalVariableName": "SM_Camera"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CCTVFnafTest_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.44"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MerlinCameraComponent'",
+        "ObjectPath": "/Script/Merlin"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MerlinCameraComponent'BP_CCTVFnafTest_C:MerlinCamera_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.32"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_CCTVFnafTest_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.40"
+        }
+      ],
+      "VariableGuid": "B51CF2F3-4BFD1E66-471A7FB2-BCFD16C0",
+      "InternalVariableName": "MerlinCamera"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CCTVFnafTest_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.44"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneCaptureComponent2D'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneCaptureComponent2D'BP_CCTVFnafTest_C:SceneCaptureComponent2D_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.34"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_CCTVFnafTest_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.43"
+        }
+      ],
+      "VariableGuid": "B86A8B49-403602CE-ACE662B3-C04DB642",
+      "InternalVariableName": "SceneCaptureComponent2D"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CCTVFnafTest_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.44"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TriggerActorsComponent'",
+        "ObjectPath": "/Script/Merlin"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TriggerActorsComponent'BP_CCTVFnafTest_C:TriggerActors_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.48"
+      },
+      "VariableGuid": "88AEEC79-44BCEEFF-B7709AA2-D8021898",
+      "InternalVariableName": "TriggerActors"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CCTVFnafTest_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.44"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BoxComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BoxComponent'BP_CCTVFnafTest_C:PawnDetector_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.2"
+      },
+      "VariableGuid": "6A569D01-4E20B548-B08C7AA6-5393EA72",
+      "InternalVariableName": "PawnDetector"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_CCTVFnafTest_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.44"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ArrowComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ArrowComponent'BP_CCTVFnafTest_C:JumpscarePoint_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.0"
+      },
+      "VariableGuid": "22C69A24-4B76A5F5-2F3292B7-CC1D3771",
+      "InternalVariableName": "JumpscarePoint"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_CCTVFnafTest_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.36"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CCTVFnafTest_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.41"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_CCTVFnafTest_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.36"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CCTVFnafTest_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.37"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CCTVFnafTest_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.38"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CCTVFnafTest_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.39"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CCTVFnafTest_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.40"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CCTVFnafTest_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.41"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CCTVFnafTest_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.42"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_CCTVFnafTest_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.43"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_CCTVFnafTest_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.36"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_Camera_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_CCTVAccessCamera_Base'",
+        "ObjectPath": "/Game/Gameplay/Interactive/HotFuzz/CCTVAccess/Meshes/SM_CCTVAccessCamera_Base.2"
+      },
+      "RelativeLocation": {
+        "X": 80.0,
+        "Y": 0.0,
+        "Z": 10.0
+      },
+      "RelativeRotation": {
+        "Pitch": -20.0,
+        "Yaw": 20.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_CameraBase_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_CCTVAccessCamera_Body'",
+        "ObjectPath": "/Game/Gameplay/Interactive/HotFuzz/CCTVAccess/Meshes/SM_CCTVAccessCamera_Body.2"
+      }
+    }
+  },
+  {
+    "Type": "TimelineTemplate",
+    "Name": "T_CameraScan_Template",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TimelineTemplate'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+    },
+    "Properties": {
+      "TimelineLength": 7.0,
+      "bLoop": true,
+      "bReplicated": true,
+      "FloatTracks": [
+        {
+          "CurveFloat": {
+            "ObjectName": "CurveFloat'BP_CCTVFnafTest_C:CurveFloat_0'",
+            "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.5"
+          },
+          "PropertyName": "T_CameraScan_RotZ_8D00ED284D544ECA8E19E69D4651D993",
+          "TrackName": "RotZ",
+          "bIsExternalCurve": false
+        }
+      ],
+      "TimelineGuid": "8D00ED28-4D544ECA-8E19E69D-4651D993",
+      "VariableName": "T_CameraScan",
+      "DirectionPropertyName": "T_CameraScan__Direction_8D00ED284D544ECA8E19E69D4651D993",
+      "UpdateFunctionName": "T_CameraScan__UpdateFunc",
+      "FinishedFunctionName": "T_CameraScan__FinishedFunc"
+    }
+  },
+  {
+    "Type": "TriggerActorsComponent",
+    "Name": "TriggerActors_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TriggerActorsComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CCTVFnafTest_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVCamera/Blueprints/BP_CCTVFnafTest.1"
+    }
+  }
+]

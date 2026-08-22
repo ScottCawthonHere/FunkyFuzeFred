@@ -1,0 +1,391 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_FoxyAudioPlayable_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Audio/FNaF/Characters/BP_FoxyAudioPlayable",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CharacterAudioBase_C'",
+      "ObjectPath": "/Game/Audio/_Shared/Character/BP_CharacterAudioBase.0"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_FoxyAudioPlayable_C'Default__BP_FoxyAudioPlayable_C'",
+      "ObjectPath": "/Game/Audio/FNaF/Characters/BP_FoxyAudioPlayable.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_FoxyAudioPlayable_C",
+    "Name": "Default__BP_FoxyAudioPlayable_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Audio/FNaF/Characters/BP_FoxyAudioPlayable.BP_FoxyAudioPlayable_C'",
+    "Package": "/Game/Audio/FNaF/Characters/BP_FoxyAudioPlayable",
+    "Template": {
+      "ObjectName": "BP_CharacterAudioBase_C'Default__BP_CharacterAudioBase_C'",
+      "ObjectPath": "/Game/Audio/_Shared/Character/BP_CharacterAudioBase.1"
+    },
+    "Properties": {
+      "ChildAudioSets": [
+        {
+          "AudioSetType": "EAudioSetType::MatchAll",
+          "AudioSetName": "Bonnie",
+          "Item": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "RequiredTags": [],
+          "IncompatibleTags": [],
+          "DefaultSocket": "None",
+          "AudioSetPairs": [
+            {
+              "AudioEventName": {
+                "Name": "Footstep",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FoxyFootSteps'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/Foxy/FoxyFootSteps.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "FootstepRun",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FoxyFootStepsRun'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/Foxy/FoxyFootStepsRun.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "FootstepSlide",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FoxyFootStepsSlide'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/Foxy/FoxyFootStepsSlide.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "FootstepSprint",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FoxyFootStepsSprint'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/Foxy/FoxyFootStepsSprint.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "FootstepWalk",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FoxyFootStepsWalk'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/Foxy/FoxyFootStepsWalk.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "Land",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FoxyLand'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/Foxy/FoxyLand.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "Jump",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FoxyJump'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/Foxy/FoxyJump.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "Dodge",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FoxyDodge'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/Foxy/FoxyDodge.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "MeleeSwipe",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FoxyMeleeSwing'",
+                "ObjectPath": "/Game/FMOD/Events/Weapon/FNAF/Foxy/FoxyMeleeSwing.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "TakeHit",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FoxyDamageTakeHit'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/Foxy/FoxyDamageTakeHit.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "TakeHitElectric",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FoxyDamageTakeHitElectrical'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/Foxy/FoxyDamageTakeHitElectrical.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "TakeHitFire",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FoxyDamageTakeHitFire'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/Foxy/FoxyDamageTakeHitFire.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "Death",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FoxyDamageDeathPlayable'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/Foxy/FoxyDamageDeathPlayable.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "BodyMovement",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FoxyMovement'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/Foxy/FoxyMovement.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "HeavyChargeStart",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FoxyCharge'",
+                "ObjectPath": "/Game/FMOD/Events/Weapon/FNAF/Foxy/FoxyCharge.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "HeavyFullyCharged",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FoxyChargeAttackComplete'",
+                "ObjectPath": "/Game/FMOD/Events/Weapon/FNAF/Foxy/FoxyChargeAttackComplete.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "SlamAttack",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FoxySlamAttack'",
+                "ObjectPath": "/Game/FMOD/Events/Weapon/FNAF/Foxy/FoxySlamAttack.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "ChargedThrustAttack",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FoxyRushAttack'",
+                "ObjectPath": "/Game/FMOD/Events/Weapon/FNAF/Foxy/FoxyRushAttack.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "GhostMoan",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'Foxy_GhostMoan'",
+                "ObjectPath": "/Game/FMOD/Events/Vo/FNAF/Foxy/Foxy_GhostMoan.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "Relief",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'Foxy_Relief'",
+                "ObjectPath": "/Game/FMOD/Events/Vo/FNAF/Foxy/Foxy_Relief.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "Celebration",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'Foxy_Celebration'",
+                "ObjectPath": "/Game/FMOD/Events/Vo/FNAF/Foxy/Foxy_Celebration.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "AdditonalPower",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'Foxy_PowerAdditional'",
+                "ObjectPath": "/Game/FMOD/Events/Vo/FNAF/Foxy/Foxy_PowerAdditional.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "Drink Refresh",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'Foxy_Drink'",
+                "ObjectPath": "/Game/FMOD/Events/Vo/FNAF/Foxy/Foxy_Drink.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "Drowning",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'Foxy_Drowning'",
+                "ObjectPath": "/Game/FMOD/Events/Vo/FNAF/Foxy/Foxy_Drowning.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "Lifting",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'Foxy_EffortSmall'",
+                "ObjectPath": "/Game/FMOD/Events/Vo/FNAF/Foxy/Foxy_EffortSmall.0"
+              }
+            }
+          ]
+        },
+        {
+          "AudioSetType": "EAudioSetType::MatchAll",
+          "AudioSetName": "DannyLowStamina",
+          "Item": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "RequiredTags": [
+            "Status.LowStamina"
+          ],
+          "IncompatibleTags": [],
+          "DefaultSocket": "None",
+          "AudioSetPairs": [
+            {
+              "AudioEventName": {
+                "Name": "Sprint",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'Foxy_Pant'",
+                "ObjectPath": "/Game/FMOD/Events/Vo/FNAF/Foxy/Foxy_Pant.0"
+              }
+            }
+          ]
+        },
+        {
+          "AudioSetType": "EAudioSetType::MatchItem",
+          "AudioSetName": "Gun",
+          "Item": {
+            "AssetPathName": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FoxysCanonballLauncher/BP_FoxysCanonballLauncher.BP_FoxysCanonballLauncher_C",
+            "SubPathString": ""
+          },
+          "RequiredTags": [],
+          "IncompatibleTags": [],
+          "DefaultSocket": "None",
+          "AudioSetPairs": [
+            {
+              "AudioEventName": {
+                "Name": "LowAmmo",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FoxyNoAmmo'",
+                "ObjectPath": "/Game/FMOD/Events/Weapon/FNAF/Foxy/FoxyNoAmmo.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "Fire",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'FoxyLauncherFire'",
+                "ObjectPath": "/Game/FMOD/Events/Weapon/FNAF/Foxy/FoxyLauncherFire.0"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

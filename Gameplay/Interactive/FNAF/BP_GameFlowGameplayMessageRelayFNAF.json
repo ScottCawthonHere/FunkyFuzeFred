@@ -1,0 +1,676 @@
+[
+  {
+    "Type": "BillboardComponent",
+    "Name": "Billboard",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BillboardComponent'",
+    "Outer": {
+      "ObjectName": "BP_GameFlowGameplayMessageRelayFNAF_C'Default__BP_GameFlowGameplayMessageRelayFNAF_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/BP_GameFlowGameplayMessageRelayFNAF.2"
+    },
+    "Properties": {
+      "Sprite": {
+        "ObjectName": "Texture2D'S_RadForce'",
+        "ObjectPath": "/Engine/EditorResources/S_RadForce.0"
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__BP_GameFlowGameplayMessageRelayFNAF_C:Root Scene Component'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/BP_GameFlowGameplayMessageRelayFNAF.10"
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_GameFlowGameplayMessageRelayFNAF_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Gameplay/Interactive/FNAF/BP_GameFlowGameplayMessageRelayFNAF",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_GameFlowGameplayMessageRelayFNAF_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/BP_GameFlowGameplayMessageRelayFNAF.13"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_GameFlowGameplayMessageRelayFNAF_C:ExecuteUbergraph_BP_GameFlowGameplayMessageRelayFNAF'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/BP_GameFlowGameplayMessageRelayFNAF.3"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'GameFlowGameplayMessageRelay'",
+      "ObjectPath": "/Script/Merlin"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_GameFlowGameplayMessageRelayFNAF_C:OnMessageReceived_360511A045ECEC3CAD5208B858E3BBC7'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/BP_GameFlowGameplayMessageRelayFNAF.4"
+      },
+      {
+        "ObjectName": "Function'BP_GameFlowGameplayMessageRelayFNAF_C:Trigger'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/BP_GameFlowGameplayMessageRelayFNAF.6"
+      },
+      {
+        "ObjectName": "Function'BP_GameFlowGameplayMessageRelayFNAF_C:ReceiveBeginPlay'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/BP_GameFlowGameplayMessageRelayFNAF.5"
+      },
+      {
+        "ObjectName": "Function'BP_GameFlowGameplayMessageRelayFNAF_C:ExecuteUbergraph_BP_GameFlowGameplayMessageRelayFNAF'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/BP_GameFlowGameplayMessageRelayFNAF.3"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TriggerActors",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'TriggerActorsComponent'",
+          "ObjectPath": "/Script/Merlin"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "OnlyOnce",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "ListenForMessages",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "MessageToListenFor",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 12,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "LeverPulledMessage",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "FNAFMessagePayload",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "Struct": {
+          "ObjectName": "Class'OnFNAFClockMessagePayload'",
+          "ObjectPath": "/Script/Merlin"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_GameFlowGameplayMessageRelayFNAF": {
+        "ObjectName": "Function'BP_GameFlowGameplayMessageRelayFNAF_C:ExecuteUbergraph_BP_GameFlowGameplayMessageRelayFNAF'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/BP_GameFlowGameplayMessageRelayFNAF.3"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_GameFlowGameplayMessageRelayFNAF_C:ReceiveBeginPlay'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/BP_GameFlowGameplayMessageRelayFNAF.5"
+      },
+      "Trigger": {
+        "ObjectName": "Function'BP_GameFlowGameplayMessageRelayFNAF_C:Trigger'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/BP_GameFlowGameplayMessageRelayFNAF.6"
+      },
+      "OnMessageReceived_360511A045ECEC3CAD5208B858E3BBC7": {
+        "ObjectName": "Function'BP_GameFlowGameplayMessageRelayFNAF_C:OnMessageReceived_360511A045ECEC3CAD5208B858E3BBC7'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/BP_GameFlowGameplayMessageRelayFNAF.4"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "Interfaces": [
+      {
+        "Class": {
+          "ObjectName": "Class'TriggerInterface'",
+          "ObjectPath": "/Script/Merlin"
+        },
+        "PointerProperty": null,
+        "PointerOffset": 0,
+        "bImplementedByK2": true
+      }
+    ],
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_GameFlowGameplayMessageRelayFNAF_C'Default__BP_GameFlowGameplayMessageRelayFNAF_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/BP_GameFlowGameplayMessageRelayFNAF.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal",
+      "ImplementedInterfaces": "((Interface=\"/Script/CoreUObject.Class'/Script/Merlin.TriggerInterface'\"))"
+    }
+  },
+  {
+    "Type": "BP_GameFlowGameplayMessageRelayFNAF_C",
+    "Name": "Default__BP_GameFlowGameplayMessageRelayFNAF_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Gameplay/Interactive/FNAF/BP_GameFlowGameplayMessageRelayFNAF.BP_GameFlowGameplayMessageRelayFNAF_C'",
+    "Package": "/Game/Gameplay/Interactive/FNAF/BP_GameFlowGameplayMessageRelayFNAF",
+    "Properties": {
+      "UberGraphFrame": {},
+      "FNAFMessagePayload": {
+        "Name": ""
+      },
+      "RootSceneComponent": {
+        "ObjectName": "SceneComponent'Default__BP_GameFlowGameplayMessageRelayFNAF_C:Root Scene Component'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/BP_GameFlowGameplayMessageRelayFNAF.10"
+      },
+      "BillboardComponent": {
+        "ObjectName": "BillboardComponent'Default__BP_GameFlowGameplayMessageRelayFNAF_C:Billboard'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/BP_GameFlowGameplayMessageRelayFNAF.0"
+      },
+      "PropMovementComponent": {
+        "ObjectName": "PropMovementComponent'Default__BP_GameFlowGameplayMessageRelayFNAF_C:PropMovementComponent'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/BP_GameFlowGameplayMessageRelayFNAF.8"
+      },
+      "OptimizationComponent": {
+        "ObjectName": "MerlinActorOptimizationComponent'Default__BP_GameFlowGameplayMessageRelayFNAF_C:ActorOptimizationComponent'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/BP_GameFlowGameplayMessageRelayFNAF.7"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_GameFlowGameplayMessageRelayFNAF_C:Root Scene Component'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/BP_GameFlowGameplayMessageRelayFNAF.10"
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_GameFlowGameplayMessageRelayFNAF",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_GameFlowGameplayMessageRelayFNAF_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/BP_GameFlowGameplayMessageRelayFNAF.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_CustomEvent_ProxyObject",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AsyncAction_ListenForGameplayMessage'",
+          "ObjectPath": "/Script/GameplayMessageRuntime"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_CustomEvent_ActualChannel",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "Class'GameplayTag'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "Class'AsyncGameplayMessageDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/GameplayMessageRuntime"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Temp_struct_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 88,
+        "Struct": {
+          "ObjectName": "Class'EventPayload'",
+          "ObjectPath": "/Script/MovieSceneTracks"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Temp_struct_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "Class'GameplayTag'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Temp_object_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AsyncAction_ListenForGameplayMessage'",
+          "ObjectPath": "/Script/GameplayMessageRuntime"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_ListenForGameplayMessages_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AsyncAction_ListenForGameplayMessage'",
+          "ObjectPath": "/Script/GameplayMessageRuntime"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Has_Been_Initd_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_IsClosed_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Temp_struct_Variable_2",
+        "Flags": "RF_Public",
+        "ElementSize": 88,
+        "Struct": {
+          "ObjectName": "Class'EventPayload'",
+          "ObjectPath": "/Script/MovieSceneTracks"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_InInstigator",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_TriggeringCharacter",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Character'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Event_TriggerAction",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'ETriggerAction'",
+          "ObjectPath": "/Script/Merlin"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_Magnitude",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetPayload_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetGameInstanceSubsystem_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'GameplayMessageSubsystem'",
+          "ObjectPath": "/Script/GameplayMessageRuntime"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_NameName_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnMessageReceived_360511A045ECEC3CAD5208B858E3BBC7",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_GameFlowGameplayMessageRelayFNAF_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/BP_GameFlowGameplayMessageRelayFNAF.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "ProxyObject",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'AsyncAction_ListenForGameplayMessage'",
+          "ObjectPath": "/Script/GameplayMessageRuntime"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ActualChannel",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "Class'GameplayTag'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_GameFlowGameplayMessageRelayFNAF_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/BP_GameFlowGameplayMessageRelayFNAF.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Trigger",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_GameFlowGameplayMessageRelayFNAF_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/BP_GameFlowGameplayMessageRelayFNAF.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "InInstigator",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TriggeringCharacter",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Character'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "TriggerAction",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Enum": {
+          "ObjectName": "Class'ETriggerAction'",
+          "ObjectPath": "/Script/Merlin"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Magnitude",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "MerlinActorOptimizationComponent",
+    "Name": "ActorOptimizationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MerlinActorOptimizationComponent'",
+    "Outer": {
+      "ObjectName": "BP_GameFlowGameplayMessageRelayFNAF_C'Default__BP_GameFlowGameplayMessageRelayFNAF_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/BP_GameFlowGameplayMessageRelayFNAF.2"
+    }
+  },
+  {
+    "Type": "PropMovementComponent",
+    "Name": "PropMovementComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PropMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_GameFlowGameplayMessageRelayFNAF_C'Default__BP_GameFlowGameplayMessageRelayFNAF_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/BP_GameFlowGameplayMessageRelayFNAF.2"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_GameFlowGameplayMessageRelayFNAF_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/BP_GameFlowGameplayMessageRelayFNAF.1"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Root Scene Component",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_GameFlowGameplayMessageRelayFNAF_C'Default__BP_GameFlowGameplayMessageRelayFNAF_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/BP_GameFlowGameplayMessageRelayFNAF.2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_GameFlowGameplayMessageRelayFNAF_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/BP_GameFlowGameplayMessageRelayFNAF.13"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_GameFlowGameplayMessageRelayFNAF_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/BP_GameFlowGameplayMessageRelayFNAF.9"
+      },
+      "VariableGuid": "DBF856BD-4F957806-1AD2859E-4F82B6B4",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_GameFlowGameplayMessageRelayFNAF_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/BP_GameFlowGameplayMessageRelayFNAF.13"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'TriggerActorsComponent'",
+        "ObjectPath": "/Script/Merlin"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TriggerActorsComponent'BP_GameFlowGameplayMessageRelayFNAF_C:TriggerActors_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/BP_GameFlowGameplayMessageRelayFNAF.14"
+      },
+      "VariableGuid": "100EA72A-40476FBD-393AED9F-2197CE9E",
+      "InternalVariableName": "TriggerActors"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_GameFlowGameplayMessageRelayFNAF_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/BP_GameFlowGameplayMessageRelayFNAF.1"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_GameFlowGameplayMessageRelayFNAF_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/BP_GameFlowGameplayMessageRelayFNAF.12"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_GameFlowGameplayMessageRelayFNAF_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/BP_GameFlowGameplayMessageRelayFNAF.12"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_GameFlowGameplayMessageRelayFNAF_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/BP_GameFlowGameplayMessageRelayFNAF.11"
+      }
+    }
+  },
+  {
+    "Type": "TriggerActorsComponent",
+    "Name": "TriggerActors_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TriggerActorsComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_GameFlowGameplayMessageRelayFNAF_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/BP_GameFlowGameplayMessageRelayFNAF.1"
+    }
+  }
+]

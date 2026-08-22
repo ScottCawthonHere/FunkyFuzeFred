@@ -1,0 +1,695 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_ChicaCupcakeGrenade_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_EnemyFragGrenadeProjectile_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/TheThing/NorwegianGrenade/BP_EnemyFragGrenadeProjectile.0"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_ChicaCupcakeGrenade_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.16"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_ChicaCupcakeGrenade_C:ExecuteUbergraph_BP_ChicaCupcakeGrenade'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.5"
+      }
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_ChicaCupcakeGrenade_C:ReceiveBeginPlay'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.7"
+      },
+      {
+        "ObjectName": "Function'BP_ChicaCupcakeGrenade_C:OnExploded_Event'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.6"
+      },
+      {
+        "ObjectName": "Function'BP_ChicaCupcakeGrenade_C:ExecuteUbergraph_BP_ChicaCupcakeGrenade'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.5"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "FNAF_Char_MrCupcake_Death",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'FMODAudioComponent'",
+          "ObjectPath": "/Script/FMODStudio"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "FNAF_Char_MrCupcake_Thrown",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'FMODAudioComponent'",
+          "ObjectPath": "/Script/FMODStudio"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "FireMesh",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PointLight",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PointLightComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_ChicaCupcakeGrenade": {
+        "ObjectName": "Function'BP_ChicaCupcakeGrenade_C:ExecuteUbergraph_BP_ChicaCupcakeGrenade'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.5"
+      },
+      "OnExploded_Event": {
+        "ObjectName": "Function'BP_ChicaCupcakeGrenade_C:OnExploded_Event'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.6"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_ChicaCupcakeGrenade_C:ReceiveBeginPlay'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.7"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_ChicaCupcakeGrenade_C'Default__BP_ChicaCupcakeGrenade_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_ChicaCupcakeGrenade_C",
+    "Name": "Default__BP_ChicaCupcakeGrenade_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.BP_ChicaCupcakeGrenade_C'",
+    "Package": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade",
+    "Template": {
+      "ObjectName": "BP_EnemyFragGrenadeProjectile_C'Default__BP_EnemyFragGrenadeProjectile_C'",
+      "ObjectPath": "/Game/Gameplay/Weapons/TheThing/NorwegianGrenade/BP_EnemyFragGrenadeProjectile.1"
+    },
+    "Properties": {
+      "UberGraphFrame": {},
+      "Mesh": {
+        "ObjectName": "StaticMeshComponent'Default__BP_ChicaCupcakeGrenade_C:Mesh'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.19"
+      },
+      "Decal": {
+        "ObjectName": "DecalComponent'Default__BP_ChicaCupcakeGrenade_C:Decal'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.2"
+      },
+      "MovementComp": {
+        "ObjectName": "TickAggregatorProjectileMovementComponent'Default__BP_ChicaCupcakeGrenade_C:ProjectileComp'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.20"
+      },
+      "CollisionComp": {
+        "ObjectName": "SphereComponent'Default__BP_ChicaCupcakeGrenade_C:SphereComp'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.17"
+      },
+      "NiagaraComp": {
+        "ObjectName": "NiagaraComponent'Default__BP_ChicaCupcakeGrenade_C:NiagaraComp'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.8"
+      },
+      "RootComponent": {
+        "ObjectName": "SphereComponent'Default__BP_ChicaCupcakeGrenade_C:SphereComp'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.17"
+      }
+    }
+  },
+  {
+    "Type": "DecalComponent",
+    "Name": "Decal",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DecalComponent'",
+    "Outer": {
+      "ObjectName": "BP_ChicaCupcakeGrenade_C'Default__BP_ChicaCupcakeGrenade_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.1"
+    },
+    "Template": {
+      "ObjectName": "DecalComponent'Default__BP_EnemyFragGrenadeProjectile_C:Decal'",
+      "ObjectPath": "/Game/Gameplay/Weapons/TheThing/NorwegianGrenade/BP_EnemyFragGrenadeProjectile.2"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Default__BP_ChicaCupcakeGrenade_C:SphereComp'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.17"
+      }
+    }
+  },
+  {
+    "Type": "FMODAudioComponent",
+    "Name": "FNAF_Char_MrCupcake_Death_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FMODAudioComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ChicaCupcakeGrenade_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.0"
+    },
+    "Properties": {
+      "Event": {
+        "ObjectName": "FMODEvent'FNAF_Char_MrCupcake_Death'",
+        "ObjectPath": "/Game/FMOD/Events/Character/FNAF/MrCupcake/FNAF_Char_MrCupcake_Death.0"
+      },
+      "OcclusionDetails": {
+        "bEnableOcclusion": true,
+        "bUseComplexCollisionForOcclusion": true
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "FMODAudioComponent",
+    "Name": "FNAF_Char_MrCupcake_Thrown_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FMODAudioComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ChicaCupcakeGrenade_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.0"
+    },
+    "Properties": {
+      "Event": {
+        "ObjectName": "FMODEvent'FNAF_Char_MrCupcake_Thrown'",
+        "ObjectPath": "/Game/FMOD/Events/Character/FNAF/MrCupcake/FNAF_Char_MrCupcake_Thrown.0"
+      },
+      "OcclusionDetails": {
+        "bEnableOcclusion": true,
+        "bUseComplexCollisionForOcclusion": true,
+        "OcclusionMultiplier": 0.8
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_ChicaCupcakeGrenade",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ChicaCupcakeGrenade_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_Projectile",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnExploded_Event",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ChicaCupcakeGrenade_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.0"
+    },
+    "Super": {
+      "ObjectName": "Function'BP__GrenadeProjectileBase_C:OnExploded_Event'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Ranged_ParentClasses/BP__GrenadeProjectileBase.14"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Projectile",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ChicaCupcakeGrenade_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.0"
+    },
+    "Super": {
+      "ObjectName": "Function'BP__GrenadeProjectileBase_C:ReceiveBeginPlay'",
+      "ObjectPath": "/Game/Gameplay/Weapons/Ranged_ParentClasses/BP__GrenadeProjectileBase.18"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "NiagaraComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BP_ChicaCupcakeGrenade_C'Default__BP_ChicaCupcakeGrenade_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.1"
+    },
+    "Template": {
+      "ObjectName": "NiagaraComponent'Default__BP_EnemyFragGrenadeProjectile_C:NiagaraComp'",
+      "ObjectPath": "/Game/Gameplay/Weapons/TheThing/NorwegianGrenade/BP_EnemyFragGrenadeProjectile.4"
+    },
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Default__BP_ChicaCupcakeGrenade_C:SphereComp'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.17"
+      }
+    }
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "PointLight_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ChicaCupcakeGrenade_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.0"
+    },
+    "Properties": {
+      "SourceRadius": 15.0,
+      "SourceLength": 10.0,
+      "IntensityUnits": "ELightUnits::Candelas",
+      "InverseExposureBlend": 0.5,
+      "AttenuationRadius": 150.0,
+      "Temperature": 1700.0,
+      "MaxDrawDistance": 4500.0,
+      "MaxDistanceFadeRange": 1500.0,
+      "bUseTemperature": true,
+      "Intensity": 0.2,
+      "CastShadows": false,
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 18.0
+      }
+    },
+    "IntensityNits": 0.70735526
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ChicaCupcakeGrenade_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ChicaCupcakeGrenade_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.16"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_ChicaCupcakeGrenade_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.10"
+      },
+      "VariableGuid": "89FF048D-4F21C859-2898F59A-08B8DC16",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ChicaCupcakeGrenade_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.16"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_ChicaCupcakeGrenade_C:FireMesh_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.18"
+      },
+      "ParentComponentOrVariableName": "Mesh",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ChicaCupcakeGrenade_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.13"
+        }
+      ],
+      "VariableGuid": "E834E7CE-43734AF7-F307C5BE-DD32A01C",
+      "InternalVariableName": "FireMesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ChicaCupcakeGrenade_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.16"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PointLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PointLightComponent'BP_ChicaCupcakeGrenade_C:PointLight_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.9"
+      },
+      "VariableGuid": "CE6717A2-41336F2B-2F71AA81-45EF54D7",
+      "InternalVariableName": "PointLight"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ChicaCupcakeGrenade_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.16"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'FMODAudioComponent'",
+        "ObjectPath": "/Script/FMODStudio"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "FMODAudioComponent'BP_ChicaCupcakeGrenade_C:FNAF_Char_MrCupcake_Thrown_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.4"
+      },
+      "ParentComponentOrVariableName": "Mesh",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "C8BFA5BB-4942F428-590A95B2-CEF80ADC",
+      "InternalVariableName": "FNAF_Char_MrCupcake_Thrown"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_ChicaCupcakeGrenade_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.16"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'FMODAudioComponent'",
+        "ObjectPath": "/Script/FMODStudio"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "FMODAudioComponent'BP_ChicaCupcakeGrenade_C:FNAF_Char_MrCupcake_Death_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.3"
+      },
+      "ParentComponentOrVariableName": "SphereComp",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "2824D830-48750564-092124BF-46B29A73",
+      "InternalVariableName": "FNAF_Char_MrCupcake_Death"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ChicaCupcakeGrenade_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ChicaCupcakeGrenade_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ChicaCupcakeGrenade_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.14"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ChicaCupcakeGrenade_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.15"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_ChicaCupcakeGrenade_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.13"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ChicaCupcakeGrenade_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ChicaCupcakeGrenade_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.14"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_ChicaCupcakeGrenade_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.15"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_ChicaCupcakeGrenade_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.11"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "SphereComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SphereComponent'",
+    "Outer": {
+      "ObjectName": "BP_ChicaCupcakeGrenade_C'Default__BP_ChicaCupcakeGrenade_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.1"
+    },
+    "Template": {
+      "ObjectName": "SphereComponent'Default__BP_EnemyFragGrenadeProjectile_C:SphereComp'",
+      "ObjectPath": "/Game/Gameplay/Weapons/TheThing/NorwegianGrenade/BP_EnemyFragGrenadeProjectile.8"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "FireMesh_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ChicaCupcakeGrenade_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_flame01'",
+        "ObjectPath": "/Game/VFX/Vinyl_Effects/Vinyl_Fire/Meshes/SM_flame01.2"
+      },
+      "CastShadow": false,
+      "bAffectDistanceFieldLighting": false,
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel2",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel3",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel4",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel5",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "EngineTraceChannel6",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_WEAPON",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_PROJECTILE",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "MeleeWeapon",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel16",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel17",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "GameTraceChannel18",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -1.3749489,
+        "Y": 0.0,
+        "Z": 79.967674
+      },
+      "RelativeScale3D": {
+        "X": 0.4,
+        "Y": 0.4,
+        "Z": 0.4
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Mesh",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_ChicaCupcakeGrenade_C'Default__BP_ChicaCupcakeGrenade_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.1"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'Default__BP_EnemyFragGrenadeProjectile_C:Mesh'",
+      "ObjectPath": "/Game/Gameplay/Weapons/TheThing/NorwegianGrenade/BP_EnemyFragGrenadeProjectile.9"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Cupcake'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Cupcake/Meshes/SM_Cupcake.2"
+      },
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Default__BP_ChicaCupcakeGrenade_C:SphereComp'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.17"
+      }
+    }
+  },
+  {
+    "Type": "TickAggregatorProjectileMovementComponent",
+    "Name": "ProjectileComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TickAggregatorProjectileMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_ChicaCupcakeGrenade_C'Default__BP_ChicaCupcakeGrenade_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Chica/Blueprints/BP_ChicaCupcakeGrenade.1"
+    },
+    "Template": {
+      "ObjectName": "TickAggregatorProjectileMovementComponent'Default__BP_EnemyFragGrenadeProjectile_C:ProjectileComp'",
+      "ObjectPath": "/Game/Gameplay/Weapons/TheThing/NorwegianGrenade/BP_EnemyFragGrenadeProjectile.10"
+    }
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_PizzaBox_FNAFDecal",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Package": "/Game/Gameplay/Props/FNAF/PizzaBox/Materials/MI_PizzaBox_FNAFDecal",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'M_Gameplay_Decals'",
+        "ObjectPath": "/Game/Global/Materials/Masters/M_Gameplay_Decals.0"
+      },
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Roughness",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.5,
+          "ExpressionGUID": "95959750-4CA618BE-3E310385-6EE8A4E7"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Texture",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_FNAFPizzaDecal_D'",
+            "ObjectPath": "/Game/Gameplay/Props/FNAF/PizzaBox/Textures/T_FNAFPizzaDecal_D.0"
+          },
+          "ExpressionGUID": "D2E570F7-43DA1DFB-847D02BD-1C2B4DC7"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "BlendMode": "EBlendMode::BLEND_Masked",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "bIncludedInBaseGame": true,
+      "TextureStreamingData": [
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_FNAFPizzaDecal_D"
+        },
+        {
+          "SamplingScale": 32.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_NoiseVinyl_NR"
+        }
+      ]
+    },
+    "LoadedMaterialResources": [],
+    "CachedData": {
+      "ParentLayerIndexRemap": []
+    }
+  }
+]

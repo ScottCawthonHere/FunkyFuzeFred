@@ -1,0 +1,1971 @@
+[
+  {
+    "Type": "Border",
+    "Name": "Border_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Border'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_CCTV_CamButton_C:WidgetTree'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.37"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Background": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.0,
+            "Hex": "FFFFFF"
+          }
+        }
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot'WBP_CCTV_CamButton_C:WidgetTree.Border_1.BorderSlot_1'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.1"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WBP_CCTV_CamButton_C:WidgetTree.Overlay_24.OverlaySlot_0'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.26"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BorderSlot'",
+    "Outer": {
+      "ObjectName": "Border'WBP_CCTV_CamButton_C:WidgetTree.Border_1'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.0"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Parent": {
+        "ObjectName": "Border'WBP_CCTV_CamButton_C:WidgetTree.Border_1'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.0"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_CCTV_CamButton_C:WidgetTree.ButtonImage'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.12"
+      }
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CamIDText",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_CCTV_CamButton_C:WidgetTree'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.37"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "8612F4274ED6BEAD62CC218F3FB07DC1",
+        "SourceString": "1C",
+        "LocalizedString": "1C"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'MerlinGameFont'",
+          "ObjectPath": "/Game/Fonts/MerlinGameFont.0"
+        },
+        "TypefaceFontName": "Default",
+        "Size": 20.0
+      },
+      "TextTransformPolicy": "ETextTransformPolicy::ToUpper",
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WBP_CCTV_CamButton_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_1'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.32"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CommonTextBlock_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_CCTV_CamButton_C:WidgetTree'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.37"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "A94DCD60428AF262DDC567976BF279BB",
+        "SourceString": "CAM",
+        "LocalizedString": "CAM"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'MerlinGameFont'",
+          "ObjectPath": "/Game/Fonts/MerlinGameFont.0"
+        },
+        "TypefaceFontName": "Default",
+        "Size": 20.0
+      },
+      "TextTransformPolicy": "ETextTransformPolicy::ToUpper",
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WBP_CCTV_CamButton_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_0'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.31"
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "BP_OnHovered",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_CCTV_CamButton_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.36"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CommonButtonBase:BP_OnHovered'",
+      "ObjectPath": "/Script/CommonUI"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "BP_OnUnhovered",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_CCTV_CamButton_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.36"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CommonButtonBase:BP_OnUnhovered'",
+      "ObjectPath": "/Script/CommonUI"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_CCTV_CamButton",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_CCTV_CamButton_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.36"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Temp_struct_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "Struct": {
+          "ObjectName": "Class'LinearColor'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Temp_struct_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "Struct": {
+          "ObjectName": "Class'LinearColor'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Temp_struct_Variable_2",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "Struct": {
+          "ObjectName": "Class'LinearColor'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Temp_struct_Variable_3",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "Struct": {
+          "ObjectName": "Class'LinearColor'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "Struct": {
+          "ObjectName": "Class'LinearColor'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_PlayAnimation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'UMGSequencePlayer'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_Select_Default_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "Struct": {
+          "ObjectName": "Class'LinearColor'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_IsDesignTime",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "Handle Button Pulsing",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_CCTV_CamButton_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.36"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetDynamicMaterial_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MaterialInstanceDynamic'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "PreConstruct",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_CCTV_CamButton_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.36"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget:PreConstruct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "IsDesignTime",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Pressed Anim",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_CCTV_CamButton_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.36"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetColourDeselected",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_CCTV_CamButton_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.36"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetColourSelected",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_CCTV_CamButton_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.36"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Image",
+    "Name": "ButtonImage",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_CCTV_CamButton_C:WidgetTree'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.37"
+    },
+    "Properties": {
+      "Brush": {
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_CamBoxPulse_LowPower'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/Textures/MI_CamBoxPulse_LowPower.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "BorderSlot'WBP_CCTV_CamButton_C:WidgetTree.Border_1.BorderSlot_1'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.1"
+      }
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Pressed_Anim",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'WBP_CCTV_CamButton_C:Pressed_Anim_INST'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.34"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          },
+          "Guid": "B62B64F0-42D9529E-7CDD0588-95E98750",
+          "Name": "WBP_CCTV_CamButton_C_78",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "B62B64F0-42D9529E-7CDD0588-95E98750",
+          "BindingName": "WBP_CCTV_CamButton_C_78",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene2DTransformTrack'WBP_CCTV_CamButton_C:Pressed_Anim_INST.Pressed_Anim.MovieScene2DTransformTrack_0'",
+              "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.16"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 6001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "5F050753-4AA69CB7-FEAA47A5-A3D270BE"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Selected",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'WBP_CCTV_CamButton_C:Selected_INST'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.35"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "DynamicBinding": {
+            "Function": null,
+            "ResolveParamsProperty": {
+              "Path": [],
+              "ResolvedOwner": null
+            }
+          },
+          "Guid": "536D39F5-4A4C7A68-4BCD83BC-CB547CB7",
+          "Name": "ButtonImage",
+          "ParentGuid": "00000000-00000000-00000000-00000000",
+          "SpawnableObjectBindingID": {
+            "Guid": "00000000-00000000-00000000-00000000",
+            "SequenceID": 0,
+            "ResolveParentIndex": -1
+          }
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "536D39F5-4A4C7A68-4BCD83BC-CB547CB7",
+          "BindingName": "ButtonImage",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneColorTrack'WBP_CCTV_CamButton_C:Selected_INST.Selected.MovieSceneColorTrack_1'",
+              "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.22"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 6001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "DEEAC408-411FF68E-8BD309B2-26683901"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformSection'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformTrack'WBP_CCTV_CamButton_C:Pressed_Anim_INST.Pressed_Anim.MovieScene2DTransformTrack_0'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.16"
+    },
+    "Properties": {
+      "TransformMask": {
+        "Mask": 24
+      },
+      "Translation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Translation[1]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Rotation": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 6000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.6,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.85,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Scale[1]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 6000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.6,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.85,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Shear": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Shear[1]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'WBP_CCTV_CamButton_C:Pressed_Anim_INST.Pressed_Anim.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.17"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'WBP_CCTV_CamButton_C:Pressed_Anim_INST.Pressed_Anim.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.18"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 6000
+            }
+          }
+        }
+      },
+      "Signature": "1CB92C47-4E4765FD-14C7CEB9-2F50E8D1"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'WBP_CCTV_CamButton_C:Pressed_Anim_INST.Pressed_Anim'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.13"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderTransform",
+        "PropertyPath": "RenderTransform",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection'WBP_CCTV_CamButton_C:Pressed_Anim_INST.Pressed_Anim.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.15"
+        }
+      ],
+      "EvaluationFieldGuid": "8E8925F8-41321BA4-75E99087-F9FDF8D0",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene2DTransformSection'WBP_CCTV_CamButton_C:Pressed_Anim_INST.Pressed_Anim.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+              "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.15"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 6000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "8E8925F8-41321BA4-75E99087-F9FDF8D0"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'WBP_CCTV_CamButton_C:Pressed_Anim_INST.Pressed_Anim.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.15"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'WBP_CCTV_CamButton_C:Pressed_Anim_INST.Pressed_Anim.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.15"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneColorSection'WBP_CCTV_CamButton_C:Selected_INST.Selected.MovieSceneColorTrack_1.MovieSceneColorSection_0'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.21"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneColorSection'WBP_CCTV_CamButton_C:Selected_INST.Selected.MovieSceneColorTrack_1.MovieSceneColorSection_0'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.21"
+    }
+  },
+  {
+    "Type": "MovieSceneColorSection",
+    "Name": "MovieSceneColorSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneColorSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneColorTrack'WBP_CCTV_CamButton_C:Selected_INST.Selected.MovieSceneColorTrack_1'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.22"
+    },
+    "Properties": {
+      "RedCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 6000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "GreenCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 6000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.844,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "BlueCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 6000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.21,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "AlphaCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'WBP_CCTV_CamButton_C:Selected_INST.Selected.MovieSceneColorTrack_1.MovieSceneColorSection_0.EaseInFunction'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.19"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'WBP_CCTV_CamButton_C:Selected_INST.Selected.MovieSceneColorTrack_1.MovieSceneColorSection_0.EaseOutFunction'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.20"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 6000
+            }
+          }
+        }
+      },
+      "Signature": "8D9A19A8-49585F01-6B54189F-BF27E6C3"
+    }
+  },
+  {
+    "Type": "MovieSceneColorTrack",
+    "Name": "MovieSceneColorTrack_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneColorTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'WBP_CCTV_CamButton_C:Selected_INST.Selected'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.14"
+    },
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "FillColorAndOpacity",
+        "PropertyPath": "FillColorAndOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneColorSection'WBP_CCTV_CamButton_C:Selected_INST.Selected.MovieSceneColorTrack_1.MovieSceneColorSection_0'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.21"
+        }
+      ],
+      "EvaluationFieldGuid": "C41F3CDA-44885094-CBA4EF95-739CBDE9",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneColorSection'WBP_CCTV_CamButton_C:Selected_INST.Selected.MovieSceneColorTrack_1.MovieSceneColorSection_0'",
+              "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.21"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 6000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "C41F3CDA-44885094-CBA4EF95-739CBDE9"
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'WBP_CCTV_CamButton_C:Pressed_Anim_INST'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.34"
+    },
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 6000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene2DTransformSection'WBP_CCTV_CamButton_C:Pressed_Anim_INST.Pressed_Anim.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+                "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.15"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "B62B64F0-42D9529E-7CDD0588-95E98750"
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 6000
+          },
+          "SubFrame": 0.0
+        }
+      ],
+      "CompiledSignature": "FEF3684D-41DB6334-A2F055A4-BC50F62C",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": {
+        "bEntityComponentField": true
+      },
+      "AllocatedMask": {
+        "bEntityComponentField": true
+      }
+    }
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'WBP_CCTV_CamButton_C:Selected_INST'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.35"
+    },
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 6000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneColorSection'WBP_CCTV_CamButton_C:Selected_INST.Selected.MovieSceneColorTrack_1.MovieSceneColorSection_0'",
+                "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.21"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "536D39F5-4A4C7A68-4BCD83BC-CB547CB7"
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 6000
+          },
+          "SubFrame": 0.0
+        }
+      ],
+      "CompiledSignature": "182014FF-4274691C-97FE708C-F7D1CABF",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": {
+        "bEntityComponentField": true
+      },
+      "AllocatedMask": {
+        "bEntityComponentField": true
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_24",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_CCTV_CamButton_C:WidgetTree'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.37"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WBP_CCTV_CamButton_C:WidgetTree.Overlay_24.OverlaySlot_0'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.26"
+        },
+        {
+          "ObjectName": "OverlaySlot'WBP_CCTV_CamButton_C:WidgetTree.Overlay_24.OverlaySlot_1'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.27"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WBP_CCTV_CamButton_C:WidgetTree.SizeBox_0.SizeBoxSlot_0'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.29"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WBP_CCTV_CamButton_C:WidgetTree.Overlay_24'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.25"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": -10.5,
+        "Top": -25.0,
+        "Right": -10.5,
+        "Bottom": -28.0
+      },
+      "HorizontalAlignment": "EHorizontalAlignment::HAlign_Fill",
+      "VerticalAlignment": "EVerticalAlignment::VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WBP_CCTV_CamButton_C:WidgetTree.Overlay_24'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.25"
+      },
+      "Content": {
+        "ObjectName": "Border'WBP_CCTV_CamButton_C:WidgetTree.Border_1'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.0"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WBP_CCTV_CamButton_C:WidgetTree.Overlay_24'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.25"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 15.0,
+        "Top": 5.0
+      },
+      "Parent": {
+        "ObjectName": "Overlay'WBP_CCTV_CamButton_C:WidgetTree.Overlay_24'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.25"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'WBP_CCTV_CamButton_C:WidgetTree.VerticalBox_0'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.30"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_CCTV_CamButton_C:WidgetTree'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.37"
+    },
+    "Properties": {
+      "WidthOverride": 107.0,
+      "HeightOverride": 75.5,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WBP_CCTV_CamButton_C:WidgetTree.SizeBox_0.SizeBoxSlot_0'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.29"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'WBP_CCTV_CamButton_C:WidgetTree.SizeBox_0'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.28"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WBP_CCTV_CamButton_C:WidgetTree.SizeBox_0'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.28"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WBP_CCTV_CamButton_C:WidgetTree.Overlay_24'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.25"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WBP_CCTV_CamButton_C:WidgetTree'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.37"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_CCTV_CamButton_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_0'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.31"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_CCTV_CamButton_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_1'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.32"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WBP_CCTV_CamButton_C:WidgetTree.Overlay_24.OverlaySlot_1'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.27"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_CCTV_CamButton_C:WidgetTree.VerticalBox_0'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.30"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_CCTV_CamButton_C:WidgetTree.VerticalBox_0'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.30"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WBP_CCTV_CamButton_C:WidgetTree.CommonTextBlock_1'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.3"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WBP_CCTV_CamButton_C:WidgetTree.VerticalBox_0'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.30"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": -5.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_CCTV_CamButton_C:WidgetTree.VerticalBox_0'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.30"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WBP_CCTV_CamButton_C:WidgetTree.CamIDText'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.2"
+      }
+    }
+  },
+  {
+    "Type": "WBP_CCTV_CamButton_C",
+    "Name": "Default__WBP_CCTV_CamButton_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.WBP_CCTV_CamButton_C'",
+    "Package": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton",
+    "Properties": {
+      "UberGraphFrame": {},
+      "In Text": {
+        "Namespace": "",
+        "Key": "2556719C456E2E5BF775329AC4939DEC",
+        "SourceString": "1",
+        "LocalizedString": "1"
+      }
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Pressed_Anim_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_CCTV_CamButton_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.36"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'WBP_CCTV_CamButton_C:Pressed_Anim_INST.Pressed_Anim'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.13"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "WBP_CCTV_CamButton_C_78",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "B62B64F0-42D9529E-7CDD0588-95E98750",
+          "bIsRootWidget": true
+        }
+      ],
+      "DisplayLabel": "Pressed_Anim",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'WBP_CCTV_CamButton_C:Pressed_Anim_INST.CompiledData'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.23"
+      },
+      "Signature": "FEF3684D-41DB6334-A2F055A4-BC50F62C"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Selected_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_CCTV_CamButton_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.36"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'WBP_CCTV_CamButton_C:Selected_INST.Selected'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.14"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "ButtonImage",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "536D39F5-4A4C7A68-4BCD83BC-CB547CB7",
+          "bIsRootWidget": false
+        }
+      ],
+      "DisplayLabel": "Selected",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'WBP_CCTV_CamButton_C:Selected_INST.CompiledData'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.24"
+      },
+      "Signature": "182014FF-4274691C-97FE708C-F7D1CABF"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_CCTV_CamButton_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_CCTV_CamButton_C:WidgetTree'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.37"
+      },
+      "bClassRequiresNativeTick": true,
+      "Animations": [
+        {
+          "ObjectName": "WidgetAnimation'WBP_CCTV_CamButton_C:Selected_INST'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.35"
+        },
+        {
+          "ObjectName": "WidgetAnimation'WBP_CCTV_CamButton_C:Pressed_Anim_INST'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.34"
+        }
+      ],
+      "UberGraphFunction": {
+        "ObjectName": "Function'WBP_CCTV_CamButton_C:ExecuteUbergraph_WBP_CCTV_CamButton'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MerlinButtonBase'",
+      "ObjectPath": "/Script/Merlin"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'WBP_CCTV_CamButton_C:Handle Button Pulsing'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.7"
+      },
+      {
+        "ObjectName": "Function'WBP_CCTV_CamButton_C:BP_OnHovered'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.4"
+      },
+      {
+        "ObjectName": "Function'WBP_CCTV_CamButton_C:BP_OnUnhovered'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.5"
+      },
+      {
+        "ObjectName": "Function'WBP_CCTV_CamButton_C:SetColourSelected'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.11"
+      },
+      {
+        "ObjectName": "Function'WBP_CCTV_CamButton_C:SetColourDeselected'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.10"
+      },
+      {
+        "ObjectName": "Function'WBP_CCTV_CamButton_C:Pressed Anim'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.9"
+      },
+      {
+        "ObjectName": "Function'WBP_CCTV_CamButton_C:PreConstruct'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.8"
+      },
+      {
+        "ObjectName": "Function'WBP_CCTV_CamButton_C:ExecuteUbergraph_WBP_CCTV_CamButton'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.6"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Pressed_Anim",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Transient | RepSkip",
+        "PropertyClass": {
+          "ObjectName": "Class'WidgetAnimation'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Selected",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Transient | RepSkip",
+        "PropertyClass": {
+          "ObjectName": "Class'WidgetAnimation'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Border_1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'Border'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ButtonImage",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'Image'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CamIDText",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'CommonTextBlock'",
+          "ObjectPath": "/Script/CommonUI"
+        }
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "In Text",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Parent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'WBP_FNAF_CCTV_C'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_FNAF_CCTV.108"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CameraNumber",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "IsSelected",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "LinkedBattery",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'Image'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bHasPower",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Button Dynamic Mat Inst",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'MaterialInstanceDynamic'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_CCTV_CamButton": {
+        "ObjectName": "Function'WBP_CCTV_CamButton_C:ExecuteUbergraph_WBP_CCTV_CamButton'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.6"
+      },
+      "PreConstruct": {
+        "ObjectName": "Function'WBP_CCTV_CamButton_C:PreConstruct'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.8"
+      },
+      "Pressed Anim": {
+        "ObjectName": "Function'WBP_CCTV_CamButton_C:Pressed Anim'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.9"
+      },
+      "SetColourDeselected": {
+        "ObjectName": "Function'WBP_CCTV_CamButton_C:SetColourDeselected'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.10"
+      },
+      "SetColourSelected": {
+        "ObjectName": "Function'WBP_CCTV_CamButton_C:SetColourSelected'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.11"
+      },
+      "BP_OnUnhovered": {
+        "ObjectName": "Function'WBP_CCTV_CamButton_C:BP_OnUnhovered'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.5"
+      },
+      "BP_OnHovered": {
+        "ObjectName": "Function'WBP_CCTV_CamButton_C:BP_OnHovered'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.4"
+      },
+      "Handle Button Pulsing": {
+        "ObjectName": "Function'WBP_CCTV_CamButton_C:Handle Button Pulsing'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.7"
+      }
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_CCTV_CamButton_C'Default__WBP_CCTV_CamButton_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.33"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_CCTV_CamButton_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.36"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "SizeBox'WBP_CCTV_CamButton_C:WidgetTree.SizeBox_0'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/UI/WBP_CCTV_CamButton.28"
+      }
+    }
+  }
+]

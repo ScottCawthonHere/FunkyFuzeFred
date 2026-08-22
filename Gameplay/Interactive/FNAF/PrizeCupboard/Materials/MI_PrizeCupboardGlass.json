@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_PrizeCupboardGlass",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Package": "/Game/Gameplay/Interactive/FNAF/PrizeCupboard/Materials/MI_PrizeCupboardGlass",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'M_Glass_BC_NRH'",
+        "ObjectPath": "/Game/LevelArt/Global/_MasterMaterials/Masters/M_Glass_BC_NRH.0"
+      },
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "BC Glass Tint (W)",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.0,
+            "G": 0.763699,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "00E3FF"
+          },
+          "ExpressionGUID": "219A9BFB-4C9ED773-8992DD90-52CBD0CD"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "BlendMode": "EBlendMode::BLEND_Translucent",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "bIncludedInBaseGame": true
+    },
+    "LoadedMaterialResources": [],
+    "CachedData": {
+      "ParentLayerIndexRemap": []
+    }
+  }
+]

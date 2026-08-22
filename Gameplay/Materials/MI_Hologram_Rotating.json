@@ -1,0 +1,94 @@
+{
+  "Textures": {
+    "T_blankWhite_BC": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_blankWhite_BC.T_blankWhite_BC",
+    "DefaultDiffuse": "/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse",
+    "T_CRTDistortion_D": "/Game/Gameplay/Materials/Textures/T_CRTDistortion_D.T_CRTDistortion_D",
+    "PM_Diffuse": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_blankWhite_BC.T_blankWhite_BC",
+    "DiffuseTexture": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_blankWhite_BC.T_blankWhite_BC",
+    "HologramTexture": "/Game/Gameplay/Materials/Textures/T_CRTDistortion_D.T_CRTDistortion_D",
+    "DiffuseTextureB": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_blankWhite_BC.T_blankWhite_BC"
+  },
+  "Parameters": {
+    "BlendMode": 2,
+    "ShadingModel": 0,
+    "Colors": {
+      "BaseColour": {
+        "R": 0.099709,
+        "G": 0.645901,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "59D3FF"
+      },
+      "RotationAxis": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "0000FF"
+      },
+      "OscillateAxis": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "0000FF"
+      },
+      "HeightAxis": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "0000FF"
+      }
+    },
+    "Scalars": {
+      "CamAlpha": 1.0,
+      "Roughness Amount": 1.0,
+      "Fresnel Power": 3.0,
+      "Fresnel Reflect": 0.2,
+      "Speed": 3.0,
+      "Fade": 0.0,
+      "RotationSpeed": 0.15,
+      "OscillateSpeed": 0.3,
+      "OscillateAmount": 10.0,
+      "B": 0.0,
+      "ObjectHeight": 0.0,
+      "HologramInflationValue": 0.0,
+      "LineScale": 4.0,
+      "GlowContrast": 0.5,
+      "LineSpeed": -10.0,
+      "AlternateSpeed": 1.0,
+      "GlowValueMin": 3.0,
+      "GlowValue": 5.0,
+      "CalloutSpeed": 0.0,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {
+      "Oscillate": true,
+      "Rotating": true
+    },
+    "Properties": {
+      "bEnableResponsiveAA": true,
+      "TwoSided": true,
+      "TranslucencyLightingMode": "ETranslucencyLightingMode::TLM_VolumetricDirectional",
+      "bUsedWithSkeletalMesh": true,
+      "bUsedWithStaticLighting": true,
+      "bUsedWithNanite": true,
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "2E40050D-4F052C55-84A7FEB7-3AD931BD",
+      "bIncludedInBaseGame": true,
+      "bHasStaticPermutationResource": true,
+      "BasePropertyOverrides": {
+        "TwoSided": true,
+        "BlendMode": "EBlendMode::BLEND_Translucent",
+        "OpacityMaskClipValue": 0.3333
+      }
+    },
+    "HasTopDiffuse": true,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": true,
+    "IsNull": false
+  }
+}

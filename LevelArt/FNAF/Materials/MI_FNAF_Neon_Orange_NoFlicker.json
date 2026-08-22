@@ -1,0 +1,117 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_FNAF_Neon_Orange_NoFlicker",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Package": "/Game/LevelArt/FNAF/Materials/MI_FNAF_Neon_Orange_NoFlicker",
+    "Properties": {
+      "PhysMaterial": {
+        "ObjectName": "PhysicalMaterial'PM_Glass'",
+        "ObjectPath": "/Game/Physics/PM_Glass.0"
+      },
+      "Parent": {
+        "ObjectName": "Material'M_Lights'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Materials/M_Lights.0"
+      },
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Fresnel Power",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.2,
+          "ExpressionGUID": "7DC654B7-45D73CAB-08B7E7A5-E0E653EA"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Emissive Strength",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 5.0,
+          "ExpressionGUID": "9171E18D-43602BD4-9F95B6AE-84F489D8"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Colour Front",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 1.0,
+            "G": 0.167132,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FF7200"
+          },
+          "ExpressionGUID": "2FE0AA71-4A5F80CD-C5A77E88-99B56F9C"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Colour Side",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          },
+          "ExpressionGUID": "F8A5F512-458C4A49-39BA5CBC-3457E892"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Flicker UV/Speed Control",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.001,
+            "G": 1.0,
+            "B": 0.5,
+            "A": 0.0,
+            "Hex": "03FFBC"
+          },
+          "ExpressionGUID": "6A0B5987-4A385110-E823EBB7-6DC2B20B"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Flicker Tex",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_Flicker_ThinLine_M'",
+            "ObjectPath": "/Game/LevelArt/Global/Misc/Textures/T_Flicker_ThinLine_M.0"
+          },
+          "ExpressionGUID": "0F2F43C3-4244DE5F-B7C4D7BE-D71189B6"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "OpacityMaskClipValue": 0.3333
+      },
+      "bIncludedInBaseGame": true
+    },
+    "LoadedMaterialResources": [],
+    "CachedData": {
+      "ParentLayerIndexRemap": []
+    }
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_CRT_FNAF",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Package": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/Materials/MI_CRT_FNAF",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'M_CRTScreen'",
+        "ObjectPath": "/Game/Gameplay/Materials/M_CRTScreen.0"
+      },
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "BaseColourMultiply",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.114097,
+            "G": 0.037753,
+            "B": 0.161458,
+            "A": 1.0,
+            "Hex": "5F3670"
+          },
+          "ExpressionGUID": "C2CE1579-40AE6CCF-6A60EEBE-E90BD2CB"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "DiffuseTextureInput",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_ComputerTerminalScreen_BC'",
+            "ObjectPath": "/Game/Gameplay/Interactive/Funko/ComputerTerminal/Textures/T_ComputerTerminalScreen_BC.0"
+          },
+          "ExpressionGUID": "1CF55793-46CAD1DE-7EB51FA5-720B634F"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "BlendMode": "EBlendMode::BLEND_Masked",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "bIncludedInBaseGame": true,
+      "TextureStreamingData": [
+        {
+          "SamplingScale": 0.9746094,
+          "UVChannelIndex": 0,
+          "TextureName": "T_ComputerTerminalScreen_BC"
+        },
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_CRTDistortion_D"
+        }
+      ]
+    },
+    "LoadedMaterialResources": [],
+    "CachedData": {
+      "ParentLayerIndexRemap": []
+    }
+  }
+]

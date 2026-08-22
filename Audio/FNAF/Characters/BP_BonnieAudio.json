@@ -1,0 +1,246 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_BonnieAudio_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Audio/FNaF/Characters/BP_BonnieAudio",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CharacterAudioBase_C'",
+      "ObjectPath": "/Game/Audio/_Shared/Character/BP_CharacterAudioBase.0"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_BonnieAudio_C'Default__BP_BonnieAudio_C'",
+      "ObjectPath": "/Game/Audio/FNaF/Characters/BP_BonnieAudio.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_BonnieAudio_C",
+    "Name": "Default__BP_BonnieAudio_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Audio/FNaF/Characters/BP_BonnieAudio.BP_BonnieAudio_C'",
+    "Package": "/Game/Audio/FNaF/Characters/BP_BonnieAudio",
+    "Template": {
+      "ObjectName": "BP_CharacterAudioBase_C'Default__BP_CharacterAudioBase_C'",
+      "ObjectPath": "/Game/Audio/_Shared/Character/BP_CharacterAudioBase.1"
+    },
+    "Properties": {
+      "ChildAudioSets": [
+        {
+          "AudioSetType": "EAudioSetType::MatchAll",
+          "AudioSetName": "Bonnie",
+          "Item": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "RequiredTags": [],
+          "IncompatibleTags": [],
+          "DefaultSocket": "None",
+          "AudioSetPairs": [
+            {
+              "AudioEventName": {
+                "Name": "Footstep",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'AnimatronicsFootSteps'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/AnimatronicsFootSteps.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "FootstepRun",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'AnimatronicsFootSteps'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/AnimatronicsFootSteps.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "FootstepSlide",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'AnimatronicsFootSteps'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/AnimatronicsFootSteps.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "FootstepSprint",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'AnimatronicsFootSteps'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/AnimatronicsFootSteps.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "FootstepWalk",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'AnimatronicsFootSteps'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/AnimatronicsFootSteps.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "Land",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'AnimatronicsFootSteps'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/AnimatronicsFootSteps.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "Jump",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'DannyJump'",
+                "ObjectPath": "/Game/FMOD/Events/Character/HotFuzz/Danny/DannyJump.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "Dodge",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'DannyDodge'",
+                "ObjectPath": "/Game/FMOD/Events/Character/HotFuzz/Danny/DannyDodge.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "MeleeSwipe",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'DannySwing'",
+                "ObjectPath": "/Game/FMOD/Events/Weapon/HotFuzz/Danny/DannySwing.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "TakeHit",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'AnimatronicsVO'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/AnimatronicsVO.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "BodyMovement",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'AnimatronicsMoveMed'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/AnimatronicsMoveMed.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "HeavyChargeStart",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'DannyChargeAttack'",
+                "ObjectPath": "/Game/FMOD/Events/Weapon/HotFuzz/Danny/DannyChargeAttack.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "HeavyFullyCharged",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'DannyChargeAttackComplete'",
+                "ObjectPath": "/Game/FMOD/Events/Weapon/HotFuzz/Danny/DannyChargeAttackComplete.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "SlamAttack",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'DannySlamAttack'",
+                "ObjectPath": "/Game/FMOD/Events/Weapon/HotFuzz/Danny/DannySlamAttack.0"
+              }
+            },
+            {
+              "AudioEventName": {
+                "Name": "Death",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'BonnieScream'",
+                "ObjectPath": "/Game/FMOD/Events/Character/FNAF/BonnieScream.0"
+              }
+            }
+          ]
+        },
+        {
+          "AudioSetType": "EAudioSetType::MatchAll",
+          "AudioSetName": "DannyLowStamina",
+          "Item": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "RequiredTags": [
+            "Status.LowStamina"
+          ],
+          "IncompatibleTags": [],
+          "DefaultSocket": "None",
+          "AudioSetPairs": [
+            {
+              "AudioEventName": {
+                "Name": "Sprint",
+                "EventDescription": "",
+                "bUsedWithAnimNotify": true
+              },
+              "AudioEvent": {
+                "ObjectName": "FMODEvent'PantingMale'",
+                "ObjectPath": "/Game/FMOD/Events/Character/Generic/PantingMale.0"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

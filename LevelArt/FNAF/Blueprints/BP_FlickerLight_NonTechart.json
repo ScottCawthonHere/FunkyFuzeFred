@@ -1,0 +1,657 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_FlickerLight_NonTechart_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_FlickerLight_NonTechart_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart.14"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_FlickerLight_NonTechart_C:ExecuteUbergraph_BP_FlickerLight_NonTechart'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart.3"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Actor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_FlickerLight_NonTechart_C:UserConstructionScript'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart.5"
+      },
+      {
+        "ObjectName": "Function'BP_FlickerLight_NonTechart_C:ReceiveBeginPlay'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart.4"
+      },
+      {
+        "ObjectName": "Function'BP_FlickerLight_NonTechart_C:CheckIsOnSwtich'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart.2"
+      },
+      {
+        "ObjectName": "Function'BP_FlickerLight_NonTechart_C:ExecuteUbergraph_BP_FlickerLight_NonTechart'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart.3"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Bounce_LowMid",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PointLightComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SpotLight",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SpotLightComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PointLight",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'PointLightComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_FluorescentLightLarge1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Flicker",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "Max Delay",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "Min Delay",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Default Emissive",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "MinEmissive",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "LightMain",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "LightAmbient",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "IsOnSwitch",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_FlickerLight_NonTechart": {
+        "ObjectName": "Function'BP_FlickerLight_NonTechart_C:ExecuteUbergraph_BP_FlickerLight_NonTechart'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart.3"
+      },
+      "CheckIsOnSwtich": {
+        "ObjectName": "Function'BP_FlickerLight_NonTechart_C:CheckIsOnSwtich'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart.2"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_FlickerLight_NonTechart_C:ReceiveBeginPlay'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart.4"
+      },
+      "UserConstructionScript": {
+        "ObjectName": "Function'BP_FlickerLight_NonTechart_C:UserConstructionScript'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart.5"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_FlickerLight_NonTechart_C'Default__BP_FlickerLight_NonTechart_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_FlickerLight_NonTechart_C",
+    "Name": "Default__BP_FlickerLight_NonTechart_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart.BP_FlickerLight_NonTechart_C'",
+    "Package": "/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Max Delay": 0.5,
+      "Min Delay": 0.1,
+      "Default Emissive": 2.0,
+      "LightMain": 7500.0,
+      "LightAmbient": 2.0
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "CheckIsOnSwtich",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FlickerLight_NonTechart_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart.0"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_FlickerLight_NonTechart",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FlickerLight_NonTechart_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_RandomFloatInRange_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_GetRenderingDetailMode_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_LessEqual_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Delay_Duration_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_SetIntensity_NewIntensity_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_SetIntensity_NewIntensity_ImplicitCast_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FlickerLight_NonTechart_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "UserConstructionScript",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FlickerLight_NonTechart_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Actor:UserConstructionScript'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_SetIntensity_NewIntensity_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_SetIntensity_NewIntensity_ImplicitCast_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "Bounce_LowMid_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FlickerLight_NonTechart_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart.0"
+    },
+    "Properties": {
+      "bUseInverseSquaredFalloff": false,
+      "LightFalloffExponent": 1.0,
+      "AttenuationRadius": 1500.0,
+      "Temperature": 5313.4404,
+      "MaxDrawDistance": 6000.0,
+      "MaxDistanceFadeRange": 2000.0,
+      "bUseTemperature": true,
+      "SpecularScale": 0.0,
+      "bUseRayTracedDistanceFieldShadows": true,
+      "Intensity": 2.0,
+      "CastShadows": false,
+      "IndirectLightingIntensity": 0.0,
+      "RelativeLocation": {
+        "X": 4.0213024E-07,
+        "Y": 1.7751406E-12,
+        "Z": -550.2737
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -5.0511527,
+        "Roll": 5.0511527
+      },
+      "DetailMode_High": false,
+      "DetailMode_Epic": false
+    },
+    "IntensityNits": 2.0
+  },
+  {
+    "Type": "PointLightComponent",
+    "Name": "PointLight_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PointLightComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FlickerLight_NonTechart_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart.0"
+    },
+    "Properties": {
+      "bUseInverseSquaredFalloff": false,
+      "SourceRadius": 19.2,
+      "SourceLength": 288.00006,
+      "AttenuationRadius": 221.61928,
+      "Temperature": 9664.162,
+      "MaxDrawDistance": 6000.0,
+      "MaxDistanceFadeRange": 2000.0,
+      "bUseRayTracedDistanceFieldShadows": true,
+      "Intensity": 1.0,
+      "CastShadows": false,
+      "IndirectLightingIntensity": 20.0,
+      "RelativeLocation": {
+        "X": 9.222028E-07,
+        "Y": 1.6943673E-13,
+        "Z": -192.11096
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -5.0511527,
+        "Roll": 5.0511527
+      },
+      "DetailMode_Low": false,
+      "DetailMode_Medium": false
+    },
+    "IntensityNits": 1.0
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FlickerLight_NonTechart_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FlickerLight_NonTechart_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart.14"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_FlickerLight_NonTechart_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart.8"
+      },
+      "VariableGuid": "3BE2937E-4A88D9A0-107F1E92-8BF2598F",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FlickerLight_NonTechart_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart.14"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PointLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PointLightComponent'BP_FlickerLight_NonTechart_C:PointLight_GEN_VARIABLE'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart.7"
+      },
+      "VariableGuid": "CE26D9AF-406123AC-E854B2B8-8EF6C854",
+      "InternalVariableName": "PointLight"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FlickerLight_NonTechart_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart.14"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'PointLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "PointLightComponent'BP_FlickerLight_NonTechart_C:Bounce_LowMid_GEN_VARIABLE'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart.6"
+      },
+      "VariableGuid": "763A7A35-436ACA72-31C4CD8B-0CEB2987",
+      "InternalVariableName": "Bounce_LowMid"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FlickerLight_NonTechart_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart.14"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_FlickerLight_NonTechart_C:SM_FluorescentLightLarge1_GEN_VARIABLE'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart.16"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_FlickerLight_NonTechart_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart.13"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FlickerLight_NonTechart_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart.10"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FlickerLight_NonTechart_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart.11"
+        }
+      ],
+      "VariableGuid": "28171F39-4FDCB9EC-70E157BC-E5E157DF",
+      "InternalVariableName": "SM_FluorescentLightLarge1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FlickerLight_NonTechart_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart.14"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SpotLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SpotLightComponent'BP_FlickerLight_NonTechart_C:SpotLight_GEN_VARIABLE'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart.15"
+      },
+      "VariableGuid": "5EE6A1DE-4756F375-E0BC94AF-B495EF37",
+      "InternalVariableName": "SpotLight"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FlickerLight_NonTechart_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_FlickerLight_NonTechart_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart.12"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_FlickerLight_NonTechart_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FlickerLight_NonTechart_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart.10"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FlickerLight_NonTechart_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart.13"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FlickerLight_NonTechart_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart.11"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_FlickerLight_NonTechart_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart.9"
+      }
+    }
+  },
+  {
+    "Type": "SpotLightComponent",
+    "Name": "SpotLight_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SpotLightComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FlickerLight_NonTechart_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart.0"
+    },
+    "Properties": {
+      "AttenuationRadius": 1308.1471,
+      "MaxDrawDistance": 6000.0,
+      "MaxDistanceFadeRange": 2000.0,
+      "CastShadows": false,
+      "RelativeLocation": {
+        "X": 2.2416782,
+        "Y": -9.271895E-14,
+        "Z": -182.13763
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 540.0,
+        "Roll": 180.0
+      }
+    },
+    "IntensityNits": 0.0
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_FluorescentLightLarge1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FlickerLight_NonTechart_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_FlickerLight_NonTechart.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FluorescentLightLarge'",
+        "ObjectPath": "/Game/LevelArt/Global/Manmade/Meshes/SM_FluorescentLightLarge.2"
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  }
+]

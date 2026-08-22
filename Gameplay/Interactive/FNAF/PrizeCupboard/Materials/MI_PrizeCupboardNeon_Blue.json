@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_PrizeCupboardNeon_Blue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Package": "/Game/Gameplay/Interactive/FNAF/PrizeCupboard/Materials/MI_PrizeCupboardNeon_Blue",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'M_GameplayGlow'",
+        "ObjectPath": "/Game/Global/Materials/Masters/M_GameplayGlow.0"
+      },
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Emissive Power",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 2.0,
+          "ExpressionGUID": "D1037B4E-4528029A-E478109D-07F49E11"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "BaseColour",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.0,
+            "G": 0.00297,
+            "B": 0.372396,
+            "A": 1.0,
+            "Hex": "0009A4"
+          },
+          "ExpressionGUID": "AB9DFF93-4C5B3C6B-7F1F0F97-B818206F"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Emissive Colour",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.0,
+            "G": 0.328394,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "009BFF"
+          },
+          "ExpressionGUID": "0EF47E53-46AAE7D8-EC494FAB-DEDE599D"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "BlendMode": "EBlendMode::BLEND_Masked",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "bIncludedInBaseGame": true
+    },
+    "LoadedMaterialResources": [],
+    "CachedData": {
+      "ParentLayerIndexRemap": []
+    }
+  }
+]

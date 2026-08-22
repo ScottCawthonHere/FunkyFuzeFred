@@ -1,0 +1,85 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_BODY_Foxy_Zombie",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Package": "/Game/Characters/FiveNightsAtFreddys/Foxy/Materials/MI_BODY_Foxy_Zombie",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "MaterialInstanceConstant'MI_BODY_Foxy'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Materials/MI_BODY_Foxy.0"
+      },
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Diff",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_BODY_Foxy_Zombie_BC'",
+            "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Textures/T_BODY_Foxy_Zombie_BC.0"
+          },
+          "ExpressionGUID": "525AE4C8-4E9DF909-B441F7B5-58D3379C"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Nrm",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_BODY_Foxy_N'",
+            "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/Foxy/Textures/T_BODY_Foxy_N.0"
+          },
+          "ExpressionGUID": "AEDBC07F-4D2F9AAC-576581BF-F829F653"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "TwoSided": true,
+        "BlendMode": "EBlendMode::BLEND_Masked",
+        "ShadingModel": "EMaterialShadingModel::MSM_FromMaterialExpression",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "bIncludedInBaseGame": true,
+      "TextureStreamingData": [
+        {
+          "SamplingScale": 0.5,
+          "UVChannelIndex": 0,
+          "TextureName": "T_BODY_Foxy_N"
+        },
+        {
+          "SamplingScale": 32.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_NoiseVinyl_NR"
+        },
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_Scratches_N"
+        },
+        {
+          "SamplingScale": 0.5,
+          "UVChannelIndex": 0,
+          "TextureName": "T_White255_BC"
+        }
+      ]
+    },
+    "LoadedMaterialResources": [],
+    "CachedData": {
+      "ParentLayerIndexRemap": []
+    }
+  }
+]

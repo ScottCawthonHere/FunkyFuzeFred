@@ -1,0 +1,101 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_ThemedCardboardBoxes_Evidence",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Package": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Materials/MI_ThemedCardboardBoxes_Evidence",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "MaterialInstanceConstant'MI_GameplayAssets_BCNRM_Evidence_Callout'",
+        "ObjectPath": "/Game/Global/Materials/Masters/Callout/MI_GameplayAssets_BCNRM_Evidence_Callout.0"
+      },
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "CalloutGlowMax",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "782D3EB3-4A97D5FE-999340A3-3A8FB3FF"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "CalloutGlowMin",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "31D3D24B-40154E73-C7C7FDAB-A44D45C9"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Colour, AO",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_ThemedCardboardBoxes_BC'",
+            "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Textures/T_ThemedCardboardBoxes_BC.0"
+          },
+          "ExpressionGUID": "D2E570F7-43DA1DFB-847D02BD-1C2B4DC7"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Normal, Rough, Metal",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_ThemedCardboardBoxes_NRM'",
+            "ObjectPath": "/Game/Gameplay/Props/FNAF/ThemedCardboardBoxes/Textures/T_ThemedCardboardBoxes_NRM.0"
+          },
+          "ExpressionGUID": "6E4748A6-4E9BAE89-E20BA0BE-701A2E2E"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "BlendMode": "EBlendMode::BLEND_Masked",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "bIncludedInBaseGame": true,
+      "TextureStreamingData": [
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_Grunge_02"
+        },
+        {
+          "SamplingScale": 32.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_NoiseVinyl_NR"
+        },
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_ThemedCardboardBoxes_BC"
+        },
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_ThemedCardboardBoxes_NRM"
+        }
+      ]
+    },
+    "LoadedMaterialResources": [],
+    "CachedData": {
+      "ParentLayerIndexRemap": []
+    }
+  }
+]

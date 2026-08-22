@@ -1,0 +1,83 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_PartyChairs",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Package": "/Game/Gameplay/Props/FNAF/PartyTable/Materials/MI_PartyChairs",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'M_GameplayAssets_BCNRM'",
+        "ObjectPath": "/Game/Global/Materials/Masters/M_GameplayAssets_BCNRM.0"
+      },
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Colour, AO",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_PartyTableAndChair_BC'",
+            "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Textures/T_PartyTableAndChair_BC.0"
+          },
+          "ExpressionGUID": "D2E570F7-43DA1DFB-847D02BD-1C2B4DC7"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Normal, Rough, Metal",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_PartyTableAndChair_NRM'",
+            "ObjectPath": "/Game/Gameplay/Props/FNAF/PartyTable/Textures/T_PartyTableAndChair_NRM.0"
+          },
+          "ExpressionGUID": "6E4748A6-4E9BAE89-E20BA0BE-701A2E2E"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "BlendMode": "EBlendMode::BLEND_Masked",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "bIncludedInBaseGame": true,
+      "TextureStreamingData": [
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_Grunge_02"
+        },
+        {
+          "SamplingScale": 32.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_NoiseVinyl_NR"
+        },
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_PartyTableAndChair_BC"
+        },
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_PartyTableAndChair_NRM"
+        }
+      ]
+    },
+    "LoadedMaterialResources": [],
+    "CachedData": {
+      "ParentLayerIndexRemap": []
+    }
+  }
+]

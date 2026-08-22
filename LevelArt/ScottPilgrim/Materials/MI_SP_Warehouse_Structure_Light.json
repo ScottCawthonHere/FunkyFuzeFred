@@ -1,0 +1,326 @@
+{
+  "Textures": {
+    "T_Template_NRM": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_Template_NRM.T_Template_NRM",
+    "T_Template_BC": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_Template_BC.T_Template_BC",
+    "T_Template_N": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_Template_N.T_Template_N",
+    "DefaultDiffuse": "/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse",
+    "BaseFlattenNormalMap": "/Engine/EngineMaterials/BaseFlattenNormalMap.BaseFlattenNormalMap",
+    "DefaultNormal_Uncompressed": "/Engine/EngineMaterials/DefaultNormal_Uncompressed.DefaultNormal_Uncompressed",
+    "Good64x64TilingNoiseHighFreq": "/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq",
+    "T_Template_Anim_BC_Volume": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_Template_Anim_BC_Volume.T_Template_Anim_BC_Volume",
+    "T_RainRipplesSheet_N_Volume": "/Game/LevelArt/Global/Effects/Textures/T_RainRipplesSheet_N_Volume.T_RainRipplesSheet_N_Volume",
+    "T_EV_BlankWhite_01": "/Engine/EngineVolumetrics/Fogsheet/Materials/T_EV_BlankWhite_01.T_EV_BlankWhite_01",
+    "T_Template_BCP": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_Template_BCP.T_Template_BCP",
+    "T_Template_DAT": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_Template_DAT.T_Template_DAT",
+    "BlendFunc_DefBlend": "/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend",
+    "BlendFunc_DefBase": "/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase",
+    "T_NoiseCloud_01": "/Game/LevelArt/Global/Misc/Textures/T_NoiseCloud_01.T_NoiseCloud_01",
+    "PM_SpecularMasks": "/Game/LevelArt/ScottPilgrim/Textures/T_GirderTrim_NRM.T_GirderTrim_NRM",
+    "NRM Texture": "/Game/LevelArt/ScottPilgrim/Textures/T_GirderTrim_NRM.T_GirderTrim_NRM",
+    "BC Texture": "/Game/LevelArt/ScottPilgrim/Textures/T_GirderTrim_BC.T_GirderTrim_BC",
+    "NR Detail Texture": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_Template_N.T_Template_N",
+    "PM_Normals": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_Template_N.T_Template_N",
+    "Top Down Overlay Normal": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_Template_N.T_Template_N",
+    "Top Down Overlay Base Colour": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_Template_BC.T_Template_BC",
+    "Ripples - Sprite Sheet": "/Game/LevelArt/Global/Effects/Textures/T_RainRipplesSheet_N_Volume.T_RainRipplesSheet_N_Volume",
+    "BCP Grunge Map": "/Game/LevelArt/MastersOfTheUniverse/Textures/T_GrungeBrushC_BC.T_GrungeBrushC_BC",
+    "DAT Texture": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_Template_DAT.T_Template_DAT",
+    "Puddle Var Tex": "/Game/Global/Textures/T_NoiseCloud_01.T_NoiseCloud_01",
+    "BC Tint Texture": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_Template_BC.T_Template_BC",
+    "Overlay Tex for Blend Edge Break Up": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_Template_DAT.T_Template_DAT",
+    "BAKED NORMAL": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_Template_N.T_Template_N",
+    "PM_Diffuse": "/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse",
+    "T_GirderTrim_BC": "/Game/LevelArt/ScottPilgrim/Textures/T_GirderTrim_BC.T_GirderTrim_BC",
+    "T_GrungeBrushC_BC": "/Game/LevelArt/MastersOfTheUniverse/Textures/T_GrungeBrushC_BC.T_GrungeBrushC_BC"
+  },
+  "Parameters": {
+    "BlendMode": 0,
+    "ShadingModel": 0,
+    "Colors": {
+      "BC Tint": {
+        "R": 1.0,
+        "G": 0.9379,
+        "B": 0.807926,
+        "A": 1.0,
+        "Hex": "FFF8E9"
+      },
+      "Emissive Tint": {
+        "R": 1.0,
+        "G": 0.649786,
+        "B": 0.3,
+        "A": 1.0,
+        "Hex": "FFD395"
+      },
+      "Top Down Overlay BC Tint": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "Puddle - Colour Tint": {
+        "R": 0.140833,
+        "G": 0.168536,
+        "B": 0.2,
+        "A": 1.0,
+        "Hex": "69727C"
+      },
+      "Non Puddle - Colour Tint When Raining": {
+        "R": 0.140833,
+        "G": 0.168536,
+        "B": 0.2,
+        "A": 1.0,
+        "Hex": "69727C"
+      },
+      "Base Tex Scale/Offset": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "FFFF00"
+      },
+      "Grunge Tint - Channel 1": {
+        "R": 0.445833,
+        "G": 0.29169,
+        "B": 0.282361,
+        "A": 1.0,
+        "Hex": "B29391"
+      },
+      "Grunge Tint - Channel 2": {
+        "R": 0.5,
+        "G": 0.250479,
+        "B": 0.116191,
+        "A": 1.0,
+        "Hex": "BC8960"
+      },
+      "Grunge Tint - Channel 3": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Grunge Tex Scale/Offset - Channel 1": {
+        "R": 5.0,
+        "G": 5.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "FFFF00"
+      },
+      "Grunge Tex Scale/Offset - Channel 2": {
+        "R": 2.0,
+        "G": 2.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "FFFF00"
+      },
+      "Grunge Tex Scale/Offset - Channel 3": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "FFFF00"
+      },
+      "Grunge Channel 1": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "FF0000"
+      },
+      "Grunge Channel 2": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "00FF00"
+      },
+      "Grunge Channel 3": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 0.0,
+        "Hex": "0000FF"
+      },
+      "DAT Tint Mask Channel": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "00FF00"
+      },
+      "DAT Emissive Channel": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "FF0000"
+      },
+      "Puddle Var Tex 1 Scale/Offset": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "FFFF00"
+      },
+      "Puddle Var Tex 2 Scale/Offset": {
+        "R": 1.5,
+        "G": 1.5,
+        "B": 0.2,
+        "A": 0.1,
+        "Hex": "19FFFF7C"
+      },
+      "Puddle Var Tex 3 Scale/Offset": {
+        "R": 2.0,
+        "G": 2.0,
+        "B": 0.35,
+        "A": 0.65,
+        "Hex": "A6FFFFA0"
+      },
+      "Puddle Var Tex Channel 1": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "FF0000"
+      },
+      "Puddle Var Tex Channel 2": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "00FF00"
+      },
+      "Puddle Var Tex Channel 3": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 0.0,
+        "Hex": "0000FF"
+      },
+      "Blend Edge Break Up Channel": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 0.0,
+        "Hex": "0000FF"
+      },
+      "Overlay Vertex Colour Channel": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "FF0000"
+      },
+      "Vert Colour to paint out Puddle Heights": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 0.0,
+        "Hex": "0000FF"
+      },
+      "Vert Colour to paint out Puddle Variation": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 0.0,
+        "Hex": "0000FF"
+      }
+    },
+    "Scalars": {
+      "Flatten Norm": 0.0,
+      "Flatten Detail Norm": 0.0,
+      "Norm Detail Tex Scale": 1.0,
+      "POM Height Ratio": 0.05,
+      "POM Min Steps": 4.0,
+      "POM Ref Plane": 0.5,
+      "POM TAA Steps": 1.2,
+      "POM Dither Threshold": 32.0,
+      "Metalness": 0.28,
+      "Emissive Power": 5.0,
+      "Grunge - Metalness Value": 0.0,
+      "Top Down Overlay Tex Size": 64.0,
+      "Top Down Overlay Metallic": 0.0,
+      "Top Down Overlay Roughness": 0.0,
+      "CamAlpha": 1.0,
+      "Global Mat Fade": 1.0,
+      "Ripples - Ripples Scale": 1.0,
+      "Ripples - Loop Speed": 1.0,
+      "Ripples - Flatten Normal": 0.0,
+      "Ripples - Angle Based Min Flatten Normal": 1.0,
+      "Ripples - Angle Based Mask Boost": 3.0,
+      "Ripples - Angle Based Mask Contrast ": 10.0,
+      "Puddle - Roughness": 0.0,
+      "Non Puddle - Dry Rough Multiplier When Raining": 0.8,
+      "Grunge - Rough Value": 1.0,
+      "Puddle - Metalness": 0.0,
+      "Base Roughness": 0.0,
+      "Max Expensive Steps Debug Color": 32.0,
+      "Base Height": 0.0,
+      "Grunge - Colour Contrast": 1.0,
+      "Grunge - Colour Strength": -0.176,
+      "Grunge - Emissive Value": 0.0,
+      "Puddle - Depth": 0.5,
+      "Puddle - Height Contrast": 1.0,
+      "Puddle - Min Angle Based Depth": 0.0,
+      "Puddle - Min Angle Based Mask Contrast ": 1.0,
+      "Puddle - Angle Based Mask Contrast ": 2.0,
+      "Puddle - Angle Based Mask Boost": 2.0,
+      "Puddle Var Tex Contrast": 1.0,
+      "Puddle Var Tex Boost": 1.0,
+      "Puddle Var Tex 3 Rotate Val (0-1)": 0.65,
+      "Puddle Var Tex 2 Rotate Val (0-1)": 0.2,
+      "Puddle Var Tex 1 Rotate Val (0-1)": 0.0,
+      "Tint Tex Fade": 1.0,
+      "Top Down Overlay Mask Contrast": 1.0,
+      "Top Down Overlay Mask Shift": 0.25,
+      "BoundsScale": 50.0,
+      "Falloff": 1.0,
+      "RVT - BlendHeight": 10.0,
+      "RVT - NoiseTile": 2.0,
+      "RVT - BlendContrest": 2.0,
+      "RVT - OffsetMul": 0.0,
+      "BakeNormal_Strength": 0.0,
+      "Overlay Mask Tile": 1.0,
+      "Overlay Mask Contrast": 1.0,
+      "Overlay Base Height Power": 1.0,
+      "Overlay Base Height Shift": 0.0,
+      "Overlay Base Height Scale": 1.0,
+      "Hue Shift (0-1)": 0.0,
+      "Desaturate": 0.0,
+      "Lumen Emissive Multiplier": 1.0,
+      "Specular": 0.5,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {
+      "Use Emissive?": false,
+      "Mult Emissive with BC?": false,
+      "Use Grunge?": true,
+      "Triplanar mapping?": true,
+      "Use 2 layers?": true,
+      "Use 3 layers?": false,
+      "Metalness From Texture?": false
+    },
+    "Properties": {
+      "bUsedWithSkeletalMesh": true,
+      "bUsedWithNiagaraMeshParticles": true,
+      "bUsedWithStaticLighting": true,
+      "bUsedWithSplineMeshes": true,
+      "bUsedWithInstancedStaticMeshes": true,
+      "bUsedWithNanite": true,
+      "bUseMaterialAttributes": true,
+      "StateId": "DEDCA894-42A51206-ED12B195-93909D56",
+      "bIncludedInBaseGame": true,
+      "bHasStaticPermutationResource": true,
+      "BasePropertyOverrides": {
+        "OpacityMaskClipValue": 0.3333
+      }
+    },
+    "HasTopDiffuse": false,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": false,
+    "IsNull": false
+  }
+}

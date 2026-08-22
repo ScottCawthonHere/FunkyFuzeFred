@@ -1,0 +1,453 @@
+{
+  "Textures": {
+    "BaseFlattenNormalMap": "/Engine/EngineMaterials/BaseFlattenNormalMap.BaseFlattenNormalMap",
+    "DefaultNormal_Uncompressed": "/Engine/EngineMaterials/DefaultNormal_Uncompressed.DefaultNormal_Uncompressed",
+    "T_Template_N": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_Template_N.T_Template_N",
+    "Good64x64TilingNoiseHighFreq": "/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq",
+    "T_EV_BlankWhite_01": "/Engine/EngineVolumetrics/Fogsheet/Materials/T_EV_BlankWhite_01.T_EV_BlankWhite_01",
+    "T_Template_NRH": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_Template_NRH.T_Template_NRH",
+    "DefaultDiffuse": "/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse",
+    "T_Template_BC": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_Template_BC.T_Template_BC",
+    "T_Template_DAT": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_Template_DAT.T_Template_DAT",
+    "T_Template_BCP": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_Template_BCP.T_Template_BCP",
+    "T_Template_Anim_BC_Volume": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_Template_Anim_BC_Volume.T_Template_Anim_BC_Volume",
+    "T_RainRipplesSheet_N_Volume": "/Game/LevelArt/Global/Effects/Textures/T_RainRipplesSheet_N_Volume.T_RainRipplesSheet_N_Volume",
+    "T_DripDistort_BC": "/Game/LevelArt/Global/Effects/Textures/T_DripDistort_BC.T_DripDistort_BC",
+    "T_dripStreaks_2_N": "/Game/LevelArt/Global/Effects/Textures/T_dripStreaks_2_N.T_dripStreaks_2_N",
+    "T_dripStreaks_N": "/Game/LevelArt/Global/Effects/Textures/T_dripStreaks_N.T_dripStreaks_N",
+    "T_dripStreaks_DAT": "/Game/LevelArt/Global/Effects/Textures/T_dripStreaks_DAT.T_dripStreaks_DAT",
+    "T_droplets_N": "/Game/LevelArt/Global/Effects/Textures/T_droplets_N.T_droplets_N",
+    "T_droplets_DAT": "/Game/LevelArt/Global/Effects/Textures/T_droplets_DAT.T_droplets_DAT",
+    "BlendFunc_DefBlend": "/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend",
+    "BlendFunc_DefBase": "/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase",
+    "T_NoiseCloud_01": "/Game/Global/Textures/T_NoiseCloud_01.T_NoiseCloud_01",
+    "T_SnowMasks_DAT": "/Game/LevelArt/Global/Effects/Textures/T_SnowMasks_DAT.T_SnowMasks_DAT",
+    "T_Template_GrungeTest": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_Template_GrungeTest.T_Template_GrungeTest",
+    "NR Detail Texture": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_Template_N.T_Template_N",
+    "Base NRH Texture": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_Template_NRH.T_Template_NRH",
+    "PM_Normals": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_Template_N.T_Template_N",
+    "Top Down Overlay Normal": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_Template_N.T_Template_N",
+    "Top Down Overlay Base Colour": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_Template_BC.T_Template_BC",
+    "BCP Grunge Map": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_Template_DAT.T_Template_DAT",
+    "Ripples - Sprite Sheet": "/Game/LevelArt/Global/Effects/Textures/T_RainRipplesSheet_N_Volume.T_RainRipplesSheet_N_Volume",
+    "Noise Texture": "/Game/LevelArt/Global/Effects/Textures/T_DripDistort_BC.T_DripDistort_BC",
+    "Puddle Var Tex": "/Game/Global/Textures/T_NoiseCloud_01.T_NoiseCloud_01",
+    "Overlay Tex for Blend Edge Break Up": "/Game/LevelArt/Global/Effects/Textures/T_SnowMasks_DAT.T_SnowMasks_DAT",
+    "PM_Emissive": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_Template_DAT.T_Template_DAT",
+    "Emissive Texture": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_Template_DAT.T_Template_DAT",
+    "BC Secondary Tex (B)": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_Template_BC.T_Template_BC",
+    "BC Solid/Glass Mask": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_Template_GrungeTest.T_Template_GrungeTest",
+    "BC Glass Texture (W)": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_Template_BC.T_Template_BC",
+    "Opacity Solid/Glass Mask": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_Template_GrungeTest.T_Template_GrungeTest",
+    "Roughness Solid/Glass Mask": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_Template_GrungeTest.T_Template_GrungeTest",
+    "Metalness Solid/Glass Mask": "/Game/LevelArt/Global/_MasterMaterials/Textures/T_Template_GrungeTest.T_Template_GrungeTest",
+    "PM_Diffuse": "/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse"
+  },
+  "Parameters": {
+    "BlendMode": 2,
+    "ShadingModel": 0,
+    "Colors": {
+      "Top Down Overlay BC Tint": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "Grunge Tint - Channel 1": {
+        "R": 0.1875,
+        "G": 0.066753,
+        "B": 0.021374,
+        "A": 1.0,
+        "Hex": "784928"
+      },
+      "Grunge Tint - Channel 2": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Grunge Tint - Channel 3": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Grunge Channel 1": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "FF0000"
+      },
+      "Grunge Channel 2": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "00FF00"
+      },
+      "Grunge Channel 3": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 0.0,
+        "Hex": "0000FF"
+      },
+      "Grunge Tex Scale/Offset - Channel 1": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "FFFF00"
+      },
+      "Grunge Tex Scale/Offset - Channel 2": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "FFFF00"
+      },
+      "Grunge Tex Scale/Offset - Channel 3": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "FFFF00"
+      },
+      "Base Tex Scale/Offset": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "FFFF00"
+      },
+      "Puddle - Colour Tint": {
+        "R": 0.140833,
+        "G": 0.168536,
+        "B": 0.2,
+        "A": 1.0,
+        "Hex": "69727C"
+      },
+      "Non Puddle - Colour Tint When Raining": {
+        "R": 0.140833,
+        "G": 0.168536,
+        "B": 0.2,
+        "A": 1.0,
+        "Hex": "69727C"
+      },
+      "Puddle Var Tex 1 Scale/Offset": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "FFFF00"
+      },
+      "Puddle Var Tex 2 Scale/Offset": {
+        "R": 1.5,
+        "G": 1.5,
+        "B": 0.2,
+        "A": 0.1,
+        "Hex": "19FFFF7C"
+      },
+      "Puddle Var Tex 3 Scale/Offset": {
+        "R": 2.0,
+        "G": 2.0,
+        "B": 0.35,
+        "A": 0.65,
+        "Hex": "A6FFFFA0"
+      },
+      "Puddle Var Tex Channel 1": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "FF0000"
+      },
+      "Puddle Var Tex Channel 2": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "00FF00"
+      },
+      "Puddle Var Tex Channel 3": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 0.0,
+        "Hex": "0000FF"
+      },
+      "Blend Edge Break Up Channel": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 0.0,
+        "Hex": "0000FF"
+      },
+      "Emissive Tex Channel": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "FF0000"
+      },
+      "Emissive Tint": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "BC Secondary Tint (B)": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "BC Mask Tex Channel": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "FF0000"
+      },
+      "BC Glass Tint (W)": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "Opacity Mask Tex Channel": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "FF0000"
+      },
+      "Roughness Mask Tex Channel": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "FF0000"
+      },
+      "Metalness Mask Tex Channel": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "FF0000"
+      },
+      "Overlay Vertex Colour Channel": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "FF0000"
+      },
+      "Vert Colour to paint out Puddle Variation": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 0.0,
+        "Hex": "0000FF"
+      },
+      "Vert Colour to paint out Puddle Heights": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 0.0,
+        "Hex": "0000FF"
+      },
+      "BC Glass Fresnel Tint (B)": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF0000"
+      },
+      "ObjectCalloutColour": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "000000"
+      },
+      "R": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "FF0000"
+      },
+      "G": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 0.0,
+        "Hex": "00FF00"
+      },
+      "B": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 0.0,
+        "Hex": "0000FF"
+      },
+      "RotationAxis": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "0000FF"
+      },
+      "OscillateAxis": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "0000FF"
+      },
+      "HeightAxis": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "0000FF"
+      },
+      "CustomDissolveColor": {
+        "R": 0.005605,
+        "G": 0.013702,
+        "B": 0.026241,
+        "A": 1.0,
+        "Hex": "111F2D"
+      }
+    },
+    "Scalars": {
+      "Fresnel Contrast": 2.0,
+      "Frensel Boost": 7.0,
+      "Refraction Index": 1.05,
+      "Flatten Norm": 0.0,
+      "Flatten Detail Norm": 0.0,
+      "Norm Detail Tex Scale": 1.0,
+      "POM Height Ratio": 0.075,
+      "POM Min Steps": 4.0,
+      "POM Ref Plane": 0.5,
+      "POM TAA Steps": 3.0,
+      "POM Dither Threshold": 32.0,
+      "Max Expensive Steps Debug Color": 32.0,
+      "Top Down Overlay Tex Size": 64.0,
+      "Grunge - Global Opacity": 1.0,
+      "CamAlpha": 1.0,
+      "Frensel Min": 0.1,
+      "Grunge Colour - Contrast": 1.0,
+      "Grunge Colour - Strength": 1.0,
+      "Grunge - Roughness": 1.0,
+      "Ripples - Ripples Scale": 1.0,
+      "Ripples - Loop Speed": 1.0,
+      "Ripples - Flatten Normal": 0.0,
+      "Ripples - Angle Based Min Flatten Normal": 1.0,
+      "Ripples - Angle Based Mask Boost": 3.0,
+      "Ripples - Angle Based Mask Contrast ": 10.0,
+      "Puddle - Roughness": 0.0,
+      "Non Puddle - Dry Rough Multiplier When Raining": 0.8,
+      "Base Height": 0.0,
+      "Drip 1 Scroll Offset": 0.2,
+      "Drip 1 Speed": -0.1,
+      "Distort Strength": 0.1,
+      "Drip 2 Speed": -0.133,
+      "Drip 2 Scroll Offset": 0.25,
+      "Droplets Fade Speed": 0.5,
+      "Flatten Normal": 0.0,
+      "Global Drips Scale": 2.0,
+      "Puddle - Depth": 0.5,
+      "Puddle - Height Contrast": 1.0,
+      "Puddle - Min Angle Based Depth": 0.0,
+      "Puddle - Min Angle Based Mask Contrast ": 1.0,
+      "Puddle - Angle Based Mask Contrast ": 2.0,
+      "Puddle - Angle Based Mask Boost": 2.0,
+      "Puddle Var Tex Contrast": 1.0,
+      "Puddle Var Tex Boost": 1.0,
+      "Puddle Var Tex 3 Rotate Val (0-1)": 0.65,
+      "Puddle Var Tex 2 Rotate Val (0-1)": 0.2,
+      "Puddle Var Tex 1 Rotate Val (0-1)": 0.0,
+      "Top Down Overlay Mask Contrast": 5.0,
+      "Top Down Overlay Mask Shift": 0.25,
+      "Top Down Metallic": 0.0,
+      "Top Down Roughness": 1.0,
+      "Grunge - Metalness": 0.0,
+      "Emissive Boost": 0.0,
+      "Opacity Glass (W)": 0.95,
+      "Opacity Secondary (B)": 1.0,
+      "Roughness Glass (W)": 0.0,
+      "Roughness Secondary (B)": 1.0,
+      "Metalness Glass (W)": 1.0,
+      "Metalness Secondary (B)": 0.0,
+      "'Solid' Mask Final Opacity Value": 1.0,
+      "Overlay Mask Tile": 1.0,
+      "Overlay Mask Contrast": 1.0,
+      "Grunge Mask - Final Power": 1.0,
+      "Overlay Base Height Power": 1.0,
+      "Overlay Base Height Shift": 0.0,
+      "Overlay Base Height Scale": 1.0,
+      "Drips Refraction": 1.33,
+      "TextureScrollX": 1.0,
+      "TextureScrollY": 1.0,
+      "CalloutGlowMin": 25.0,
+      "CalloutGlowMax": 30.0,
+      "Fresnel Reflect": 1E-05,
+      "Fresnel Power": 3.5,
+      "CalloutSpeed": 1.0,
+      "Rainbow": 0.0,
+      "CalloutEmissiveValue": 1.0,
+      "Lumen Emissive Multiplier": 1.0,
+      "RotationSpeed": 0.15,
+      "OscillateSpeed": 0.3,
+      "OscillateAmount": 10.0,
+      "B": 0.0,
+      "ObjectHeight": 0.0,
+      "FilterWidth": 10.0,
+      "Fresnel Strength": 2.0,
+      "Fade": 0.0,
+      "EdgeGlowIntensity": 100.0,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {},
+    "Properties": {
+      "PhysMaterial": {
+        "ObjectName": "PhysicalMaterial'PM_Glass'",
+        "ObjectPath": "/Game/Physics/PM_Glass.0"
+      },
+      "bScreenSpaceReflections": true,
+      "TranslucencyLightingMode": "ETranslucencyLightingMode::TLM_Surface",
+      "bUsedWithSkeletalMesh": true,
+      "bUsedWithNiagaraMeshParticles": true,
+      "bUsedWithStaticLighting": true,
+      "bUsedWithInstancedStaticMeshes": true,
+      "bUsedWithGeometryCollections": true,
+      "bUsesDistortion": true,
+      "bRootNodeOverridesDefaultDistortion": true,
+      "bUsedWithNanite": true,
+      "bCanMaskedBeAssumedOpaque": true,
+      "RefractionMethod": "ERefractionMode::RM_IndexOfRefraction",
+      "StateId": "27ED080B-4480902B-1188108B-1A91B605",
+      "bIncludedInBaseGame": true,
+      "BasePropertyOverrides": {
+        "bOverride_TwoSided": true,
+        "BlendMode": "EBlendMode::BLEND_Translucent",
+        "OpacityMaskClipValue": 0.3333
+      }
+    },
+    "HasTopDiffuse": false,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": true,
+    "IsNull": false
+  }
+}

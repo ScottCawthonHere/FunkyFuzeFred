@@ -1,0 +1,182 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_TerminalFNAf_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/Blueprints/BP_TerminalFNAf",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_CCTVTerminalFNAF_C'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_CCTVTerminalFNAF.1"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_TerminalFNAf_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/Blueprints/BP_TerminalFNAf.7"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_TerminalFNAf_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/Blueprints/BP_TerminalFNAf.4"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_TerminalFNAf_C:ExecuteUbergraph_BP_TerminalFNAf'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/Blueprints/BP_TerminalFNAf.2"
+      }
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_TerminalFNAf_C:WakeUp'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/Blueprints/BP_TerminalFNAf.3"
+      },
+      {
+        "ObjectName": "Function'BP_TerminalFNAf_C:ExecuteUbergraph_BP_TerminalFNAf'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/Blueprints/BP_TerminalFNAf.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_TerminalFNAf": {
+        "ObjectName": "Function'BP_TerminalFNAf_C:ExecuteUbergraph_BP_TerminalFNAf'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/Blueprints/BP_TerminalFNAf.2"
+      },
+      "WakeUp": {
+        "ObjectName": "Function'BP_TerminalFNAf_C:WakeUp'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/Blueprints/BP_TerminalFNAf.3"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_TerminalFNAf_C'Default__BP_TerminalFNAf_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/Blueprints/BP_TerminalFNAf.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_TerminalFNAf_C",
+    "Name": "Default__BP_TerminalFNAf_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Gameplay/Interactive/FNAF/CCTVTerminal/Blueprints/BP_TerminalFNAf.BP_TerminalFNAf_C'",
+    "Package": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/Blueprints/BP_TerminalFNAf",
+    "Template": {
+      "ObjectName": "BP_CCTVTerminalFNAF_C'Default__BP_CCTVTerminalFNAF_C'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_CCTVTerminalFNAF.2"
+    },
+    "Properties": {
+      "UberGraphFrame": {},
+      "RemoteRole": "ENetRole::ROLE_SimulatedProxy"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_TerminalFNAf",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_TerminalFNAf_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/Blueprints/BP_TerminalFNAf.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "WakeUp",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_TerminalFNAf_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/Blueprints/BP_TerminalFNAf.0"
+    },
+    "Super": {
+      "ObjectName": "Function'BP_CCTVTerminalFNAF_C:WakeUp'",
+      "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_CCTVTerminalFNAF.63"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_TerminalFNAf_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/Blueprints/BP_TerminalFNAf.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_TerminalFNAf_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/Blueprints/BP_TerminalFNAf.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_TerminalFNAf_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/Blueprints/BP_TerminalFNAf.7"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_TerminalFNAf_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/Blueprints/BP_TerminalFNAf.5"
+      },
+      "VariableGuid": "C637BFE7-45FA637D-3D67F7BD-021496C4",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_TerminalFNAf_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/Blueprints/BP_TerminalFNAf.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_TerminalFNAf_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/CCTVTerminal/Blueprints/BP_TerminalFNAf.6"
+      }
+    }
+  }
+]

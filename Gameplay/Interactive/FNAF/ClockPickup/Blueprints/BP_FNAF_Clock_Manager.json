@@ -1,0 +1,687 @@
+[
+  {
+    "Type": "BillboardComponent",
+    "Name": "Billboard_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BillboardComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_Clock_Manager_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAF_Clock_Manager.1"
+    },
+    "Properties": {
+      "Sprite": {
+        "ObjectName": "Texture2D'Clock_Face'",
+        "ObjectPath": "/Game/LevelArt/Global/UltraDynamicSky/Textures/Widgets/Clock_Face.0"
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_FNAF_Clock_Manager_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAF_Clock_Manager",
+    "Properties": {
+      "NumReplicatedProperties": 1,
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_FNAF_Clock_Manager_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAF_Clock_Manager.14"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_FNAF_Clock_Manager_C:ExecuteUbergraph_BP_FNAF_Clock_Manager'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAF_Clock_Manager.3"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MerlinTechActor'",
+      "ObjectPath": "/Script/Merlin"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_FNAF_Clock_Manager_C:OnRep_ClockToTrigger'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAF_Clock_Manager.5"
+      },
+      {
+        "ObjectName": "Function'BP_FNAF_Clock_Manager_C:OnMessageReceived_3686FA1C466A5A8259D7E4B2AAF6DD85'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAF_Clock_Manager.4"
+      },
+      {
+        "ObjectName": "Function'BP_FNAF_Clock_Manager_C:TriggerClock'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAF_Clock_Manager.7"
+      },
+      {
+        "ObjectName": "Function'BP_FNAF_Clock_Manager_C:ReceiveBeginPlay'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAF_Clock_Manager.6"
+      },
+      {
+        "ObjectName": "Function'BP_FNAF_Clock_Manager_C:TryActivateNewClock'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAF_Clock_Manager.8"
+      },
+      {
+        "ObjectName": "Function'BP_FNAF_Clock_Manager_C:ExecuteUbergraph_BP_FNAF_Clock_Manager'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAF_Clock_Manager.3"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Billboard",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'BillboardComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DefaultSceneRoot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "ClockToTrigger",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible | Net | DisableEditOnInstance | RepNotify",
+        "RepIndex": 10,
+        "RepNotifyFunc": "OnRep_ClockToTrigger"
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "ClockArray",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "ClockArray",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_FNAFClockPickup_C'",
+            "ObjectPath": "/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAFClockPickup.0"
+          }
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "ClocksActiveAtOnce",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "FirstIteration",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "ClockCheckCounter",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_FNAF_Clock_Manager": {
+        "ObjectName": "Function'BP_FNAF_Clock_Manager_C:ExecuteUbergraph_BP_FNAF_Clock_Manager'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAF_Clock_Manager.3"
+      },
+      "TryActivateNewClock": {
+        "ObjectName": "Function'BP_FNAF_Clock_Manager_C:TryActivateNewClock'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAF_Clock_Manager.8"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_FNAF_Clock_Manager_C:ReceiveBeginPlay'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAF_Clock_Manager.6"
+      },
+      "TriggerClock": {
+        "ObjectName": "Function'BP_FNAF_Clock_Manager_C:TriggerClock'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAF_Clock_Manager.7"
+      },
+      "OnMessageReceived_3686FA1C466A5A8259D7E4B2AAF6DD85": {
+        "ObjectName": "Function'BP_FNAF_Clock_Manager_C:OnMessageReceived_3686FA1C466A5A8259D7E4B2AAF6DD85'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAF_Clock_Manager.4"
+      },
+      "OnRep_ClockToTrigger": {
+        "ObjectName": "Function'BP_FNAF_Clock_Manager_C:OnRep_ClockToTrigger'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAF_Clock_Manager.5"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_FNAF_Clock_Manager_C'Default__BP_FNAF_Clock_Manager_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAF_Clock_Manager.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_FNAF_Clock_Manager_C",
+    "Name": "Default__BP_FNAF_Clock_Manager_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAF_Clock_Manager.BP_FNAF_Clock_Manager_C'",
+    "Package": "/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAF_Clock_Manager",
+    "Properties": {
+      "UberGraphFrame": {},
+      "ClocksActiveAtOnce": 2,
+      "FirstIteration": true,
+      "PropMovementComponent": {
+        "ObjectName": "PropMovementComponent'Default__BP_FNAF_Clock_Manager_C:PropMovementComponent'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAF_Clock_Manager.10"
+      },
+      "OptimizationComponent": {
+        "ObjectName": "MerlinActorOptimizationComponent'Default__BP_FNAF_Clock_Manager_C:ActorOptimizationComponent'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAF_Clock_Manager.9"
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_FNAF_Clock_Manager",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_Clock_Manager_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAF_Clock_Manager.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_CustomEvent_ProxyObject",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AsyncAction_ListenForGameplayMessage'",
+          "ObjectPath": "/Script/GameplayMessageRuntime"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_CustomEvent_ActualChannel",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "Class'GameplayTag'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "Class'AsyncGameplayMessageDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/GameplayMessageRuntime"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Temp_struct_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "Struct": {
+          "ObjectName": "Class'OnFNAFClockMessagePayload'",
+          "ObjectPath": "/Script/Merlin"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Temp_struct_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "Class'GameplayTag'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_StriStri_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Temp_object_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AsyncAction_ListenForGameplayMessage'",
+          "ObjectPath": "/Script/GameplayMessageRuntime"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_ListenForGameplayMessages_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AsyncAction_ListenForGameplayMessage'",
+          "ObjectPath": "/Script/GameplayMessageRuntime"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasAuthority_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_CustomEvent_ActorNum",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetAllActorsOfClass_OutActors",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetAllActorsOfClass_OutActors",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_FNAFClockPickup_C'",
+            "ObjectPath": "/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAFClockPickup.0"
+          }
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_RandomInteger_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_FNAFClockPickup_C'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAFClockPickup.0"
+        }
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "K2Node_DynamicCast_AsTrigger_Interface",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'TriggerInterface'",
+          "ObjectPath": "/Script/Merlin"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_LessEqual_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Temp_struct_Variable_2",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "Struct": {
+          "ObjectName": "Class'OnFNAFClockMessagePayload'",
+          "ObjectPath": "/Script/Merlin"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetPayload_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnMessageReceived_3686FA1C466A5A8259D7E4B2AAF6DD85",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_Clock_Manager_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAF_Clock_Manager.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "ProxyObject",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'AsyncAction_ListenForGameplayMessage'",
+          "ObjectPath": "/Script/GameplayMessageRuntime"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ActualChannel",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "Class'GameplayTag'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnRep_ClockToTrigger",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_Clock_Manager_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAF_Clock_Manager.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_Clock_Manager_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAF_Clock_Manager.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "TriggerClock",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_Clock_Manager_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAF_Clock_Manager.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "ActorNum",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "TryActivateNewClock",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_Clock_Manager_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAF_Clock_Manager.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "MerlinActorOptimizationComponent",
+    "Name": "ActorOptimizationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MerlinActorOptimizationComponent'",
+    "Outer": {
+      "ObjectName": "BP_FNAF_Clock_Manager_C'Default__BP_FNAF_Clock_Manager_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAF_Clock_Manager.2"
+    }
+  },
+  {
+    "Type": "PropMovementComponent",
+    "Name": "PropMovementComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PropMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_FNAF_Clock_Manager_C'Default__BP_FNAF_Clock_Manager_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAF_Clock_Manager.2"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_Clock_Manager_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAF_Clock_Manager.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FNAF_Clock_Manager_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAF_Clock_Manager.14"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_FNAF_Clock_Manager_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAF_Clock_Manager.11"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_FNAF_Clock_Manager_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAF_Clock_Manager.13"
+        }
+      ],
+      "VariableGuid": "A4ADE87F-43997823-2CF50A96-8469B37E",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FNAF_Clock_Manager_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAF_Clock_Manager.14"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'BillboardComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BillboardComponent'BP_FNAF_Clock_Manager_C:Billboard_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAF_Clock_Manager.0"
+      },
+      "VariableGuid": "3FBFEFDC-4D302F5F-2DCDB1AD-146C87DF",
+      "InternalVariableName": "Billboard"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FNAF_Clock_Manager_C'",
+      "ObjectPath": "/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAF_Clock_Manager.1"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_FNAF_Clock_Manager_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAF_Clock_Manager.12"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_FNAF_Clock_Manager_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAF_Clock_Manager.12"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FNAF_Clock_Manager_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAF_Clock_Manager.13"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_FNAF_Clock_Manager_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Gameplay/Interactive/FNAF/ClockPickup/Blueprints/BP_FNAF_Clock_Manager.12"
+      }
+    }
+  }
+]

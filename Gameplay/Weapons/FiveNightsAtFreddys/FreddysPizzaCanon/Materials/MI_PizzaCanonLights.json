@@ -1,0 +1,67 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_PizzaCanonLights",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Package": "/Game/Gameplay/Weapons/FiveNightsAtFreddys/FreddysPizzaCanon/Materials/MI_PizzaCanonLights",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'M_GameplayGlow'",
+        "ObjectPath": "/Game/Global/Materials/Masters/M_GameplayGlow.0"
+      },
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "BaseColour",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 0.341146,
+            "G": 0.066463,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "9E4900"
+          },
+          "ExpressionGUID": "AB9DFF93-4C5B3C6B-7F1F0F97-B818206F"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Emissive Colour",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "R": 1.0,
+            "G": 0.35031,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FFA000"
+          },
+          "ExpressionGUID": "0EF47E53-46AAE7D8-EC494FAB-DEDE599D"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "BlendMode": "EBlendMode::BLEND_Masked",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "bIncludedInBaseGame": true
+    },
+    "LoadedMaterialResources": [],
+    "CachedData": {
+      "ParentLayerIndexRemap": []
+    }
+  }
+]

@@ -1,0 +1,838 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_PizzaThreeQuarter_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_PizzaThreeQuarter_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.11"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Actor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_PizzaTopping_Peperami7",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_PizzaTopping_Peperami6",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_PizzaTopping_Peperami5",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_PizzaTopping_Peperami2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_PizzaTopping_Peperami1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_PizzaTopping_Peperami",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SM_PizzaBase_ThreeQuarter",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DefaultSceneRoot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_PizzaThreeQuarter_C'Default__BP_PizzaThreeQuarter_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_PizzaThreeQuarter_C",
+    "Name": "Default__BP_PizzaThreeQuarter_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.BP_PizzaThreeQuarter_C'",
+    "Package": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter",
+    "Properties": {
+      "PrimaryActorTick": {
+        "bStartWithTickEnabled": false
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PizzaThreeQuarter_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.0"
+    },
+    "Properties": {
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PizzaThreeQuarter_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.11"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_PizzaThreeQuarter_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.2"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_PizzaThreeQuarter_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.4"
+        }
+      ],
+      "VariableGuid": "1BD03EC7-4B06BD06-0E828DBD-CC19DBCC",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PizzaThreeQuarter_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.11"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_PizzaThreeQuarter_C:SM_PizzaBase_ThreeQuarter_GEN_VARIABLE'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.12"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_PizzaThreeQuarter_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.6"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PizzaThreeQuarter_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.8"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PizzaThreeQuarter_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.9"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PizzaThreeQuarter_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.10"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PizzaThreeQuarter_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.7"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PizzaThreeQuarter_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.5"
+        }
+      ],
+      "VariableGuid": "01368E0D-49535537-A53110A6-AD045764",
+      "InternalVariableName": "SM_PizzaBase_ThreeQuarter"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PizzaThreeQuarter_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.11"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_PizzaThreeQuarter_C:SM_PizzaTopping_Peperami7_GEN_VARIABLE'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.17"
+      },
+      "VariableGuid": "3B99A26D-4211315A-9E2CB99D-B9F6B925",
+      "InternalVariableName": "SM_PizzaTopping_Peperami7"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PizzaThreeQuarter_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.11"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_PizzaThreeQuarter_C:SM_PizzaTopping_Peperami_GEN_VARIABLE'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.18"
+      },
+      "VariableGuid": "0D249722-4E1625AA-3413DEB0-69709BD7",
+      "InternalVariableName": "SM_PizzaTopping_Peperami"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PizzaThreeQuarter_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.11"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_PizzaThreeQuarter_C:SM_PizzaTopping_Peperami6_GEN_VARIABLE'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.16"
+      },
+      "VariableGuid": "084109FE-46F18A21-59EE0DB6-9F8F099B",
+      "InternalVariableName": "SM_PizzaTopping_Peperami6"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PizzaThreeQuarter_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.11"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_PizzaThreeQuarter_C:SM_PizzaTopping_Peperami1_GEN_VARIABLE'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.13"
+      },
+      "VariableGuid": "9932D7F4-4D549599-84775FBA-EB04A842",
+      "InternalVariableName": "SM_PizzaTopping_Peperami1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PizzaThreeQuarter_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.11"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_PizzaThreeQuarter_C:SM_PizzaTopping_Peperami2_GEN_VARIABLE'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.14"
+      },
+      "VariableGuid": "5BCAAF46-4A59F195-11FF95A2-55BB3702",
+      "InternalVariableName": "SM_PizzaTopping_Peperami2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_PizzaThreeQuarter_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.11"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'BP_PizzaThreeQuarter_C:SM_PizzaTopping_Peperami5_GEN_VARIABLE'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.15"
+      },
+      "VariableGuid": "C5725826-4B4FABE0-6F4A5981-B3CD855F",
+      "InternalVariableName": "SM_PizzaTopping_Peperami5"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PizzaThreeQuarter_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_PizzaThreeQuarter_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.3"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_PizzaThreeQuarter_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.3"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PizzaThreeQuarter_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.4"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PizzaThreeQuarter_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.6"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PizzaThreeQuarter_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.8"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PizzaThreeQuarter_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.9"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PizzaThreeQuarter_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.10"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PizzaThreeQuarter_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.7"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_PizzaThreeQuarter_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.5"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_PizzaThreeQuarter_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.3"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_PizzaBase_ThreeQuarter_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PizzaThreeQuarter_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_PizzaBase_ThreeQuarters'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Meshes/SM_PizzaBase_ThreeQuarters.2"
+      },
+      "LDMaxDrawDistance": 12000.0,
+      "CachedMaxDrawDistance": 12000.0,
+      "bAllowCullDistanceVolume": false,
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "COLLISION_INTERACT",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "COLLISION_EXPLOSION",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "MeleeWeapon",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Interactable",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Audio",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 9.462322,
+        "Roll": 80.537674
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_PizzaTopping_Peperami1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PizzaThreeQuarter_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_PizzaTopping_Peperami'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Meshes/SM_PizzaTopping_Peperami.2"
+      },
+      "LDMaxDrawDistance": 12000.0,
+      "CachedMaxDrawDistance": 12000.0,
+      "bAllowCullDistanceVolume": false,
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "COLLISION_INTERACT",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "COLLISION_EXPLOSION",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "MeleeWeapon",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Interactable",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Audio",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -33.217575,
+        "Y": -64.19072,
+        "Z": 18.125755
+      },
+      "RelativeRotation": {
+        "Pitch": 6.971731E-07,
+        "Yaw": -90.0,
+        "Roll": -6.9717305E-07
+      },
+      "RelativeScale3D": {
+        "X": 0.9729121,
+        "Y": 0.9729121,
+        "Z": 1.0
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_PizzaTopping_Peperami2_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PizzaThreeQuarter_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_PizzaTopping_Peperami'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Meshes/SM_PizzaTopping_Peperami.2"
+      },
+      "LDMaxDrawDistance": 12000.0,
+      "CachedMaxDrawDistance": 12000.0,
+      "bAllowCullDistanceVolume": false,
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "COLLISION_INTERACT",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "COLLISION_EXPLOSION",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "MeleeWeapon",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Interactable",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Audio",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -10.313504,
+        "Y": 3.3578458,
+        "Z": 18.125755
+      },
+      "RelativeRotation": {
+        "Pitch": 6.971731E-07,
+        "Yaw": -90.0,
+        "Roll": -6.9717305E-07
+      },
+      "RelativeScale3D": {
+        "X": 0.58365095,
+        "Y": 0.58365095,
+        "Z": 1.0
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_PizzaTopping_Peperami5_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PizzaThreeQuarter_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_PizzaTopping_Peperami'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Meshes/SM_PizzaTopping_Peperami.2"
+      },
+      "LDMaxDrawDistance": 12000.0,
+      "CachedMaxDrawDistance": 12000.0,
+      "bAllowCullDistanceVolume": false,
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "COLLISION_INTERACT",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "COLLISION_EXPLOSION",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "MeleeWeapon",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Interactable",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Audio",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 4.3065352,
+        "Y": 59.77471,
+        "Z": 18.125755
+      },
+      "RelativeRotation": {
+        "Pitch": 6.971731E-07,
+        "Yaw": -90.0,
+        "Roll": -6.9717305E-07
+      },
+      "RelativeScale3D": {
+        "X": 1.1993771,
+        "Y": 1.1993771,
+        "Z": 1.0
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_PizzaTopping_Peperami6_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PizzaThreeQuarter_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_PizzaTopping_Peperami'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Meshes/SM_PizzaTopping_Peperami.2"
+      },
+      "LDMaxDrawDistance": 12000.0,
+      "CachedMaxDrawDistance": 12000.0,
+      "bAllowCullDistanceVolume": false,
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "COLLISION_INTERACT",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "COLLISION_EXPLOSION",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "MeleeWeapon",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Interactable",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Audio",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 57.30466,
+        "Y": 25.109531,
+        "Z": 18.125757
+      },
+      "RelativeRotation": {
+        "Pitch": 6.971731E-07,
+        "Yaw": -90.0,
+        "Roll": -6.9717305E-07
+      },
+      "RelativeScale3D": {
+        "X": 1.1993771,
+        "Y": 1.1993771,
+        "Z": 1.0
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_PizzaTopping_Peperami7_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PizzaThreeQuarter_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_PizzaTopping_Peperami'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Meshes/SM_PizzaTopping_Peperami.2"
+      },
+      "LDMaxDrawDistance": 12000.0,
+      "CachedMaxDrawDistance": 12000.0,
+      "bAllowCullDistanceVolume": false,
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "COLLISION_INTERACT",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "COLLISION_EXPLOSION",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "MeleeWeapon",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Interactable",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Audio",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -52.3704,
+        "Y": 36.427788,
+        "Z": 18.125755
+      },
+      "RelativeRotation": {
+        "Pitch": 6.971731E-07,
+        "Yaw": -90.0,
+        "Roll": -6.9717305E-07
+      },
+      "RelativeScale3D": {
+        "X": 1.1993771,
+        "Y": 1.1993771,
+        "Z": 1.0
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_PizzaTopping_Peperami_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_PizzaThreeQuarter_C'",
+      "ObjectPath": "/Game/LevelArt/FNAF/Blueprints/BP_PizzaThreeQuarter.0"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_PizzaTopping_Peperami'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Meshes/SM_PizzaTopping_Peperami.2"
+      },
+      "LDMaxDrawDistance": 12000.0,
+      "CachedMaxDrawDistance": 12000.0,
+      "bAllowCullDistanceVolume": false,
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "COLLISION_INTERACT",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "COLLISION_EXPLOSION",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "MeleeWeapon",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Interactable",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Audio",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -68.1671,
+        "Y": -22.579378,
+        "Z": 18.125755
+      },
+      "RelativeRotation": {
+        "Pitch": 6.971731E-07,
+        "Yaw": -90.0,
+        "Roll": -6.9717305E-07
+      },
+      "Mobility": "EComponentMobility::Static"
+    }
+  }
+]

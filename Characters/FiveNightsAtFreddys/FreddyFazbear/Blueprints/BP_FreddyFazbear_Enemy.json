@@ -1,0 +1,4612 @@
+[
+  {
+    "Type": "AttackableComponent",
+    "Name": "AttackableComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AttackableComponent'",
+    "Outer": {
+      "ObjectName": "BP_FreddyFazbear_Enemy_C'Default__BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.2"
+    },
+    "Template": {
+      "ObjectName": "AttackableComponent'Default__BP_HumanoidNonPlayableMaster_C:AttackableComponent'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/Humanoid/BP_HumanoidNonPlayableMaster.0"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_FreddyFazbear_Enemy_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_HumanoidNonPlayableMaster_C'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/Humanoid/BP_HumanoidNonPlayableMaster.1"
+    },
+    "Properties": {
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "ComponentDelegateBinding'BP_FreddyFazbear_Enemy_C:ComponentDelegateBinding_0'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.5"
+        }
+      ],
+      "Timelines": [
+        {
+          "ObjectName": "TimelineTemplate'BP_FreddyFazbear_Enemy_C:Timeline_Pitch_Template'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.69"
+        },
+        {
+          "ObjectName": "TimelineTemplate'BP_FreddyFazbear_Enemy_C:Timeline_Wobble_Template'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.71"
+        },
+        {
+          "ObjectName": "TimelineTemplate'BP_FreddyFazbear_Enemy_C:Timeline_Vol_FAde_Template'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.70"
+        },
+        {
+          "ObjectName": "TimelineTemplate'BP_FreddyFazbear_Enemy_C:Timeline_0_Template'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.67"
+        },
+        {
+          "ObjectName": "TimelineTemplate'BP_FreddyFazbear_Enemy_C:Timeline_1_Template'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.68"
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_FreddyFazbear_Enemy_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.59"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_FreddyFazbear_Enemy_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.38"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:ExecuteUbergraph_BP_FreddyFazbear_Enemy'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.17"
+      }
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:Timeline_Wobble__FinishedFunc'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.35"
+      },
+      {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:Timeline_Wobble__UpdateFunc'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.36"
+      },
+      {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:Timeline_Pitch__FinishedFunc'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.31"
+      },
+      {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:Timeline_Pitch__UpdateFunc'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.32"
+      },
+      {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:Timeline_Vol_FAde__FinishedFunc'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.33"
+      },
+      {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:Timeline_Vol_FAde__UpdateFunc'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.34"
+      },
+      {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:Timeline_0__FinishedFunc'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.27"
+      },
+      {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:Timeline_0__UpdateFunc'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.28"
+      },
+      {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:Timeline_1__FinishedFunc'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.29"
+      },
+      {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:Timeline_1__UpdateFunc'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.30"
+      },
+      {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:ReceiveTick'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.22"
+      },
+      {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:BndEvt__BP_FreddyFazbear_Enemy_CapsuleComponent_K2Node_ComponentBoundEvent_1_ComponentHitSignature__DelegateSignature'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.12"
+      },
+      {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:ReceiveActorBeginOverlap'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.19"
+      },
+      {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:ReceivePossessed'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.21"
+      },
+      {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:BndEvt__DEV_BP_TwoLayerAudioEmitter_Layer0_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.13"
+      },
+      {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:ReceiveBeginPlay'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.20"
+      },
+      {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:BndEvt__DEV_BP_TwoLayerAudioEmitter_Layer0_K2Node_ComponentBoundEvent_2_ComponentEndOverlapSignature__DelegateSignature'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.14"
+      },
+      {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:BndEvt__DEV_BP_TwoLayerAudioEmitter_ManagedFMODAudio_K2Node_ComponentBoundEvent_4_ManagementInstructionReceivedSignature__DelegateSignature'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.15"
+      },
+      {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:Scan is activated'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.24"
+      },
+      {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:DebugText'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.16"
+      },
+      {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:StartAudioRNDBabble'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.25"
+      },
+      {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:ReceiveUnpossessed'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.23"
+      },
+      {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:K2_UpdateCustomMovement'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.18"
+      },
+      {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:WakeUp'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.37"
+      },
+      {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:StopAudioRNDBabble'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.26"
+      },
+      {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:ExecuteUbergraph_BP_FreddyFazbear_Enemy'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.17"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "UpLight",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SpotLightComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "FMODAudio",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'FMODAudioComponent'",
+          "ObjectPath": "/Script/FMODStudio"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Dizzy Stars",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'NiagaraComponent'",
+          "ObjectPath": "/Script/Niagara"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ManagedFMODAudio",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'ManagedFMODAudioComponent'",
+          "ObjectPath": "/Script/FMODStudio"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Layer0",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SphereComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_KineticTriggerComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_KineticTriggerComponent_C'",
+          "ObjectPath": "/Game/Characters/UmbrellaAcademy/Guardians/Blueprints/BP_KineticTriggerComponent.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Widget_KineticTrigger",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'WidgetComponent'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Timeline_1_RTPC_591A11C74DF533B5769DD4B80FE3C8CE",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "Timeline_1__Direction_591A11C74DF533B5769DD4B80FE3C8CE",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'ETimelineDirection'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Timeline_1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'TimelineComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Timeline_0_RTPC_323BF29541C088777FDA56A2B7183CBF",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "Timeline_0__Direction_323BF29541C088777FDA56A2B7183CBF",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'ETimelineDirection'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Timeline_0",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'TimelineComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Timeline_Vol_FAde_VOLfade_7ED7CAA64B390968CB64A088D3198E6E",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "Timeline_Vol_FAde__Direction_7ED7CAA64B390968CB64A088D3198E6E",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'ETimelineDirection'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Timeline_Vol_FAde",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'TimelineComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Timeline_Wobble_RTPC_21EE06724EF5B8F6833DAF96C1EE288A",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "Timeline_Wobble__Direction_21EE06724EF5B8F6833DAF96C1EE288A",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'ETimelineDirection'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Timeline_Wobble",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'TimelineComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Timeline_Pitch_RTPC_F66A140649FE96FA6BD5B887102F4167",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "Timeline_Pitch__Direction_F66A140649FE96FA6BD5B887102F4167",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'ETimelineDirection'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Timeline_Pitch",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'TimelineComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "Layer 0Radius",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Layer0Overlaps",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Layer",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CurrentManagementInstructions",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 32,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "Class'ManagementInstructionsPacket'",
+          "ObjectPath": "/Script/FMODStudio"
+        }
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "Target Volume",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "Current Volume",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "ShouldPlayMusicBox",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "AudioDebugON",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "IsActiveEnemy",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_FreddyFazbear_Enemy": {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:ExecuteUbergraph_BP_FreddyFazbear_Enemy'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.17"
+      },
+      "StopAudioRNDBabble": {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:StopAudioRNDBabble'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.26"
+      },
+      "WakeUp": {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:WakeUp'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.37"
+      },
+      "K2_UpdateCustomMovement": {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:K2_UpdateCustomMovement'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.18"
+      },
+      "ReceiveUnpossessed": {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:ReceiveUnpossessed'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.23"
+      },
+      "StartAudioRNDBabble": {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:StartAudioRNDBabble'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.25"
+      },
+      "DebugText": {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:DebugText'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.16"
+      },
+      "Scan is activated": {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:Scan is activated'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.24"
+      },
+      "BndEvt__DEV_BP_TwoLayerAudioEmitter_ManagedFMODAudio_K2Node_ComponentBoundEvent_4_ManagementInstructionReceivedSignature__DelegateSignature": {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:BndEvt__DEV_BP_TwoLayerAudioEmitter_ManagedFMODAudio_K2Node_ComponentBoundEvent_4_ManagementInstructionReceivedSignature__DelegateSignature'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.15"
+      },
+      "BndEvt__DEV_BP_TwoLayerAudioEmitter_Layer0_K2Node_ComponentBoundEvent_2_ComponentEndOverlapSignature__DelegateSignature": {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:BndEvt__DEV_BP_TwoLayerAudioEmitter_Layer0_K2Node_ComponentBoundEvent_2_ComponentEndOverlapSignature__DelegateSignature'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.14"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:ReceiveBeginPlay'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.20"
+      },
+      "BndEvt__DEV_BP_TwoLayerAudioEmitter_Layer0_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature": {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:BndEvt__DEV_BP_TwoLayerAudioEmitter_Layer0_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.13"
+      },
+      "ReceivePossessed": {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:ReceivePossessed'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.21"
+      },
+      "ReceiveActorBeginOverlap": {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:ReceiveActorBeginOverlap'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.19"
+      },
+      "BndEvt__BP_FreddyFazbear_Enemy_CapsuleComponent_K2Node_ComponentBoundEvent_1_ComponentHitSignature__DelegateSignature": {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:BndEvt__BP_FreddyFazbear_Enemy_CapsuleComponent_K2Node_ComponentBoundEvent_1_ComponentHitSignature__DelegateSignature'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.12"
+      },
+      "ReceiveTick": {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:ReceiveTick'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.22"
+      },
+      "Timeline_1__UpdateFunc": {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:Timeline_1__UpdateFunc'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.30"
+      },
+      "Timeline_1__FinishedFunc": {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:Timeline_1__FinishedFunc'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.29"
+      },
+      "Timeline_0__UpdateFunc": {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:Timeline_0__UpdateFunc'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.28"
+      },
+      "Timeline_0__FinishedFunc": {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:Timeline_0__FinishedFunc'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.27"
+      },
+      "Timeline_Vol_FAde__UpdateFunc": {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:Timeline_Vol_FAde__UpdateFunc'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.34"
+      },
+      "Timeline_Vol_FAde__FinishedFunc": {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:Timeline_Vol_FAde__FinishedFunc'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.33"
+      },
+      "Timeline_Pitch__UpdateFunc": {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:Timeline_Pitch__UpdateFunc'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.32"
+      },
+      "Timeline_Pitch__FinishedFunc": {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:Timeline_Pitch__FinishedFunc'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.31"
+      },
+      "Timeline_Wobble__UpdateFunc": {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:Timeline_Wobble__UpdateFunc'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.36"
+      },
+      "Timeline_Wobble__FinishedFunc": {
+        "ObjectName": "Function'BP_FreddyFazbear_Enemy_C:Timeline_Wobble__FinishedFunc'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.35"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_FreddyFazbear_Enemy_C'Default__BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_FreddyFazbear_Enemy_C",
+    "Name": "Default__BP_FreddyFazbear_Enemy_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.BP_FreddyFazbear_Enemy_C'",
+    "Package": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy",
+    "Template": {
+      "ObjectName": "BP_HumanoidNonPlayableMaster_C'Default__BP_HumanoidNonPlayableMaster_C'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/Humanoid/BP_HumanoidNonPlayableMaster.2"
+    },
+    "Properties": {
+      "UberGraphFrame": {},
+      "Layer": 1,
+      "CurrentManagementInstructions": {
+        "NewLayer": 0,
+        "NewOrdinality": "EAudioOrdinal::None",
+        "OldLayer": 0,
+        "OldOrdinality": "EAudioOrdinal::None",
+        "NewBoostLayer": 0,
+        "LayerBoostDistance": 0.0,
+        "OldBoostLayer": 0,
+        "bSuppressed": false
+      },
+      "ShouldPlayMusicBox": true,
+      "NumHitsToPopOffComponents": 1,
+      "bBlockJitterCorrection": false
+    }
+  },
+  {
+    "Type": "BP_KineticTriggerComponent_C",
+    "Name": "BP_KineticTriggerComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/Game/Characters/UmbrellaAcademy/Guardians/Blueprints/BP_KineticTriggerComponent.BP_KineticTriggerComponent_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "Template": {
+      "ObjectName": "BP_KineticTriggerComponent_C'Default__BP_KineticTriggerComponent_C'",
+      "ObjectPath": "/Game/Characters/UmbrellaAcademy/Guardians/Blueprints/BP_KineticTriggerComponent.1"
+    },
+    "Properties": {
+      "DamageDecreaser": 7.5,
+      "MultiTrigger": true,
+      "Restart On Complete": false,
+      "bShould Show Damage Text": true,
+      "Colour Curve": {
+        "ObjectName": "CurveLinearColor'DizzyColours_Curve'",
+        "ObjectPath": "/Game/Gameplay/Interactive/UmbrellaAcademy/KineticChain_BookDesk/UI/DizzyColours_Curve.0"
+      },
+      "bPlaySoundFX": false
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_FreddyFazbear_Enemy_C'Default__BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.2"
+    },
+    "Template": {
+      "ObjectName": "CapsuleComponent'Default__BP_HumanoidNonPlayableMaster_C:CollisionCylinder'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/Humanoid/BP_HumanoidNonPlayableMaster.3"
+    }
+  },
+  {
+    "Type": "ComponentDelegateBinding",
+    "Name": "ComponentDelegateBinding_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ComponentDelegateBinding'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "Properties": {
+      "ComponentDelegateBindings": [
+        {
+          "ComponentPropertyName": "ManagedFMODAudio",
+          "DelegatePropertyName": "OnManagementInstructionReceived",
+          "FunctionNameToBind": "BndEvt__DEV_BP_TwoLayerAudioEmitter_ManagedFMODAudio_K2Node_ComponentBoundEvent_4_ManagementInstructionReceivedSignature__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "Layer0",
+          "DelegatePropertyName": "OnComponentEndOverlap",
+          "FunctionNameToBind": "BndEvt__DEV_BP_TwoLayerAudioEmitter_Layer0_K2Node_ComponentBoundEvent_2_ComponentEndOverlapSignature__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "Layer0",
+          "DelegatePropertyName": "OnComponentBeginOverlap",
+          "FunctionNameToBind": "BndEvt__DEV_BP_TwoLayerAudioEmitter_Layer0_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "CapsuleComponent",
+          "DelegatePropertyName": "OnComponentHit",
+          "FunctionNameToBind": "BndEvt__BP_FreddyFazbear_Enemy_CapsuleComponent_K2Node_ComponentBoundEvent_1_ComponentHitSignature__DelegateSignature"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CurveFloat",
+    "Name": "CurveFloat_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CurveFloat'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 0.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.28955698,
+            "Value": 0.14363122,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.5356898,
+            "Value": 0.23375002,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.7932741,
+            "Value": 0.17875001,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 1.0898395,
+            "Value": 0.42162704,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 1.4289639,
+            "Value": 0.09441668,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 1.6238921,
+            "Value": 0.3028506,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 1.8566957,
+            "Value": 0.10174999,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 2.021512,
+            "Value": 0.62549067,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 2.164846,
+            "Value": 0.1806972,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 2.272347,
+            "Value": 1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 2.4315603,
+            "Value": 0.17753315,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 2.5709596,
+            "Value": 0.5884247,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 2.7187312,
+            "Value": 0.09398818,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 3.036796,
+            "Value": 0.21776342,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 3.3712425,
+            "Value": 0.106565,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 3.6101327,
+            "Value": 0.31042862,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 3.8853633,
+            "Value": 0.56740963,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 3.9930522,
+            "Value": 1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 4.3609905,
+            "Value": 0.4003197,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 4.4581933,
+            "Value": 1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 4.482083,
+            "Value": 0.1806972,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 4.6134725,
+            "Value": 0.42162704,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 4.7109795,
+            "Value": 0.13576066,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 4.852362,
+            "Value": 0.49575925,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 5.0,
+            "Value": 0.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 5.2730875,
+            "Value": 0.4495654,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 5.5357885,
+            "Value": 0.24408539,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 6.0920973,
+            "Value": 0.49751902,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 6.385704,
+            "Value": 0.35365796,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 6.602046,
+            "Value": 0.71331024,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 6.988372,
+            "Value": 0.25775075,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 7.251073,
+            "Value": 0.32968116,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 7.745569,
+            "Value": 0.66535664,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 7.8537397,
+            "Value": 0.35365796,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 8.209159,
+            "Value": 0.43778002,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 8.765468,
+            "Value": 0.5694494,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 8.827279,
+            "Value": 1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 9.028169,
+            "Value": 0.28172755,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 9.414494,
+            "Value": 0.5214958,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 9.584476,
+            "Value": 0.28172755,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 10.01716,
+            "Value": 0.20979714,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 10.388033,
+            "Value": 0.64137983,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 10.789811,
+            "Value": 0.49751902,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 11.160684,
+            "Value": 0.23377395,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 12.0,
+            "Value": 0.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "CurveFloat",
+    "Name": "CurveFloat_0_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CurveFloat'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 0.5,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 1.0898395,
+            "Value": 0.42162704,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 1.9003739,
+            "Value": 0.5278481,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 2.5463948,
+            "Value": 0.5177214,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 3.1643276,
+            "Value": 0.4569615,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 3.8853633,
+            "Value": 0.56740963,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 4.498501,
+            "Value": 0.4367082,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 5.0321703,
+            "Value": 0.07214832,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 5.975653,
+            "Value": 0.5,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 7.1506968,
+            "Value": 0.4632554,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 8.3617115,
+            "Value": 0.30763078,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 8.974708,
+            "Value": 0.49522656,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 9.578037,
+            "Value": 0.44805002,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 10.061312,
+            "Value": 0.51127946,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 10.409844,
+            "Value": 0.74404633,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 10.717374,
+            "Value": 0.8443769,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 11.127414,
+            "Value": 0.53937197,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 12.0,
+            "Value": 0.5,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "CurveFloat",
+    "Name": "CurveFloat_0_1_3",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CurveFloat'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 0.5,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 1.0898395,
+            "Value": 0.42162704,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 1.9003739,
+            "Value": 0.5278481,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 2.5463948,
+            "Value": 0.5177214,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 3.1643276,
+            "Value": 0.4569615,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 3.8853633,
+            "Value": 0.56740963,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 4.498501,
+            "Value": 0.4367082,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 5.0321703,
+            "Value": 0.07214832,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 5.975653,
+            "Value": 0.5,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 7.1506968,
+            "Value": 0.4632554,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 8.3617115,
+            "Value": 0.30763078,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 8.974708,
+            "Value": 0.49522656,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 9.578037,
+            "Value": 0.44805002,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 10.061312,
+            "Value": 0.51127946,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 10.409844,
+            "Value": 0.74404633,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 10.717374,
+            "Value": 0.8443769,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 11.127414,
+            "Value": 0.53937197,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 12.0,
+            "Value": 0.5,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "CurveFloat",
+    "Name": "CurveFloat_0_2",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CurveFloat'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 0.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.28955698,
+            "Value": 0.14363122,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.5356898,
+            "Value": 0.23375002,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.7932741,
+            "Value": 0.17875001,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 1.0898395,
+            "Value": 0.42162704,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 1.4289639,
+            "Value": 0.09441668,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 1.6238921,
+            "Value": 0.3028506,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 1.8566957,
+            "Value": 0.10174999,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 2.021512,
+            "Value": 0.62549067,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 2.164846,
+            "Value": 0.1806972,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 2.272347,
+            "Value": 1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 2.4315603,
+            "Value": 0.17753315,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 2.5709596,
+            "Value": 0.5884247,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 2.7187312,
+            "Value": 0.09398818,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 3.036796,
+            "Value": 0.21776342,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 3.3712425,
+            "Value": 0.106565,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 3.6101327,
+            "Value": 0.31042862,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 3.8853633,
+            "Value": 0.56740963,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 3.9930522,
+            "Value": 1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 4.3609905,
+            "Value": 0.4003197,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 4.4581933,
+            "Value": 1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 4.482083,
+            "Value": 0.1806972,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 4.6134725,
+            "Value": 0.42162704,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 4.7109795,
+            "Value": 0.13576066,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 4.852362,
+            "Value": 0.49575925,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 5.0,
+            "Value": 0.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 5.2730875,
+            "Value": 0.4495654,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 5.5357885,
+            "Value": 0.24408539,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 6.0920973,
+            "Value": 0.49751902,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 6.385704,
+            "Value": 0.35365796,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 6.602046,
+            "Value": 0.71331024,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 6.988372,
+            "Value": 0.25775075,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 7.251073,
+            "Value": 0.32968116,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 7.745569,
+            "Value": 0.66535664,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 7.8537397,
+            "Value": 0.35365796,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 8.209159,
+            "Value": 0.43778002,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 8.765468,
+            "Value": 0.5694494,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 8.827279,
+            "Value": 1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 9.028169,
+            "Value": 0.28172755,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 9.414494,
+            "Value": 0.5214958,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 9.584476,
+            "Value": 0.28172755,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 10.01716,
+            "Value": 0.20979714,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 10.388033,
+            "Value": 0.64137983,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 10.789811,
+            "Value": 0.49751902,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 11.160684,
+            "Value": 0.23377395,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 12.0,
+            "Value": 0.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "CurveFloat",
+    "Name": "CurveFloat_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CurveFloat'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 1.0,
+            "Value": 0.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "FMODAudioComponent",
+    "Name": "FMODAudio_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FMODAudioComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "Properties": {
+      "Event": {
+        "ObjectName": "FMODEvent'FNaF_MusicBox3DReceiver'",
+        "ObjectPath": "/Game/FMOD/Events/Music/FNaF/FNaF_MusicBox3DReceiver.0"
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__BP_FreddyFazbear_Enemy_CapsuleComponent_K2Node_ComponentBoundEvent_1_ComponentHitSignature__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "HitComponent",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OtherActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OtherComp",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "NormalImpulse",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "Class'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Hit",
+        "Flags": "RF_Public",
+        "ElementSize": 256,
+        "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm | ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "Class'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_HasOutParms | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__DEV_BP_TwoLayerAudioEmitter_Layer0_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "OverlappedComponent",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OtherActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OtherComp",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "OtherBodyIndex",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bFromSweep",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "SweepResult",
+        "Flags": "RF_Public",
+        "ElementSize": 256,
+        "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm | ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "Class'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_HasOutParms | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__DEV_BP_TwoLayerAudioEmitter_Layer0_K2Node_ComponentBoundEvent_2_ComponentEndOverlapSignature__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "OverlappedComponent",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OtherActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OtherComp",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "OtherBodyIndex",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__DEV_BP_TwoLayerAudioEmitter_ManagedFMODAudio_K2Node_ComponentBoundEvent_4_ManagementInstructionReceivedSignature__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "ManagementInstructions",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "Class'ManagementInstructionsPacket'",
+          "ObjectPath": "/Script/FMODStudio"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "DebugText",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_FreddyFazbear_Enemy",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Temp_object_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'FMODEvent'",
+          "ObjectPath": "/Script/FMODStudio"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Temp_object_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'FMODEvent'",
+          "ObjectPath": "/Script/FMODStudio"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "Class'TimerDynamicDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetTimerDelegate_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "Class'TimerHandle'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "Class'TimerDynamicDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetTimerDelegate_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "Class'TimerHandle'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Temp_object_Variable_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'FMODEvent'",
+          "ObjectPath": "/Script/FMODStudio"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Temp_object_Variable_3",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'FMODEvent'",
+          "ObjectPath": "/Script/FMODStudio"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Temp_object_Variable_4",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'FMODEvent'",
+          "ObjectPath": "/Script/FMODStudio"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Temp_object_Variable_5",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'FMODEvent'",
+          "ObjectPath": "/Script/FMODStudio"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Temp_object_Variable_6",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'FMODEvent'",
+          "ObjectPath": "/Script/FMODStudio"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Temp_object_Variable_7",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'FMODEvent'",
+          "ObjectPath": "/Script/FMODStudio"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_FMODOcclusionDetails",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "Class'FMODOcclusionDetails'",
+          "ObjectPath": "/Script/FMODStudio"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_FInterpTo_Constant_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_HitComponent",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherActor_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherComp_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_ComponentBoundEvent_NormalImpulse",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "Class'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_ComponentBoundEvent_Hit",
+        "Flags": "RF_Public",
+        "ElementSize": 256,
+        "PropertyFlags": "ConstParm | ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "Class'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_OtherActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsBP_Destructible",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_Destructible_C'",
+          "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.1"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsBP_Destructible_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_Destructible_C'",
+          "ObjectPath": "/Game/Blueprints/Gameplay/Parents/BP_Destructible.1"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_Trigger_self_CastInput",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'TriggerInterface'",
+          "ObjectPath": "/Script/Merlin"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_NewController",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Controller'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OverlappedComponent_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherActor_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherComp_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherBodyIndex_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_ComponentBoundEvent_bFromSweep",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_ComponentBoundEvent_SweepResult",
+        "Flags": "RF_Public",
+        "ElementSize": 256,
+        "PropertyFlags": "ConstParm | ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "Class'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_Trigger_self_CastInput_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'TriggerInterface'",
+          "ObjectPath": "/Script/Merlin"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_MakeArray_Array",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ConstParm | ReferenceParm | ContainsInstancedReference",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_MakeArray_Array",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "InstancedReference",
+          "PropertyClass": {
+            "ObjectName": "Class'SkeletalMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OverlappedComponent",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherComp",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherBodyIndex",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_ComponentBoundEvent_ManagementInstructions",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "Struct": {
+          "ObjectName": "Class'ManagementInstructionsPacket'",
+          "ObjectPath": "/Script/FMODStudio"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Temp_object_Variable_8",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'FMODEvent'",
+          "ObjectPath": "/Script/FMODStudio"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Has_Been_Initd_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_IsClosed_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Has_Been_Initd_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_IsClosed_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_RandomInteger_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'FMODEvent'",
+          "ObjectPath": "/Script/FMODStudio"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Has_Been_Initd_Variable_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_IsClosed_Variable_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_MultiGate_FirstRun",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_MultiGate_Data",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_MultiGate_ScratchBool",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_MultiGate_ScratchIndex",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetPlayerCharacter_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Character'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetDistanceTo_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_MapRangeClamped_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Conv_DoubleToString_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Conv_DoubleToString_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Concat_StrStr_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Concat_StrStr_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Has_Been_Initd_Variable_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_IsClosed_Variable_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetMiniBoss_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'MiniBossBehaviourComponent'",
+          "ObjectPath": "/Script/Merlin"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsFNAFMini_Boss_Component",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'FNAFMiniBossComponent'",
+          "ObjectPath": "/Script/Merlin"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_QueryBool_bResult",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "CallFunc_QueryBool_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'ECommandAndQueryResult'",
+          "ObjectPath": "/Script/Merlin"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_QueryBool_bResult_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "CallFunc_QueryBool_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Class'ECommandAndQueryResult'",
+          "ObjectPath": "/Script/Merlin"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_MultiGate_1_FirstRun",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_MultiGate_1_Data",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetController_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Controller'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetBossComponentFromController_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'MiniBossBehaviourComponent'",
+          "ObjectPath": "/Script/Merlin"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsFNAFMini_Boss_Component_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'FNAFMiniBossComponent'",
+          "ObjectPath": "/Script/Merlin"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_RandomFloatInRange_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_RandomInteger_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Select_Default_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'FMODEvent'",
+          "ObjectPath": "/Script/FMODStudio"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_OldController",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Controller'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_PlayEventAttached_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'FMODAudioComponent'",
+          "ObjectPath": "/Script/FMODStudio"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_DeltaTime",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_FInterpTo_Constant_DeltaTime_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_SetVolume_volume_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "K2Node_VariableSet_Layer_0Radius_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Conv_DoubleToString_InDouble_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_MapRangeClamped_Value_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_SetParameter_Value_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Delay_Duration_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "K2_UpdateCustomMovement",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Character:K2_UpdateCustomMovement'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "DeltaTime",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveActorBeginOverlap",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Actor:ReceiveActorBeginOverlap'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "OtherActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "Super": {
+      "ObjectName": "Function'BP_HumanoidNonPlayableMaster_C:ReceiveBeginPlay'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/Humanoid/BP_HumanoidNonPlayableMaster.5"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceivePossessed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "Super": {
+      "ObjectName": "Function'BP_ExtendedCharacter_C:ReceivePossessed'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/BP_ExtendedCharacter.39"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "NewController",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Controller'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintAuthorityOnly | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveTick",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Actor:ReceiveTick'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveUnpossessed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Pawn:ReceiveUnpossessed'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "OldController",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Controller'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintAuthorityOnly | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Scan is activated",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "StartAudioRNDBabble",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "StopAudioRNDBabble",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Timeline_0__FinishedFunc",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Timeline_0__UpdateFunc",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Timeline_1__FinishedFunc",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Timeline_1__UpdateFunc",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Timeline_Pitch__FinishedFunc",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Timeline_Pitch__UpdateFunc",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Timeline_Vol_FAde__FinishedFunc",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Timeline_Vol_FAde__UpdateFunc",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Timeline_Wobble__FinishedFunc",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Timeline_Wobble__UpdateFunc",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "WakeUp",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'InteractiveInterface:WakeUp'",
+      "ObjectPath": "/Script/Merlin"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'SkeletalMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "SkeletalMeshComponent'BP_FreddyFazbear_Enemy_C:Head_GEN_VARIABLE'",
+            "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.60"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_ExtendedCharacter_C'",
+              "ObjectPath": "/Game/Characters/Blueprints/Extended/BP_ExtendedCharacter.1"
+            },
+            "SCSVariableName": "Head",
+            "AssociatedGuid": "229C3DB0-43D152B7-F9604498-C2BD9E0C"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StaticMeshComponent'BP_FreddyFazbear_Enemy_C:Hat_GEN_VARIABLE'",
+            "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.65"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_ExtendedCharacter_C'",
+              "ObjectPath": "/Game/Characters/Blueprints/Extended/BP_ExtendedCharacter.1"
+            },
+            "SCSVariableName": "Hat",
+            "AssociatedGuid": "3E15DA18-4E8F4C13-C0E9DFB9-B9C8774A"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'SkeletalMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "SkeletalMeshComponent'BP_FreddyFazbear_Enemy_C:Skeleton_GEN_VARIABLE'",
+            "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.61"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_HumanoidNonPlayableMaster_C'",
+              "ObjectPath": "/Game/Characters/Blueprints/Extended/Humanoid/BP_HumanoidNonPlayableMaster.1"
+            },
+            "SCSVariableName": "Skeleton",
+            "AssociatedGuid": "6E559F23-4A78BABE-EAA5D88D-36426060"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "InventoryComponent",
+    "Name": "InventoryComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InventoryComponent'",
+    "Outer": {
+      "ObjectName": "BP_FreddyFazbear_Enemy_C'Default__BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.2"
+    },
+    "Template": {
+      "ObjectName": "InventoryComponent'Default__BP_HumanoidNonPlayableMaster_C:InventoryComponent'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/Humanoid/BP_HumanoidNonPlayableMaster.8"
+    }
+  },
+  {
+    "Type": "ManagedFMODAudioComponent",
+    "Name": "ManagedFMODAudio_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ManagedFMODAudioComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "Properties": {
+      "Priority": 8,
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "MaterialOverrideControllerComponent",
+    "Name": "MaterialOverrideController",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialOverrideControllerComponent'",
+    "Outer": {
+      "ObjectName": "BP_FreddyFazbear_Enemy_C'Default__BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.2"
+    },
+    "Template": {
+      "ObjectName": "MaterialOverrideControllerComponent'Default__BP_HumanoidNonPlayableMaster_C:MaterialOverrideController'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/Humanoid/BP_HumanoidNonPlayableMaster.9"
+    }
+  },
+  {
+    "Type": "MerlinAbilitySystemComponent",
+    "Name": "AbilitySystem",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MerlinAbilitySystemComponent'",
+    "Outer": {
+      "ObjectName": "BP_FreddyFazbear_Enemy_C'Default__BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.2"
+    },
+    "Template": {
+      "ObjectName": "MerlinAbilitySystemComponent'Default__BP_HumanoidNonPlayableMaster_C:AbilitySystem'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/Humanoid/BP_HumanoidNonPlayableMaster.10"
+    }
+  },
+  {
+    "Type": "MerlinCharacterMovementComponent",
+    "Name": "CharMoveComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MerlinCharacterMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_FreddyFazbear_Enemy_C'Default__BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.2"
+    },
+    "Template": {
+      "ObjectName": "MerlinCharacterMovementComponent'Default__BP_HumanoidNonPlayableMaster_C:CharMoveComp'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/Humanoid/BP_HumanoidNonPlayableMaster.11"
+    }
+  },
+  {
+    "Type": "MerlinCharacterOptimizationComponent",
+    "Name": "MerlinOptimizationComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MerlinCharacterOptimizationComponent'",
+    "Outer": {
+      "ObjectName": "BP_FreddyFazbear_Enemy_C'Default__BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.2"
+    },
+    "Template": {
+      "ObjectName": "MerlinCharacterOptimizationComponent'Default__BP_HumanoidNonPlayableMaster_C:MerlinOptimizationComponent'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/Humanoid/BP_HumanoidNonPlayableMaster.12"
+    }
+  },
+  {
+    "Type": "MotionWarpingComponent",
+    "Name": "MotionWarpingComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MotionWarpingComponent'",
+    "Outer": {
+      "ObjectName": "BP_FreddyFazbear_Enemy_C'Default__BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.2"
+    },
+    "Template": {
+      "ObjectName": "MotionWarpingComponent'Default__BP_HumanoidNonPlayableMaster_C:MotionWarpingComponent'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/Humanoid/BP_HumanoidNonPlayableMaster.13"
+    }
+  },
+  {
+    "Type": "NavigationInvokerComponent",
+    "Name": "InvokerComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NavigationInvokerComponent'",
+    "Outer": {
+      "ObjectName": "BP_FreddyFazbear_Enemy_C'Default__BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.2"
+    },
+    "Template": {
+      "ObjectName": "NavigationInvokerComponent'Default__BP_HumanoidNonPlayableMaster_C:InvokerComponent'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/Humanoid/BP_HumanoidNonPlayableMaster.14"
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "Dizzy Stars_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "Properties": {
+      "Asset": {
+        "ObjectName": "NiagaraSystem'NS_StunnedStars'",
+        "ObjectPath": "/Game/VFX/Wills_VFX_Folder/NiagaraSystems/NS_StunnedStars.39"
+      },
+      "OverrideParameters": {},
+      "bAllowCullDistanceVolume": false,
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 160.0
+      },
+      "RelativeScale3D": {
+        "X": 0.44444466,
+        "Y": 0.44444466,
+        "Z": 0.44444466
+      },
+      "ComponentTags": [
+        "DizzyStars"
+      ],
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "FloatingDamageTextVfx",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BP_FreddyFazbear_Enemy_C'Default__BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.2"
+    },
+    "Template": {
+      "ObjectName": "NiagaraComponent'Default__BP_HumanoidNonPlayableMaster_C:FloatingDamageTextVfx'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/Humanoid/BP_HumanoidNonPlayableMaster.15"
+    },
+    "Properties": {
+      "OverrideParameters": {},
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_FreddyFazbear_Enemy_C:CollisionCylinder'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.4"
+      }
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "MegaVinylEffectComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BP_FreddyFazbear_Enemy_C'Default__BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.2"
+    },
+    "Template": {
+      "ObjectName": "NiagaraComponent'Default__BP_HumanoidNonPlayableMaster_C:MegaVinylEffectComponent'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/Humanoid/BP_HumanoidNonPlayableMaster.16"
+    },
+    "Properties": {
+      "OverrideParameters": {}
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FreddyFazbear_Enemy_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.59"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_FreddyFazbear_Enemy_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.50"
+      },
+      "VariableGuid": "4F05BF1B-4D3C6399-FEA1DDA8-3E7870A5",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FreddyFazbear_Enemy_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.59"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'WidgetComponent'",
+        "ObjectPath": "/Script/UMG"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "WidgetComponent'BP_FreddyFazbear_Enemy_C:Widget_KineticTrigger_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.72"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "8CF63C9D-469FBB25-CDE678A6-B05CF4DA",
+      "InternalVariableName": "Widget_KineticTrigger"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FreddyFazbear_Enemy_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.59"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_KineticTriggerComponent_C'",
+        "ObjectPath": "/Game/Characters/UmbrellaAcademy/Guardians/Blueprints/BP_KineticTriggerComponent.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_KineticTriggerComponent_C'BP_FreddyFazbear_Enemy_C:BP_KineticTriggerComponent_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.3"
+      },
+      "VariableGuid": "94D5A5CD-43BDEF52-CC62EF9F-A398BCE0",
+      "InternalVariableName": "BP_KineticTriggerComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FreddyFazbear_Enemy_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.59"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SphereComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SphereComponent'BP_FreddyFazbear_Enemy_C:Layer0_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.63"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "5B7676BC-46C482AB-46F98F9A-45B162F6",
+      "InternalVariableName": "Layer0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FreddyFazbear_Enemy_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.59"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ManagedFMODAudioComponent'",
+        "ObjectPath": "/Script/FMODStudio"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ManagedFMODAudioComponent'BP_FreddyFazbear_Enemy_C:ManagedFMODAudio_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.40"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "F15EFC22-418479A5-C817E499-D8C50D60",
+      "InternalVariableName": "ManagedFMODAudio"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FreddyFazbear_Enemy_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.59"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'NiagaraComponent'",
+        "ObjectPath": "/Script/Niagara"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "NiagaraComponent'BP_FreddyFazbear_Enemy_C:Dizzy Stars_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.47"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "3127C296-4B3E858A-317FB9A7-7BBAFF0A",
+      "InternalVariableName": "Dizzy Stars"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FreddyFazbear_Enemy_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.59"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'FMODAudioComponent'",
+        "ObjectPath": "/Script/FMODStudio"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "FMODAudioComponent'BP_FreddyFazbear_Enemy_C:FMODAudio_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.11"
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "4C13A486-42022D80-E891A1B7-66BDCAD5",
+      "InternalVariableName": "FMODAudio"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_FreddyFazbear_Enemy_C:SimpleConstructionScript_0'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.59"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SpotLightComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SpotLightComponent'BP_FreddyFazbear_Enemy_C:UpLight_GEN_VARIABLE'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.64"
+      },
+      "AttachToName": "Head",
+      "ParentComponentOrVariableName": "Head",
+      "ParentComponentOwnerClassName": "BP_ExtendedCharacter_C",
+      "VariableGuid": "2FEDE135-40963786-A1ECE0B3-3A22E283",
+      "InternalVariableName": "UpLight"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_FreddyFazbear_Enemy_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.52"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FreddyFazbear_Enemy_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.53"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FreddyFazbear_Enemy_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.54"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FreddyFazbear_Enemy_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.55"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FreddyFazbear_Enemy_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.56"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FreddyFazbear_Enemy_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.57"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FreddyFazbear_Enemy_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.58"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_FreddyFazbear_Enemy_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.52"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FreddyFazbear_Enemy_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.53"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FreddyFazbear_Enemy_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.54"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FreddyFazbear_Enemy_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.55"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FreddyFazbear_Enemy_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.56"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FreddyFazbear_Enemy_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.57"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_FreddyFazbear_Enemy_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.58"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_FreddyFazbear_Enemy_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.51"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "Head_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "Template": {
+      "ObjectName": "SkeletalMeshComponent'BP_HumanoidExtendedCharacter_C:Head_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/Humanoid/BP_HumanoidExtendedCharacter.20"
+    },
+    "Properties": {
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SKM_FreddyFazbear_Head'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Meshes/SKM_FreddyFazbear_Head.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SKM_FreddyFazbear_Head'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Meshes/SKM_FreddyFazbear_Head.1"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_HEAD_FreddyFazbear_Flocked'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Materials/Flocked/MI_HEAD_FreddyFazbear_Flocked.0"
+        },
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_HEAD_FreddyFazbear_Flocked'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Materials/Flocked/MI_HEAD_FreddyFazbear_Flocked.0"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "Skeleton_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "Template": {
+      "ObjectName": "SkeletalMeshComponent'BP_HumanoidNonPlayableMaster_C:Skeleton_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/Humanoid/BP_HumanoidNonPlayableMaster.21"
+    },
+    "Properties": {
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SKM_NightmareEndoSkeleton_Preview'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/NightmareEndoSkeleton/Meshes/SKM_NightmareEndoSkeleton_Preview.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SKM_NightmareEndoSkeleton_Preview'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/NightmareEndoSkeleton/Meshes/SKM_NightmareEndoSkeleton_Preview.1"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponentBudgeted",
+    "Name": "CharacterMesh0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponentBudgeted'",
+    "Outer": {
+      "ObjectName": "BP_FreddyFazbear_Enemy_C'Default__BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.2"
+    },
+    "Template": {
+      "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_HumanoidNonPlayableMaster_C:CharacterMesh0'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/Humanoid/BP_HumanoidNonPlayableMaster.22"
+    },
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_FreddyFazbear_NPC_Enemy_C'",
+        "ObjectPath": "/Game/Animation/FiveNightsAtFreddies/FreddyFazbear/ABP_FreddyFazbear_NPC_Enemy.1"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SKM_FreddyFazbear_Body'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Meshes/SKM_FreddyFazbear_Body.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SKM_FreddyFazbear_Body'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Meshes/SKM_FreddyFazbear_Body.1"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'MI_BODY_FreddyFazbear_Flocked'",
+          "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Materials/Flocked/MI_BODY_FreddyFazbear_Flocked.0"
+        }
+      ],
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_FreddyFazbear_Enemy_C:CollisionCylinder'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.4"
+      },
+      "RelativeScale3D": {
+        "X": 1.5,
+        "Y": 1.5,
+        "Z": 1.5
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "Layer0_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SphereComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "Properties": {
+      "SphereRadius": 1500.0,
+      "BodyInstance": {
+        "CollisionProfileName": "DynamicOverlapOnlyPawn",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_WEAPON",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "COLLISION_PROJECTILE",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "MeleeWeapon",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "Type": "SpotLightComponent",
+    "Name": "UpLight_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SpotLightComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "Properties": {
+      "OuterConeAngle": 40.0,
+      "bUseInverseSquaredFalloff": false,
+      "SourceRadius": 20.0,
+      "AttenuationRadius": 200.0,
+      "MaxDrawDistance": 1500.0,
+      "MaxDistanceFadeRange": 500.0,
+      "LightingChannels": {
+        "bChannel0": false
+      },
+      "Intensity": 0.0,
+      "LightColor": {
+        "B": 85,
+        "G": 61,
+        "R": 245,
+        "A": 255,
+        "Hex": "F53D55"
+      },
+      "RelativeLocation": {
+        "X": 65.0,
+        "Y": 0.0,
+        "Z": -62.0
+      },
+      "RelativeRotation": {
+        "Pitch": 71.69571,
+        "Yaw": 180.0,
+        "Roll": 180.0
+      },
+      "bVisible": false,
+      "DetailMode_Low": false,
+      "ComponentTags": [
+        "FaceUpLight"
+      ]
+    },
+    "IntensityNits": 0.0
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Hat_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'BP_HumanoidNonPlayableMaster_C:Hat_GEN_VARIABLE'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/Humanoid/BP_HumanoidNonPlayableMaster.23"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FreddyFazbear_Hat'",
+        "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Meshes/SM_FreddyFazbear_Hat.2"
+      }
+    }
+  },
+  {
+    "Type": "TargetableComponent",
+    "Name": "TargetingComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TargetableComponent'",
+    "Outer": {
+      "ObjectName": "BP_FreddyFazbear_Enemy_C'Default__BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.2"
+    },
+    "Template": {
+      "ObjectName": "TargetableComponent'Default__BP_HumanoidNonPlayableMaster_C:TargetingComponent'",
+      "ObjectPath": "/Game/Characters/Blueprints/Extended/Humanoid/BP_HumanoidNonPlayableMaster.24"
+    }
+  },
+  {
+    "Type": "TimelineTemplate",
+    "Name": "Timeline_0_Template",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TimelineTemplate'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "Properties": {
+      "TimelineLength": 12.0,
+      "FloatTracks": [
+        {
+          "CurveFloat": {
+            "ObjectName": "CurveFloat'BP_FreddyFazbear_Enemy_C:CurveFloat_0_2'",
+            "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.9"
+          },
+          "PropertyName": "Timeline_0_RTPC_323BF29541C088777FDA56A2B7183CBF",
+          "TrackName": "RTPC",
+          "bIsExternalCurve": false
+        }
+      ],
+      "TimelineGuid": "323BF295-41C08877-7FDA56A2-B7183CBF",
+      "VariableName": "Timeline_0",
+      "DirectionPropertyName": "Timeline_0__Direction_323BF29541C088777FDA56A2B7183CBF",
+      "UpdateFunctionName": "Timeline_0__UpdateFunc",
+      "FinishedFunctionName": "Timeline_0__FinishedFunc"
+    }
+  },
+  {
+    "Type": "TimelineTemplate",
+    "Name": "Timeline_1_Template",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TimelineTemplate'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "Properties": {
+      "TimelineLength": 12.0,
+      "FloatTracks": [
+        {
+          "CurveFloat": {
+            "ObjectName": "CurveFloat'BP_FreddyFazbear_Enemy_C:CurveFloat_0_1_3'",
+            "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.8"
+          },
+          "PropertyName": "Timeline_1_RTPC_591A11C74DF533B5769DD4B80FE3C8CE",
+          "TrackName": "RTPC",
+          "bIsExternalCurve": false
+        }
+      ],
+      "TimelineGuid": "591A11C7-4DF533B5-769DD4B8-0FE3C8CE",
+      "VariableName": "Timeline_1",
+      "DirectionPropertyName": "Timeline_1__Direction_591A11C74DF533B5769DD4B80FE3C8CE",
+      "UpdateFunctionName": "Timeline_1__UpdateFunc",
+      "FinishedFunctionName": "Timeline_1__FinishedFunc"
+    }
+  },
+  {
+    "Type": "TimelineTemplate",
+    "Name": "Timeline_Pitch_Template",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TimelineTemplate'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "Properties": {
+      "TimelineLength": 12.0,
+      "FloatTracks": [
+        {
+          "CurveFloat": {
+            "ObjectName": "CurveFloat'BP_FreddyFazbear_Enemy_C:CurveFloat_0_1'",
+            "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.7"
+          },
+          "PropertyName": "Timeline_Pitch_RTPC_F66A140649FE96FA6BD5B887102F4167",
+          "TrackName": "RTPC",
+          "bIsExternalCurve": false
+        }
+      ],
+      "TimelineGuid": "F66A1406-49FE96FA-6BD5B887-102F4167",
+      "VariableName": "Timeline_Pitch",
+      "DirectionPropertyName": "Timeline_Pitch__Direction_F66A140649FE96FA6BD5B887102F4167",
+      "UpdateFunctionName": "Timeline_Pitch__UpdateFunc",
+      "FinishedFunctionName": "Timeline_Pitch__FinishedFunc"
+    }
+  },
+  {
+    "Type": "TimelineTemplate",
+    "Name": "Timeline_Vol_FAde_Template",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TimelineTemplate'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "Properties": {
+      "TimelineLength": 1.0,
+      "FloatTracks": [
+        {
+          "CurveFloat": {
+            "ObjectName": "CurveFloat'BP_FreddyFazbear_Enemy_C:CurveFloat_1'",
+            "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.10"
+          },
+          "PropertyName": "Timeline_Vol_FAde_VOLfade_7ED7CAA64B390968CB64A088D3198E6E",
+          "TrackName": "VOLfade",
+          "bIsExternalCurve": false
+        }
+      ],
+      "TimelineGuid": "7ED7CAA6-4B390968-CB64A088-D3198E6E",
+      "VariableName": "Timeline_Vol_FAde",
+      "DirectionPropertyName": "Timeline_Vol_FAde__Direction_7ED7CAA64B390968CB64A088D3198E6E",
+      "UpdateFunctionName": "Timeline_Vol_FAde__UpdateFunc",
+      "FinishedFunctionName": "Timeline_Vol_FAde__FinishedFunc"
+    }
+  },
+  {
+    "Type": "TimelineTemplate",
+    "Name": "Timeline_Wobble_Template",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TimelineTemplate'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "Properties": {
+      "TimelineLength": 12.0,
+      "FloatTracks": [
+        {
+          "CurveFloat": {
+            "ObjectName": "CurveFloat'BP_FreddyFazbear_Enemy_C:CurveFloat_0'",
+            "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.6"
+          },
+          "PropertyName": "Timeline_Wobble_RTPC_21EE06724EF5B8F6833DAF96C1EE288A",
+          "TrackName": "RTPC",
+          "bIsExternalCurve": false
+        }
+      ],
+      "TimelineGuid": "21EE0672-4EF5B8F6-833DAF96-C1EE288A",
+      "VariableName": "Timeline_Wobble",
+      "DirectionPropertyName": "Timeline_Wobble__Direction_21EE06724EF5B8F6833DAF96C1EE288A",
+      "UpdateFunctionName": "Timeline_Wobble__UpdateFunc",
+      "FinishedFunctionName": "Timeline_Wobble__FinishedFunc"
+    }
+  },
+  {
+    "Type": "WidgetComponent",
+    "Name": "Widget_KineticTrigger_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_FreddyFazbear_Enemy_C'",
+      "ObjectPath": "/Game/Characters/FiveNightsAtFreddys/FreddyFazbear/Blueprints/BP_FreddyFazbear_Enemy.1"
+    },
+    "Properties": {
+      "Space": "EWidgetSpace::Screen",
+      "WidgetClass": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'UI_ProgressBarKineticChain_C'",
+        "ObjectPath": "/Game/Gameplay/Interactive/UmbrellaAcademy/KineticChain_BookDesk/UI/UI_ProgressBarKineticChain.36"
+      },
+      "DrawSize": {
+        "X": 75,
+        "Y": 75
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": -11.363636,
+        "Z": 151.81818
+      }
+    }
+  }
+]

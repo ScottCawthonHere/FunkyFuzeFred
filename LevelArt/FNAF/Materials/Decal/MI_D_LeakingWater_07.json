@@ -1,0 +1,157 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_D_LeakingWater_07",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Package": "/Game/LevelArt/FNAF/Materials/Decal/MI_D_LeakingWater_07",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'M_Decal_WaterLeak'",
+        "ObjectPath": "/Game/LevelArt/FNAF/Materials/Master/M_Decal_WaterLeak.0"
+      },
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Top Mask Red",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.5184,
+          "ExpressionGUID": "77ADAFC7-4A6997FE-F82381A5-03D2E2C5"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Top Mask Green",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "D3C78D83-43E134C3-94EE419D-ACB93CD3"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Top Mask Blue",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "2931D860-46D75125-8D3373AE-FEE2FC1A"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Bottom Mask Red",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "DBE64E16-4850EB25-38250E97-6E4E04CB"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Bottom Mask Blue",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.1408,
+          "ExpressionGUID": "4AF4B8CD-40B2EE17-983B27A2-2969BFF3"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Water Drip Contrast",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 5.26209,
+          "ExpressionGUID": "790107DA-4F376CE0-CC8AC4BD-BB392B6A"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Metallic High",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.25,
+          "ExpressionGUID": "D8DDBA22-4366459E-212EB2BE-21181B22"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Metallic Low",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "7144B9E0-4239033F-86B0D6A9-A0C34C96"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Opacity Strength",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "D48674E1-4F141FA5-D26343AB-14B8554C"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Gradient Strength",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.352,
+          "ExpressionGUID": "FA04B80D-42B72D4F-1316B8A0-65B9EC3A"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Gradient Grunge Blend",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "A94131FF-4CF60630-54AB3BA2-E2B6F04E"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "Water Normals",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.4172,
+          "ExpressionGUID": "031967EF-449AD67E-472ADEA4-5963EC71"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "Dripping Mask",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_Leaks_Mask_A'",
+            "ObjectPath": "/Game/Global/Decals/SharedTextures/Masks/T_Leaks_Mask_A.0"
+          },
+          "ExpressionGUID": "C2E59AA8-43FEFBFF-C3D9DCAD-A350EE00"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "BlendMode": "EBlendMode::BLEND_Translucent",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "bIncludedInBaseGame": true
+    },
+    "LoadedMaterialResources": [],
+    "CachedData": {
+      "ParentLayerIndexRemap": []
+    }
+  }
+]
